@@ -21,6 +21,7 @@ defineProps([
       loading="eager"
       class="md:absolute w-full h-auto"
     /> -->
+    <slot />
 
     <article>
       <h1 v-if="title" class="text-4xl md:text-5xl mb-2 md:max-w-[500px]">

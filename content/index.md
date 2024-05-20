@@ -1,9 +1,11 @@
 ---
-title: "Title of the page"
-description: "meta description of the page"
+title: Title of the page
+description: meta description of the page
 ---
 
-:hero{title="tim" description="description"}
+::hero{title="tim" description="description"}
+![tim](/tim.png)
+::
 
 # Nuxt Content
 
