@@ -20,3 +20,9 @@ useHead({
     <NuxtPage />
   </main>
 </template>
+
+<style lang="postcss">
+:root {
+  font-family: Lato;
+}
+</style>

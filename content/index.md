@@ -3,6 +3,8 @@ title: "Title of the page"
 description: "meta description of the page"
 ---
 
+:hero{title="tim" description="description"}
+
 # Nuxt Content
 
 This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
