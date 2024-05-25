@@ -1,7 +1,7 @@
 # Content v2 Minimal Starter
 
 Look at the [Content documentation](https://content.nuxt.com/) to learn more.
-
+s
 ## Setup
 
 Make sure to install the dependencies:
