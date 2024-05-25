@@ -4,8 +4,8 @@ description: meta description of the page
 draft: false
 navigation: true
 image:
-  src: '/assets/tim.png'
-  alt: 'An image showcasing My Page.'
+  src: /assets/tim.png
+  alt: An image showcasing My Page.
   width: 1280
   height: 800
 head:
@@ -16,11 +16,10 @@ head:
 
 ::hero
 ---
-dark-image-used: 'true'
+darkimage: 'true'
 nospace: 'false'
 small: 'true'
 ---
-
 #title
 Tim's hero
 

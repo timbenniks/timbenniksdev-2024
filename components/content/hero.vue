@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineProps(["small", "nospace", "darkImageUsed"]);
+defineProps(["small", "nospace", "darkimage"]);
 const slots = useSlots();
 </script>
 
@@ -17,7 +17,7 @@ const slots = useSlots();
 
       <p>small: {{ small }}</p>
       <p>nospace: {{ nospace }}</p>
-      <p>darkImageUsed: {{ darkImageUsed }}</p>
+      <p>darkimage: {{ darkimage }}</p>
     </article>
   </div>
 </template>
