@@ -3,8 +3,12 @@ title: Title of the page
 description: meta description of the page
 ---
 
-::hero{small=true nospace=false darkImageUsed=true}
-
+::hero
+---
+dark-image-used: 'true'
+nospace: 'false'
+small: 'true'
+---
 #title
 Tim's hero
 
@@ -12,8 +16,7 @@ Tim's hero
 Tims hero description
 
 #image
-![Captain Jack Sparrow](/tim.png){loading="eager" width="800" height="400" fit="cover" sizes="100vw sm:50vw md:400px"}
-
+![ehm](/baker-decorator.png){fit="cover" height="400" loading="eager" sizes="100vw sm:50vw md:400px" width="800"}
 ::
 
 # Nuxt Content
