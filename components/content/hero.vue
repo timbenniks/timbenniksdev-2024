@@ -11,16 +11,6 @@ defineProps([
 
 <template>
   <div class="p-12">
-    <!-- <nuxt-img
-      v-if="image"
-      width="1440"
-      :alt="image.asset.alt || heading || ''"
-      :height="small ? '350' : '548'"
-      sizes="sm:100vw"
-      fit="crop"
-      loading="eager"
-      class="md:absolute w-full h-auto"
-    /> -->
     <slot />
 
     <article>

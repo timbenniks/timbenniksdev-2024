@@ -4,7 +4,7 @@ description: meta description of the page
 ---
 
 ::hero{title="tim" description="description"}
-![tim](/tim.png)
+![Captain Jack Sparrow](/tim.png){loading="eager" width="800" height="400" fit="cover" sizes="100vw sm:50vw md:400px"}
 ::
 
 # Nuxt Content
