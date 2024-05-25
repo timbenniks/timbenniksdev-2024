@@ -1,6 +1,18 @@
 ---
 title: Title of the page
 description: meta description of the page
+draft: false
+navigation: true
+head:
+  meta:
+    - name: "keywords"
+      content: "nuxt, vue, content"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "NuxtLabs"
+    - name: "copyright"
+      content: "© 2022 NuxtLabs"
 ---
 
 ::hero{small=true nospace=false darkImageUsed=true}
