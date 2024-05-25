@@ -3,16 +3,15 @@ title: Title of the page
 description: meta description of the page
 draft: false
 navigation: true
+image:
+  src: '/assets/tim.png'
+  alt: 'An image showcasing My Page.'
+  width: 1280
+  height: 800
 head:
   meta:
     - name: keywords
-      content: nuxt, vue, content
-    - name: robots
-      content: index, follow
-    - name: author
-      content: NuxtLabs
-    - name: copyright
-      content: © 2022 NuxtLabs
+      content: Tim
 ---
 
 ::hero
@@ -21,6 +20,7 @@ dark-image-used: 'true'
 nospace: 'false'
 small: 'true'
 ---
+
 #title
 Tim's hero
 
@@ -28,7 +28,7 @@ Tim's hero
 Tims hero description
 
 #image
-![ehm](/baker-decorator.png){fit="cover" height="400" loading="eager" sizes="100vw sm:50vw md:400px" width="800"}
+![ehm](/baker-decorator.png){fit="cover" format="webp" height="400" loading="eager" sizes="100vw sm:50vw md:400px" width="800"}
 ::
 
 # Nuxt Content
