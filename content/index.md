@@ -3,8 +3,17 @@ title: Title of the page
 description: meta description of the page
 ---
 
-::hero{title="tim" description="description"}
+::hero{small=true nospace=false darkImageUsed=true}
+
+#title
+Tim's hero
+
+#description
+Tims hero description
+
+#image
 ![Captain Jack Sparrow](/tim.png){loading="eager" width="800" height="400" fit="cover" sizes="100vw sm:50vw md:400px"}
+
 ::
 
 # Nuxt Content

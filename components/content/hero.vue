@@ -1,25 +1,23 @@
 <script setup lang="ts">
-defineProps([
-  "title",
-  "description",
-  "image",
-  "small",
-  "nospace",
-  "darkImageUsed",
-]);
+defineProps(["small", "nospace", "darkImageUsed"]);
+const slots = useSlots();
 </script>
 
 <template>
   <div class="p-12">
-    <slot />
+    <slot name="image" v-if="slots.image" />
 
     <article>
-      <h1 v-if="title" class="text-4xl md:text-5xl mb-2 md:max-w-[500px]">
-        {{ title }}
+      <h1 v-if="slots.title" class="text-4xl md:text-5xl mb-2 md:max-w-[500px]">
+        <slot name="title" />
       </h1>
-      <p v-if="description">
-        {{ description }}
+      <p v-if="slots.description">
+        <slot name="description" />
       </p>
+
+      <p>small: {{ small }}</p>
+      <p>nospace: {{ nospace }}</p>
+      <p>darkImageUsed: {{ darkImageUsed }}</p>
     </article>
   </div>
 </template>
