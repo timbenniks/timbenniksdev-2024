@@ -5,16 +5,5 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/fonts",
     "@nuxt/image",
-    "nuxt-graphql-client"
-  ],
-
-  content: {
-    sources: {
-      talks: {
-        driver: 'http',
-        name: "talks",
-        base: "https://timbenniksdev.nuxt.space/api/talks",
-      }
-    }
-  }
+  ]
 })

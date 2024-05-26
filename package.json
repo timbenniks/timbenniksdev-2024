@@ -2,20 +2,21 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "build": "npm run talks && nuxt build",
+    "dev": "npm run talks && nuxt dev",
+    "generate": "npm run talks && nuxt generate",
+    "preview": "nuxt preview",
+    "talks": "node talks.mjs"
   },
   "dependencies": {
     "@nuxt/content": "^2.12.1",
     "@nuxt/fonts": "^0.7.0",
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
-    "nuxt": "^3.11.2",
-    "nuxt-graphql-client": "^0.2.34"
+    "nuxt": "^3.11.2"
   },
   "devDependencies": {
-    "@nuxtjs/mdc": "^0.7.1"
+    "@nuxtjs/mdc": "^0.7.1",
+    "dotenv": "^16.4.5"
   }
 }
