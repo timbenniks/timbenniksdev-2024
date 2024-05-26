@@ -17,7 +17,7 @@ head:
 ::hero
 ---
 darkimage: 'true'
-nospace: 'false'
+nospace: 'true'
 small: 'true'
 ---
 #title
@@ -32,7 +32,7 @@ Tims hero description
 
 ::talks
 ---
-limit: '3'
+limit: '5'
 ---
 #title
 Latest talks
