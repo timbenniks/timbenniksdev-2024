@@ -1,0 +1,10 @@
+query Talks($first: Int!) {
+  talks(first: $first, orderBy: date_DESC) {
+    conference
+    talk
+    location
+    date
+    id
+    link
+  }
+}
