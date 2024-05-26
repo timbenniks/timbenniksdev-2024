@@ -2,17 +2,20 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run talks && nuxt build",
-    "dev": "npm run talks && nuxt dev",
-    "generate": "npm run talks && nuxt generate",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "talks": "node talks.mjs"
+    "talks": "node talks.mjs",
+    "articles": "node articles.mjs",
+    "seedcontent": "npm run talks && npm run articles"
   },
   "dependencies": {
     "@nuxt/content": "^2.12.1",
     "@nuxt/fonts": "^0.7.0",
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
+    "bottleneck": "^2.19.5",
     "nuxt": "^3.11.2"
   },
   "devDependencies": {
