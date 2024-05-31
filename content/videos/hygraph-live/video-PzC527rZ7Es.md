@@ -1,0 +1,9 @@
+---
+date: "2024-05-31T18:28:39Z"
+title: "Building Content Models for Devs and Editors w/ Lo & Bryan"
+description: "For this week's livestream we'll have Lo and Bryan build content models for devs & editors. We'll take a look at web.dev from Google and discuss how we'd structure content models for that design and the real-world ramifications.\n\nAsk us any questions in the chat and join the community: https://slack.hygraph.com"
+image: "https://i.ytimg.com/vi/PzC527rZ7Es/maxresdefault.jpg"
+videoId: "PzC527rZ7Es"
+---
+
+undefined

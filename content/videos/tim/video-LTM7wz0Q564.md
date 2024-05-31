@@ -1,0 +1,9 @@
+---
+date: "2020-03-12T15:31:27Z"
+title: "[Livestream] Team First - How to lead a team to success in a high pressure environment"
+description: "Producing high quality work is dependent on a well-organized team, especially in a high-pressure environment like an ad agency or a production studio. At a certain scale almost every team struggles with cultural differences, perceived pressure from management or misaligned definitions of success.\n\nThese examples are only a handful of the problems teams face, which results in developers that are unhappy and stressed out. Processes outside of their control keep them from doing the thing they love: write great code.\n\nOver the years I have learned that you are more successful if you understand what motivates people. We know happy teams produce better work. Motivated and responsible people are the core of our success. Therefore, I have created a framework (yes, I'm a developer) to deal with projects in complex environments that I call \"Team First\".\n\nThis video is about how the \"Team First\" framework came to be and how it works. It contains best practices and rules to follow in order to make yourself and your team successful. I share anecdotes from years of experience that most developers can identify with.\n\nBefore writing a single line of code you have to deal with all challenges that prohibit you from producing a quality product. The \"Team First\" framework helps leaders, teams and developers get there.\n\nFollow me here:\nWebsite: https://timbenniks.nl/\nTwitter: https://twitter.com/timbenniks\nGithub: https://github.com/timbenniks\n\n#teamfirst #career #management #motivation"
+image: "https://i.ytimg.com/vi/LTM7wz0Q564/maxresdefault.jpg"
+videoId: "LTM7wz0Q564"
+---
+
+undefined

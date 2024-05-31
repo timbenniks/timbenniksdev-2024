@@ -1,0 +1,9 @@
+---
+date: "2024-05-31T17:46:57Z"
+title: "How to connect Commercetools and Hygraph"
+description: "Connect Commercetools to Hygraph via content federation and install a product picker app for content editors. It's all super easy, and Tim shows you how it is done in this video.\n\nGrab the codebase: https://github.com/hygraph/skncre-starter-nuxt-commercetools\nJoin our community at https://slack.hygraph.com\nCreate a free account at https://hygraph.com"
+image: "https://i.ytimg.com/vi/x8tB3li6dG0/maxresdefault.jpg"
+videoId: "x8tB3li6dG0"
+---
+
+undefined

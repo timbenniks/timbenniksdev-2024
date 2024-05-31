@@ -1,0 +1,9 @@
+---
+date: "2023-07-31T02:00:15Z"
+title: "The best Nuxt 3 GraphQL setup"
+description: "This is the best GraphQL setup for Nuxt 3. It's simple and effective. It features automatic code generation and typing of schemas. This is awesome.\n\nFind the module here: https://github.com/Diizzayy/nuxt-graphql-client\n\nFollow me here:\nWebsite: https://timbenniks.dev\nTwitter: https://twitter.com/timbenniks\nGithub: https://github.com/timbenniks"
+image: "https://i.ytimg.com/vi/q282BIqYJ6A/maxresdefault.jpg"
+videoId: "q282BIqYJ6A"
+---
+
+undefined

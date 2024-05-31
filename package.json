@@ -6,9 +6,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "talks": "node talks.mjs",
-    "articles": "node articles.mjs",
-    "seedcontent": "npm run talks && npm run articles"
+    "talks": "node ./scripts/talks.mjs",
+    "articles": "node ./scripts/articles.mjs",
+    "videos": "node ./scripts/playlists.mjs",
+    "seedcontent": "npm run talks && npm run articles && npm run videos"
   },
   "dependencies": {
     "@nuxt/content": "^2.12.1",

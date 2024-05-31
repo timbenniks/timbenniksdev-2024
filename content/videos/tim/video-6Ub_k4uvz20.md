@@ -1,0 +1,9 @@
+---
+date: "2021-03-24T16:00:15Z"
+title: "Unboxing the new M1 Mac Mini for Video editing and programming."
+description: "After a two year hiatus to Windows land I decided to switch back to Apple. PC parts are not in stock and my current beast of a PC actually isn't as stable as I had hoped.\n\nI opted for the new M1 Mac Mini which I maxed out. I have a 1tb 16gb RAM model. I also bought some other goodies like a Caldigit dock and a portable nvme drive.\n\nFollow me here:\nWebsite: https://timbenniks.dev/\nTwitter: https://twitter.com/timbenniks\nGithub: https://github.com/timbenniks"
+image: "https://i.ytimg.com/vi/6Ub_k4uvz20/maxresdefault.jpg"
+videoId: "6Ub_k4uvz20"
+---
+
+undefined
