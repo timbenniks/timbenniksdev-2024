@@ -5,5 +5,10 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/fonts",
     "@nuxt/image",
-  ]
+  ],
+  fonts: {
+    defaults: {
+      weights: [400, 700, 900],
+    },
+  }
 })

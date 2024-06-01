@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#111111] text-white;
+  }
+
+  img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  a {
+    @apply text-white hover:text-slate-400 hover:underline;
+  }
+
+  .title {
+    @apply text-3xl md:text-6xl text-white uppercase font-black py-2 px-3;
+    background: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%);
+  }
+}

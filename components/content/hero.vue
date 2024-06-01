@@ -1,23 +1,21 @@
 <script setup lang="ts">
-defineProps(["small", "nospace", "darkimage"]);
 const slots = useSlots();
 </script>
 
 <template>
-  <div class="p-12">
+  <div class="relative">
     <slot name="image" v-if="slots.image" />
 
-    <article>
-      <h1 v-if="slots.title" class="text-4xl md:text-5xl mb-2 md:max-w-[500px]">
+    <article class="absolute top-2/4 -translate-y-2/4 left-16">
+      <h1 v-if="slots.title" class="title inline-block">
         <slot name="title" />
       </h1>
-      <p v-if="slots.description">
+      <h2
+        v-if="slots.description"
+        class="bg-black py-1 px-2 text-xl font-black"
+      >
         <slot name="description" />
-      </p>
-
-      <p>small: {{ small }}</p>
-      <p>nospace: {{ nospace }}</p>
-      <p>darkimage: {{ darkimage }}</p>
+      </h2>
     </article>
   </div>
 </template>

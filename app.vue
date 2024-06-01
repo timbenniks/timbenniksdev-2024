@@ -16,7 +16,8 @@ useHead({
 });
 </script>
 <template>
-  <main class="mx-auto max-w-[1440px]">
+  <main class="mx-auto max-w-[1400px]">
+    <globalHeader />
     <NuxtPage />
   </main>
 </template>
