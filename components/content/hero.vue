@@ -3,11 +3,11 @@ const slots = useSlots();
 </script>
 
 <template>
-  <div class="relative">
+  <div class="relative mb-12">
     <slot name="image" v-if="slots.image" />
 
     <article class="absolute top-2/4 -translate-y-2/4 left-16">
-      <h1 v-if="slots.title" class="title inline-block">
+      <h1 v-if="slots.title" class="title hero-title inline-block">
         <slot name="title" />
       </h1>
       <h2

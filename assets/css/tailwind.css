@@ -18,7 +18,11 @@
   }
 
   .title {
-    @apply text-3xl md:text-6xl text-white uppercase font-black py-2 px-3;
+    @apply text-3xl md:text-3xl text-white uppercase font-black py-2 px-3;
     background: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%);
+  }
+
+  .hero-title {
+    @apply text-3xl md:text-6xl;
   }
 }

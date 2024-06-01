@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
 
-const props = defineProps(["limit"]);
+const props = defineProps(["limit", "small"]);
 
 const query: QueryBuilderParams = {
   path: "/talks",
