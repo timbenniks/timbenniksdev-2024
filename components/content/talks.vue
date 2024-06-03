@@ -10,20 +10,36 @@ const query: QueryBuilderParams = {
 };
 
 const slots = useSlots();
+
+const smallOrBigClass = computed(() => {
+  return props.small
+    ? "grid grid-cols-1 md:grid-cols-1 gap-6"
+    : "grid grid-cols-1 md:grid-cols-3 gap-6";
+});
 </script>
 
 <template>
-  <div class="p-12">
-    <h2 v-if="slots.title" class="text-4xl md:text-5xl mb-2 md:max-w-[500px]">
+  <div class="px-12 xl:px-0 mb-8">
+    <h3 v-if="slots.title" class="title inline-block mb-4">
       <slot name="title" />
-    </h2>
+    </h3>
 
     <ContentList :query="query">
       <template #default="{ list }">
-        <ul>
+        <ul :class="smallOrBigClass">
           <li v-for="talk in list" :key="talk._path" class="mb-4">
-            <h3 class="font-bold text-xl">{{ talk.talk }}</h3>
-            <p>{{ talk.date }}, {{ talk.conference }}</p>
+            <NuxtLink
+              :to="talk.link"
+              target="_blank"
+              class="flex"
+              :class="small ? 'flex-row space-x-4' : 'flex-col'"
+            >
+              <p>Date</p>
+              <div>
+                <p class="font-bold text-xl mb-2">{{ talk.talk }}</p>
+                <p class="line-clamp-2">{{ talk.conference }}</p>
+              </div>
+            </NuxtLink>
           </li>
         </ul>
       </template>

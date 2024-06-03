@@ -1,9 +1,9 @@
 ---
 date: "2023-07-20T07:58:31Z"
+position: 15
 title: "Uniform + Algolia = A Magical Combination"
 description: "Uniform's visual canvas editor offers content editors a flexible way to interact with an Algolia search index while it allows developers to connect to Algolia in any way they want. \n\nCheck out this video to see how magical the combination is.\n\nJoin us on Discord: https://uniform.to/discord"
 image: "https://i.ytimg.com/vi/z_41xOh9W1w/maxresdefault.jpg"
 videoId: "z_41xOh9W1w"
 ---
 
-undefined

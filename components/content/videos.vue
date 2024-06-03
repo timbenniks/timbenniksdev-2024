@@ -6,10 +6,16 @@ const props = defineProps(["limit", "folder", "small"]);
 const query: QueryBuilderParams = {
   path: `/videos/${props.folder}`,
   limit: props.limit || 3,
-  sort: [{ date: -1 }],
+  sort: [{ position: 1 }],
 };
 
 const slots = useSlots();
+
+const smallOrBigClass = computed(() => {
+  return props.small
+    ? "grid grid-cols-1 md:grid-cols-1 gap-6"
+    : "grid grid-cols-1 md:grid-cols-3 gap-6";
+});
 </script>
 
 <template>
@@ -20,19 +26,25 @@ const slots = useSlots();
 
     <ContentList :query="query">
       <template #default="{ list }">
-        <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <ul :class="smallOrBigClass">
           <li v-for="video in list" :key="video._path" class="mb-4">
             <NuxtLink
               :to="`https://youtube.com/watch?v=${video.videoId}`"
               target="_blank"
+              class="flex"
+              :class="small ? 'flex-row space-x-4' : 'flex-col'"
             >
               <NuxtImg
                 :src="video.image"
-                sizes="sm:33vw"
+                :sizes="small ? 'sm:15vw' : 'sm:33vw'"
                 :alt="video.title"
                 class="mb-2"
+                :class="small ? 'w-64' : 'w-full'"
               />
-              <p class="font-bold">{{ video.title }}</p>
+              <div>
+                <p class="font-bold text-xl mb-2">{{ video.title }}</p>
+                <p v-if="small" class="line-clamp-2">{{ video.description }}</p>
+              </div>
             </NuxtLink>
           </li>
         </ul>

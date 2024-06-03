@@ -6,11 +6,10 @@ dotenv.config();
 
 function convertToMarkdown(jsonData) {
   const frontMatter = Object.entries(jsonData)
-    .filter(([key]) => key !== "body")
     .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
     .join("\n");
 
-  const markdownContent = `---\n${frontMatter}\n---\n\n${jsonData.body}`;
+  const markdownContent = `---\n${frontMatter}\n---\n\n`;
   return markdownContent;
 }
 
@@ -49,19 +48,17 @@ async function getPlaylist(playlist_id, folder) {
   const mappedVideos = videos.map((video) => {
     return {
       date: video.snippet.publishedAt,
+      position: video.snippet.position || 0,
       title: video.snippet.title,
       description: video.snippet.description,
-      image: video.snippet.thumbnails?.high?.url.replace(
-        "hqdefault",
-        "maxresdefault"
-      ),
+      image: video.snippet.thumbnails?.maxres?.url,
       videoId: video.snippet.resourceId.videoId,
     };
   });
 
   mappedVideos.forEach((video) => {
     fs.writeFile(
-      `./content/videos/${folder}/video-${video.videoId}.md`,
+      `./content/3.videos/${folder}/video-${video.videoId}.md`,
       convertToMarkdown(video),
       (err) => {
         console.log(`Video: ${video.title} added.`);
