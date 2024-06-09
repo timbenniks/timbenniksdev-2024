@@ -9,8 +9,6 @@ const query: QueryBuilderParams = {
   sort: [{ position: 1 }],
 };
 
-const slots = useSlots();
-
 const smallOrBigClass = computed(() => {
   return props.small
     ? "grid grid-cols-1 md:grid-cols-1 gap-6"
@@ -19,9 +17,9 @@ const smallOrBigClass = computed(() => {
 </script>
 
 <template>
-  <div class="px-12 xl:px-0 mb-8">
-    <h3 v-if="slots.title" class="title inline-block mb-4">
-      <slot name="title" />
+  <div class="px-8 mb-8">
+    <h3 v-if="$slots.title" class="title inline-block mb-4">
+      <ContentSlot :use="$slots.title" unwrap="p" />
     </h3>
 
     <ContentList :query="query">
@@ -38,7 +36,7 @@ const smallOrBigClass = computed(() => {
                 :src="video.image"
                 :sizes="small ? 'sm:15vw' : 'sm:33vw'"
                 :alt="video.title"
-                class="mb-2"
+                class="mb-2 fancy-image"
                 :class="small ? 'w-64' : 'w-full'"
               />
               <div>

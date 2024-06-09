@@ -8,14 +8,12 @@ const query: QueryBuilderParams = {
   limit: props.limit || 5,
   sort: [{ date: -1 }],
 };
-
-const slots = useSlots();
 </script>
 
 <template>
   <div class="p-12">
-    <h2 v-if="slots.title" class="text-4xl md:text-5xl mb-2 md:max-w-[500px]">
-      <slot name="title" />
+    <h2 v-if="$slots.title" class="text-4xl md:text-5xl mb-2 md:max-w-[500px]">
+      <ContentSlot :use="$slots.title" unwrap="p" />
     </h2>
 
     <ContentList :query="query">

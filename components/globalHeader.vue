@@ -1,5 +1,7 @@
 <template>
-  <header class="px-8 xl:px-0 py-4 flex justify-between items-center">
+  <header
+    class="px-8 py-4 flex justify-between items-center sticky top-0 z-50 bg-[#1b1d39] bg-opacity-80"
+  >
     <NuxtLink to="/"><tim /></NuxtLink>
     <nav>
       <ContentNavigation v-slot="{ navigation }">
