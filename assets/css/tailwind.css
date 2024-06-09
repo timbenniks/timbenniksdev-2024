@@ -34,7 +34,7 @@
   .fancy-image {
     border: 2px solid;
     border-image: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%) 8;
-    -webkit-mask: 
+    mask: 
       conic-gradient(
         from 180deg at top 2px right 2px, #000 90deg,#000 0)
         var(--amount, 200%) 0 / 200% var(--amount, 2px) border-box no-repeat,
@@ -44,7 +44,7 @@
       
        linear-gradient(#000 0 0) padding-box no-repeat;
     transition: .3s, 
-    -webkit-mask-position .3s .3s;
+    mask-position .3s .3s;
   }
 
   .fancy-image:hover,
@@ -52,7 +52,7 @@
     --amount: 100%;
     color: #CC333F;
     transition: .3s, 
-    -webkit-mask-size .3s .3s;
+    mask-size .3s .3s;
   }
 }
 

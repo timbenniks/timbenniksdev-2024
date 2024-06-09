@@ -40,8 +40,12 @@ const smallOrBigClass = computed(() => {
                 :class="small ? 'w-64' : 'w-full'"
               />
               <div>
-                <p class="font-bold text-xl mb-2">{{ video.title }}</p>
-                <p v-if="small" class="line-clamp-2">{{ video.description }}</p>
+                <p class="font-bold text-xl mb-2 line-clamp-2">
+                  {{ video.title }}
+                </p>
+                <p v-if="small" class="line-clamp-2 text-slate-300">
+                  {{ video.description }}
+                </p>
               </div>
             </NuxtLink>
           </li>

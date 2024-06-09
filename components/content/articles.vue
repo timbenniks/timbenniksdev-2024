@@ -4,7 +4,7 @@ import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
 const props = defineProps(["limit", "small"]);
 
 const query: QueryBuilderParams = {
-  path: "/articles",
+  path: "/articles/data",
   limit: props.limit || 5,
   sort: [{ date: -1 }],
 };

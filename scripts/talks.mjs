@@ -4,6 +4,15 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+function convertToMarkdown(jsonData) {
+  const frontMatter = Object.entries(jsonData)
+    .map(([key, value]) => `${key}: ${JSON.stringify(value)}`)
+    .join("\n");
+
+  const markdownContent = `---\n${frontMatter}\n---\n\n`;
+  return markdownContent;
+}
+
 async function getTakls() {
   const { data } = await ofetch(process.env.GQL_HOST, {
     method: "post",
@@ -28,8 +37,8 @@ async function getTakls() {
 
   data.talks.forEach((talk) => {
     fs.writeFile(
-      `./content/talks/talk-${talk.id}.json`,
-      JSON.stringify(talk, "", 2),
+      `./content/5.talks/data/${talk.date}-${talk.id}.md`,
+      convertToMarkdown(talk),
       (err) => {
         console.log(`Talk: ${talk.date} - ${talk.conference} added.`);
 

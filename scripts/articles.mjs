@@ -55,7 +55,7 @@ async function getArticles(username) {
 
   finalArticles.forEach((article) => {
     fs.writeFile(
-      `./content/articles/${article.slug.slice(0, -5)}.md`,
+      `./content/4.articles/data/${article.slug.slice(0, -5)}.md`,
       convertToMarkdown(article),
       (err) => {
         if (err) {
