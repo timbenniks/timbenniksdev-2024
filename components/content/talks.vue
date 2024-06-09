@@ -26,7 +26,7 @@ function d(date: string) {
 </script>
 
 <template>
-  <div class="px-8 mb-8">
+  <div class="px-4 md:px-8 mb-8">
     <h3 v-if="$slots.title" class="title inline-block mb-4">
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h3>

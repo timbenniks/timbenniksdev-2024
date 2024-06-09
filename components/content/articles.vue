@@ -11,7 +11,7 @@ const query: QueryBuilderParams = {
 </script>
 
 <template>
-  <div class="p-12">
+  <div class="px-4 md:px-8 mb-8">
     <h2 v-if="$slots.title" class="text-4xl md:text-5xl mb-2 md:max-w-[500px]">
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h2>

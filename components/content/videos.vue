@@ -17,7 +17,7 @@ const smallOrBigClass = computed(() => {
 </script>
 
 <template>
-  <div class="px-8 mb-8">
+  <div class="px-4 md:px-8 mb-8">
     <h3 v-if="$slots.title" class="title inline-block mb-4">
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h3>
@@ -29,15 +29,15 @@ const smallOrBigClass = computed(() => {
             <NuxtLink
               :to="`https://youtube.com/watch?v=${video.videoId}`"
               target="_blank"
-              class="flex"
-              :class="small ? 'flex-row space-x-4' : 'flex-col'"
+              class="md:flex"
+              :class="small ? 'md:flex-row md:space-x-4' : 'flex-col'"
             >
               <NuxtImg
                 :src="video.image"
                 :sizes="small ? 'sm:15vw' : 'sm:33vw'"
                 :alt="video.title"
                 class="mb-2 fancy-image"
-                :class="small ? 'w-64' : 'w-full'"
+                :class="small ? 'w-full md:w-64' : 'w-full'"
               />
               <div>
                 <p class="font-bold text-xl line-clamp-2">
