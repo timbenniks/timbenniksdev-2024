@@ -40,10 +40,10 @@ const smallOrBigClass = computed(() => {
                 :class="small ? 'w-64' : 'w-full'"
               />
               <div>
-                <p class="font-bold text-xl mb-2 line-clamp-2">
+                <p class="font-bold text-xl line-clamp-2">
                   {{ video.title }}
                 </p>
-                <p v-if="small" class="line-clamp-2 text-slate-300">
+                <p v-if="small" class="line-clamp-2 text-slate-400 text-sm">
                   {{ video.description }}
                 </p>
               </div>
