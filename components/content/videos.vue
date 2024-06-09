@@ -39,6 +39,8 @@ const smallOrBigClass = computed(() => {
                 :alt="video.title || ''"
                 class="mb-2 fancy-image"
                 :class="small ? 'w-full md:w-64' : 'w-full'"
+                width="160"
+                height="90"
               />
               <div>
                 <p class="font-bold text-xl line-clamp-2">
