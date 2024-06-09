@@ -1,13 +1,13 @@
 ---
 id: 1405729
+slug: "digital-experience-platforms-the-old-versus-the-new"
 title: "Digital experience platforms: the old versus the new"
 description: "Digital experience platforms (DXPs) and the more modern digital experience composition platforms..."
-slug: "digital-experience-platforms-the-old-versus-the-new-3jlh"
-collection_id: 22300
 date: "2023-03-18T13:05:48Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png"
 canonical_url: "https://uniform.dev/blogs/digital-experience-composition-dxc/difference-between-dxp-and-dxcp"
 tags: ["architecture","dxp","composable","webdev"]
+collection_id: 22300
 ---
 
 Digital experience platforms (DXPs) and the more modern [digital experience composition platforms (DXCPs)](https://uniform.dev/what-is-digital-experience-composition) share the same goal of making it easier for business users to create visually dynamic, personalized digital experiences. A major contrast is that DXCPs orchestrate solutions and technologies from different vendors. On the other hand, even though DXPs call themselves composable, they lock brands into a single vendor and one way of doing things at the expense of other capabilities.

@@ -1,13 +1,13 @@
 ---
 id: 1406180
+slug: "make-the-web-greener-luxury-edition"
 title: "Make the Web Greener, Luxury Edition"
 description: "If the internet were a country, it would be the world’s sixth biggest polluter.   The..."
-slug: "make-the-web-greener-luxury-edition-3nni"
-collection_id: 22300
 date: "2023-03-18T22:30:27Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3e00qrk4jojitb5tu06.jpg"
 canonical_url: "https://www.valtech.com/insights/make-the-web-greener-luxury-edition/"
 tags: ["webdev","environment"]
+collection_id: 22300
 ---
 
 ## If the internet were a country, it would be the world’s sixth biggest polluter.

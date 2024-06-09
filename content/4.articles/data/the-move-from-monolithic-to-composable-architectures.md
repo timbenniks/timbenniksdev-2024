@@ -1,13 +1,13 @@
 ---
 id: 1399554
+slug: "the-move-from-monolithic-to-composable-architectures"
 title: "The move from monolithic to composable architectures"
 description: "Success in business can be attributed to many factors, notably team talent and efficacy of products..."
-slug: "the-move-from-monolithic-to-composable-architectures-12mo"
-collection_id: 22300
 date: "2023-03-13T20:42:55Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F56u97go8avwyexrr01nx.png"
 canonical_url: "https://uniform.dev/blogs/composable-architecture/composable-architectures-are-the-future-of-the-digital-sphere"
 tags: ["mach","webdev","composable","monolith"]
+collection_id: 22300
 ---
 
 Success in business can be attributed to many factors, notably team talent and efficacy of products or services. What also counts in this digital age are immersive and performant online experiences. Realistically, delivering engaging experiences is a never-ending undertaking. To avoid lagging behind rivals, brands must do that time and again in all their interactions with consumers. 

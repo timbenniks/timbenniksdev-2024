@@ -1,13 +1,13 @@
 ---
 id: 1614626
+slug: "the-real-deal-about-content-management-buzzword"
 title: "The real deal about content management buzzwords"
 description: "Buzzwords are labels that describe tech approaches that become so commonplace over time that the..."
-slug: "the-real-deal-about-content-management-buzzwords-ma7"
-collection_id: 22300
 date: "2023-09-28T14:43:37Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpr5frm3ra3q3liidcpev.jpg"
 canonical_url: "https://hygraph.com/blog/the-real-deal-about-content-management-buzzwords"
 tags: ["buzzwords","dxp","composable","cms"]
+collection_id: 22300
 ---
 
 Buzzwords are labels that describe tech approaches that become so commonplace over time that the label disappears, and people do what works best. Remember Jamstack? Neither do I. The term became so widespread that it faded away. Netlify, the company that coined Jamstack, now uses Composable, which will likely disappear too.

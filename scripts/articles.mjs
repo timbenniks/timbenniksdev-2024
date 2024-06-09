@@ -42,6 +42,7 @@ async function getArticles(username) {
   const finalArticles = resolvedArticles.map((article) => {
     return {
       id: article.id,
+      slug: article.slug.slice(0, -5),
       title: article.title,
       description: article.description,
       date: article.published_timestamp,
@@ -55,7 +56,7 @@ async function getArticles(username) {
 
   finalArticles.forEach((article) => {
     fs.writeFile(
-      `./content/4.articles/data/${article.slug.slice(0, -5)}.md`,
+      `./content/4.articles/data/${article.slug}.md`,
       convertToMarkdown(article),
       (err) => {
         if (err) {

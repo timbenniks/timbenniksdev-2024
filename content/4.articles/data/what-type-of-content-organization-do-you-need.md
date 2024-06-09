@@ -1,13 +1,13 @@
 ---
 id: 1664371
+slug: "what-type-of-content-organization-do-you-need"
 title: "What type of content organization do you need?"
 description: "Different ways of working require different approaches to content design. In this post, I will..."
-slug: "what-type-of-content-organization-do-you-need-4c2m"
-collection_id: 22300
 date: "2023-11-12T09:03:33Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd58lvz3nrm8lre4gdtuw.png"
 canonical_url: "https://hygraph.com/blog/what-type-of-content-organization-do-you-need"
 tags: []
+collection_id: 22300
 ---
 
 Different ways of working require different approaches to content design. In this post, I will outline a few content organization approaches based on how your brand operates digitally.

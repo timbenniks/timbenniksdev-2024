@@ -1,13 +1,13 @@
 ---
 id: 1405725
+slug: "the-future-of-managing-projects-at-agencie"
 title: "The future of managing projects at agencies"
 description: "Calling for a revolution in how agencies run tech projects   I spent a lot of time working..."
-slug: "the-future-of-managing-projects-at-agencies-698"
-collection_id: 22300
 date: "2023-03-18T12:56:10Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fipu6a76iegjp4d19mb0u.png"
 canonical_url: "https://uniform.dev/blogs/composable-architecture/the-future-of-managing-projects-at-agencies"
 tags: ["composable","architecture","agency","process"]
+collection_id: 22300
 ---
 
 ## Calling for a revolution in how agencies run tech projects

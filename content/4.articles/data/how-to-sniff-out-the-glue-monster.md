@@ -1,13 +1,13 @@
 ---
 id: 1405727
+slug: "how-to-sniff-out-the-glue-monster"
 title: "How to sniff out the Glue Monster"
 description: "Even though you don’t see it, glue code is everywhere. Since the pendulum swung from monolithic..."
-slug: "how-to-sniff-out-the-glue-monster-4nko"
-collection_id: 22300
 date: "2023-03-18T13:00:21Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz8mwj68dscwvzuvcdd4y.png"
 canonical_url: "https://uniform.dev/blogs/how-to-sniff-out-the-glue-monster"
 tags: ["javascript","architecture","composable","devops"]
+collection_id: 22300
 ---
 
 Even though you don’t see it, glue code is everywhere. Since the pendulum swung from monolithic platforms to [composable architectures](https://uniform.dev/blogs/composable-architecture/composable-platforms-what-why-how), glue code that connects to systems or cleanses data has grown exponentially. 

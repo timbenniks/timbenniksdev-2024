@@ -1,13 +1,13 @@
 ---
 id: 1517485
+slug: "the-lost-promise-of-headless"
 title: "The lost promise of headless"
 description: "In recent years, headless technology, which boosts performance, developer experience, and..."
-slug: "the-lost-promise-of-headless-1c4k"
-collection_id: 22300
 date: "2023-06-26T18:18:19Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flrvfb6a8wh5lt0mbyzat.png"
 canonical_url: "https://uniform.dev/blogs/the-lost-promise-of-headless"
 tags: ["headless","architecture","mach"]
+collection_id: 22300
 ---
 
 In recent years, headless technology, which boosts performance, developer experience, and best-of-breed headless systems, has gained significant traction in web development. At its core, headless streamlines and accelerates the process of building and delivering web experiences  through APIs, which separates content creation and management from presentation. 

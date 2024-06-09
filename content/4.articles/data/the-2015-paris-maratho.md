@@ -1,13 +1,13 @@
 ---
 id: 1406188
+slug: "the-2015-paris-maratho"
 title: "The 2015 Paris marathon"
 description: "Exactly one year ago, when we had just moved to Paris, the marathon passed by our apartment in Rue..."
-slug: "the-2015-paris-marathon-i0l"
-collection_id: 22299
 date: "2023-03-18T22:45:48Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Furlbqaankzj82uhwrfq7.jpg"
 canonical_url: "https://dev.to/timbenniks/the-2015-paris-marathon-i0l"
 tags: ["personal","fitness"]
+collection_id: 22299
 ---
 
 Exactly one year ago, when we had just moved to Paris, the marathon passed by our apartment in Rue Saint-Antoine. Seeing all these people swooshing by impressed me so much that I signed-up for the 2015 marathon on the spot. The goal was set, the easy part was over.

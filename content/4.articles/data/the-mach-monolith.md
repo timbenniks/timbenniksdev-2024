@@ -1,13 +1,13 @@
 ---
 id: 1399535
+slug: "the-mach-monolith"
 title: "The MACH monolith"
 description: "For years, the headless concept went through the nerd vine at boardrooms, pushing execs to take..."
-slug: "the-mach-monolith-2knd"
-collection_id: 22300
 date: "2023-03-13T20:20:45Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxdj396fv4iyh8zce4rsg.png"
 canonical_url: "https://uniform.dev/blogs/composable-architecture/the-mach-monolith"
 tags: ["architecture","composable","webdev","javascript"]
+collection_id: 22300
 ---
 
 For years, the headless concept went through the nerd vine at boardrooms, pushing execs to take action. Now that everybody is jumping on the bandwagon, interesting developments have surfaced: Traditional monoliths have adopted new messaging with the terms “composable” and “headless” in it, and headless systems are integrating more monolithic-like features. Meanwhile, at a loss as to what to do to ensure that their architecture is scalable, secure, and future-proof, brands make decisions out of sheer FOMO. All that has created the beast I call the MACH Monolith.

@@ -54,6 +54,17 @@
     transition: .3s, 
     mask-size .3s .3s;
   }
+
+  .flowing-title {
+    background: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    white-space: initial;
+  }
 }
 
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
-import { format, getYear, getDay } from "date-fns";
+import { format, getYear, isFuture } from "date-fns";
 
 const props = defineProps(["limit", "small"]);
 
@@ -22,6 +22,10 @@ function d(date: string) {
     month: format(new Date(date), "MMM"),
     day: format(new Date(date), "dd"),
   };
+}
+
+function upcoming(date: string) {
+  return isFuture(new Date(date));
 }
 </script>
 
@@ -49,6 +53,12 @@ function d(date: string) {
                 <p class="text-lg">{{ d(talk.date).year }}</p>
               </div>
               <div class="flex flex-col justify-start">
+                <p
+                  class="flowing-title font-bold text-sm"
+                  v-if="upcoming(talk.date)"
+                >
+                  UPCOMING
+                </p>
                 <p class="font-bold text-xl">{{ talk.conference }}</p>
                 <p class="line-clamp-1">
                   {{ talk.talk }}
