@@ -36,7 +36,7 @@ const smallOrBigClass = computed(() => {
                 provider="cloudinary"
                 :src="video.image"
                 :sizes="small ? 'sm:15vw' : 'sm:33vw'"
-                :alt="video.title"
+                :alt="video.title || ''"
                 class="mb-2 fancy-image"
                 :class="small ? 'w-full md:w-64' : 'w-full'"
               />
