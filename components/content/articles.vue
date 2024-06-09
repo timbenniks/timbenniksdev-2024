@@ -33,6 +33,7 @@ const smallOrBigClass = computed(() => {
               :class="small ? 'md:flex-row md:space-x-4' : 'flex-col'"
             >
               <NuxtImg
+                provider="cloudinary"
                 :src="article.image"
                 :sizes="small ? 'sm:15vw' : 'sm:33vw'"
                 :alt="article.title"

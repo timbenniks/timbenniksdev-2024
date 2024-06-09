@@ -10,5 +10,10 @@ export default defineNuxtConfig({
     defaults: {
       weights: [400, 700, 900],
     },
+  },
+  image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/dwfcofnrd/image/fetch/'
+    }
   }
 })
