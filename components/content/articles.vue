@@ -27,7 +27,7 @@ const smallOrBigClass = computed(() => {
         <ul :class="smallOrBigClass">
           <li v-for="article in list" :key="article._path" class="mb-4">
             <NuxtLink
-              :to="`/blog/${article.slug}`"
+              :to="article.path"
               target="_blank"
               class="md:flex"
               :class="small ? 'md:flex-row md:space-x-4' : 'flex-col'"
