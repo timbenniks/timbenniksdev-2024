@@ -1,6 +1,6 @@
 ---
 date: "2021-06-21T08:31:45Z"
-position: 41
+position: 42
 title: "Nuxt vs Next: the battle of the Images"
 description: "In this video I compare the newly released Nuxt and Next native Image tags to the Next Image. Who wins?  \n\nThe rules:\nOutput semantically valid HTML according to web standards.\nNo opinions added to the output.\nShould work out of the box.\n\n00:00 Introduction\n00:47 The rules\n01:50 Nuxt Image\n06:06 Next Image\n11:32 Conclusions\n\nFollow me here:\nWebsite: https://timbenniks.dev\nTwitter: https://twitter.com/timbenniks\nGithub: https://github.com/timbenniks"
 image: "https://i.ytimg.com/vi/lpK392G10OU/maxresdefault.jpg"

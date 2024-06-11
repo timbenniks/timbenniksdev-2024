@@ -41,6 +41,7 @@ const smallOrBigClass = computed(() => {
                 :class="small ? 'w-full md:w-64' : 'w-full'"
                 width="564"
                 height="318"
+                fit="cover"
               />
               <div>
                 <p class="font-bold text-xl line-clamp-2">

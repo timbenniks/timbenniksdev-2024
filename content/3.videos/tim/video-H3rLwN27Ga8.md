@@ -1,6 +1,6 @@
 ---
 date: "2023-07-24T14:00:11Z"
-position: 9
+position: 10
 title: "Browser Client Hints are awesome!"
 description: "Learn how to use Browser Client Hints and Cloudinary to serve responsive images with minimal markup and maximum performance. Browser Client Hints tell Cloudinary the optimal size and resolution of each image request, and Cloudinary delivers it on the fly!\n\nFollow me here:\nWebsite: https://timbenniks.dev\nTwitter: https://twitter.com/timbenniks\nGithub: https://github.com/timbenniks"
 image: "https://i.ytimg.com/vi/H3rLwN27Ga8/maxresdefault.jpg"

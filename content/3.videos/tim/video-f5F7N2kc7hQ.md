@@ -1,6 +1,6 @@
 ---
 date: "2020-04-02T11:07:53Z"
-position: 94
+position: 95
 title: "HTTP/2 performance: you still need a bundler!"
 description: "Every project I deal with outdated beliefs about performance and people not really knowing about the power of HTTP/2. This video is a crash course into some of the most valuable features HTTP/2 has to offer: header compression and multiplexing. I do a real time demo in which you can see that multiplexing works but actually has caveats! \n\nIf you want to know about bundle sizes and how many connections can be \"in flight\" at the same time, this video is for you!\n\n#HTTP2 #performance #webpack\n\nFollow me here:\nWebsite: https://timbenniks.nl/\nTwitter: https://twitter.com/timbenniks\nGithub: https://github.com/timbenniks"
 image: "https://i.ytimg.com/vi/f5F7N2kc7hQ/maxresdefault.jpg"

@@ -1,6 +1,6 @@
 ---
 date: "2023-05-22T09:03:13Z"
-position: 13
+position: 14
 title: "Vue.js Live London 2023 Vlog"
 description: "Vue.js London was as great as we all expected, with a fantastic venue, and a great hotel! The speaker's family got back together for yet another event! \n\nI got to play my guitar for Alive and Kicking. Check out more here: https://timbenniks.dev/alive-and-kicking\n\nFollow me:\nWebsite: https://timbenniks.dev\nTwitter: https://twitter.com/timbenniks\nGithub: https://github.com/timbenniks"
 image: "https://i.ytimg.com/vi/DYq17R5C9-s/maxresdefault.jpg"

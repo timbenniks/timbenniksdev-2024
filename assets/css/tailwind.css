@@ -14,8 +14,7 @@
   }
 
   a {
-    @apply text-white hover:opacity-90;
-    transition: .5s ease;
+    @apply text-white hover:opacity-80;
   }
 
   p a {
