@@ -66,7 +66,7 @@ Check out [this](https://www.strava.com/activities/683549355/) Strava run.
 
 No matter the dedication to training, a great food plan or sheer willpower, circumstances and external stressors will make your body say stop at a certain point. If the load is higher than the capacity for too long the body will get pushed too far and won’t be able to cope with the added stress.
 
-It took 20 years to start enjoying sports. I lost a [lot of weight](/writings/my-fitness-story) and got hooked. I could throw anything at my body and it would bounce back. Now it doesn’t and I have to accept that. This summer of training thought me to be humble and to listen both my peers (my wife mainly, as she is always right) and my body.
+It took 20 years to start enjoying sports. I lost a [lot of weight](/articles/my-fitness-story) and got hooked. I could throw anything at my body and it would bounce back. Now it doesn’t and I have to accept that. This summer of training thought me to be humble and to listen both my peers (my wife mainly, as she is always right) and my body.
 
 Not running this race was a hard decision for me as I always stick to the challenges I set for myself. I’ve decided that feeling good is more important than running a marathon. I’ve done it once before and have proven that I can do it. My body can deal with running but it’s not comfortable doing it. I have my build against me. I’m going to focus on being flexible and strong. I’ll be running shorter distances and I’ll be cycling way more. Also, I’m going back to the gym to do what my body was build to do. Lift iron. I might even try yoga…
 
