@@ -14,16 +14,8 @@ head:
       content: Tim Benniks
 ---
 
-::titleBlock
----
-tag: 'h1'
-title: 'Articles'
----
+::title-block{tag="h1" title="Articles"}
 ::
 
-::articles
----
-limit: 60
-small: false
----
+::articles{:limit="60" :small="false"}
 ::

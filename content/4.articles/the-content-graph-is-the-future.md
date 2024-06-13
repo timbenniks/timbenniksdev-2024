@@ -1,11 +1,11 @@
 ---
 id: 1683758
-slug: "the-content-graph-is-the-future"
-title: "The content Graph is the future"
-description: "Content management is as essential as it is complex, especially at scale. As brands grow, they often..."
-date: "2023-12-05T10:40:00Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn1ilcbgm74yygk14s4g7.png"
-canonical_url: "https://hygraph.com/blog/the-content-graph-is-the-future"
+slug: the-content-graph-is-the-future
+title: The content Graph is the future
+description: Content management is as essential as it is complex, especially at scale. As brands grow, they often...
+date: '2023-12-05T10:40:00Z'
+image: https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn1ilcbgm74yygk14s4g7.png
+canonical_url: https://hygraph.com/blog/the-content-graph-is-the-future
 tags: []
 collection_id: 22300
 ---
@@ -26,21 +26,19 @@ Unlike monolithic DXPs (off-the-shelf products), which can be inflexible and res
 
 Composable architectures offer a lot of freedom but also introduce a significant amount of complexity. While it may feel liberating for developers to choose how they connect to services, when dealing with large-scale applications, combining data from different structures and using unfamiliar SDKs can quickly become disastrous.
 
-
 ![Composable challenges](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rgy63rwzc7dm5mnmk9wl.png)
 
 ## Introducing the content graph
 
-The content graph is a framework that is represented in the form of a graph, and enables developers to query multiple sources of information through a single unified hub. 
+The content graph is a framework that is represented in the form of a graph, and enables developers to query multiple sources of information through a single unified hub.
 
 The graph approach federates content, centralizes content strategy, and standardizes querying processes. This simplifies API interactions, ensures consistency, and eliminates siloed information, maximizing efficiency and scalability. It achieves all these tasks while avoiding data duplication and maintaining the autonomy of the sources.
 
-In human words, this means that all content coming from best-of-breed sources is fed into an aggregation layer (the graph), which can be redistributed in a way that is easy to query. This layer standardizes the language used to query content and allows you to ask for only specific bits rather than receiving everything. 
+In human words, this means that all content coming from best-of-breed sources is fed into an aggregation layer (the graph), which can be redistributed in a way that is easy to query. This layer standardizes the language used to query content and allows you to ask for only specific bits rather than receiving everything.
 
 An essential part of this approach is that the content graph doesn’t store or duplicate any data; it merely creates a schema and allows developers to query the data via the graph’s endpoint. This allows the best-of-breed sources that connect to it to be fully autonomous and flexible.
 
 To ensure everything performs well while asking the graph for data (imagine having a slow legacy system as a content source), the content graph stores query results on the CDN edge and offers specific TTL and webhook functionalities.
-
 
 ![The Contwnt Graph](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8qngsih12lys9s6yww0j.png)
 
@@ -65,7 +63,7 @@ An interesting use case is that of Hygraph, which is a GraphQL headless CMS firs
 
 ## A real-life use case for the content graph
 
-An example of using a content graph is that of composable commerce. Imagine operating a large shop selling telecom-related products. As these types of products are complex to manage, companies use a PIM system to enrich product information and manage connections between bundles and brands. 
+An example of using a content graph is that of composable commerce. Imagine operating a large shop selling telecom-related products. As these types of products are complex to manage, companies use a PIM system to enrich product information and manage connections between bundles and brands.
 
 Of course, end users have to be able to search, filter, and order the products when researching what they want to buy. For this, you will likely need another tool to index all products to prepare them for searching.
 
@@ -73,9 +71,9 @@ Each product has a media-rich and elaborate story that generally resides on the 
 
 Lastly, end users must be able to make an account, buy, add to their wishlist, and favorite the products. For that, you need a commerce engine.
 
-The beauty is that all these systems output data that can be ingested by the content graph, allowing developers to query only the graph while using GraphQL. The specialists your brand hires can operate the external tools as usual. Want to add a wishlist or switch our PIM systems? Add it to the graph; the front-end implementation code must not change. 
+The beauty is that all these systems output data that can be ingested by the content graph, allowing developers to query only the graph while using GraphQL. The specialists your brand hires can operate the external tools as usual. Want to add a wishlist or switch our PIM systems? Add it to the graph; the front-end implementation code must not change.
 
-One more consideration: if you have a legacy system in place, it can be federated into the content graph while staying autonomous and operating normally. Developers on the implementation end do not need to query the system but ask the graph for its content instead. This gives you the ability to phase it out slowly. 
+One more consideration: if you have a legacy system in place, it can be federated into the content graph while staying autonomous and operating normally. Developers on the implementation end do not need to query the system but ask the graph for its content instead. This gives you the ability to phase it out slowly.
 
 ## Conclusion
 
