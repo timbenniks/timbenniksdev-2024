@@ -5,9 +5,10 @@ import { format, getYear, isFuture } from "date-fns";
 const props = defineProps(["limit", "small"]);
 
 const query: QueryBuilderParams = {
-  path: "/talks/data",
+  path: "/talks",
   limit: props.limit || 3,
   sort: [{ date: -1 }],
+  where: [{ _dir: { $ne: "" } }, { _empty: { $ne: true } }],
 };
 
 const smallOrBigClass = computed(() => {

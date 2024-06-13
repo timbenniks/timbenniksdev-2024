@@ -10,6 +10,7 @@ const heroclass = computed(() => {
     <ContentSlot :use="$slots.image" v-if="$slots.image" unwrap="p" />
 
     <article
+      v-if="$slots.title || $slots.description"
       class="md:absolute top-2/4 mdL-translate-y-2/4 left-16 mt-4 md:mt-0 px-4 md:px-0"
     >
       <h1 v-if="$slots.title" class="title inline-block" :class="heroclass">

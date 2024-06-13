@@ -4,9 +4,10 @@ import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
 const props = defineProps(["limit", "small"]);
 
 const query: QueryBuilderParams = {
-  path: `/articles/data`,
+  path: `/articles`,
   limit: props.limit || 3,
   sort: [{ date: -1 }],
+  where: [{ _dir: { $ne: "" } }, { _empty: { $ne: true } }],
 };
 
 const smallOrBigClass = computed(() => {
@@ -27,8 +28,7 @@ const smallOrBigClass = computed(() => {
         <ul :class="smallOrBigClass">
           <li v-for="article in list" :key="article._path" class="mb-4">
             <NuxtLink
-              :to="article.path"
-              target="_blank"
+              :to="article._path"
               class="md:flex"
               :class="small ? 'md:flex-row md:space-x-4' : 'flex-col'"
             >

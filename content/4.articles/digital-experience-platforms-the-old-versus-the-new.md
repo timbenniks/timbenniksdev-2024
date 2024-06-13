@@ -10,6 +10,8 @@ tags: ["architecture","dxp","composable","webdev"]
 collection_id: 22300
 ---
 
+# Digital experience platforms: the old versus the new
+
 Digital experience platforms (DXPs) and the more modern [digital experience composition platforms (DXCPs)](https://uniform.dev/what-is-digital-experience-composition) share the same goal of making it easier for business users to create visually dynamic, personalized digital experiences. A major contrast is that DXCPs orchestrate solutions and technologies from different vendors. On the other hand, even though DXPs call themselves composable, they lock brands into a single vendor and one way of doing things at the expense of other capabilities.
 
 To help brands decide whether to switch from a DXP to a DXCP, we explain below their key differences. More details are available in this video created by Headless Creator.

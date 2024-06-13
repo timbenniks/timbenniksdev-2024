@@ -14,4 +14,16 @@ head:
       content: Tim Benniks
 ---
 
-hoi Articles
+::titleBlock
+---
+tag: 'h1'
+title: 'Articles'
+---
+::
+
+::articles
+---
+limit: 60
+small: false
+---
+::
