@@ -20,7 +20,7 @@ I have always been interested in muscles and posture but never had the disciplin
 
 Being fat was always in the back of my mind and it nagged at me. When I reached 120kg I felt horrible and knew change was needed. I was always sweating, tired and out of breath. I had high blood pressure and was often feeling ill. Diabetes type 2 was creeping up on me.
 
-![fat](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z7h5x2kxppg53w4is65y.jpg)
+![fat](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z7h5x2kxppg53w4is65y.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 Even after this turning point I was still completely inadequate at sports and I didn’t have any discipline. I didn’t even know how to properly contract my muscles to lift something. I had no body sense at all.
 
@@ -34,16 +34,16 @@ As I finally saw some results I overcame my disciplinary problems step by step. 
 
 I started researching and a whole world of bro-science opened up to me. I did programs like P90X, 5x5, and 4-hour body.
 
-![weightloss](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o0wcd7nly7arzfjs9glt.jpg)
+![weightloss](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o0wcd7nly7arzfjs9glt.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 The thing that helped me most was my Facebook activity. I posted my weight daily. People would respond if it went up or down and it kept me motivated. This was the first time in my life peer pressure actually had a positive influence on my state of mind.
 
-![weightloss](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8oa7r37rqrhgldhtegpd.jpg)
+![weightloss](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8oa7r37rqrhgldhtegpd.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
-![guitars](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y4yyrv0qc0q0r59piv0n.jpg)
+![guitars](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y4yyrv0qc0q0r59piv0n.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 In April 2014 my wife and I moved to Paris. At that point I was vegan for half a year and I was at my lightest weight since I started training. We had to deal with different stress factors when we arrived and I let go of the strict livestyle a little and gained some weight again. The cheese, wine and French baguettes are too awesome not to enjoy. In January 2014 I got up to ~95kg and Paris had officially turned me into a croissant.
 
 But I wasn’t a croissant for long. I started lifting some weights again and slowely started to get back into it. When the marathon passed by our apartment in Rue Saint-Antoine in April 2014 I signed up on the spot. I became a long distance runner over night. New goals were set, and crushed over the proceeding six months.
 
-![running](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oph2vujeha2kjojtab6i.jpg)
+![running](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oph2vujeha2kjojtab6i.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}

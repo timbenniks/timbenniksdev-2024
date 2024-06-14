@@ -18,13 +18,13 @@ Reality is, you as developers must connect headless systems for a cohesive, feat
 * Do you adapt your front-end components to specific API output and add logic locally?  
 * Do you separate domain data with design-related data, or mix up everything in data models in different headless systems?
 
-![Glue Code SPREAD](https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1536,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/5iPWgs3hiyQZb1O7cZECJt/671395cc3852d456f1dc02d34d6d5b2c/GlueCode_Blog_SPREAD.png)
+![Glue Code SPREAD](https://images.ctfassets.net/9ku1oyd4k3wo/5iPWgs3hiyQZb1O7cZECJt/671395cc3852d456f1dc02d34d6d5b2c/GlueCode_Blog_SPREAD.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 Glue code is a nightmare of technical debt that leads to less innovation, more development effort, and, ultimately, higher expense on hidden requirements.
 
 ##Types of glue
 
-![Glue code Icon](https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1536,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/5n8VoHX3RPLBLFWg2IJsYP/f2e9ccc22bd7541b352b7bf19d24ffcb/GlueCode_Blog_Images_Glue_code_Icon.png)
+![Glue code Icon](https://images.ctfassets.net/9ku1oyd4k3wo/5n8VoHX3RPLBLFWg2IJsYP/f2e9ccc22bd7541b352b7bf19d24ffcb/GlueCode_Blog_Images_Glue_code_Icon.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### Code that queries a source or receives data that maps the input to fit something else. 
 
@@ -54,13 +54,13 @@ To sustain a setup with data models that are regularly polluted in that manner, 
 
 ### Creating glue layers by vendors to stay sticky (pun intended) with customers
 
-![Glue Code STICKY architecture](https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1536,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/5zwPAAafgm4qZpoU9H2Bbw/8d4928142367cd19f8b76528bfc61ef0/GlueCode_Blog_STICKY.png)
+![Glue Code STICKY architecture](https://images.ctfassets.net/9ku1oyd4k3wo/5zwPAAafgm4qZpoU9H2Bbw/8d4928142367cd19f8b76528bfc61ef0/GlueCode_Blog_STICKY.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 The more “official” glue vendors add to a composable system, the harder it is for their customers to perform updates, or switch or add components. The more tech debt, the more support hours vendors can sell. Also, since modern, more agile vendors are bound to outpace the less competitive ones in time, the wise thing for the latter to do is adopt solutions that offer hyperflexible systems at lower cost, enabling their customers to focus on storytelling and solving business problems for their audience without sticky glue.
 
 ##Ways to deglue
 
-![Unglue Icon](https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1536,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/16F6FELfCSkZjE8cCuRauw/2c81553462dd1d16be36b2a56dffd443/GlueCode_Blog_Images_Unglue_Icon.png)
+![Unglue Icon](https://images.ctfassets.net/9ku1oyd4k3wo/16F6FELfCSkZjE8cCuRauw/2c81553462dd1d16be36b2a56dffd443/GlueCode_Blog_Images_Unglue_Icon.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 The new product category digital experience composition facilitates degluing. Typically, you create pages on [digital experience composition platforms (DXCPs)](https://uniform.dev/what-is-digital-experience-composition) with data from numerous headless sources without having to understand how those sources work. With the DXCP hosting a brand’s design system in page components, you can drag and drop them onto the page and connect data from external sources to them. No need to write connection code at all. 
 

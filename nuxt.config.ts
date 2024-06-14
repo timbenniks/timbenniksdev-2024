@@ -15,5 +15,11 @@ export default defineNuxtConfig({
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/dwfcofnrd/image/fetch/'
     }
+  },
+
+  content: {
+    markdown: {
+      anchorLinks: false
+    }
   }
 })

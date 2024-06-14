@@ -25,10 +25,12 @@ function parseHeroImage(imageUrl) {
         </template>
       </hero>
 
-      <article class="prose prose-invert prose-xl max-w-screen-lg mx-auto">
-        <h1 class="font-black mb-4">{{ doc.title }}</h1>
+      <article
+        class="prose prose-invert prose-xl max-w-screen-lg mx-auto prose-headings:font-bold"
+      >
+        <h1 class="font-bold mb-4">{{ doc.title }}</h1>
         <p class="text-sm">
-          {{ format(new Date(doc.date), "MMM dd, yyyy") }},
+          {{ format(new Date(doc.date), "MMM dd, yyyy") }} at
           <a :href="doc.canonical_url" target="_blank">{{
             doc.canonical_url
           }}</a>

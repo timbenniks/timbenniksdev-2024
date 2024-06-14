@@ -20,7 +20,7 @@ Let’s get a bit technical. Almost all webcam [image sensors](https://en.wikip
 
 A webcam tends to be positioned around 40cm (1.3 feet) from your face. Due to the high crop factor an extremely wide angle lens is needed to get a good visual at that distance. Think about it. If a 18mm lens is the equivalent of an 126mm lens it means that something we consider normal on a SLR camera is extremely zoomed in on a webcam. So, we need to zoom it out. BY A LOT. To do that, we use a wide angle lens.
 
-![Sensor explanation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/16nf6fvk0v76s11zb1ph.png)
+![Sensor explanation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/16nf6fvk0v76s11zb1ph.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
 
 The problem is, the wider you go, the less sharp the picture gets. If there wasn’t enough against the webcam form factor: the lenses in webcams are generally cheap and shitty. The webcam’s physical limitations make it terrible in low light situations. Even with studio lighting the image can appear grainy.
 
@@ -70,7 +70,7 @@ Now that we have our color temperatures and diffusion out of the way, let’s ta
 
 If you have a little bit more flexibility I suggest using a three point light setup. The three point light setup is considered industry standard and will generally give you great results.
 
-![Lighting setup](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/keef3ou8sbzpg24acrzj.png)
+![Lighting setup](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/keef3ou8sbzpg24acrzj.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
 
 The three point light setup assumes you have a “key light”, a “fill light” and a “hair light”.
 
@@ -99,7 +99,7 @@ I have a Logitech webcam. This camera comes with a little control panel that all
 3.  In the next tab make sure exposure is set to “auto”. If you attempt to expose yourself manually with a Logitech webcam all hell brakes loose. The image either looks like crap or your framerate will drop significantly.
 4.  Make sure to turn off Low Light compensation. There is no need for this as you are well lit.
 
-![Webcam settings](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rktns1m78yyy1owfexqd.png)
+![Webcam settings](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rktns1m78yyy1owfexqd.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
 
 #### Color correction
 
@@ -120,7 +120,7 @@ If you have a cheap camera with a shallow depth of field and your lights are set
 This is the result I got after a bit of research and tweaking settings.
 
 
-![Before](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/53ums57svft6zuza79l9.png)
+![Before](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/53ums57svft6zuza79l9.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
 
 
-![After](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h293vez6piv68hyzfy98.png)
+![After](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h293vez6piv68hyzfy98.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}

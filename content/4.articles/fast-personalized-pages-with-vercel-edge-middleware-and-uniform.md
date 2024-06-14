@@ -14,11 +14,11 @@ To maintain an engaging relationship with your audience and increase conversions
 
 Among the many moving parts to consider, performance and scalability are tough nuts to crack. Fortunately, companies like Vercel, which recently released [Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), make those problems readily solvable for developers. With Vercel in place, you only need to choose the right tech to personalize at the CDN edge without having to grapple with the one thing that slows things down: the origin server.
 
-##The benefits of edge
+### The benefits of edge
 
 Vercel offers familiar tech to developers: it’s all JavaScript based. With Edge Middleware, developers have the tools to make great things happen that they could not before. All the dynamic tasks that typically occur on an origin server can now happen near end-users, leading to faster page loads and automatic scaling out of the box. Not only that, Edge Middleware have user data that’s handy for personalization: country, region, and the device in use.
 
-##The personalization process at the edge
+### The personalization process at the edge
 
 By eliminating the origin server that is typically far away from end-users and bringing the dynamic rendering closer with Edge Middleware, you can personalize with high performance and in a decentralized manner. The only way to personalize without a central brain that knows all the personalization rules is to bring that brain into the software as a first-party tool. This is how that works:
 
@@ -34,12 +34,12 @@ By eliminating the origin server that is typically far away from end-users and b
 
 The above approach to personalization is how Uniform Context works. Combining Edge Middleware rendering of personalized content with JavaScript hydration for subsequent page loads renders highly dynamic pages within ~50 milliseconds only. The approach is to initially render all the pages statically (SSG/Jamstack) and ensure that the Edge Middleware knows which parts it can personalize. While serving a page, the Edge Middleware checks if personalization is needed and, if so, fills the identified components with the correct personalized content.
 
-![uniform-vercel-edge-middleware](https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1536,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/4lvoQsz6WNCbJXIWQVQJSI/b36e13c87c86ca668fea6adf3da2b078/uniform-vercel-edge-middleware.svg)
+![uniform-vercel-edge-middleware](https://images.ctfassets.net/9ku1oyd4k3wo/4lvoQsz6WNCbJXIWQVQJSI/b36e13c87c86ca668fea6adf3da2b078/uniform-vercel-edge-middleware.svg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
 
 Another benefit of the Vercel edge is that at the edge level, the CDN knows a lot about the end-users: their location, city, device, browser version, etc. Thus, Uniform Context can prepersonalize pages with Edge Middleware according to the location or device information from the Vercel CDN.
 
 Want to try that out for yourself? You’ll find all the details in Uniform’s [documentation on Vercel’s edge-side personalization](https://docs.uniform.app/integrations/cdn/vercel/personalization).
 
-##Conclusion
+## Conclusion
 
 To recap, by combining Uniform Context on Edge Middleware with statically rendered pages (SSG/Jamstack), you can create highly dynamic, personalized pages that load in less than a minute. In the past, Uniform offered dynamic personalization features through Vercel ESI. Edge Middleware now gives you a much more flexible and intuitive model for implementing personalization at scale. 

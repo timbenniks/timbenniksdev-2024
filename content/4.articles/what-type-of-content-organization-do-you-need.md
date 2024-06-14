@@ -17,7 +17,7 @@ Every brand manages its digital organization differently. Some are incredibly de
 One thing is clear: most brands are transitioning to a more flexible approach, composing their digital organization using specialty tools that handle their specific domain content. This is instead of relying on an off-the-shelf monolithic tool that attempts to do everything to some extent.
 
 
-![Centralized / Decentralized](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xioylw3zkxljytzhwtft.png)
+![Centralized / Decentralized](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xioylw3zkxljytzhwtft.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 Brands that adopt a decentralized approach require more flexible tooling to accommodate the increased number of people involved who need autonomy. This necessitates the use of marketing-first systems for content management. On the other hand, the centralized approach requires less tooling and is more technologically focused, as it follows a fixed set of specifications for each experience. In this case, the main requirement is to obtain data and build the experience accordingly.
 
@@ -36,19 +36,19 @@ There are many different types of federations for building brand websites. In th
 ### Data stitching and custom middleware
 Data stitching or a custom middleware are not exactly forms of federation, but you encounter them often in the wild. Tech teams query, clean up, and map data from the specific front end they are working on, which creates complexity and technical debt in the implementation. Initially, this approach may feel flexible and give developers autonomy, but as the scale increases, it becomes unsustainable. The entire process must be repeated when another channel is created (such as a website, mobile app, kiosk, etc.). To address this issue, people started creating custom middleware solutions at API level. While they still suffer from similar problems, at least they centralize the data query, clean up, and mapping in one place. However, creating proprietary code to attack problems that affordable products solve, is usually a waste of time.
 
-![Data stitching](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iacwgoeaolz9znalbc56.png)
+![Data stitching](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iacwgoeaolz9znalbc56.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### Content Hub
 
 A content hub is a centralized source of truth that collects and duplicates data from various sources. It organizes the data and performs cleanup and data remapping within the hub itself. This approach can be viable if the data sources do not need autonomy and you are not concerned about potential outdated content resulting from the content hub's data duplication.
 
-![Content Hub](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sc8fp49qbswr93cg5r62.png)
+![Content Hub](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sc8fp49qbswr93cg5r62.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### Data Lake
 
 A content lake is a repository where data of any type is stored without considering its structure. It remains in its raw form and can be accessed by anyone. This approach is highly beneficial for machine learning and reporting tools. Having a well-established data cleanup pipeline and being willing to accept potential technical debt make the content lake an excellent choice for your brand.
 
-![Data lake](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u388o0c1oy5p0m31afl0.png)
+![Data lake](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u388o0c1oy5p0m31afl0.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### Content Federation
 
@@ -56,7 +56,7 @@ Content federation aggregates data by establishing a unified, simplified, standa
 
 Content federation works well (and is typically combined) with a CMS that can ingest the data and use its APIs.
 
-![Content Federation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2wsbl6uzmoscfxq31yrv.png)
+![Content Federation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2wsbl6uzmoscfxq31yrv.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### DXO (digital experience orchestration)
 
@@ -64,7 +64,7 @@ Digital Experience Orchestration focuses on API orchestration and decision-makin
 
 Beware, DXO is not a CMS, and its endpoints must be plugged into a Content Federation platform like Hygraph if you want to use it. If you do not need a CMS, DXO can be used standalone.
 
-![DXO](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zfrsz1i6hjq68mbsmrui.png)
+![DXO](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zfrsz1i6hjq68mbsmrui.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### GraphQL Federation
 
@@ -72,7 +72,7 @@ GraphQL Federation is the idea of connecting two or more GraphQL APIs (subgraphs
 
 A few other techniques and companies are not precisely GraphQL federation but reach the same goal: a single API endpoint for tech teams: Apollo Federation, Open Federation, Grafbase, GraphQL Fusion, and Graph weaver.
 
-![GraphQL Federation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rtx6y1lqmon1nhe6c4t0.png)
+![GraphQL Federation](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rtx6y1lqmon1nhe6c4t0.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ## Which federation is for you?
 
