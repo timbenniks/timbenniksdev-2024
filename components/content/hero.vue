@@ -2,7 +2,7 @@
 const props = defineProps(["smallertitle"]);
 
 const heroclass = computed(() => {
-  return props.smallertitle ? "text-4xl md:text-5xl" : "text-4xl md:text-7xl";
+  return props.smallertitle ? "text-3xl md:text-5xl" : "text-3xl md:text-7xl";
 });
 </script>
 <template>

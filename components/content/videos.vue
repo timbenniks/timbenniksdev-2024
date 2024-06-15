@@ -23,7 +23,9 @@ const smallOrBigClass = computed(() => {
   <div class="px-4 md:px-8 mb-8">
     <ContentList :query="query">
       <template #default="{ list }">
-        <header class="mb-4 flex space-x-4 items-end">
+        <header
+          class="mb-4 flex md:space-x-4 space-x-0 md:items-end flex-col md:flex-row items-start"
+        >
           <h3 v-if="$slots.title" class="title inline-block">
             <ContentSlot :use="$slots.title" unwrap="p" />
           </h3>

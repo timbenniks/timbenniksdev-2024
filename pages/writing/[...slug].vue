@@ -8,9 +8,9 @@ function parseHeroImage(imageUrl) {
 </script>
 
 <template>
-  <div class="pb-12">
+  <div class="p-8 md:p-0 md:pb-12">
     <ContentDoc v-slot="{ doc }">
-      <hero>
+      <hero class="hidden md:block">
         <template v-slot:image>
           <NuxtImg
             provider="cloudinary"
