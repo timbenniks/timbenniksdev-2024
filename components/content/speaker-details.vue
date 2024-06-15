@@ -1,24 +1,6 @@
 <script setup lang="ts">
 const config = useAppConfig();
-const deets = [
-  { label: "Name", val: "Tim Benniks" },
-  {
-    label: "Company",
-    val: "Hygraph",
-    link: "https://hygraph.com",
-  },
-  {
-    label: "Title",
-    val: "Developer Relations Lead for outreach and awareness",
-  },
-  { label: "Location", val: "Greater Toulouse Area, France" },
-  { label: "E-mail", val: "timbenniks.dev@gmail.com" },
-  {
-    label: "Website",
-    val: "https://timbenniks.dev",
-    link: "https://timbenniks.dev",
-  },
-];
+const deets = config.speaker.details;
 </script>
 
 <template>
