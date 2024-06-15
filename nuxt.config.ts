@@ -7,6 +7,13 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxthq/studio"
   ],
+
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  },
+
   fonts: {
     defaults: {
       weights: [400, 700, 900],
