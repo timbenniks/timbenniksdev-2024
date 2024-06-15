@@ -14,4 +14,5 @@ head:
       content: Tim Benniks
 ---
 
-:title-block{tag="h1" title="Writing"}:articles{:small="false"}
+:title-block{tag="h1" title="Writing"}
+:articles{:small="false"}
