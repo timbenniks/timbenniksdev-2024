@@ -28,6 +28,10 @@ const smallOrBigClass = computed(() => {
 
     <ContentList :query="query">
       <template #default="{ list }">
+        <pre v-for="article in list" :key="article._path">{{
+          article._path
+        }}</pre>
+
         <ul :class="smallOrBigClass">
           <li v-for="article in list" :key="article._path" class="mb-4">
             <NuxtLink
