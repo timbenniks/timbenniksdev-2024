@@ -2,18 +2,19 @@ import { field, group } from '@nuxthq/studio/theme'
 
 export default defineNuxtSchema({
   appConfig: {
-    parent: group({
-      title: 'Parent title',
-      description: 'Parent description.',
-      icon: 'i-icon-to-display',
+    seo: group({
+      title: 'SEO',
+      description: 'SEO configuration.',
+      icon: 'i-ph-app-window',
       fields: {
-        leaf: field({
-          type: 'Type of component used to edit your field',
-          title: 'Field title',
-          description: 'Field Description',
-          icon: 'i-icon-to-display',
-          default: 'default value'
+        siteName: field({
+          type: 'string',
+          title: 'Site Name',
+          description: 'Name used in ogSiteName and used as second part of your page title (My page title - Nuxt UI Pro).',
+          icon: 'i-mdi-web',
+          default: []
         })
       }
     })
   }
+})
