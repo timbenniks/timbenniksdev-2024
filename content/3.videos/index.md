@@ -18,16 +18,38 @@ head:
 
 ::richtext
 #body
-I love to explore my creativity by making videos, live streams and speaking. Now that virtual conferences are a thing I have specialised in making entertaining, high production value talks that I pre-record.
+I made video in different categories. From personal videos to vlogs, to tutorials and work related videos. Lot's of stuff to explore here!
 ::
 
 ::videos
 ---
-limit: 6
+limit: 3
 small: false
 folder: tim
 extras: true
 ---
 #title
 Personal Videos
+::
+
+::videos
+---
+limit: 3
+small: false
+folder: hygraph
+extras: true
+---
+#title
+Hygraph Videos
+::
+
+::videos
+---
+limit: 3
+small: false
+folder: uniform
+extras: true
+---
+#title
+Uniform Videos
 ::

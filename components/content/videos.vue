@@ -26,7 +26,6 @@ const smallOrBigClass = computed(() => {
         <header class="mb-4 flex space-x-4 items-end">
           <h3 v-if="$slots.title" class="title inline-block">
             <ContentSlot :use="$slots.title" unwrap="p" />
-            <span v-if="extras"> ({{ list.length }})</span>
           </h3>
           <p class="uppercase text-sm mt-2" v-if="extras">
             <nuxt-link :to="`/videos/${folder}`">See all →</nuxt-link>
