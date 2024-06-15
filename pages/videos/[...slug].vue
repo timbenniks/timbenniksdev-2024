@@ -10,6 +10,10 @@ const title = computed(() => {
       result = "Personal videos";
       break;
 
+    case "alive-and-kicking":
+      result = "Alive and Kicking videos";
+      break;
+
     case "live-hygraph":
       result = "Hygraph live streams";
       break;

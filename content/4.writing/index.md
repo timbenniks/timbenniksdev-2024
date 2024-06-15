@@ -1,6 +1,6 @@
 ---
-title: Articles
-description: Articles desc
+title: Writing
+description: Writing desc
 draft: false
 navigation: true
 image:
@@ -14,6 +14,6 @@ head:
       content: Tim Benniks
 ---
 
-:title-block{tag="h1" title="Articles"}
-:articles{:limit="60" :small="false"}
+:title-block{tag="h1" title="Writing"}
+:articles{:small="false"}
 

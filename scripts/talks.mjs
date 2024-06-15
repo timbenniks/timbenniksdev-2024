@@ -37,7 +37,7 @@ async function getTakls() {
 
   data.talks.forEach((talk) => {
     fs.writeFile(
-      `./content/5.talks/data/${talk.date}-${talk.id}.md`,
+      `./content/5.speaking/data/${talk.date}-${talk.id}.md`,
       convertToMarkdown(talk),
       (err) => {
         console.log(`Talk: ${talk.date} - ${talk.conference} added.`);

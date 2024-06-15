@@ -5,11 +5,14 @@ import { format, getYear, isFuture } from "date-fns";
 const props = defineProps(["limit", "small"]);
 
 const query: QueryBuilderParams = {
-  path: "/talks",
-  limit: props.limit || 3,
+  path: "/speaking",
   sort: [{ date: -1 }],
   where: [{ _dir: { $ne: "" } }, { _empty: { $ne: true } }],
 };
+
+if (props.limit) {
+  query.limit = props.limit;
+}
 
 const smallOrBigClass = computed(() => {
   return props.small
@@ -43,8 +46,7 @@ function upcoming(date: string) {
             <NuxtLink
               :to="talk.link"
               target="_blank"
-              class="flex"
-              :class="small ? 'flex-row space-x-4' : 'flex-col'"
+              class="flex flex-row space-x-4"
             >
               <div
                 class="bg-[#0e1029] w-20 h-28 text-center font-black uppercase flex flex-col justify-center date-card"
@@ -53,7 +55,7 @@ function upcoming(date: string) {
                 <p class="text-lg">{{ d(talk.date).month }}</p>
                 <p class="text-lg">{{ d(talk.date).year }}</p>
               </div>
-              <div class="flex flex-col justify-start">
+              <div class="flex flex-col justify-start w-80">
                 <p
                   class="flowing-title font-bold text-sm"
                   v-if="upcoming(talk.date)"

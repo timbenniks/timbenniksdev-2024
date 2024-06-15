@@ -36,6 +36,17 @@ Personal Videos
 ---
 limit: 3
 small: false
+folder: mp
+extras: true
+---
+#title
+Middleware Productions Videos
+::
+
+::videos
+---
+limit: 3
+small: false
 folder: hygraph
 extras: true
 ---
@@ -52,4 +63,15 @@ extras: true
 ---
 #title
 Uniform Videos
+::
+
+::videos
+---
+limit: 3
+small: false
+folder: headless-creator
+extras: true
+---
+#title
+Headless Creator Videos
 ::
