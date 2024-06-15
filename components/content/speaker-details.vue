@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const config = useAppConfig();
 const deets = [
   { label: "Name", val: "Tim Benniks" },
   {
