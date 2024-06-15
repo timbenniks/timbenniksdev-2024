@@ -1,9 +1,0 @@
----
-date: "2024-05-31T18:29:16Z"
-position: 1
-title: "How to integrate Cloudinary with headless CMS w/ Colby Fayock"
-description: "This Thursday we'll have Colby Fayock from Cloudinary join Tim Benniks for an exclusive livestream to talk about integrating Cloudinary with Hygraph as a headless CMS.\n\nMost people think media on the web is not at all a concern, an image is an image right?\nWell, nope! It's actually incredibly hard to serve images in the right context:\n- Is a user on mobile?\n- How fast is their internet?\n- Do we lazy load?\n- Do we need different image formats for different screen sizes?\n- We do we have art direction for the images?\n- Where do we store the default source and where do we serve the derived images with transformations from?\n- Do we use a CDN?\n- What if an image has to be offline after a certain date due to contracts?\n- What about image quality?\n\nNeed I go on? I can, I have about 10 more problems to throw at you and we haven't even discussed videos yet... \n\nWant to know more? Join ColbyFayock and Tim Benniks on our livestream TODAY where we demo industry leader Cloudinary and how they work together with Hygraph.\r\n\r\nJoin our slack community and feel free to ask us any questions: https://slack.hygraph.com"
-image: "https://i.ytimg.com/vi/_Iah2t5g02o/maxresdefault.jpg"
-videoId: "_Iah2t5g02o"
----
-

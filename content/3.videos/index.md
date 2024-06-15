@@ -13,4 +13,21 @@ head:
     - name: keywords
       content: Tim Benniks
 ---
-hoi videos
+
+:title-block{tag="h1" title="Videos"}
+
+::richtext
+#body
+I love to explore my creativity by making videos, live streams and speaking. Now that virtual conferences are a thing I have specialised in making entertaining, high production value talks that I pre-record.
+::
+
+::videos
+---
+limit: 6
+small: false
+folder: tim
+extras: true
+---
+#title
+Personal Videos
+::

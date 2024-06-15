@@ -1,9 +1,0 @@
----
-date: "2024-05-31T18:34:11Z"
-position: 7
-title: "Composable without Compromise w/ Natalia Venditto"
-description: "Kicking off our first Composable without Compromise livestream w/ Natalia Venditto. \nIn these live streams we talk about composability. From architectures, to design approaches, to tech organization and governance. Anything MACH Alliance, DXC or headless composition related is a valid subject. Monolith to composable stories. How to deal with composability as a developer, or as a leader. \n\nNatalia worked in the roles of frontend and full-stack developer, technical lead and software architect leading enterprise implementations and as a solutions architect advising on data intensive implementations. Now she leads the end-to-end DX for JavaScript devs on Azure. \nhttps://twitter.com/AnfibiaCreativa\n\nBack in the days when Natalia started working as a developer, the frontend was nothing but a couple of CSS and JavaScript files or lines injected to the HTML. But the whole JavaScript ecosystem has evolved at a very dynamic fast pace. The role of frontend technologies and patterns when designing new web architectures, has never been so influential as it is today. Let's talk about the multiple challenges, but also opportunities, that the cloud offers to build lightning fast and super performant user interfaces, on top of cutting-edge cloud tech!\n\nLivestream Host: Tim Benniks \nhttps://twitter.com/timbenniks\nhttps://www.linkedin.com/in/timbenniks/\n\nJoin us on Discord at https://uniform.to/discord\n\nFollow us on:\nFacebook: https://www.facebook.com/people/Uniform/\nTwitter: https://twitter.com/UniformDev \nLinkedIn: https://www.linkedin.com/company/uniformdev/\nInstagram: https://www.instagram.com/uniform.dev/"
-image: "https://i.ytimg.com/vi/7-eBCQiP9Ec/maxresdefault.jpg"
-videoId: "7-eBCQiP9Ec"
----
-

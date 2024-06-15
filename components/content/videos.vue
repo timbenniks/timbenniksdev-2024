@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
 
-const props = defineProps(["limit", "folder", "small"]);
+const props = defineProps(["limit", "folder", "small", "extras"]);
 
 const query: QueryBuilderParams = {
   path: `/videos/${props.folder}`,
-  limit: props.limit || 3,
   sort: [{ position: 1 }],
 };
+
+if (props.limit) {
+  query.limit = props.limit;
+}
 
 const smallOrBigClass = computed(() => {
   return props.small
@@ -18,12 +21,18 @@ const smallOrBigClass = computed(() => {
 
 <template>
   <div class="px-4 md:px-8 mb-8">
-    <h3 v-if="$slots.title" class="title inline-block mb-4">
-      <ContentSlot :use="$slots.title" unwrap="p" />
-    </h3>
-
     <ContentList :query="query">
       <template #default="{ list }">
+        <header class="mb-4 flex space-x-4 items-end">
+          <h3 v-if="$slots.title" class="title inline-block">
+            <ContentSlot :use="$slots.title" unwrap="p" />
+            <span v-if="extras"> ({{ list.length }})</span>
+          </h3>
+          <p class="uppercase text-sm mt-2" v-if="extras">
+            <nuxt-link :to="`/videos/${folder}`">See all →</nuxt-link>
+          </p>
+        </header>
+
         <ul :class="smallOrBigClass">
           <li v-for="video in list" :key="video._path" class="mb-4">
             <NuxtLink

@@ -48,7 +48,7 @@ async function getPlaylist(playlist_id, folder) {
   const mappedVideos = videos.map((video) => {
     return {
       date: video.snippet.publishedAt,
-      position: video.snippet.position || 0,
+      position: video.snippet.position.toString().padStart(3, "0"),
       title: video.snippet.title,
       description: video.snippet.description,
       image: video.snippet.thumbnails?.maxres?.url,
@@ -58,7 +58,7 @@ async function getPlaylist(playlist_id, folder) {
 
   mappedVideos.forEach((video) => {
     fs.writeFile(
-      `./content/3.videos/${folder}/video-${video.videoId}.md`,
+      `./content/3.videos/${folder}/${video.position}-${video.videoId}.md`,
       convertToMarkdown(video),
       (err) => {
         console.log(`Video: ${video.title} added.`);
