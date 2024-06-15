@@ -15,6 +15,37 @@ export default defineNuxtSchema({
           default: []
         })
       }
+    }),
+
+    speakerDetails: group({
+      title: 'Speaker Details',
+      description: 'Info about Tim for conferences',
+      icon: 'i-ph-app-window',
+      fields: {
+        speakerDetails: field({
+          type: 'array',
+          title: 'details',
+          description: 'A list of speaker detail key value pairs',
+          icon: 'i-mdi-web',
+          fields: {
+            label: field({
+              type: 'string',
+              title: 'Label',
+              description: 'Label',
+            }),
+            val: field({
+              type: 'string',
+              title: 'Value',
+              description: 'Value',
+            }),
+            link: field({
+              type: 'string',
+              title: 'Link',
+              description: 'Link',
+            })
+          }
+        })
+      }
     })
   }
 })
