@@ -1,6 +1,6 @@
 ---
-title: videos
-description: videos desc
+title: Videos
+description: An overview of my videos
 draft: false
 navigation: true
 image:
@@ -18,15 +18,15 @@ head:
 
 ::richtext
 #body
-I made video in different categories. From personal videos to vlogs, to tutorials and work related videos. Lot's of stuff to explore here!
+I make videos in different categories, from personal videos to vlogs to tutorials and work-related videos. There is a lot to explore here!
 ::
 
 ::videos
 ---
+extras: true
 limit: 3
 small: false
 folder: tim
-extras: true
 ---
 #title
 Personal Videos
@@ -34,10 +34,10 @@ Personal Videos
 
 ::videos
 ---
+extras: true
 limit: 3
 small: false
 folder: mp
-extras: true
 ---
 #title
 Middleware Productions Videos
@@ -45,10 +45,10 @@ Middleware Productions Videos
 
 ::videos
 ---
+extras: true
 limit: 3
 small: false
 folder: hygraph
-extras: true
 ---
 #title
 Hygraph Videos
@@ -56,10 +56,10 @@ Hygraph Videos
 
 ::videos
 ---
+extras: true
 limit: 3
 small: false
 folder: uniform
-extras: true
 ---
 #title
 Uniform Videos
@@ -67,10 +67,10 @@ Uniform Videos
 
 ::videos
 ---
+extras: true
 limit: 3
 small: false
 folder: headless-creator
-extras: true
 ---
 #title
 Headless Creator Videos
