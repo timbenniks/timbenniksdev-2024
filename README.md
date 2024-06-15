@@ -2,3 +2,4 @@
 
 ## TODO:
 - OG tags all pages
+- better automated sitemap
