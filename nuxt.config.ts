@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/fonts",
     "@nuxt/image",
-    "@nuxthq/studio"
+    "@nuxthq/studio",
   ],
 
   nitro: {
