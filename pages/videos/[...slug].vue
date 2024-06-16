@@ -41,6 +41,11 @@ const title = computed(() => {
 
   return result;
 });
+
+useSeoMeta({
+  title: title.value,
+  description: `video overview for ${title.value}`,
+});
 </script>
 
 <template>

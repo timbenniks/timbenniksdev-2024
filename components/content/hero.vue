@@ -1,5 +1,17 @@
 <script setup lang="ts">
-const props = defineProps(["smallertitle"]);
+const props = defineProps({
+  smallertitle: {
+    type: Boolean,
+  },
+  titletag: {
+    type: String,
+    default: "h1",
+  },
+  subtitletag: {
+    type: String,
+    default: "h2",
+  },
+});
 
 const heroclass = computed(() => {
   return props.smallertitle ? "text-3xl md:text-5xl" : "text-3xl md:text-7xl";
@@ -13,15 +25,21 @@ const heroclass = computed(() => {
       v-if="$slots.title || $slots.description"
       class="md:absolute top-2/4 mdL-translate-y-2/4 left-16 mt-4 md:mt-0 px-4 md:px-0"
     >
-      <h1 v-if="$slots.title" class="title inline-block" :class="heroclass">
+      <component
+        :is="titletag"
+        v-if="$slots.title"
+        class="title inline-block"
+        :class="heroclass"
+      >
         <ContentSlot unwrap="p" :use="$slots.title" />
-      </h1>
-      <h2
+      </component>
+      <component
+        :is="subtitletag"
         v-if="$slots.description"
         class="bg-black py-1 px-2 text-lg md:text-2xl font-black"
       >
         <ContentSlot unwrap="p" :use="$slots.description" />
-      </h2>
+      </component>
     </article>
   </div>
 </template>
