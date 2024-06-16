@@ -1,6 +1,6 @@
 ---
 title: Videos
-nav_title: Videos
+navTitle: Videos
 description: An overview of my videos
 draft: false
 navigation: true

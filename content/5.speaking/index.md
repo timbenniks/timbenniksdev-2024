@@ -1,8 +1,8 @@
 ---
-title: Tim Benniks' Speaking Engagements on Vue.js, Composable, and Web Development
+title: Speaking
 description: Explore Tim Benniks’ latest speaking engagements at leading tech conferences, covering Vue.js, and the future of web development with composable architectures.
 draft: false
-nav_title: Speaking
+navTitle: Speaking
 navigation: true
 image:
   src: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_1280/Tim/tim_aug_2023.png

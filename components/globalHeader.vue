@@ -52,7 +52,7 @@ function toggle() {
             class="font-bold uppercase mb-4 lg:mb-0"
             @click="open = false"
           >
-            <NuxtLink :to="link._path">{{ link.nav_title }}</NuxtLink>
+            <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
           </li>
         </ul>
       </ContentNavigation>
