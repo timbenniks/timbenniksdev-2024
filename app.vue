@@ -12,7 +12,7 @@ useHead({
     },
     {
       name: "theme-color",
-      content: "#A2C0F3",
+      content: "#ec4899",
     },
   ],
   htmlAttrs: {
