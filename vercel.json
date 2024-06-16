@@ -812,6 +812,21 @@
       "source": "/blog/712/step-by-step-guide-to-install-zotonic-on-osx",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/writings/a-new-website",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/lazy-loading-images-with-cloudinary",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "writings/how-to-deliver-video-the-right-way",
+      "destination": "/writing",
+      "permanent": true
     }
   ]
 }
