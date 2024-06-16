@@ -1,0 +1,817 @@
+{
+  "redirects": [
+    { "source": "/playlists", "destination": "/", "permanent": true },
+    { "source": "/contact", "destination": "/", "permanent": true },
+    { "source": "/contact/", "destination": "/", "permanent": true },
+    { "source": "/writings", "destination": "/writing", "permanent": true },
+    { "source": "/writings/", "destination": "/writing", "permanent": true },
+    {
+      "source": "/_nuxt/static/1668591621",
+      "destination": "/",
+      "permanent": true
+    },
+
+    { "source": "/tags", "destination": "/", "permanent": true },
+    { "source": "/tags/", "destination": "/", "permanent": true },
+    { "source": "/tags/sustainability", "destination": "/", "permanent": true },
+    { "source": "/tags/ConferenceTalk", "destination": "/", "permanent": true },
+    { "source": "/tags/Vlog", "destination": "/", "permanent": true },
+    { "source": "/tags/mach", "destination": "/", "permanent": true },
+    { "source": "/tags/sitecore", "destination": "/", "permanent": true },
+    { "source": "/tags/WebDevelopment", "destination": "/", "permanent": true },
+    { "source": "/tags/Jamstack", "destination": "/", "permanent": true },
+    { "source": "/tags/TimTries", "destination": "/", "permanent": true },
+    { "source": "/tags/Career", "destination": "/", "permanent": true },
+    {
+      "source": "/tags/middlewareProductions",
+      "destination": "/",
+      "permanent": true
+    },
+    { "source": "/tags/Interview", "destination": "/", "permanent": true },
+    { "source": "/tags/Nuxt", "destination": "/", "permanent": true },
+    { "source": "/tags/personal", "destination": "/", "permanent": true },
+    { "source": "/tags/Tech", "destination": "/", "permanent": true },
+    { "source": "/tags/Tutorial", "destination": "/", "permanent": true },
+    {
+      "source": "/tags/CoreWebVitalsExplained",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/DevrelRoundTable",
+      "destination": "/",
+      "permanent": true
+    },
+    { "source": "/tags/SoftSkills", "destination": "/", "permanent": true },
+    { "source": "/tags/Webcam", "destination": "/", "permanent": true },
+    { "source": "/tags/Webpack", "destination": "/", "permanent": true },
+    { "source": "/tags/TeamFirst", "destination": "/", "permanent": true },
+    { "source": "/tags/media", "destination": "/", "permanent": true },
+    { "source": "/tags/rendering", "destination": "/", "permanent": true },
+    { "source": "/tags/css", "destination": "/", "permanent": true },
+    { "source": "/tags/nextjs", "destination": "/", "permanent": true },
+    { "source": "/tags/vanilla-js", "destination": "/", "permanent": true },
+    { "source": "/tags/data-fetching", "destination": "/", "permanent": true },
+    { "source": "/tags/head", "destination": "/", "permanent": true },
+    { "source": "/tags/nuxt3", "destination": "/", "permanent": true },
+    { "source": "/tags/vue3", "destination": "/", "permanent": true },
+
+    {
+      "source": "/playlists/nuxt",
+      "destination": "https://www.youtube.com/watch?v=RY60wVg0FZQ&list=PLcoeeDyxakhWb-JuZtbp39-rJXlAnH4UO",
+      "permanent": true
+    },
+    {
+      "source": "/playlists/devrel-roundtable",
+      "destination": "https://www.youtube.com/@timbenniks/playlists",
+      "permanent": true
+    },
+    {
+      "source": "/playlists/interviews",
+      "destination": "https://www.youtube.com/@timbenniks/playlists",
+      "permanent": true
+    },
+    {
+      "source": "/playlists/tim-tries",
+      "destination": "https://www.youtube.com/watch?v=D8AhNcXgrYg&list=PLcoeeDyxakhXyFLClseMeaM00AY2pQpry",
+      "permanent": true
+    },
+
+    {
+      "source": "/videos/alive-and-kicking-the-vlogumentary",
+      "destination": "https://youtube.com/watch?v=hhPiTREYobI",
+      "permanent": true
+    },
+    {
+      "source": "/videos/I-fell-back-in-love-with-sitecore",
+      "destination": "https://youtube.com/watch?v=e64EyULAoMk",
+      "permanent": true
+    },
+    {
+      "source": "/videos/dxc-the-modern-tech-stack",
+      "destination": "https://youtube.com/watch?v=xeTYkE98MP0",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vuejs-amsterdam-2022-vlog",
+      "destination": "https://youtube.com/watch?v=TMf2WznToOA",
+      "permanent": true
+    },
+    {
+      "source": "/videos/JSWorld-Conference-2022-Vlog",
+      "destination": "https://youtube.com/watch?v=XHBwUK0qlUE",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vue-roadtrip-bcn-vlog",
+      "destination": "https://youtube.com/watch?v=2E_kK9mqRwM",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-medusajs-the-open-source-shopify-alternative",
+      "destination": "https://youtube.com/watch?v=c1jDUhsh1aE",
+      "permanent": true
+    },
+    {
+      "source": "/videos/how-i-film-videos-in-my-new-studio",
+      "destination": "https://youtube.com/watch?v=-8Z1npiG-YA",
+      "permanent": true
+    },
+    {
+      "source": "/videos/state-of-vue-2022",
+      "destination": "https://youtube.com/watch?v=8wXDFiXXkTw",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-nuxt3-algolia-jakub-andrzejewski",
+      "destination": "https://youtube.com/watch?v=yZh1l740tNo",
+      "permanent": true
+    },
+    {
+      "source": "/videos/how-to-buy-gear-for-content-creation-in-2022",
+      "destination": "https://youtube.com/watch?v=MdzKgC1Pgbc",
+      "permanent": true
+    },
+    {
+      "source": "/videos/my-own-youtube-studio-2022",
+      "destination": "https://youtube.com/watch?v=dlI7uZzDDx8",
+      "permanent": true
+    },
+    {
+      "source": "/videos/cable-management-for-nuxt-3",
+      "destination": "https://youtube.com/watch?v=RY60wVg0FZQ",
+      "permanent": true
+    },
+    {
+      "source": "/videos/my-top-5-favourite-nuxt-3-features",
+      "destination": "https://youtube.com/watch?v=ek-hhoZLFVg",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vlog-devbreak21",
+      "destination": "https://youtube.com/watch?v=Kn5U4AHCs_0",
+      "permanent": true
+    },
+    {
+      "source": "/videos/make-your-website-even-faster-with-astro",
+      "destination": "https://youtube.com/watch?v=O8m4cS3o4II",
+      "permanent": true
+    },
+    {
+      "source": "/videos/webpack-tutorial-create-a-config-from-scratch",
+      "destination": "https://youtube.com/watch?v=fyuvqRUzeVY",
+      "permanent": true
+    },
+    {
+      "source": "/videos/how-to-build-your-online-persona",
+      "destination": "https://youtube.com/watch?v=S1oD1u-itKA",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-figma-zeplin-and-storybook-mind-is-blown",
+      "destination": "https://youtube.com/watch?v=ZUHT0g3ZPYw",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tims-vlog-career-advice-for-developers",
+      "destination": "https://youtube.com/watch?v=AUzzgMyN0z4",
+      "permanent": true
+    },
+    {
+      "source": "/videos/interview-with-debbie-obrien-from-nuxtjs",
+      "destination": "https://youtube.com/watch?v=aw4nl6hGjb0",
+      "permanent": true
+    },
+    {
+      "source": "/videos/make-your-website-faster-by-removing-google-analytics",
+      "destination": "https://youtube.com/watch?v=DV5mLxbrTi8",
+      "permanent": true
+    },
+    {
+      "source": "/videos/interview-with-alex-shyba-co-founder-of-uniform",
+      "destination": "https://youtube.com/watch?v=DB5jjbwg-zM",
+      "permanent": true
+    },
+    {
+      "source": "/videos/demystifying-core-web-vitals-with-ishan-anand-e01",
+      "destination": "https://youtube.com/watch?v=Ec7pVGy8XsQ",
+      "permanent": true
+    },
+    {
+      "source": "/videos/the-modern-dxp-how-jamstack-will-change-the-world",
+      "destination": "https://youtube.com/watch?v=YEzAod1sDdg",
+      "permanent": true
+    },
+    {
+      "source": "/videos/code-faster-and-make-less-mistakes",
+      "destination": "https://youtube.com/watch?v=LIek4kwnSbQ",
+      "permanent": true
+    },
+    {
+      "source": "/videos/my-audio-setup-2020",
+      "destination": "https://youtube.com/watch?v=Pu8F59X14-Y",
+      "permanent": true
+    },
+    {
+      "source": "/videos/easy-dynamic-routes-in-your-nuxt-sitemap",
+      "destination": "https://youtube.com/watch?v=oXJHEw-10aQ",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-storyblok-one-of-the-best-headless-content",
+      "destination": "https://youtube.com/watch?v=d0ra_M3JLSY",
+      "permanent": true
+    },
+    {
+      "source": "/videos/webpack-basics-and-core-concepts",
+      "destination": "https://youtube.com/watch?v=AZqRjdqa_D8",
+      "permanent": true
+    },
+    {
+      "source": "/videos/weight-loss-with-serverless-andjamstack",
+      "destination": "https://youtube.com/watch?v=beBR8ev2nO8",
+      "permanent": true
+    },
+    {
+      "source": "/videos/interview-with-tim-benniks-from-valtech",
+      "destination": "https://youtube.com/watch?v=ZZRQOzpC068",
+      "permanent": true
+    },
+    {
+      "source": "/videos/interview-with-una-verhoeven-global-sitecore-architect",
+      "destination": "https://youtube.com/watch?v=nw0y6dkx1KU",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-tailwindcss-with-alexander-lichter",
+      "destination": "https://youtube.com/watch?v=0VdfeGtjDcg",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-azure-static-web-apps",
+      "destination": "https://youtube.com/watch?v=A54iFAS8rts",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vue.js-global-conference-an-interview-with-debbie",
+      "destination": "https://youtube.com/watch?v=IBKgryFpUDs",
+      "permanent": true
+    },
+    {
+      "source": "/videos/im-building-my-own-studio",
+      "destination": "https://youtube.com/watch?v=xba15Vr-kFY",
+      "permanent": true
+    },
+    {
+      "source": "/videos/work-from-home-how-to-make-your-webcam-look",
+      "destination": "https://youtube.com/watch?v=xiT7qtMCmIk",
+      "permanent": true
+    },
+    {
+      "source": "/videos/an-interview-with-anastasiya-flynn-from-sitecore-jss",
+      "destination": "https://youtube.com/watch?v=pwqVQnnoPIY",
+      "permanent": true
+    },
+    {
+      "source": "/videos/apple-m1-with-tailwind-jit-and-vite-is-faster-than",
+      "destination": "https://youtube.com/watch?v=sU22R2W3wEA",
+      "permanent": true
+    },
+    {
+      "source": "/videos/azure-functions-revisited-for-v3",
+      "destination": "https://youtube.com/watch?v=d0jk7hYU1AI",
+      "permanent": true
+    },
+    {
+      "source": "/videos/unboxing-the-new-m1-mac-mini-for-video-editing-and",
+      "destination": "https://youtube.com/watch?v=6Ub_k4uvz20",
+      "permanent": true
+    },
+    {
+      "source": "/videos/an-interview-with-maya-shavin",
+      "destination": "https://youtube.com/watch?v=H7qmArrblw8",
+      "permanent": true
+    },
+    {
+      "source": "/videos/interview-with-cto-moovweb",
+      "destination": "https://youtube.com/watch?v=Zd7QkGD8Ix8",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vue-3-composition-api-and-vite-to-recreate-tiktok",
+      "destination": "https://youtube.com/watch?v=gGaoxqTc7kE",
+      "permanent": true
+    },
+    {
+      "source": "/videos/magical-combination-to-build-a-modern-website",
+      "destination": "https://youtube.com/watch?v=V5AobIiruD4",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vue-js-global-talk-introducing-vite--vitepress",
+      "destination": "https://youtube.com/watch?v=gojCkw5Ih7E",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vuejs-global-conference-an-interview-with-eduardo",
+      "destination": "https://youtube.com/watch?v=uuFBfCIpAlY",
+      "permanent": true
+    },
+    {
+      "source": "/videos/devrel-roundtable-episode-2-debbie-obrien-and-lucie",
+      "destination": "https://youtube.com/watch?v=lSxU_q-8Rrc",
+      "permanent": true
+    },
+    {
+      "source": "/videos/interview-with-jen-looper-from-microsoft",
+      "destination": "https://youtube.com/watch?v=cf5_pit--aI",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-slice-machine-by-nuxt-and-prismic",
+      "destination": "https://youtube.com/watch?v=bPJJxxqycDI",
+      "permanent": true
+    },
+    {
+      "source": "/videos/how-to-make-your-webcam-look-great",
+      "destination": "https://youtube.com/watch?v=vcf1xFOeGwM",
+      "permanent": true
+    },
+    {
+      "source": "/videos/interview-with-evan-you",
+      "destination": "https://youtube.com/watch?v=NR_aohhgl3s",
+      "permanent": true
+    },
+    {
+      "source": "/videos/webpack-5-module-federation-and-more",
+      "destination": "https://youtube.com/watch?v=ZXz9MoJTWh8",
+      "permanent": true
+    },
+    {
+      "source": "/videos/team-first-how-to-lead-a-team-to-success",
+      "destination": "https://youtube.com/watch?v=LTM7wz0Q564",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tutorial-how-to-build-a-gridsome-source-plugin",
+      "destination": "https://youtube.com/watch?v=V50mHzzFFaA",
+      "permanent": true
+    },
+    {
+      "source": "/videos/jamstack-with-prismic-and-gridsome",
+      "destination": "https://youtube.com/watch?v=tqR2EO7Tivc",
+      "permanent": true
+    },
+    {
+      "source": "/videos/i-have-a-new-job-at-a-silicon-valley-startup",
+      "destination": "https://youtube.com/watch?v=HCThe5pWhvM",
+      "permanent": true
+    },
+    {
+      "source": "/videos/http2-performance-you-still-need-a-bundler",
+      "destination": "https://youtube.com/watch?v=f5F7N2kc7hQ",
+      "permanent": true
+    },
+    {
+      "source": "/videos/lazy-loading-images-with-prismic-and-vue",
+      "destination": "https://youtube.com/watch?v=5jAYPM6gX1o",
+      "permanent": true
+    },
+    {
+      "source": "/videos/an-interview-with-natalia-tepluhina-from-gitlab-and",
+      "destination": "https://youtube.com/watch?v=U5S4DqQlt1o",
+      "permanent": true
+    },
+    {
+      "source": "/videos/an-interview-with-filip-rakowski-from-vue-storefront",
+      "destination": "https://youtube.com/watch?v=vqjP5qFiOLg",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vuejs-global-conference-an-interview-with-anthony",
+      "destination": "https://youtube.com/watch?v=madbxCbSvqo",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-algolia-crawler-plugin-for-netlify",
+      "destination": "https://youtube.com/watch?v=7JK6NYaLHuc",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tims-vlog-how-to-be-a-successful-leader",
+      "destination": "https://youtube.com/watch?v=McyeoiN1S48",
+      "permanent": true
+    },
+    {
+      "source": "/videos/39-tips-and-tricks-to-record-yourself",
+      "destination": "https://youtube.com/watch?v=rm_bameopIY",
+      "permanent": true
+    },
+    {
+      "source": "/videos/5-tips-to-become-a-better-web-developer",
+      "destination": "https://youtube.com/watch?v=WExoF1TFI04",
+      "permanent": true
+    },
+    {
+      "source": "/videos/nuxt-vs-next-the-battle-of-the-images",
+      "destination": "https://youtube.com/watch?v=lpK392G10OU",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vue.js-global-conference-an-interview-with-maria-lamardo",
+      "destination": "https://youtube.com/watch?v=2MFsb5ulhks",
+      "permanent": true
+    },
+    {
+      "source": "/videos/devrel-roundtable-episode-1-tessa-mero-and-domitrius",
+      "destination": "https://youtube.com/watch?v=XiZ2p0zLBd8",
+      "permanent": true
+    },
+    {
+      "source": "/videos/an-interview-with-eduardo-from-the-vue-core-team",
+      "destination": "https://youtube.com/watch?v=LKioMRuiAaE",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-chakra-ui-with-jonathan-bakebwa",
+      "destination": "https://youtube.com/watch?v=96xYPBH-Hyo",
+      "permanent": true
+    },
+    {
+      "source": "/videos/2020-the-best-year-of-my-career",
+      "destination": "https://youtube.com/watch?v=bhFfzM6n3Tw",
+      "permanent": true
+    },
+    {
+      "source": "/videos/the-ultimate-guide-to-responsive-images",
+      "destination": "https://youtube.com/watch?v=UXjgT2_MF90",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vue-js-global-conference-an-interview-with-gift-egwuenu",
+      "destination": "https://youtube.com/watch?v=tLbStGzcYYY",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vue.js-amsterdam-recap-and-exciting-announcements",
+      "destination": "https://youtube.com/watch?v=bOBY5h-r1hc",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vue-js-global-conference-an-interview-with-filip-rakowski",
+      "destination": "https://youtube.com/watch?v=BrmXYtPUlM4",
+      "permanent": true
+    },
+    {
+      "source": "/videos/how-to-reduce-bundle-sizes-in-nuxt",
+      "destination": "https://youtube.com/watch?v=IyKkwy8K2d4",
+      "permanent": true
+    },
+    {
+      "source": "/videos/video-a-developers-guide-to-low-carbon-websites",
+      "destination": "https://youtube.com/watch?v=ewlEgIsh6Dw",
+      "permanent": true
+    },
+    {
+      "source": "/videos/an-interview-with-scott-tolinski-from-level-up-tutorials",
+      "destination": "https://youtube.com/watch?v=zPQ_gQMiT5Y",
+      "permanent": true
+    },
+
+    {
+      "source": "/videos/vuejs-amsterdam-vlog-day-1",
+      "destination": "https://www.youtube.com/watch?v=TMf2WznToOA",
+      "permanent": true
+    },
+
+    {
+      "source": "/writings/the-future-of-jamstack-is-composable",
+      "destination": "https://dev.to/timbenniks/the-future-of-jamstack-is-composable-3m7g",
+      "permanent": true
+    },
+
+    {
+      "source": "/writings/easy-dynamic-routes-in-your-nuxt-sitemap",
+      "destination": "/writing",
+      "permanent": true
+    },
+
+    {
+      "source": "/writings/delivery-guidelines-for-creative-assets",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/covid-19-work-from-home-how-to-make-your-webcam-look",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/lazy-loading-images-with-cloudinary",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/how-to-create-an-accessible-responsive-image-slider",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/a-new-website",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
+      "destination": "https://dev.to/timbenniks/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps-5eo4",
+      "permanent": true
+    },
+    {
+      "source": "/writings/fatty-is-alive",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/i-rebuilt-my-website-again",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/i-turned-my-career-on-its-head",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/i-have-been-interviewed-by-repo-lovers",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/the-2015-paris-marathon",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/the-ultimate-guide-to-modern-lazy-loading-techniques",
+      "destination": "https://dev.to/timbenniks/the-2015-paris-marathon-i0l",
+      "permanent": true
+    },
+    {
+      "source": "/writings/an-interview-with-maya-shavin",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/a-developers-guide-to-low-carbon-websites",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/team-first",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/how-to-dynamically-stream-video",
+      "destination": "https://dev.to/timbenniks/how-to-dynamically-stream-video-135f",
+      "permanent": true
+    },
+    {
+      "source": "/writings/how-fatty-was-made",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/low-carbon-websites-luxury-edition",
+      "destination": "https://dev.to/timbenniks/make-the-web-greener-luxury-edition-3nni",
+      "permanent": true
+    },
+    {
+      "source": "/writings/i-was-interviewed-by-zeplin",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/5-tips-to-become-a-better-web-developer",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/sitecore-jss-best-practices-for-front-end-developers",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/my-fitness-story",
+      "destination": "https://dev.to/timbenniks/my-fitness-story-1p97",
+      "permanent": true
+    },
+    {
+      "source": "/writings/why-i-didnt-run-the-2016-marathon",
+      "destination": "https://dev.to/timbenniks/why-i-didnt-run-the-2016-marathon-57e3",
+      "permanent": true
+    },
+
+    {
+      "source": "/_nuxt/static/1678210744",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1665081058",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1662465350",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1667231740",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1655453395",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1674839664",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1655061346",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1669223011",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1666809801",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vuejs-amsterdam-vlog-day-2",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1663743028",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1646910251",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1665693300",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1662923571",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1665428689",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/712/step-by-step-guide-to-install-zotonic-on-osx",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/vanilla",
+      "destination": "/",
+      "permanent": true
+    },
+
+    {
+      "source": "/garmin-vs-nike.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/turbo-tutorial/vue-3-learn-how-to-make-a-composable",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/writings/i-turned-my-career-on-its-head",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/writings/:id",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/garmin-vs-nike.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1678210744",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1665081058",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1662465350",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1667231740",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1655453395",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1674839664",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1655061346",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1669223011",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1666809801",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/videos/vuejs-amsterdam-vlog-day-2",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1663743028",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1665693300",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1662923571",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/_nuxt/static/1665428689",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/marathoner.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/712/step-by-step-guide-to-install-zotonic-on-osx",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
