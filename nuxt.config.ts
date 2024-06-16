@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     "nuxt-jsonld"
   ],
 
+  experimental: {
+    noVueServer: true
+  },
+
   nitro: {
     prerender: {
       routes: ['/sitemap.xml']
