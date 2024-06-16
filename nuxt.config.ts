@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxt/image",
     "@nuxthq/studio",
+    "nuxt-jsonld"
   ],
 
   nitro: {

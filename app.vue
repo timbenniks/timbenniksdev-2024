@@ -6,6 +6,11 @@ useHead({
       content: "dpr, viewport-width, width",
     },
     {
+      "http-equiv": "delegate-ch",
+      content:
+        "sec-ch-width https://res.cloudinary.com; sec-ch-dpr https://res.cloudinary.com; sec-ch-viewport-width https://res.cloudinary.com;",
+    },
+    {
       name: "theme-color",
       content: "#A2C0F3",
     },
@@ -13,6 +18,26 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
+  script: [
+    {
+      src: "https://plausible.io/js/plausible.js",
+      defer: true,
+      async: true,
+      "data-domain": "timbenniks.dev",
+    },
+  ],
+});
+
+useSeoMeta({
+  googleSiteVerification: "hif_cn9hF2RVSnTq5HwjSkKrXqJT9Q6BR_FaBBmr-20",
+});
+
+useJsonld({
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  url: "https://timbenniks.dev",
+  name: "Tim Benniks: developer relations, video creator, speaker",
+  alternateName: "Tim Benniks",
 });
 </script>
 <template>
