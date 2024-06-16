@@ -15,6 +15,9 @@ head:
 ---
 
 ::hero
+---
+subsubtitletag: p
+---
 #title
 Speaking
 
@@ -23,6 +26,19 @@ VUEJS AMSTERDAM 2023
 
 #image
 ![Tim Benniks](https://res.cloudinary.com/dwfcofnrd/image/upload/v1677741136/Tim/332051017_2552795964930421_7872527921593081497_n.jpg){fit="crop" height="618" loading="eager" provider="cloudinary" sizes="sm:100vw" width="1440"}
+::
+
+:title-block{tag="h2" title="I speak at conferences"} 
+
+::richtext
+#body
+As a speaker at conferences, I strive to deliver engaging and entertaining presentations that captivate my audience. I bring a unique blend of technical expertise and creativity to the stage, often incorporating live music performances and interactive elements. My talks, such as "A Vue into Rock & Roll," seamlessly combine web development concepts with my passion for music, allowing attendees to experience an innovative approach to learning.
+
+One of my strengths lies in my ability to deliver high-production value, pre-recorded talks tailored for virtual events. This has made me a sought-after speaker in the developer community, as I can provide a polished and visually stunning experience even in an online setting.
+
+However, my presentations are not just about imparting knowledge; they are also about creating a memorable and enjoyable experience for the audience. I aim to leave a lasting impression by infusing my talks with energy, humor, and a touch of showmanship. Whether it's through live coding demonstrations, interactive quizzes, or unexpected musical interludes, I strive to keep my audience engaged and entertained throughout the entire presentation.
+
+Ultimately, my goal as a speaker is to inspire and educate while also providing an unforgettable experience that leaves attendees feeling motivated and excited about the topics I cover.
 ::
 
 ::two-column
