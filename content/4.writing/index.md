@@ -1,5 +1,6 @@
 ---
 title: Writing
+nav_title: Writing
 description: My articles
 draft: false
 navigation: true
