@@ -44,6 +44,7 @@ useJsonld({
   <main class="mx-auto max-w-[1400px] bg-[#1b1d39] pb-12">
     <globalHeader />
     <NuxtPage />
+    <globalFooter />
   </main>
 </template>
 
