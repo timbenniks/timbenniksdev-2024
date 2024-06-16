@@ -10,7 +10,8 @@ export default defineNuxtConfig({
   ],
 
   experimental: {
-    noVueServer: true
+    noVueServer: true,
+    payloadExtraction: true
   },
 
   nitro: {
