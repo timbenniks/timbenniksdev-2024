@@ -1,5 +1,7 @@
 <template>
-  <footer class="p-12 flex justify-between flex-col xl:flex-row bg-[#000]">
+  <footer
+    class="mt-12 p-12 flex justify-between flex-col xl:flex-row bg-[#000]"
+  >
     <ul
       class="flex space-x-0 lg:space-x-8 justify-end items-center lg:items-baseline flex-col lg:flex-row"
     >
