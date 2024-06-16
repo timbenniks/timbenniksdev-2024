@@ -32,6 +32,16 @@ useSeoMeta({
   googleSiteVerification: "hif_cn9hF2RVSnTq5HwjSkKrXqJT9Q6BR_FaBBmr-20",
 });
 
+const route = useRoute();
+useHead(() => ({
+  link: [
+    {
+      rel: "canonical",
+      href: "https://timbenniks.dev" + route.path,
+    },
+  ],
+}));
+
 useJsonld({
   "@context": "http://schema.org",
   "@type": "WebSite",
