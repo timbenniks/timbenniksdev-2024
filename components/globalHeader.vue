@@ -40,7 +40,7 @@ function toggle() {
 
     <nav
       :class="{ 'hidden lg:block': !open }"
-      class="absolute top-[93px] left-0 w-full z-50 lg:static bg-[#1b1d39] lg:bg-none"
+      class="absolute top-[93px] left-0 w-full z-50 lg:static bg-[#1b1d39] lg:bg-transparent"
     >
       <ContentNavigation v-slot="{ navigation }">
         <ul
