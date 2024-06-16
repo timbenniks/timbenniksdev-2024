@@ -9,11 +9,6 @@ export default defineNuxtConfig({
     "nuxt-jsonld"
   ],
 
-  experimental: {
-    noVueServer: true,
-    payloadExtraction: true
-  },
-
   nitro: {
     prerender: {
       routes: ['/sitemap.xml']
@@ -25,6 +20,7 @@ export default defineNuxtConfig({
       weights: [400, 700, 900],
     },
   },
+
   image: {
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/dwfcofnrd/image/fetch/'
