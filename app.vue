@@ -49,6 +49,20 @@ useJsonld({
   name: "Tim Benniks: developer relations, video creator, speaker",
   alternateName: "Tim Benniks",
 });
+
+// useJsonld({
+//   "@context": "https://schema.org",
+//   "@type": "WebSite",
+//   url: "https://www.example.com/",
+//   potentialAction: {
+//     "@type": "SearchAction",
+//     target: {
+//       "@type": "EntryPoint",
+//       urlTemplate: "https://query.example.com/search?q={search_term_string}",
+//     },
+//     "query-input": "required name=search_term_string",
+//   },
+// });
 </script>
 <template>
   <main class="mx-auto max-w-[1400px] bg-[#1b1d39]">

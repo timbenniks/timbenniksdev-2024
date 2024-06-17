@@ -6,4 +6,3 @@
   - more about the company
   - https://developers.google.com/search/docs/appearance/structured-data/sitelinks-searchbox
   - https://developers.google.com/search/docs/appearance/structured-data/event
-- better automated sitemap
