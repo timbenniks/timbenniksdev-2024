@@ -48,7 +48,9 @@ export default defineEventHandler(async (event) => {
     '/writing/the-move-from-monolithic-to-composable-architectures',
     '/writing/mach-versus-monolithic-suites',
     '/writing/the-mach-monolith',
-    '/writing/the-future-of-jamstack-is-composable'
+    '/writing/the-future-of-jamstack-is-composable',
+    '/writing/page-builder-cms-vs-data-modeler-cms',
+    '/writing/team-is-key-when-going-headless'
   ]
 
   for (const doc of urls) {
