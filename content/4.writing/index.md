@@ -18,7 +18,7 @@ head:
 ::title-block
 ---
 tag: h1
-title: Writing:
+title: Writing
 ---
 ::
 
