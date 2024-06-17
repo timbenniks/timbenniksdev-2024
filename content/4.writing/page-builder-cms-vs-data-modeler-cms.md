@@ -1,12 +1,15 @@
 ---
 id: 1234556
-slug: "page-builder-cms-vs-data-modeler-cms"
-title: "CMS Showdown: do you need a page builder or a data modeler?"
-description: "Explore the differences between page builder and data modeler CMSs, their unique features, and how they cater to varying organizational needs."
-date: "2024-03-12T13:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.graphassets.com%2FNzxmjCxvTRqg3sTb9JFj"
-canonical_url: "https://hygraph.com/blog/page-builder-cms-vs-data-modeler-cms"
-tags: ["architecture","dxp","composable"]
+slug: page-builder-cms-vs-data-modeler-cms
+title: 'CMS Showdown: do you need a page builder or a data modeler?'
+description: Explore the differences between page builder and data modeler CMSs, their unique features, and how they cater to varying organizational needs.
+date: '2024-03-12T13:05:48Z'
+image: https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.graphassets.com%2FNzxmjCxvTRqg3sTb9JFj
+canonical_url: https://hygraph.com/blog/page-builder-cms-vs-data-modeler-cms
+tags:
+  - architecture
+  - dxp
+  - composable
 collection_id: 22300
 ---
 
@@ -18,10 +21,10 @@ To cater to the unique requirements of these two distinct groups, CMS providers 
 
 At Hygraph, we recently [interviewed over 400 tech leaders](https://hygraph.com/resources/future-of-content) about the future of content and how their CMS handles their needs. This is a quick snapshot of the key statistics:
 
-*   84% feel their CMS hinders the organization from unlocking content’s full value
-*   80% of respondents expressed concerns about future-proofing their existing CMS
-*   91% of tech leaders are dealing with siloed content
-*   92% find it challenging to deliver content from various sources to multiple channels
+- 84% feel their CMS hinders the organization from unlocking content’s full value
+- 80% of respondents expressed concerns about future-proofing their existing CMS
+- 91% of tech leaders are dealing with siloed content
+- 92% find it challenging to deliver content from various sources to multiple channels
 
 ## Our findings led us to the following: not all content is created equal.
 
@@ -43,11 +46,11 @@ By [structuring content meaningfully](https://hygraph.com/blog/structured-conten
 
 CMS providers need to integrate specific features to cater to domain content effectively. These features should include:
 
-1.  **Complex Custom Content Types:** CMS systems should offer the flexibility to define custom content types that align with the unique needs of each domain. This allows builders to create and manage structured data according to their requirements.
-2.  **Data Modeling Capabilities:** CMS systems should provide robust content modeling capabilities that enable builders to establish relationships between different content types. This allows for the creation of complex data structures and the ability to query and retrieve data in a structured manner.
-3.  **Content Versioning and Workflow Management:** CMS systems must support content versioning and workflow management functionalities to ensure proper governance and control over domain content. This includes content approval workflows, history tracking, and the ability to revert to previous versions.
-4.  **Integration with External Systems:** CMS systems should be able to integrate with external systems and databases to fetch and sync domain content. This allows for seamless connectivity with other business tools and ensures that the content remains consistent across different platforms.
-5.  **Robust API:** As domain content is also used in applications and not just marketing websites, developers expect a high standard of API functionality and non-functional aspects such as performance, latency, availability, and throughput.
+1. **Complex Custom Content Types:** CMS systems should offer the flexibility to define custom content types that align with the unique needs of each domain. This allows builders to create and manage structured data according to their requirements.
+2. **Data Modeling Capabilities:** CMS systems should provide robust content modeling capabilities that enable builders to establish relationships between different content types. This allows for the creation of complex data structures and the ability to query and retrieve data in a structured manner.
+3. **Content Versioning and Workflow Management:** CMS systems must support content versioning and workflow management functionalities to ensure proper governance and control over domain content. This includes content approval workflows, history tracking, and the ability to revert to previous versions.
+4. **Integration with External Systems:** CMS systems should be able to integrate with external systems and databases to fetch and sync domain content. This allows for seamless connectivity with other business tools and ensures that the content remains consistent across different platforms.
+5. **Robust API:** As domain content is also used in applications and not just marketing websites, developers expect a high standard of API functionality and non-functional aspects such as performance, latency, availability, and throughput.
 
 By incorporating these features, CMS providers can empower organizations to manage and leverage domain content effectively, ultimately enhancing the overall performance and functionality of their digital experiences.
 
@@ -65,16 +68,16 @@ CMS vendors have introduced page builder functionality to address the challenges
 
 A CMS page builder focuses on the following features to make volatile content easy to manage:
 
-1.  **Non-technical Interface:** A page builder provides a user-friendly interface that allows marketers and content editors to create, edit, and customize content without requiring extensive technical knowledge.
-2.  **Drag-and-Drop Functionality:** Page builders offer drag-and-drop functionality, enabling users to arrange and rearrange content elements on a page quickly.
-3.  **Real-time Preview:** Page builders emphasize real-time previewing, allowing users to see how their changes will look on the live website before publishing.
-4.  **Customization Options:** Page builders provide a range of customization options, such as selecting different layouts, choosing fonts and colors, and adding multimedia elements, allowing users to create visually appealing and engaging content.
+1. **Non-technical Interface:** A page builder provides a user-friendly interface that allows marketers and content editors to create, edit, and customize content without requiring extensive technical knowledge.
+2. **Drag-and-Drop Functionality:** Page builders offer drag-and-drop functionality, enabling users to arrange and rearrange content elements on a page quickly.
+3. **Real-time Preview:** Page builders emphasize real-time previewing, allowing users to see how their changes will look on the live website before publishing.
+4. **Customization Options:** Page builders provide a range of customization options, such as selecting different layouts, choosing fonts and colors, and adding multimedia elements, allowing users to create visually appealing and engaging content.
 
 There are various CMS page builders, from hyper-design-focused to more structured-leaning.
 
 ## Square peg, round hole?
 
-A practical example: **volatile content is usually _about_ a product, whereas domain content is _the_ product**. Or, to stick with our cake-baking analogy, volatile content _decorates_ the cake, and domain content is _the cake_ that gets decorated.
+A practical example: **volatile content is usually about a product, whereas domain content is the product**. Or, to stick with our cake-baking analogy, volatile content _decorates_ the cake, and domain content is _the cake_ that gets decorated.
 
 When comparing volatile content and domain content, it is evident that they have distinct feature requirements in a CMS. Volatile content, characterized by frequent editorial changes and a design-focused nature, necessitates page builder functionality within a CMS. This allows marketers and content editors to easily create, edit, and customize content without abstract data model knowledge.
 
