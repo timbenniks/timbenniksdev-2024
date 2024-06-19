@@ -24,7 +24,7 @@ const smallOrBigClass = computed(() => {
     <ContentList :query="query">
       <template #default="{ list }">
         <header
-          class="mb-4 flex md:space-x-4 space-x-0 md:items-end flex-col md:flex-row items-start"
+          class="mb-2 flex md:space-x-4 space-x-0 md:items-end flex-col md:flex-row items-start"
         >
           <h3 v-if="$slots.title" class="title inline-block">
             <ContentSlot :use="$slots.title" unwrap="p" />
@@ -33,8 +33,14 @@ const smallOrBigClass = computed(() => {
             <nuxt-link :to="`/videos/${folder}`">See all →</nuxt-link>
           </p>
         </header>
+        <div
+          class="mb-12 max-w-screen-lg prose prose-invert"
+          v-if="$slots.description"
+        >
+          <ContentSlot :use="$slots.description" />
+        </div>
 
-        <ul :class="smallOrBigClass">
+        <ul :class="smallOrBigClass" class="mt-4">
           <li v-for="video in list" :key="video._path" class="mb-4">
             <NuxtLink
               :to="`https://youtube.com/watch?v=${video.videoId}`"

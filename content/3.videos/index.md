@@ -31,6 +31,9 @@ folder: tim
 ---
 #title
 Personal Videos
+
+#description
+Tim's personal videos are all for his [YouTube channel](https://youtube.com/timbenniks), and cover a wide veriaty of tech-based topics. From [Tim Tries](https://www.youtube.com/playlist?list=PLcoeeDyxakhXyFLClseMeaM00AY2pQpry) to [Turbo Tutorials](https://www.youtube.com/watch?v=NPSe6yqQzKI&list=PLcoeeDyxakhUv802CBJ-aWCW7Md2aNk3n) to [interviews](https://www.youtube.com/playlist?list=PLcoeeDyxakhWftd_LrcIx6b9Hxe0HLQdW), and a lot of other types of videos..
 ::
 
 ::videos
@@ -42,6 +45,9 @@ folder: mp
 ---
 #title
 Middleware Productions Videos
+
+#description
+Middleware Productions Videos are all shot at conferences where [Marc](https://x.com/themarcba) and [Tim](https://x.com/timbenniks) move between back stage and the audience to create vlogs showign the vibe of the conference. Middleware Productions Videos are shot, cut, edited and produced on the same day. We shoot in the morning and the video is shown at the conference at the end of the day.
 ::
 
 ::videos
@@ -53,6 +59,9 @@ folder: hygraph
 ---
 #title
 Hygraph Videos
+
+#description
+Tim's Hygraph videos present a mix of thought leadership about Headless CMS, prouct feature explanations and the CMS Maverick series.
 ::
 
 ::videos
@@ -64,6 +73,9 @@ folder: uniform
 ---
 #title
 Uniform Videos
+
+#description
+Tim's Uniform videos present a mix of thought leadership about the DXC space, prouct feature explanations and tutorials.
 ::
 
 ::videos
@@ -75,4 +87,7 @@ folder: headless-creator
 ---
 #title
 Headless Creator Videos
+
+#description
+[Headless Creator](https://headlesscreator.com) is a learning platform for continuous learning focused on composable architectures and headless technologies. Tim made a series of videos about composable DXP, later named DXC.
 ::
