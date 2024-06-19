@@ -5,6 +5,40 @@ function parseHeroImage(imageUrl) {
   const decodedUrl = decodeURIComponent(imageUrl)
   return decodedUrl.split("https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/")[1]
 }
+
+const route = useRoute();
+
+const listItemElements = [
+  {
+    "@type": "ListItem",
+    position: 1,
+    name: "home",
+    item: "https://timbenniks.dev/",
+  },
+  {
+    "@type": "ListItem",
+    position: 2,
+    name: "writing",
+    item: `https://timbenniks.dev/writing`,
+  },
+  {
+    "@type": "ListItem",
+    position: 3,
+    name: route.params.slug[0].replaceAll("-", " "),
+    item: `https://timbenniks.dev/writing/${route.params.slug[0]}`,
+  },
+];
+
+useJsonld({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://timbenniks.dev/#breadcrumb",
+      itemListElement: listItemElements,
+    },
+  ],
+});
 </script>
 
 <template>

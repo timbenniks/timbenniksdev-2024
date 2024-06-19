@@ -42,6 +42,38 @@ const title = computed(() => {
   return result;
 });
 
+const listItemElements = [
+  {
+    "@type": "ListItem",
+    position: 1,
+    name: "home",
+    item: "https://timbenniks.dev/",
+  },
+  {
+    "@type": "ListItem",
+    position: 2,
+    name: "videos",
+    item: `https://timbenniks.dev/videos`,
+  },
+  {
+    "@type": "ListItem",
+    position: 3,
+    name: title.value,
+    item: `https://timbenniks.dev/videos/${route.params.slug[0]}`,
+  },
+];
+
+useJsonld({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://timbenniks.dev/#breadcrumb",
+      itemListElement: listItemElements,
+    },
+  ],
+});
+
 useSeoMeta({
   title: title.value,
   description: `video overview for ${title.value}`,

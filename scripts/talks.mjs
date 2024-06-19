@@ -13,7 +13,7 @@ function convertToMarkdown(jsonData) {
   return markdownContent;
 }
 
-async function getTakls() {
+async function getTalks() {
   const { data } = await ofetch(process.env.GQL_HOST, {
     method: "post",
     body: {
@@ -50,4 +50,4 @@ async function getTakls() {
   });
 }
 
-getTakls();
+getTalks();

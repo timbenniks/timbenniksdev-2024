@@ -43,26 +43,45 @@ useHead(() => ({
 }));
 
 useJsonld({
-  "@context": "http://schema.org",
-  "@type": "WebSite",
-  url: "https://timbenniks.dev",
-  name: "Tim Benniks: developer relations, video creator, speaker",
-  alternateName: "Tim Benniks",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://timbenniks.dev/",
+      url: "https://timbenniks.dev/",
+      name: "im Benniks: developer relations, video creator, speaker",
+      isPartOf: { "@id": "https://timbenniks.dev/#website" },
+      datePublished: "2024-02-06T17:30:30+00:00",
+      dateModified: "2024-06-18T14:07:56+00:00",
+      description:
+        "This is the personal website of Tim Benniks. This is where you can find my public speaking schedule and my videos.",
+      breadcrumb: { "@id": "https://timbenniks.dev/#breadcrumb" },
+      inLanguage: "en-US",
+      potentialAction: [
+        { "@type": "ReadAction", target: ["https://timbenniks.dev/"] },
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://timbenniks.dev/#website",
+      url: "https://timbenniks.dev/",
+      name: "Tim Benniks",
+      description:
+        "This is the personal website of Tim Benniks. This is where you can find my public speaking schedule and my videos.",
+      potentialAction: [
+        {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: "https://timbenniks.dev/?s={search_term_string}",
+          },
+          "query-input": "required name=search_term_string",
+        },
+      ],
+      inLanguage: "en-US",
+    },
+  ],
 });
-
-// useJsonld({
-//   "@context": "https://schema.org",
-//   "@type": "WebSite",
-//   url: "https://www.example.com/",
-//   potentialAction: {
-//     "@type": "SearchAction",
-//     target: {
-//       "@type": "EntryPoint",
-//       urlTemplate: "https://query.example.com/search?q={search_term_string}",
-//     },
-//     "query-input": "required name=search_term_string",
-//   },
-// });
 </script>
 <template>
   <main class="mx-auto max-w-[1400px] bg-[#1b1d39]">
