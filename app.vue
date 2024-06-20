@@ -93,7 +93,11 @@ useJsonld({
 
 <style lang="postcss">
 :root {
-  font-family: Lato;
+  font-family: Trebuchet MS;
+}
+
+.title {
+  font-family: "Lato";
 }
 
 a.router-link-exact-active {
