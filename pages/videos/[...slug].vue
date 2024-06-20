@@ -37,6 +37,10 @@ const title = computed(() => {
     case "uniform":
       result = "Uniform Videos";
       break;
+
+    case "headless-creator":
+      result = "Headless Creator";
+      break;
   }
 
   return result;
