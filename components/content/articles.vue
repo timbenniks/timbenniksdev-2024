@@ -45,6 +45,7 @@ const smallOrBigClass = computed(() => {
                 width="252"
                 height="142"
                 fit="cover"
+                loading="lazy"
               />
               <div>
                 <p class="font-bold text-xl line-clamp-2">
