@@ -38,12 +38,12 @@ const smallOrBigClass = computed(() => {
               <NuxtImg
                 provider="cloudinary"
                 :src="article.image"
-                sizes="sm:564px"
+                sizes="sm:252px"
                 :alt="article._path || ''"
                 class="mb-2 fancy-image"
                 :class="small ? 'w-full md:w-64' : 'w-full'"
-                width="564"
-                height="318"
+                width="252"
+                height="142"
                 fit="cover"
               />
               <div>
