@@ -1,4 +1,5 @@
 # Tim Benniks 2024 Nuxt content
 
 ## TODO:
-- copy
+- fetch priority hero image
+- speculation rules for chrome
