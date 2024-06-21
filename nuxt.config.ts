@@ -15,6 +15,10 @@ export default defineNuxtConfig({
     }
   },
 
+  features: {
+    noScripts: true
+  },
+
   fonts: {
     defaults: {
       weights: [400, 700, 900],
