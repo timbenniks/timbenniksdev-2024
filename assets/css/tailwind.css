@@ -16,12 +16,12 @@ a.home-button.router-link-exact-active {
   }
 
   :root {
-    font-family: Trebuchet MS;
+    font-family: "Lato";
   }
   
-  .title {
+  /* .title {
     font-family: "Lato";
-  }  
+  }   */
 
   img,
   video {
