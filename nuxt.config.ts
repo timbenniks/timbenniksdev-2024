@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     defaults: {
       weights: [400, 700, 900],
       styles: ['normal'],
-
+      subsets: ['latin', 'latin-ext']
     },
   },
 
