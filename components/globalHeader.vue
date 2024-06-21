@@ -26,7 +26,7 @@
 
     <nav
       id="nav"
-      class="absolute top-[93px] left-0 w-full z-50 lg:static bg-[#1b1d39] lg:bg-transparent"
+      class="absolute top-[91px] left-0 w-full z-50 lg:static bg-[#1b1d39] lg:bg-transparent"
     >
       <ContentNavigation v-slot="{ navigation }">
         <ul
