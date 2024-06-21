@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/nuxt";
+
 useHead({
   meta: [
     {
@@ -106,5 +108,6 @@ useJsonld({
     <globalHeader />
     <NuxtPage />
     <globalFooter />
+    <SpeedInsights />
   </main>
 </template>
