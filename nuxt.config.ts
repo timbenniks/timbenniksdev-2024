@@ -24,7 +24,10 @@ export default defineNuxtConfig({
     defaults: {
       weights: [400, 700, 900],
       styles: ['normal'],
-      subsets: ['latin', 'latin-ext']
+      subsets: ['latin', 'latin-ext'],
+      fallbacks: {
+        'sans-serif': ['Trebuchet MS']
+      }
     },
   },
 

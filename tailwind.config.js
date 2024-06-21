@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Lato"],
+        sans: ["Trebuchet MS"],
         title: ["Lato"],
       },
     },
