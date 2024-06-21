@@ -5,7 +5,7 @@
     <ul
       class="flex space-x-0 lg:space-x-8 justify-end items-center lg:items-baseline flex-col lg:flex-row"
     >
-      <li><tim /></li>
+      <li><tim class="w-[43px] h-[61px]" /></li>
     </ul>
 
     <ul class="flex flex-col lg:flex-row lg:mr-8 items-center">

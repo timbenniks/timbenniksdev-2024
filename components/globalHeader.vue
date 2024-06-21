@@ -7,7 +7,7 @@ function toggle() {
 </script>
 <template>
   <header
-    class="px-8 py-4 flex justify-between items-center sticky top-0 z-50 bg-[#1b1d39] lg:bg-opacity-80"
+    class="px-8 py-4 flex justify-between items-center sticky top-0 z-50 bg-[#1b1d39] lg:bg-opacity-80 h-[91px]"
   >
     <NuxtLink
       to="/"
@@ -16,7 +16,7 @@ function toggle() {
       aria-label="Homepage"
       @click="open = false"
     >
-      <tim />
+      <tim class="w-[43px] h-[61px]" />
     </NuxtLink>
 
     <button
@@ -39,6 +39,7 @@ function toggle() {
     </button>
 
     <nav
+      id="nav"
       :class="{ 'hidden lg:block': !open }"
       class="absolute top-[93px] left-0 w-full z-50 lg:static bg-[#1b1d39] lg:bg-transparent"
     >

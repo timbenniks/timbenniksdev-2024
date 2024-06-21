@@ -25,6 +25,10 @@ useHead({
       async: true,
       "data-domain": "timbenniks.dev",
     },
+    {
+      textContent: `document.getElementById('nav').onclick = () => el.classList.toggle('open')`,
+      tagPosition: "bodyClose",
+    },
   ],
 });
 
