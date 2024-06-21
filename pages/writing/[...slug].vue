@@ -55,6 +55,7 @@ useJsonld({
             fit="crop"
             loading="eager"
             sizes="sm:100vw"
+            fetchpriority="high"
           />
         </template>
       </hero>

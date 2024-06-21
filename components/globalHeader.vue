@@ -44,28 +44,3 @@
     </nav>
   </header>
 </template>
-
-<style lang="postcss" scoped>
-.nav-toggle.open {
-  transform: translateY(13px);
-}
-.nav-toggle.open .line-1 {
-  transform: rotate(45deg) translateY(0px);
-}
-
-.nav-toggle.open .line-2 {
-  opacity: 0;
-}
-
-.nav-toggle.open .line-3 {
-  transform: rotate(-45deg) translateY(0px);
-}
-
-#nav {
-  @apply hidden lg:block;
-}
-
-#nav.open {
-  @apply block;
-}
-</style>

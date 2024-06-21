@@ -108,21 +108,3 @@ useJsonld({
     <globalFooter />
   </main>
 </template>
-
-<style lang="postcss">
-:root {
-  font-family: Trebuchet MS;
-}
-
-.title {
-  font-family: "Lato";
-}
-
-a.router-link-exact-active {
-  @apply border-b-2 border-b-white;
-}
-
-a.home-button.router-link-exact-active {
-  @apply !border-none;
-}
-</style>

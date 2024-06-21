@@ -16,27 +16,3 @@
     </figure>
   </div>
 </template>
-
-<style lang="postcss">
-.media-grid {
-  @apply grid gap-8 grid-cols-1 md:grid-cols-[0.472fr_0.6fr] md:grid-rows-[1fr_1fr];
-}
-
-.media-1 {
-  @media (min-width: 768px) {
-    grid-area: 1/1/3/2;
-  }
-}
-
-.media-2 {
-  @media (min-width: 768px) {
-    grid-area: 1/2/2/3;
-  }
-}
-
-.media-3 {
-  @media (min-width: 768px) {
-    grid-area: 2/2/3/3;
-  }
-}
-</style>

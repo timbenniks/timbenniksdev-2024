@@ -78,11 +78,3 @@ function upcoming(date: string) {
     </ContentList>
   </div>
 </template>
-
-<style lang="postcss">
-.date-card {
-  @apply border-2;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
-}
-</style>
