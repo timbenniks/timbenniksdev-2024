@@ -22,12 +22,6 @@ useHead({
   },
   script: [
     {
-      src: "https://plausible.io/js/plausible.js",
-      defer: true,
-      async: true,
-      "data-domain": "timbenniks.dev",
-    },
-    {
       innerHTML: `
         document.querySelector('.nav-toggle').addEventListener('click', () => {
           document.getElementById('nav').classList.toggle('open');
