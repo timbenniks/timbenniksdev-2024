@@ -42,10 +42,13 @@ export default defineNuxtSchema({
                 type: 'string',
                 description: 'Company of the timeline event',
               }),
-
               location: field({
                 type: 'string',
                 description: 'Location'
+              }),
+              url: field({
+                type: 'string',
+                description: 'Link to company'
               })
             },
           },
