@@ -16,5 +16,36 @@ export default defineNuxtSchema({
         })
       }
     }),
+    timeline: group({
+      title: 'Timeline',
+      description: 'Career Timeline.',
+      icon: 'i-mdi-page-layout-footer',
+      fields: {
+        items: field({
+          type: 'array',
+          items: {
+            type: 'object',
+            fields: {
+              date: field({
+                type: 'string',
+                description: 'The date of the timeline event',
+              }),
+              title: field({
+                type: 'string',
+                description: 'The title of the timeline event',
+              }),
+              text: field({
+                type: 'string',
+                description: 'Description or details of the timeline event',
+              }),
+              image: field({
+                type: 'string',
+                description: 'URL of the image associated with the timeline event',
+              }),
+            },
+          },
+        }),
+      },
+    })
   }
 })
