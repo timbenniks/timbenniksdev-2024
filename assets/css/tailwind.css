@@ -50,6 +50,11 @@ a.home-button.router-link-exact-active {
     @apply text-3xl md:text-7xl;
   }
 
+  .text-fancy-bg {
+    @apply font-title text-white uppercase font-black py-2 px-3;
+    background: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%);
+  }
+
   header {
     backdrop-filter: blur(6px);
   }

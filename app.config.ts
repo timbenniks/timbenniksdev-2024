@@ -23,29 +23,89 @@ export default defineAppConfig({
   timeline: {
     items: [
       {
-        date: '2020-01-01',
-        title: 'Started New Job',
-        text: 'Joined the company as a junior developer.',
-        image: 'https://example.com/images/job-start.jpg',
+        "daterange": "August 2023 - Present",
+        "text": "",
+        "company": "Hygraph",
+        "title": "Developer Relations Lead for Outreach and Awareness",
+        "location": "Remote"
       },
       {
-        date: '2021-06-15',
-        title: 'Promotion to Mid-Level Developer',
-        text: 'Promoted to mid-level developer after a year of excellent performance.',
-        image: 'https://example.com/images/promotion.jpg',
+        "daterange": "March 2021 - Present",
+        "text": "",
+        "company": "MACH Alliance",
+        "title": "Member of Tech Council",
+        "location": "Remote"
       },
       {
-        date: '2022-11-30',
-        title: 'Completed Major Project',
-        text: 'Successfully led the development of a major project that increased company revenue by 20%.',
-        image: 'https://example.com/images/project-completion.jpg',
+        "daterange": "January 2023 - August 2023",
+        "text": "",
+        "company": "Uniform",
+        "title": "Director of Developer Relations",
+        "location": "Greater Toulouse Metropolitan Area, Remote"
       },
       {
-        date: '2023-05-20',
-        title: 'Attended Tech Conference',
-        text: 'Represented the company at a major tech conference and gave a talk on modern web development.',
-        image: 'https://example.com/images/conference.jpg',
+        "daterange": "February 2021 - January 2023",
+        "text": "Joined Uniform as Principal Developer Advocate. Developer Relations, defining the perception of Uniform to technical people in the community of developers, partners, and customers. Setting up processes, KPIs, and their measurement, creating content (written and video) around DXC, and speaking at conferences.",
+        "company": "Uniform",
+        "title": "Principal Developer Advocate",
+        "location": "France"
       },
+      {
+        "daterange": "March 2018 - February 2021",
+        "text": "Served as Director of Web Development at Valtech. A global role representing front-end developers across Valtech. Setting up best practices around team management, pitching, and use of MACH technology. Helping Global clients to achieve digital transformation at scale. Clients include: P&G, Rolex, LVMH",
+        "company": "Valtech",
+        "title": "Director of Web Development",
+        "location": "Paris Area, France"
+      },
+      {
+        "daterange": "April 2017 - January 2020",
+        "text": "Global front-end lead on the website factory program for L'Oréal. Leading teams in France, US and Ukraine. In charge of code quality across projects, front-end architecture, tech stack decisions. Brands: Kerastase, Garnier, Redken, Essie, L'Oréal Paris, La Roche Posay, Vichy.",
+        "company": "Valtech",
+        "title": "Global Front-End Lead",
+        "location": "Paris Area, France"
+      },
+      {
+        "daterange": "April 2015 - April 2017",
+        "text": "Served as Technical Delivery Manager at AKQA. Dividing time between being tech lead and developer. Streamlining client processes and decision making with creative innovation, tech limitations and client goals in mind. Clients: Chanel, Hermès, Google, Nike.",
+        "company": "AKQA",
+        "title": "Technical Delivery Manager",
+        "location": "Paris Area, France"
+      },
+      {
+        "daterange": "March 2014 - April 2015",
+        "text": "Served as Principal Web Developer at AKQA. Leading the tech team on a content level, presenting to peers, guiding juniors and interns and working closely with external tech partners. Clients: Chanel, Hermès, Red Bull, Martell, Google, Nike",
+        "company": "AKQA",
+        "title": "Principal Web Developer",
+        "location": "Paris Area, France"
+      },
+      {
+        "daterange": "January 2011 - March 2014",
+        "text": "Served as Senior Web Developer at AKQA. Worked on front-end architecture for big multi-market platforms and through the line campaigns. Clients: Heineken, Tommy Hilfiger, Mini, Nike, EA Sports, Philips.",
+        "company": "AKQA",
+        "title": "Senior Web Developer",
+        "location": "Amsterdam Area, Netherlands"
+      },
+      {
+        "daterange": "May 2010 - December 2010",
+        "text": "Served as Front-End Developer at Mirabeau. Worked closely with the backend developers. Clients: Transavia.com, AutoTrader, VUmc, Nutricia, Stadgenoot, KLM, RDC.",
+        "company": "Mirabeau",
+        "title": "Front-End Developer",
+        "location": "Netherlands"
+      },
+      {
+        "daterange": "January 2010 - May 2010",
+        "text": "Served as Team Lead Front-End Development at Mediamatic. Responsible for the quality assurance of code, meeting deadlines, and handling resourcing.",
+        "company": "Mediamatic",
+        "title": "Team Lead Front-End Development",
+        "location": "Amsterdam"
+      },
+      {
+        "daterange": "January 2008 - January 2010",
+        "text": "Served as Front-End Engineer at Mediamatic. Responsible for the overall look and feel of websites built with the anyMeta CMS. Clients: Picnic, Pakhuis de Zwijger, Women INC, Mediamatic.net, Mediamatic Travel, Museum de Paviljoens.",
+        "company": "Mediamatic",
+        "title": "Front-End Engineer",
+        "location": "Amsterdam"
+      }
     ]
   }
 })

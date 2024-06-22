@@ -26,7 +26,7 @@ export default defineNuxtSchema({
           items: {
             type: 'object',
             fields: {
-              date: field({
+              daterange: field({
                 type: 'string',
                 description: 'The date of the timeline event',
               }),
@@ -38,10 +38,15 @@ export default defineNuxtSchema({
                 type: 'string',
                 description: 'Description or details of the timeline event',
               }),
-              image: field({
+              company: field({
                 type: 'string',
-                description: 'URL of the image associated with the timeline event',
+                description: 'Company of the timeline event',
               }),
+
+              location: field({
+                type: 'string',
+                description: 'Location'
+              })
             },
           },
         }),
