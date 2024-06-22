@@ -3,10 +3,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     "@nuxtjs/tailwindcss",
-    "@nuxt/fonts",
     "@nuxt/image",
     "@nuxthq/studio",
-    "nuxt-jsonld"
+    "nuxt-jsonld",
+    "@nuxt/fonts",
+    "@nuxtjs/fontaine"
   ],
 
   nitro: {
