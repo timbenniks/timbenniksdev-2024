@@ -32,7 +32,7 @@ useHead({
       innerHTML: `
         {
           "prerender": [{
-            "urls": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking"]
+            "urls": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
           }]
         }
       `,
@@ -56,6 +56,7 @@ useHead({
 
 useSeoMeta({
   googleSiteVerification: "hif_cn9hF2RVSnTq5HwjSkKrXqJT9Q6BR_FaBBmr-20",
+  titleTemplate: "%s - Tim Benniks",
 });
 
 const route = useRoute();
