@@ -16,7 +16,7 @@ export default defineNuxtConfig({
   },
 
   features: {
-    noScripts: false,
+    noScripts: true,
     inlineStyles: true
   },
 

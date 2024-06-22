@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { SpeedInsights } from "@vercel/speed-insights/nuxt";
-
 useHead({
   meta: [
     {
@@ -39,6 +37,20 @@ useHead({
         }
       `,
     },
+    {
+      defer: true,
+      src: "/_vercel/speed-insights/script.js",
+    },
+    {
+      defer: true,
+      src: "/_vercel/insights/script.js",
+    },
+    {
+      innerHTML: `
+        window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      `,
+    },
   ],
 });
 
@@ -63,7 +75,7 @@ useJsonld({
       "@type": "WebPage",
       "@id": "https://timbenniks.dev/",
       url: "https://timbenniks.dev/",
-      name: "im Benniks: developer relations, video creator, speaker",
+      name: "Tim Benniks: developer relations, content creator, speaker",
       isPartOf: { "@id": "https://timbenniks.dev/#website" },
       datePublished: "2024-02-06T17:30:30+00:00",
       dateModified: "2024-06-18T14:07:56+00:00",
@@ -102,6 +114,5 @@ useJsonld({
     <globalHeader />
     <NuxtPage />
     <globalFooter />
-    <SpeedInsights />
   </main>
 </template>
