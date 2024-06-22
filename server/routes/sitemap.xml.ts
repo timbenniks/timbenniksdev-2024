@@ -30,6 +30,7 @@ export default defineEventHandler(async (event) => {
     '/alive-and-kicking',
     '/speaking',
     '/videos',
+    '/uses'
   ]
 
   urls.push(...writing)
