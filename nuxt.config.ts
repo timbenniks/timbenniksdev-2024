@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxthq/studio",
     "nuxt-jsonld",
     "@nuxt/fonts",
-    "@nuxtjs/fontaine"
   ],
 
   nitro: {
@@ -17,6 +16,7 @@ export default defineNuxtConfig({
   },
 
   features: {
+    // turn on for editing in nuxt.studio
     noScripts: process.env.NO_SCRIPTS === "true" ? true : false,
     inlineStyles: true
   },
