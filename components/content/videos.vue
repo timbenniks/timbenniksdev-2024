@@ -51,12 +51,12 @@ const smallOrBigClass = computed(() => {
               <NuxtImg
                 provider="cloudinary"
                 :src="video.image"
-                sizes="sm:252px"
                 :alt="video._path || ''"
                 class="mb-2 fancy-image"
                 :class="small ? 'w-full md:w-64' : 'w-full'"
-                width="252"
-                height="142"
+                sizes="sm:350px"
+                width="350"
+                height="197"
                 loading="lazy"
               />
               <div>
