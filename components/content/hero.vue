@@ -23,7 +23,7 @@ const heroclass = computed(() => {
 
     <article
       v-if="$slots.title || $slots.description"
-      class="md:absolute top-2/4 mdL-translate-y-2/4 left-16 mt-4 md:mt-0 px-4 md:px-0"
+      class="md:absolute top-2/4 md:-translate-y-2/4 left-16 mt-4 md:mt-0 px-4 md:px-0"
     >
       <component
         :is="titletag"
@@ -40,6 +40,9 @@ const heroclass = computed(() => {
       >
         <ContentSlot unwrap="p" :use="$slots.description" />
       </component>
+      <div class="mt-4 flex space-x-4" v-if="$slots.ctas">
+        <ContentSlot unwrap="p" :use="$slots.ctas" />
+      </div>
     </article>
   </div>
 </template>

@@ -55,6 +55,12 @@ a.home-button.router-link-exact-active {
     background: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%);
   }
 
+  .cta {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
+    @apply font-title bg-black border-2 px-4 py-2 uppercase font-black text-white text-center underline;
+  }
+
   header {
     backdrop-filter: blur(6px);
   }
@@ -97,6 +103,7 @@ a.home-button.router-link-exact-active {
   .nav-toggle.open {
     transform: translateY(13px);
   }
+
   .nav-toggle.open .line-1 {
     transform: rotate(45deg) translateY(0px);
   }
@@ -118,7 +125,7 @@ a.home-button.router-link-exact-active {
   }
 
   .date-card {
-    @apply border-2;
+    @apply border-2 font-title;
     border-image-slice: 1;
     border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
   }
