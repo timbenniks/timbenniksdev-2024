@@ -33,7 +33,7 @@ folder: tim
 Personal Videos
 
 #description
-Tim's personal videos are all for his [YouTube channel](https://youtube.com/timbenniks), and cover a wide veriaty of tech-based topics. From [Tim Tries](https://www.youtube.com/playlist?list=PLcoeeDyxakhXyFLClseMeaM00AY2pQpry) to [Turbo Tutorials](https://www.youtube.com/watch?v=NPSe6yqQzKI&list=PLcoeeDyxakhUv802CBJ-aWCW7Md2aNk3n) to [interviews](https://www.youtube.com/playlist?list=PLcoeeDyxakhWftd_LrcIx6b9Hxe0HLQdW), and a lot of other types of videos..
+Tim's personal videos are all for his [YouTube channel](https://youtube.com/timbenniks), and cover a wide veriaty of tech-based topics. From [Tim Tries](https://www.youtube.com/playlist?list=PLcoeeDyxakhXyFLClseMeaM00AY2pQpry) to [Turbo Tutorials](https://www.youtube.com/watch?v=NPSe6yqQzKI&list=PLcoeeDyxakhUv802CBJ-aWCW7Md2aNk3n) to [interviews](https://www.youtube.com/playlist?list=PLcoeeDyxakhWftd_LrcIx6b9Hxe0HLQdW), and a lot of other types of videos.
 ::
 
 ::videos
