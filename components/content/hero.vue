@@ -11,10 +11,18 @@ const props = defineProps({
     type: String,
     default: "h2",
   },
+  right: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const heroclass = computed(() => {
   return props.smallertitle ? "text-3xl md:text-5xl" : "text-3xl md:text-7xl";
+});
+
+const alignmentClass = computed(() => {
+  return props.right ? "right-16 text-right	" : "left-16";
 });
 </script>
 <template>
@@ -23,7 +31,8 @@ const heroclass = computed(() => {
 
     <article
       v-if="$slots.title || $slots.description"
-      class="md:absolute top-2/4 md:-translate-y-2/4 left-16 mt-4 md:mt-0 px-4 md:px-0"
+      class="md:absolute top-2/4 md:-translate-y-2/4 mt-4 md:mt-0 px-4 md:px-0"
+      :class="alignmentClass"
     >
       <component
         :is="titletag"
@@ -40,7 +49,11 @@ const heroclass = computed(() => {
       >
         <ContentSlot unwrap="p" :use="$slots.description" />
       </component>
-      <div class="mt-4 flex space-x-4" v-if="$slots.ctas">
+      <div
+        class="mt-4 flex space-x-4"
+        :class="right ? 'justify-end' : 'justify-start'"
+        v-if="$slots.ctas"
+      >
         <ContentSlot unwrap="p" :use="$slots.ctas" />
       </div>
     </article>
