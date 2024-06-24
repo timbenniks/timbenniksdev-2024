@@ -22,7 +22,7 @@ const heroclass = computed(() => {
 });
 
 const alignmentClass = computed(() => {
-  return props.right ? "right-16 text-right	" : "left-16";
+  return props.right ? "right-16 lg:text-right	" : "left-16";
 });
 </script>
 <template>
@@ -51,7 +51,7 @@ const alignmentClass = computed(() => {
       </component>
       <div
         class="mt-4 flex space-x-4"
-        :class="right ? 'justify-end' : 'justify-start'"
+        :class="right ? 'justify-start lg:justify-end' : 'justify-start'"
         v-if="$slots.ctas"
       >
         <ContentSlot unwrap="p" :use="$slots.ctas" />
