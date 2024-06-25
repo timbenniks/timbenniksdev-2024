@@ -32,7 +32,7 @@ useHead({
       innerHTML: `
         {
           "prerender": [{
-            "urls": ["/", "/about", "/videos", "/alive-and-kicking"]
+            "URLs": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
           }]
         }
       `,
