@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const cfg = useRuntimeConfig();
+
 useHead({
   meta: [
     {
@@ -41,19 +43,17 @@ useHead({
       defer: true,
       src: "/_vercel/speed-insights/script.js",
     },
-    // {
-    //   defer: true,
-    //   src: "/_vercel/insights/script.js",
-    // },
-    // {
-    //   innerHTML: `
-    //     window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-    //     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-    //   `,
-    // },
+    {
+      defer: true,
+      src:
+        cfg.app.env !== "production"
+          ? "https://cdn.vercel-insights.com/v1/script.debug.js"
+          : "/_vercel/insights/script.debug.js",
+    },
     {
       innerHTML: `
-        window.si = window.si || function () { (window.siq = window.siq || []).push(arguments) }
+        window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
       `,
     },
   ],
