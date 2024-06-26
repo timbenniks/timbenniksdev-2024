@@ -1,6 +1,8 @@
 <script setup lang="ts">
 const cfg = useRuntimeConfig();
 
+const env = process.env.NODE_ENV;
+
 useHead({
   meta: [
     {
@@ -46,9 +48,9 @@ useHead({
     {
       defer: true,
       src:
-        cfg.app.env !== "production"
+        env == "development"
           ? "https://cdn.vercel-insights.com/v1/script.debug.js"
-          : "/_vercel/insights/script.debug.js",
+          : "/_vercel/insights/script.js",
     },
     {
       innerHTML: `
