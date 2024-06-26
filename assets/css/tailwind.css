@@ -58,7 +58,7 @@ a.home-button.router-link-exact-active {
   .cta {
     border-image-slice: 1;
     border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
-    @apply font-title bg-black border-2 px-4 py-2 uppercase font-black text-white text-center underline;
+    @apply bg-black text-sm border-2 px-4 py-2 uppercase font-black text-white text-center underline;
   }
 
   header {
