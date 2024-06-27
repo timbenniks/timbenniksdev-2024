@@ -15,6 +15,10 @@ export default defineNuxtConfig({
     }
   },
 
+  // routeRules: {
+  //   '/**': { isr: true }
+  // },
+
   features: {
     // turn on for editing in nuxt.studio
     noScripts: process.env.NO_SCRIPTS === "true" ? true : false,
