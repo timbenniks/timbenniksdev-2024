@@ -1,4 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const open = ref(false);
+
+function toggle() {
+  open.value = !open.value;
+}
+</script>
 <template>
   <header
     class="px-8 py-4 flex justify-between items-center sticky top-0 z-50 bg-[#1b1d39] lg:bg-opacity-80 h-[91px]"
@@ -8,6 +14,8 @@
     </NuxtLink>
 
     <button
+      @click="toggle()"
+      :class="open ? 'open' : ''"
       class="nav-toggle z-[60] absolute top-8 right-8 w-8 h-8 lg:hidden transform transition duration-500 ease-in-out"
     >
       <span class="sr-only">Open main menu</span>
@@ -26,6 +34,7 @@
 
     <nav
       id="nav"
+      :class="{ 'hidden lg:block': !open }"
       class="absolute top-[91px] left-0 w-full z-50 lg:static bg-[#1b1d39] lg:bg-transparent"
     >
       <ContentNavigation v-slot="{ navigation }">

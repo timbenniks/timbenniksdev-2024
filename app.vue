@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const cfg = useRuntimeConfig();
-
 const env = process.env.NODE_ENV;
 
 useHead({
@@ -23,24 +21,24 @@ useHead({
     lang: "en",
   },
   script: [
-    {
-      innerHTML: `
-        document.querySelector('.nav-toggle').addEventListener('click', () => {
-          document.getElementById('nav').classList.toggle('open');
-          document.querySelector('.nav-toggle').classList.toggle('open');
-        });`,
-      tagPosition: "bodyClose",
-    },
-    {
-      type: "speculationrules",
-      innerHTML: `
-        {
-          "prerender": [{
-            "URLs": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
-          }]
-        }
-      `,
-    },
+    // {
+    //   innerHTML: `
+    //     document.querySelector('.nav-toggle').addEventListener('click', () => {
+    //       document.getElementById('nav').classList.toggle('open');
+    //       document.querySelector('.nav-toggle').classList.toggle('open');
+    //     });`,
+    //   tagPosition: "bodyClose",
+    // },
+    // {
+    //   type: "speculationrules",
+    //   innerHTML: `
+    //     {
+    //       "prerender": [{
+    //         "URLs": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
+    //       }]
+    //     }
+    //   `,
+    // },
     {
       defer: true,
       src: "/_vercel/speed-insights/script.js",

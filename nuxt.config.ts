@@ -9,30 +9,19 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
   ],
 
-  nitro: {
-    prerender: {
-      routes: ['/sitemap.xml']
-    }
-  },
-
-  // routeRules: {
-  //   '/**': { isr: true }
+  // nitro: {
+  //   prerender: {
+  //     routes: ['/sitemap.xml']
+  //   }
   // },
 
-  features: {
-    // turn on for editing in nuxt.studio
-    noScripts: process.env.NO_SCRIPTS === "true" ? true : false,
-    inlineStyles: true
+  routeRules: {
+    '/**': { isr: 600 }
   },
 
   fonts: {
     defaults: {
       weights: [400, 700, 900],
-      styles: ['normal'],
-      subsets: ['latin', 'latin-ext'],
-      fallbacks: {
-        'sans-serif': ['Trebuchet MS']
-      }
     },
   },
 
