@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const env = process.env.NODE_ENV;
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 
 useHead({
   meta: [
@@ -20,43 +20,6 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  script: [
-    // {
-    //   innerHTML: `
-    //     document.querySelector('.nav-toggle').addEventListener('click', () => {
-    //       document.getElementById('nav').classList.toggle('open');
-    //       document.querySelector('.nav-toggle').classList.toggle('open');
-    //     });`,
-    //   tagPosition: "bodyClose",
-    // },
-    // {
-    //   type: "speculationrules",
-    //   innerHTML: `
-    //     {
-    //       "prerender": [{
-    //         "URLs": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
-    //       }]
-    //     }
-    //   `,
-    // },
-    {
-      defer: true,
-      src: "/_vercel/speed-insights/script.js",
-    },
-    {
-      defer: true,
-      src:
-        env == "development"
-          ? "https://cdn.vercel-insights.com/v1/script.debug.js"
-          : "/_vercel/insights/script.js",
-    },
-    {
-      innerHTML: `
-        window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-      `,
-    },
-  ],
 });
 
 useSeoMeta({
@@ -120,5 +83,6 @@ useJsonld({
     <globalHeader />
     <NuxtPage />
     <globalFooter />
+    <SpeedInsights />
   </main>
 </template>
