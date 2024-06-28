@@ -36,7 +36,7 @@ This approach keeps your front-end code clean and straightforward. Your website 
 
 On the flip side, code-first visual editors take a minimalist approach. They don't store any data themselves; instead, they provide the tools for visual editing while leaving data management to your front-end code.
 
-#### How It Works:
+#### How it works:
 
 *   Your front-end code establishes connections to data sources.
 *   The visual editor uses these connections through configurations in your codebase.
