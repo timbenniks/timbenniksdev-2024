@@ -66,7 +66,7 @@ This method gives you full control over your data and keeps your website indepen
 *   Your website remains functional with or without the visual editor.
 *   You maintain complete control over your data and how it's managed.
 
-Cons:
+**Cons:**
 
 *   Due to not storing any data, the lack of on-platform features can limit your editing capabilities.
 *   Front-end code becomes more complex, requiring a skilled technical team.
