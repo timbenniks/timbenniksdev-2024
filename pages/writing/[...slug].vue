@@ -44,34 +44,29 @@ useJsonld({
 <template>
   <div class="p-8 md:p-0 md:pb-12">
     <ContentDoc v-slot="{ doc }">
-      <hero class="hidden md:block">
-        <template v-slot:image>
-          <NuxtImg
-            provider="cloudinary"
-            :src="parseHeroImage(doc.image)"
-            :alt="doc.title"
-            width="1440"
-            height="230"
-            fit="crop"
-            loading="eager"
-            sizes="sm:100vw"
-            fetchpriority="high"
-          />
-        </template>
-      </hero>
-
       <article
         class="prose prose-invert prose-xl max-w-screen-lg mx-auto prose-headings:font-bold"
       >
         <h1 class="font-bold mb-4">{{ doc.title }}</h1>
         <p class="text-sm">
           {{ format(new Date(doc.date), "MMM dd, yyyy") }}
-          <span v-if="doc.canonical_url">at</span>
+          <span v-if="doc.canonical_url">at </span>
           <a :href="doc.canonical_url" target="_blank">{{
             doc.canonical_url
           }}</a>
         </p>
 
+        <NuxtImg
+          provider="cloudinary"
+          :src="parseHeroImage(doc.image)"
+          :alt="doc.title"
+          width="1440"
+          height="710"
+          fit="cover"
+          loading="eager"
+          sizes="sm:100vw"
+          fetchpriority="high"
+        />
         <ContentRenderer :value="doc" />
       </article>
     </ContentDoc>
