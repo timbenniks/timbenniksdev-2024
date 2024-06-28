@@ -65,7 +65,8 @@ useJsonld({
       >
         <h1 class="font-bold mb-4">{{ doc.title }}</h1>
         <p class="text-sm">
-          {{ format(new Date(doc.date), "MMM dd, yyyy") }} at
+          {{ format(new Date(doc.date), "MMM dd, yyyy") }}
+          <span v-if="doc.canonical_url">at</span>
           <a :href="doc.canonical_url" target="_blank">{{
             doc.canonical_url
           }}</a>
