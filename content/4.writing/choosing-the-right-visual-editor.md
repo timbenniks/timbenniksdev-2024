@@ -6,7 +6,7 @@ description: "This post explores two main types of visual editors: platform-firs
 date: "2024-06-28T13:05:48Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/poster.png"
 canonical_url: ""
-tags: ["architecture","dxp","dxc","composable",]
+tags: ["architecture","dxp","dxc","composable"]
 ---
 
 Visual editors in or outside CMS are gaining traction for their intuitive interfaces and powerful features. However, not all visual editors are created equal. Today, I want to discuss the two main types of visual editors and their respective pros and cons to help you make an informed decision about your development needs.

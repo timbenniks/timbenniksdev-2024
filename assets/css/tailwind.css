@@ -18,10 +18,10 @@ a.home-button.router-link-exact-active {
   :root {
     font-family: "Trebuchet MS";
   }
-  
+
   .title {
     font-family: "Lato";
-  }  
+  }
 
   img,
   video {
@@ -39,7 +39,12 @@ a.home-button.router-link-exact-active {
 
   .title {
     @apply font-title text-3xl md:text-3xl text-white uppercase font-black py-2 px-3;
-    background: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%);
+    background: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
+  }
+
+  .tag {
+    @apply text-white uppercase font-black text-xs py-1 px-2 rounded-sm;
+    background: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
   }
 
   .page-title {
@@ -52,12 +57,16 @@ a.home-button.router-link-exact-active {
 
   .text-fancy-bg {
     @apply font-title text-white uppercase font-black py-2 px-3;
-    background: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%);
+    background: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
   }
 
   .cta {
     border-image-slice: 1;
-    border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
+    border-image-source: linear-gradient(
+      89.87deg,
+      #256ad1 7.57%,
+      #d1258c 95.58%
+    );
     @apply bg-black text-sm border-2 px-4 py-2 uppercase font-black text-white text-center underline;
   }
 
@@ -65,32 +74,36 @@ a.home-button.router-link-exact-active {
     backdrop-filter: blur(6px);
   }
 
+  .fancy-image-alt {
+    @apply border-2;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+      89.87deg,
+      #256ad1 7.57%,
+      #d1258c 95.58%
+    );
+  }
+
   .fancy-image {
     border: 2px solid;
-    border-image: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%) 8;
-    mask: 
-      conic-gradient(
-        from 180deg at top 2px right 2px, #000 90deg,#000 0)
+    border-image: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%) 8;
+    mask: conic-gradient(from 180deg at top 2px right 2px, #000 90deg, #000 0)
         var(--amount, 200%) 0 / 200% var(--amount, 2px) border-box no-repeat,
-
-      conic-gradient(at bottom 2px left  2px,  #000 90deg,#000 0)
-       0 var(--amount, 200%) / var(--amount, 2px) 200% border-box no-repeat,
-      
-       linear-gradient(#000 0 0) padding-box no-repeat;
-    transition: .3s, 
-    mask-position .3s .3s;
+      conic-gradient(at bottom 2px left 2px, #000 90deg, #000 0) 0
+        var(--amount, 200%) / var(--amount, 2px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: 0.3s, mask-position 0.3s 0.3s;
   }
 
   .fancy-image:hover,
   a:hover .fancy-image {
     --amount: 100%;
-    color: #CC333F;
-    transition: .3s, 
-    mask-size .3s .3s;
+    color: #cc333f;
+    transition: 0.3s, mask-size 0.3s 0.3s;
   }
 
   .flowing-title {
-    background: linear-gradient(89.87deg, #256AD1 7.57%, #D1258C 95.58%);
+    background: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -107,19 +120,19 @@ a.home-button.router-link-exact-active {
   .nav-toggle.open .line-1 {
     transform: rotate(45deg) translateY(0px);
   }
-  
+
   .nav-toggle.open .line-2 {
     opacity: 0;
   }
-  
+
   .nav-toggle.open .line-3 {
     transform: rotate(-45deg) translateY(0px);
   }
-  
+
   #nav {
     @apply hidden lg:block;
   }
-  
+
   #nav.open {
     @apply block;
   }
@@ -127,30 +140,32 @@ a.home-button.router-link-exact-active {
   .date-card {
     @apply border-2 font-title;
     border-image-slice: 1;
-    border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
+    border-image-source: linear-gradient(
+      89.87deg,
+      #256ad1 7.57%,
+      #d1258c 95.58%
+    );
   }
 
   .media-grid {
     @apply grid gap-8 grid-cols-1 md:grid-cols-[0.472fr_0.6fr] md:grid-rows-[1fr_1fr];
   }
-  
+
   .media-1 {
     @media (min-width: 768px) {
       grid-area: 1/1/3/2;
     }
   }
-  
+
   .media-2 {
     @media (min-width: 768px) {
       grid-area: 1/2/2/3;
     }
   }
-  
+
   .media-3 {
     @media (min-width: 768px) {
       grid-area: 2/2/3/3;
     }
   }
 }
-
-
