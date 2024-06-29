@@ -18,6 +18,34 @@ const smallOrBigClass = computed(() => {
     ? "grid grid-cols-1 md:grid-cols-1 gap-6"
     : "grid grid-cols-1 md:grid-cols-3 gap-6";
 });
+
+function parseImage(imageUrl: string) {
+  const decodedUrl = decodeURIComponent(imageUrl);
+
+  const parsedImage = decodedUrl.split(
+    "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/"
+  )[1];
+
+  let url = "";
+  let provider = "";
+
+  if (parsedImage.includes("cloudinary")) {
+    const id = parsedImage.split(
+      "https://res.cloudinary.com/dwfcofnrd/image/upload/"
+    )[1];
+
+    provider = "cloudinaryNative";
+    url = id;
+  } else {
+    provider = "cloudinaryFetch";
+    url = parsedImage;
+  }
+
+  return {
+    url,
+    provider,
+  };
+}
 </script>
 
 <template>
@@ -36,8 +64,8 @@ const smallOrBigClass = computed(() => {
               :class="small ? 'md:flex-row md:space-x-4' : 'flex-col'"
             >
               <NuxtImg
-                provider="cloudinary"
-                :src="article.image"
+                :provider="parseImage(article.image).provider"
+                :src="parseImage(article.image).url"
                 :alt="article._path || ''"
                 class="mb-2 fancy-image"
                 :class="small ? 'w-full md:w-64' : 'w-full'"
@@ -45,8 +73,9 @@ const smallOrBigClass = computed(() => {
                 width="350"
                 height="197"
                 loading="lazy"
-                fit="cover"
+                fit="thumbnail"
               />
+
               <div>
                 <p class="font-bold text-xl line-clamp-2">
                   {{ article.title }}

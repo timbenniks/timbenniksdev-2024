@@ -62,7 +62,7 @@ I call that approach compostable architecture.
 
 We’re seeing a couple of patterns over and over again.
 
-![MACH Monolith](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fp3gnzgd3unj8tbvru3c.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![MACH Monolith](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fp3gnzgd3unj8tbvru3c.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 If the separation of concerns is not respected, software vendors create an indivisible and interconnected bundle of best-of-breed tools—a complicated scenario that makes it tough to discern what’s connected to what, not to mention that you have created your very own vendor lock-in. Things work in only one way, and only the original build team understands how they work. Onboarding of new team members becomes complicated and burdensome, leading to frustration among developers.
 

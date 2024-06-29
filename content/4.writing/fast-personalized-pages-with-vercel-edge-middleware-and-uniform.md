@@ -34,7 +34,7 @@ By eliminating the origin server that is typically far away from end-users and b
 
 The above approach to personalization is how Uniform Context works. Combining Edge Middleware rendering of personalized content with JavaScript hydration for subsequent page loads renders highly dynamic pages within ~50 milliseconds only. The approach is to initially render all the pages statically (SSG/Jamstack) and ensure that the Edge Middleware knows which parts it can personalize. While serving a page, the Edge Middleware checks if personalization is needed and, if so, fills the identified components with the correct personalized content.
 
-![uniform-vercel-edge-middleware](https://images.ctfassets.net/9ku1oyd4k3wo/4lvoQsz6WNCbJXIWQVQJSI/b36e13c87c86ca668fea6adf3da2b078/uniform-vercel-edge-middleware.svg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
+![uniform-vercel-edge-middleware](https://images.ctfassets.net/9ku1oyd4k3wo/4lvoQsz6WNCbJXIWQVQJSI/b36e13c87c86ca668fea6adf3da2b078/uniform-vercel-edge-middleware.svg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
 
 Another benefit of the Vercel edge is that at the edge level, the CDN knows a lot about the end-users: their location, city, device, browser version, etc. Thus, Uniform Context can prepersonalize pages with Edge Middleware according to the location or device information from the Vercel CDN.
 

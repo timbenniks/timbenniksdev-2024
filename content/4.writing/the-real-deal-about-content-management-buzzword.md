@@ -29,7 +29,7 @@ Essentially, MACH is a collection of tech approaches with specific tendencies pu
 - **Cloud-native** means that the architecture is designed to take advantage of the cloud, such as scalability, elasticity, and pay-as-you-go pricing.
 - **Headless** means that the front-end presentation is decoupled from the back-end logic. This makes it possible to use different front-end technologies without changing the back-end.
 
-![mach](https://media.graphassets.com/jZfjXdJMSGTG1gLrwGQQ){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![mach](https://media.graphassets.com/jZfjXdJMSGTG1gLrwGQQ){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ## Composable
 
@@ -39,7 +39,7 @@ While solving problems of rigid all-in-one solutions, composable architecture ca
 
 Overall, composable architecture represents an architectural philosophy of modularity and flexibility in contrast to traditional monolithic digital solutions.
 
-![composable](https://media.graphassets.com/D2oCAxwTpuhKfZ5xwEB0){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![composable](https://media.graphassets.com/D2oCAxwTpuhKfZ5xwEB0){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ## DXP (Digital Experience Platform)
 
@@ -47,7 +47,7 @@ A [digital experience platform (DXP)](https://hygraph.com/blog/what-is-a-dxp) is
 
 Typically, a DXP is delivered as a monolithic piece of software by a single vendor. While modern DXPs may offer some composability, their components are usually proprietary to the vendor. This can limit flexibility and result in vendor lock-in, as brands cannot easily swap out or integrate other technologies.
 
-![dxp](https://media.graphassets.com/rIUS6taoQJ2pcvTDA2YZ){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![dxp](https://media.graphassets.com/rIUS6taoQJ2pcvTDA2YZ){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ## DXC (Digital Experience Composition)
 
@@ -55,7 +55,7 @@ Typically, a DXP is delivered as a monolithic piece of software by a single vend
 
 DXC is essentially a modern version of the DXP but vendor-agnostic. DXC is leaning towards website channel-specific as it offers front-end SDKs and live previews. If the product doesn’t offer an iOS SDK, the customer is alone. 
 
-![dxc](https://media.graphassets.com/irNrx7isRUKaZ0QoDnzQ){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![dxc](https://media.graphassets.com/irNrx7isRUKaZ0QoDnzQ){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ## DXO (Digital Experience Orchestration)
 
@@ -63,7 +63,7 @@ Digital Experience Orchestration emphasizes API orchestration and decision-makin
 
 DXO is essentially DXC without the front-end components, focusing only on data stitching. It is pretty unique in the MACH space that we see analytics and a/b testing added to the orchestration solution in the back-end rather than at the CDN edge specific to the end user.
 
-![dxo](https://media.graphassets.com/WgGDwsNLTTa4wAoL7WVd){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![dxo](https://media.graphassets.com/WgGDwsNLTTa4wAoL7WVd){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ## Why you don’t have to care about the buzzwords
 
@@ -85,7 +85,7 @@ The architecture direction should be chosen based on the technical proficiency o
 
 To avoid a [MACH monolith](https://www.linkedin.com/pulse/mach-monolith-tim-benniks/) or [MACHlash](https://www.youtube.com/watch?v=so7-c2bOXpA), you need a system to “federate” all content sources into a unified view. This system should standardize and simplify the data for later querying while keeping the speciality sources autonomous. That way, the teams in charge of PIM or Search can work without influence from other systems.
 
-![content federation](https://media.graphassets.com/fbNw1hhTSHykSwk19ggJ){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![content federation](https://media.graphassets.com/fbNw1hhTSHykSwk19ggJ){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 Content federation is a very lightweight approach to unifying different data sources into a transparent and easy-to-use endpoint while keeping the complexities of your data sources where they need to stay. Your speciality products for PIM, DAM, eCommerce, and Search remain autonomous and safe while front-end implementations ask the Federation platform for information.
 
@@ -95,7 +95,7 @@ Now that the content federation has been established, aligning the company's mat
 
 If you need additional elements, such as personalization or visual editing, consider using a DXC like Uniform or a DXO like Conscia. Ultimately, these tools serve the same purpose but with different approaches to the problem. Some tools are more visually oriented and offer greater personalization, while others are more data-driven. Consider your company's maturity and technical skills before selecting a tool. 
 
-![after content federation](https://media.graphassets.com/4xZbpHRgTI2CzXQ88GG7){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![after content federation](https://media.graphassets.com/4xZbpHRgTI2CzXQ88GG7){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ## Concluding
 

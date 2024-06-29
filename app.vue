@@ -36,7 +36,7 @@ useHead({
       innerHTML: `
         {
           "prerender": [{
-            "URLs": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
+            "urls": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
           }]
         }
       `,

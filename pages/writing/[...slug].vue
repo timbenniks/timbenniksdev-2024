@@ -68,7 +68,7 @@ useJsonld({
         </p>
 
         <NuxtImg
-          provider="cloudinary"
+          provider="cloudinaryFetch"
           :src="parseHeroImage(doc.image)"
           :alt="doc.title"
           width="1440"

@@ -26,7 +26,7 @@ Unlike monolithic DXPs (off-the-shelf products), which can be inflexible and res
 
 Composable architectures offer a lot of freedom but also introduce a significant amount of complexity. While it may feel liberating for developers to choose how they connect to services, when dealing with large-scale applications, combining data from different structures and using unfamiliar SDKs can quickly become disastrous.
 
-![Composable challenges](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rgy63rwzc7dm5mnmk9wl.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
+![Composable challenges](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rgy63rwzc7dm5mnmk9wl.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
 
 ## Introducing the content graph
 
@@ -40,7 +40,7 @@ An essential part of this approach is that the content graph doesn’t store or 
 
 To ensure everything performs well while asking the graph for data (imagine having a slow legacy system as a content source), the content graph stores query results on the CDN edge and offers specific TTL and webhook functionalities.
 
-![The Contwnt Graph](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8qngsih12lys9s6yww0j.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
+![The Contwnt Graph](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8qngsih12lys9s6yww0j.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280" height="720"}
 
 
 ## The benefits

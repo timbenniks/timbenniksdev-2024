@@ -26,7 +26,7 @@ In particular, separation of content authoring and presentation results in a ste
 For web projects to succeed, since developers, marketers, and content editors boast [different strengths](https://dev.to/timbenniks/level-up-your-collaboration-game-developer-insights-for-winning-with-marketing-pros-17k), teams must be able to collaborate harmoniously and seamlessly. For all that headless promises freedom and excellent developer experience, it pushes the pain threshold of marketers.
 
 
-![Connecting lots of services creates glue code and technical debt.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f7a0lii31280n03qva7v.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![Connecting lots of services creates glue code and technical debt.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f7a0lii31280n03qva7v.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 Connecting lots of services creates glue code and technical debt.
 
@@ -40,7 +40,7 @@ Two things are paramount as a fix:
 In other words, content editors need a page-composition process similar in concept to that of GraphQL, i.e., one that returns only the needed properties and content of all page components. All the editors need to do is add the component props with data from external sources—with no need to know the data’s origin. The result is curated, page-specific JSON output that can be consumed by the front end, which need not connect to external data sources.
 
 
-![Connect services to design system components and compose a page. Curate your data a la GraphQL but visually.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fu1m8gqp9r20nq7fx7dy.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![Connect services to design system components and compose a page. Curate your data a la GraphQL but visually.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fu1m8gqp9r20nq7fx7dy.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 Connect services to design system components and compose a page. Curate your data a la GraphQL but visually.
 
@@ -64,7 +64,7 @@ With solid cache purging for data sources, you can create dynamic pages that con
 If used in conjunction with the latest Next, NuxtJS, or Astro features, this approach leads to a robust yet no-frills front end with no need to connect to data sources in code or mapping their data to component props. Talk about happy developers!
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gxchvyapco21ibgpkxl9.png){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gxchvyapco21ibgpkxl9.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 Map design system component props to individual API response fields to create a visual editor that works across headless sources.
 

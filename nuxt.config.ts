@@ -15,10 +15,6 @@ export default defineNuxtConfig({
     }
   },
 
-  // routeRules: {
-  //   '/**': { isr: true }
-  // },
-
   features: {
     // turn on for editing in nuxt.studio
     noScripts: process.env.NO_SCRIPTS === "true" ? true : false,
@@ -37,8 +33,21 @@ export default defineNuxtConfig({
   },
 
   image: {
-    cloudinary: {
-      baseURL: 'https://res.cloudinary.com/dwfcofnrd/image/fetch/'
+    providers: {
+      cloudinaryFetch: {
+        name: 'cloudinaryFetch',
+        provider: 'cloudinary',
+        options: {
+          baseURL: "https://res.cloudinary.com/dwfcofnrd/image/fetch/"
+        }
+      },
+      cloudinaryNative: {
+        name: 'cloudinaryNative',
+        provider: 'cloudinary',
+        options: {
+          baseURL: "https://res.cloudinary.com/dwfcofnrd/image/upload/"
+        }
+      }
     }
   },
 

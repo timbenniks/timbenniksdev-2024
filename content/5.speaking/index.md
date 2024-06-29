@@ -27,7 +27,7 @@ Speaking
 I LOVE BOTH IN-PERSON AND VIRTUAL EVENTS
 
 #image
-![Tim Benniks at Vue.js Amsterdam 2023](https://res.cloudinary.com/dwfcofnrd/image/upload/v1677741136/Tim/332051017_2552795964930421_7872527921593081497_n.jpg){fit="crop" height="618" loading="eager" provider="cloudinary" sizes="sm:100vw" width="1440" fetchpriority="high"}
+![Tim Benniks at Vue.js Amsterdam 2023](/Tim/332051017_2552795964930421_7872527921593081497_n.jpg){fit="crop" height="618" loading="eager" provider="cloudinaryNative" sizes="sm:100vw" width="1440" fetchpriority="high"}
 ::
 
 :title-block{tag="h1" title="Speaking Engagements"} 

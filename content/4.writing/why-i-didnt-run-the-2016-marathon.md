@@ -28,7 +28,7 @@ Then there is the mental side. External stressors will also impact the balance b
 
 The load-capacity balance is different for everybody and could also change over time. As it did for me. I upped the load in a steady way by training for the marathon but my body’s capacity went down due to external stressors which I wasn’t able to identify. For one, I have a thick skull but I also wasn’t used to the fact that my body would tell me to stop. I could do whatever I wanted to it without stretching or any kind of warm up. If I twisted my ankle the pain would go away in a day.
 
-![Running](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xtcthucv7qthp2sra697.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![Running](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xtcthucv7qthp2sra697.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 This year I was always stiff and I had to concentrate way harder to stick to proper form. Suddenly I got little pains like plantar fasciitis and an inflamed Achilles tendon. Even after stretching out my hips and calves it felt like I was running on stilts. The pains and stiffness started two months into training. Four months in, I started to get extremely tired, I developed a rash and I my IBS started to play up way more often. I also got sick after doing longer runs at marathon pace.
 
@@ -70,7 +70,7 @@ It took 20 years to start enjoying sports. I lost a [lot of weight](https://tim
 
 Not running this race was a hard decision for me as I always stick to the challenges I set for myself. I’ve decided that feeling good is more important than running a marathon. I’ve done it once before and have proven that I can do it. My body can deal with running but it’s not comfortable doing it. I have my build against me. I’m going to focus on being flexible and strong. I’ll be running shorter distances and I’ll be cycling way more. Also, I’m going back to the gym to do what my body was build to do. Lift iron. I might even try yoga…
 
-![Running](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dt09jc5r7w862n5smsas.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![Running](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dt09jc5r7w862n5smsas.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### Some Numbers
 

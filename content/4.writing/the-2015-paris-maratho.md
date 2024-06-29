@@ -12,7 +12,7 @@ collection_id: 22299
 
 Exactly one year ago, when we had just moved to Paris, the marathon passed by our apartment in Rue Saint-Antoine. Seeing all these people swooshing by impressed me so much that I signed-up for the 2015 marathon on the spot. The goal was set, the easy part was over.
 
-![Tim Running](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gu3psk58kwz3gfppsmc8.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![Tim Running](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gu3psk58kwz3gfppsmc8.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 I gave myself five months to conquer the beast. 42.195 kilometres. After running on and off for a couple of years it was time to get serious. As I work for AKQA I naturally chose to train with the Nike+ app and all the related products.
 
@@ -26,7 +26,7 @@ It didn’t. The training was so intense that I had skip workouts and I had to s
 
 After two months of pain I had finally found a balance. Turns out that eating super low fat and high carb was the best for my recovery. I was basically eating according to the 80/10/10 principle. 80% carbs, 10% fats, 10% protein. I’m not preaching this way of eating, it was just great for me.
 
-![January](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9z60d58hzj247adpsmsn.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![January](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9z60d58hzj247adpsmsn.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 To achieve eating this macro ratio I had to cut out all animal products. If I ate too much fat on a rest day, like when you go out to dinner and you don’t want to be the asshole who can’t eat anything, I would have heavy legs the next day.
 
@@ -36,7 +36,7 @@ I started eating copious amounts of fruit, rice, pasta, quinoa and veggies. My b
 
 We went on a ski trip in the beginning of February. I was an amazing holiday with loads of skiing, good food and laughs. I did some workouts in the gym and a proper mountain walk. I really hoped I hadn’t lost my running gains.
 
-![February](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/etfg0xoxax0zbyzrmcig.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![February](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/etfg0xoxax0zbyzrmcig.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 The first Monday back I had a nasty cough but decided to at least try my fast 8km run I had planned for that day. Bad decision. Over the course of the week I developed a bronchitis and both the doctor and my wife (the boss and a bad ass physiotherapist) forbade me to run the following two weeks.
 
@@ -50,7 +50,7 @@ Back to awesome. I ran 181km in 4 weeks. An absolute record month in my book. I 
 
 I had been in training for 4 months by now and I had been sick the month before. The exhaustion was setting in a bit. I didn’t particularly feel it in my legs, but I started having problems staying focused on evening runs. One time I had to jump aside while a policeman was arresting someone. I flipped my ankle and had to walk home for an hour.
 
-![March](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1r8u4pxda4nalwwa4x0o.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![March](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1r8u4pxda4nalwwa4x0o.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 I felt stupid for being distracted. Even though I had super light shoes without much cushioning I stopped being in touch with the ground I was running on. Sounds like I’m a hippy aye? It’s a runners thing.
 
@@ -60,13 +60,13 @@ Only two weeks left. I did a 27km run in a very busy, rainy and hilly Paris. Aft
 
 I only ran a handful of runs up until the big day. The thing I liked most about the tapering period was the carbo-loading. My food intake doubled in the week before the big race. #CTFU. I felt amazing and started dropping weight. I should have eaten much more the past four months.
 
-![April](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4p4xky34q3vxlhfcgfg6.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![April](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4p4xky34q3vxlhfcgfg6.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### D-DAY
 
 I was so nervous I hardly even looked at the enormous amount of runners around me. I was standing on the Champs-Elysees with 50.000 other athletes. This was going to be the most epic challenge of my life.
 
-![D-DAY](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6qsgkyqt7mudojkqok6z.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![D-DAY](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6qsgkyqt7mudojkqok6z.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 The first bit felt like heaven. Especially because my mate [Chris](https://www.facebook.com/chrisfinch) had just given me an amazing pep-talk over the phone. The Champs Elysees was mine and mine alone. Turns out I clocked the first kilometre at a 6:12 pace. Slow as fuck but a nice start to a long day. After that I slowly picked up the pace to a nice average between 5:25 and 5:35.
 
@@ -98,7 +98,7 @@ At kilometre 42 I saw the finish AND my wife at the same time. It was finally ov
 
 It took me four hours and forty six minutes. A total pain train. While riding home on the metro I felt a little shit because I walked so much. Should I have gone deeper? But while writing this piece, pride is taking over. I actually did this. My first marathon in the heat in under five hours. #putain.
 
-![finisher](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hdxzyzf1wztrl220nwa4.jpg){provider="cloudinary" loading="lazy" sizes="sm:100vw" width="1280"}
+![finisher](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hdxzyzf1wztrl220nwa4.jpg){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 ### Some Numbers
 
