@@ -7,7 +7,6 @@ function parseHeroImage(imageUrl) {
 }
 
 const route = useRoute();
-
 const listItemElements = [
   {
     "@type": "ListItem",
@@ -40,7 +39,6 @@ useJsonld({
   ],
 });
 
-
 const { data: post } = await useAsyncData(`content-${route.path}`, () =>
   queryContent().where({ _path: route.path }).findOne()
 )
@@ -54,9 +52,9 @@ useJsonld({
     "keywords": post.value.tags.join(" "),
     "mainEntityOfPage": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
     "url": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
-    "datePublished": format(new Date(post.value.date), "yyyy-MM-dd"),
-    "dateCreated": format(new Date(post.value.date), "yyyy-MM-dd"),
-    "dateModified": format(new Date(post.value.date), "yyyy-MM-dd"),
+    "datePublished": post.value.date,
+    "dateCreated": post.value.date,
+    "dateModified": post.value.date,
     "description": post.value.description,
     "timeRequired": `PT${post.value.reading_time.split(" min read")[0]}M`,
     "author": {
