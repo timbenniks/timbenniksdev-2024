@@ -81,7 +81,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
       _path: { $ne: route.path },
       tags: { $in: post.value.tags }
     })
-    .limit(2)
+    .limit(3)
     .find()
 
   return relatedQuery
