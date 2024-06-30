@@ -25,5 +25,6 @@ title: Writing
 ::articles
 ---
 small: false
+first-featured: true
 ---
 ::
