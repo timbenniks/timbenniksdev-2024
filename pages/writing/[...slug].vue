@@ -52,16 +52,26 @@ useJsonld({
     "headline": post.value.title,
     "image": parseHeroImage(post.value.image),
     "keywords": post.value.tags.join(" "),
+    "mainEntityOfPage": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
     "url": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
     "datePublished": format(new Date(post.value.date), "yyyy-MM-dd"),
     "dateCreated": format(new Date(post.value.date), "yyyy-MM-dd"),
     "dateModified": format(new Date(post.value.date), "yyyy-MM-dd"),
     "description": post.value.description,
+    "timeRequired": `PT${post.value.reading_time.split(" min read")[0]}M`,
     "author": {
       "@type": "Person",
-      "name": "Tim Benniks"
+      "@id": "https://timbenniks.dev/tim-benniks#Person",
+      "name": "Tim Benniks",
+      "url": "https://timbenniks.dev/",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/tim_aug_2023.png",
+        "url": "https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/tim_aug_2023.png",
+        "width": "96",
+        "height": "96"
+      }
     },
-    "timeRequired": `PT${post.value.reading_time.split(" min read")[0]}M`
   }]
 });
 
