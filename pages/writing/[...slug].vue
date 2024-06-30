@@ -39,6 +39,24 @@ useJsonld({
     },
   ],
 });
+
+const { data: post } = await useAsyncData(`content-${route.path}`, () =>
+  queryContent().where({ _path: route.path }).findOne()
+)
+
+const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async () => {
+  if (!post.value || !post.value.tags) return []
+
+  const relatedQuery = queryContent()
+    .where({
+      _path: { $ne: route.path },
+      tags: { $in: post.value.tags }
+    })
+    .limit(2)
+    .find()
+
+  return relatedQuery
+})
 </script>
 
 <template>
@@ -84,6 +102,10 @@ useJsonld({
         >
           <ContentRenderer :value="doc" />
         </div>
+
+        <ArticlesNoQuery :articles="relatedPosts" :small="false">
+          <template #title> related articles </template>
+        </ArticlesNoQuery>
       </article>
     </ContentDoc>
   </div>

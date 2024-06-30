@@ -6,7 +6,11 @@ const props = defineProps(["limit", "small"]);
 const query: QueryBuilderParams = {
   path: `/writing`,
   sort: [{ date: -1 }],
-  where: [{ _dir: { $ne: "" } }, { _empty: { $ne: true } }],
+  where: [
+    { _dir: { $ne: "" } },
+    { _empty: { $ne: true } },
+    //{ tags: { $contains: "cloudinary" } },
+  ],
 };
 
 if (props.limit) {
