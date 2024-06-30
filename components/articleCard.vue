@@ -49,7 +49,7 @@ function parseImage(imageUrl: string) {
           'lg:w-3/5 fancy-image-alt': featured,
           'fancy-image': !featured,
         }"
-        :sizes="featured ? 'sm:1280px' : 'sm:350px'"
+        :sizes="featured ? 'sm:100vw' : 'sm:350px'"
         :width="featured ? 1280 : 350"
         :height="featured ? 720 : 197"
         :loading="featured ? 'eager' : 'lazy'"
