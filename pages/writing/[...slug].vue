@@ -101,7 +101,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
           </ul>
         </header>
 
-        <section class="flex gap-12">
+        <section class="flex gap-12 flex-col lg:flex-row">
           <article class="prose prose-invert prose-xl prose-headings:font-bold">
             <ContentRenderer :value="doc" />
 
