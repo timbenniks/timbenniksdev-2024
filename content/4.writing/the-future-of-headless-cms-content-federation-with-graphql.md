@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://hygraph.com/blog/content-federation-with-graphql"
 tags: ["headless","cms","graphql","federation"]
 collection_id: 22300
+reading_time: 3 min read
+
 ---
 
 Federation is a popular topic of conversation these days, and for good reason. With the ever-growing amount of fragmentation in tooling, it offers a way to decouple data and systems, giving organizations more flexibility and agility.

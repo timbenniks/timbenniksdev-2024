@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://uniform.dev/blogs/composable-architecture/composable-architectures-are-the-future-of-the-digital-sphere"
 tags: ["mach","webdev","composable","monolith"]
 collection_id: 22300
+reading_time: 5 min read
+
 ---
 
 Success in business can be attributed to many factors, notably team talent and efficacy of products or services. What also counts in this digital age are immersive and performant online experiences. Realistically, delivering engaging experiences is a never-ending undertaking. To avoid lagging behind rivals, brands must do that time and again in all their interactions with consumers. 

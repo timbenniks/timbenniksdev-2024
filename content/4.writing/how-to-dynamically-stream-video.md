@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://dev.to/timbenniks/how-to-dynamically-stream-video-135f"
 tags: ["video","cloudinary","streaming"]
 collection_id: 22300
+reading_time: 11 min read
+
 ---
 
 ## Build it yourself or use Cloudinary

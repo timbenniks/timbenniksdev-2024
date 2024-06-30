@@ -11,6 +11,8 @@ tags:
   - dxp
   - composable
 collection_id: 22300
+reading_time: 5 min read
+
 ---
 
 In web development, we've seen a massive shift from old-school, bulky systems to something sleeker and more piecemeal, known as headless architecture. But this change isn't just about chasing the next shiny tech trend. It's about taking a step back and rethinking how we tackle development projects.

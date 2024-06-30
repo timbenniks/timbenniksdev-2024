@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://dev.to/timbenniks/the-2015-paris-marathon-i0l"
 tags: ["personal","fitness"]
 collection_id: 22299
+reading_time: 9 min read
+
 ---
 
 Exactly one year ago, when we had just moved to Paris, the marathon passed by our apartment in Rue Saint-Antoine. Seeing all these people swooshing by impressed me so much that I signed-up for the 2015 marathon on the spot. The goal was set, the easy part was over.

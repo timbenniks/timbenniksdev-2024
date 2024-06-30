@@ -8,6 +8,7 @@ image: https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravit
 canonical_url: https://hygraph.com/blog/the-content-graph-is-the-future
 tags: []
 collection_id: 22300
+reading_time: 6 min read
 ---
 
 Content management is as essential as it is complex, especially at scale. As brands grow, they often use a mix of different services to manage their domain content, such as PIM, DAM, Search, and legacy CMS. Unfortunately, this approach challenges developers who must connect all the data to make it presentable on websites or apps, resulting in technical debt. In this article, I will introduce an elegant solution to this problem in this article: the content graph.

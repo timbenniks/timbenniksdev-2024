@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://dev.to/timbenniks/why-i-didnt-run-the-2016-marathon-57e3"
 tags: ["personal","fitness","running"]
 collection_id: 22299
+reading_time: 6 min read
+
 ---
 
 After four and a half months of full on training I’ve decided not to run the Amsterdam marathon on October 16th 2016. I’ve learnt a life lesson about the balance between the load and capacity of the body while training for a marathon.

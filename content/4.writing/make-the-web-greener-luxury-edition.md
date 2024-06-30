@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://www.valtech.com/insights/make-the-web-greener-luxury-edition/"
 tags: ["webdev","environment"]
 collection_id: 22300
+reading_time: 6 min read
+
 ---
 
 ## If the internet were a country, it would be the world’s sixth biggest polluter.

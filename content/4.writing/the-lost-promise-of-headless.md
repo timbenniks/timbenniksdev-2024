@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://uniform.dev/blogs/the-lost-promise-of-headless"
 tags: ["headless","architecture","mach"]
 collection_id: 22300
+reading_time: 3 min read
+
 ---
 
 In recent years, headless technology, which boosts performance, developer experience, and best-of-breed headless systems, has gained significant traction in web development. At its core, headless streamlines and accelerates the process of building and delivering web experiences  through APIs, which separates content creation and management from presentation. 

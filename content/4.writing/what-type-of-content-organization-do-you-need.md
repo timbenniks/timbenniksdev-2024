@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://hygraph.com/blog/what-type-of-content-organization-do-you-need"
 tags: []
 collection_id: 22300
+reading_time: 7 min read
+
 ---
 
 Different ways of working require different approaches to content design. In this post, I will outline a few content organization approaches based on how your brand operates digitally.

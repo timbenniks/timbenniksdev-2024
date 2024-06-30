@@ -15,6 +15,11 @@ a.home-button.router-link-exact-active {
     @apply bg-[#0e1029] text-white;
   }
 
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+  }
+
   :root {
     font-family: "Trebuchet MS";
   }

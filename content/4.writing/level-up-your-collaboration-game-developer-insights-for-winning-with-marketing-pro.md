@@ -8,6 +8,7 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://uniform.dev/blogs/level-up-your-collaboration-game-developer-insights-for-winning-with"
 tags: ["webdev","marketing","collaboration"]
 collection_id: 22300
+reading_time: 4 min read
 ---
 
 Building outstanding user experiences takes, first and foremost, effective collaboration between marketing and development teams. Oftentimes, however, those teams’ different perspectives lead to misunderstandings and opacity, which could seriously impact progress and revenue. Over the last two years of interacting and working within a marketing department as a seasoned technical leader, I've developed strategies to enhance collaboration, boost cross-team communications, and promote project success. 

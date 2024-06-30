@@ -6,11 +6,7 @@ const props = defineProps(["limit", "small"]);
 const query: QueryBuilderParams = {
   path: `/writing`,
   sort: [{ date: -1 }],
-  where: [
-    { _dir: { $ne: "" } },
-    { _empty: { $ne: true } },
-    //{ tags: { $contains: "cloudinary" } },
-  ],
+  where: [{ _dir: { $ne: "" } }, { _empty: { $ne: true } }],
 };
 
 if (props.limit) {
@@ -86,6 +82,9 @@ function parseImage(imageUrl: string) {
                 </p>
                 <p v-if="small" class="line-clamp-2 text-slate-400 text-sm">
                   {{ article.description }}
+                </p>
+                <p class="text-sm font-bold text-[#d1258c] mt-1">
+                  {{ article.reading_time }}
                 </p>
               </div>
             </NuxtLink>

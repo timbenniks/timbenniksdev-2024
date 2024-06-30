@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://dev.to/timbenniks/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps-5eo4"
 tags: ["webcam"]
 collection_id: 22299
+reading_time: 9 min read
+
 ---
 
 If you have used a webcam before you know what it means to look like shit on camera. Even the most expensive consumer webcams produce a “meh” result. So why do webcams suck? It’s their design. The webcam form factor has a bunch physical challenges that limits them from producing a good looking picture.

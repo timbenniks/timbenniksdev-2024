@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://uniform.dev/blogs/uniform-dxcp-the-what-why-and-how"
 tags: ["cdn","edge","sitecore","headless"]
 collection_id: 22300
+reading_time: 3 min read
+
 ---
 
 Nowadays, you’re hard pressed to find an application with all the functionalities you need for delivering personalized digital experiences. Even though with headless solutions, you can select the best options for your goals, you can, through composability, easily connect the applications that drive personalized experiences. Still, simply adopting headless technologies isn’t enough; you also need a [composable architecture](https://uniform.dev/blogs/composable-architecture/composable-platforms-what-why-how) that fosters innovation and a seamless authoring experience for business users. 

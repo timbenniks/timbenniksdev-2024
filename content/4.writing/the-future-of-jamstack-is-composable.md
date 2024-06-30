@@ -8,6 +8,7 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://dev.to/timbenniks/the-future-of-jamstack-is-composable-3m7g"
 tags: ["jamstack","architecture","composable","orchestration"]
 collection_id: 22300
+reading_time: 8 min read
 ---
 
 > This post is either for developers who want an “at-scale” overview of modern architecture or for technical decision-makers looking at a great way to build a digital pipeline in this new composable world.

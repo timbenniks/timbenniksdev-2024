@@ -8,9 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://www.linkedin.com/pulse/headless-20-tim-benniks/"
 tags: ["webdev","mach","headless","architecture"]
 collection_id: 22300
+reading_time: 5 min read
 ---
-
-  
 
 That’s a bold title, but it’s high time to change how we work with headless technology. I wrote about the [MACH monolith](https://www.linkedin.com/pulse/mach-monolith-tim-benniks) before. Here, I’ll describe how to avoid ending up in a codebase full of technical debt, aka glue code—chores that overburden and frustrate developers.
 

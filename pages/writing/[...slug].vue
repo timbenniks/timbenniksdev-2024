@@ -65,48 +65,113 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
       <Head v-if="doc.canonical_url">
         <Link rel="canonical" :href="doc.canonical_url" />
       </Head>
-      <article class="max-w-screen-lg mx-auto">
-        <h1 class="font-bold mb-4 text-3xl md:text-5xl !leading-tight">
-          {{ doc.title }}
-        </h1>
 
-        <div class="flex flex-col md:flex-row md:space-x-4 md:items-center">
-          <p class="text-sm mb-2 md:mb-0">
-            {{ format(new Date(doc.date), "MMM dd, yyyy") }}
+      <div class="max-w-screen-lg mx-auto">
+        <header class="mb-4">
+          <p class="mb-12">
+            <nuxt-link
+              to="/writing"
+              class="flex items-center space-x-4 uppercase !no-underline"
+            >
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M15.8332 10.0003H4.1665M4.1665 10.0003L9.99984 15.8337M4.1665 10.0003L9.99984 4.16699"
+                  stroke="CurrentColor"
+                  stroke-width="1.67"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              All posts
+            </nuxt-link>
           </p>
+          <h1 class="font-bold mb-4 text-3xl md:text-5xl !leading-tight">
+            {{ doc.title }}
+          </h1>
+
+          <p class="text-sm mb-2">
+            Published on
+            <time :datetime="format(new Date(doc.date), 'MMM dd, yyyy')">{{
+              format(new Date(doc.date), "MMM dd, yyyy")
+            }}</time>
+          </p>
+
           <ul class="flex space-x-2">
             <li v-for="tag in doc.tags" :key="tag" class="tag">{{ tag }}</li>
           </ul>
-        </div>
-        <p class="text-xs mt-2 text-slate-300" v-if="doc.canonical_url">
-          Canonical URL:
-          <a class="text-slate-300" :href="doc.canonical_url" target="_blank">{{
-            doc.canonical_url
-          }}</a>
-        </p>
+        </header>
 
-        <NuxtImg
-          provider="cloudinaryFetch"
-          :src="parseHeroImage(doc.image)"
-          :alt="doc.title"
-          width="1440"
-          height="710"
-          fit="cover"
-          loading="eager"
-          sizes="sm:100vw"
-          fetchpriority="high"
-          class="mt-8 fancy-image-alt"
-        />
-        <div
-          class="mt-8 prose prose-invert prose-xl prose-headings:font-bold max-w-screen-lg"
-        >
-          <ContentRenderer :value="doc" />
-        </div>
+        <section class="flex gap-12">
+          <article class="prose prose-invert prose-xl prose-headings:font-bold">
+            <ContentRenderer :value="doc" />
+
+            <p
+              class="text-xs mt-4 mb-12 text-slate-300"
+              v-if="doc.canonical_url"
+            >
+              Originally published at:
+              <a
+                class="text-slate-300"
+                :href="doc.canonical_url"
+                target="_blank"
+                >{{ doc.canonical_url }}</a
+              >
+            </p>
+          </article>
+          <aside>
+            <div class="sticky top-24">
+              <p class="text-xs text-slate-400 mb-2 uppercase mt-8">
+                Written by
+              </p>
+              <div class="flex items-center gap-2">
+                <img
+                  loading="lazy"
+                  src="https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/tim_aug_2023.png"
+                  alt="Tim Benniks"
+                  width="48"
+                  height="48"
+                  class="w-10 h-10 rounded-full"
+                />
+                Tim Benniks
+              </div>
+              <NuxtImg
+                provider="cloudinaryFetch"
+                :src="parseHeroImage(doc.image)"
+                :alt="doc.title"
+                width="1440"
+                height="710"
+                fit="cover"
+                loading="eager"
+                sizes="sm:30vw"
+                fetchpriority="high"
+                class="my-8 fancy-image-alt"
+              />
+
+              <p class="font-bold text-[#d1258c] mb-2">
+                {{ doc.reading_time }}
+              </p>
+
+              <ul v-if="doc.body.toc" class="bg-[#0e1029] p-8 pb-2">
+                <li
+                  v-for="item in doc.body.toc.links"
+                  :key="item.id"
+                  class="mb-6"
+                >
+                  <a
+                    class="hover:underline text-slate-200"
+                    :href="`#${item.id}`"
+                    >{{ item.text }}</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </section>
 
         <ArticlesNoQuery :articles="relatedPosts" :small="false">
           <template #title> related articles </template>
         </ArticlesNoQuery>
-      </article>
+      </div>
     </ContentDoc>
   </div>
 </template>

@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://dev.to/timbenniks/new-job-alert-443n"
 tags: ["career","webdev","devrel"]
 collection_id: 22300
+reading_time: 2 min read
+
 ---
 
 After an exciting journey at [Uniform](https://uniform.dev), it's time for a new adventure.

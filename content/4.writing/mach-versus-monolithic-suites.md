@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://uniform.dev/blogs/composable-architecture/mach-versus-monolithic-suites#mach-as-an-evolution-of-monoliths"
 tags: ["mach","composable","architecture","webdev"]
 collection_id: 22300
+reading_time: 5 min read
+
 ---
 
 Today, with consumers fast becoming digitally advanced, companies realize that old technologies are no longer viable and that companies must evolve continually to keep up with consumer expectations. However, making technology decisions can be difficult, confusing, and stressful, especially since you might have to live with them for years. You also run the risk of being locked into products that cannot keep up with your organization's changing needs or, even worse, products that were never a good fit in the first place. No wonder that when an architecture emerges that promises to reduce that risk, people pay attention.

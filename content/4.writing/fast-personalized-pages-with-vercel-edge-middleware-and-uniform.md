@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://uniform.dev/blogs/personalization/blazing-fast-personalized-pages-with-vercel-edge-middleware-and-uniform"
 tags: ["performance","personalization","vercel","edge"]
 collection_id: 22300
+reading_time: 3 min read
+
 ---
 
 To maintain an engaging relationship with your audience and increase conversions to your site, you need personalization. However, creating personalized experiences is technically challenging. Most personalization techniques involve dynamic rendering and an origin server that holds personalization rules for end-users—a slow approach that often negates the conversions gained through personalization.

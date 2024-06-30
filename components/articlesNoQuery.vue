@@ -69,6 +69,9 @@ function parseImage(imageUrl: string) {
             <p v-if="small" class="line-clamp-2 text-slate-400 text-sm">
               {{ article.description }}
             </p>
+            <p class="text-sm font-bold text-[#d1258c] mt-1">
+              {{ article.reading_time }}
+            </p>
           </div>
         </NuxtLink>
       </li>

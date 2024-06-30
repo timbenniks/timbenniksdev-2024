@@ -11,6 +11,8 @@ tags:
   - dxp
   - composable
 collection_id: 22300
+reading_time: 7 min read
+
 ---
 
 The digital age propels content to the forefront, transforming it from mere marketing material into a valuable business asset. As online consumption surges, organizations elevate their content to a critical commodity.

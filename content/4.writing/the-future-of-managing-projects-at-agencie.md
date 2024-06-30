@@ -8,6 +8,8 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://uniform.dev/blogs/composable-architecture/the-future-of-managing-projects-at-agencies"
 tags: ["composable","architecture","agency","process"]
 collection_id: 22300
+reading_time: 8 min read
+
 ---
 
 ## Calling for a revolution in how agencies run tech projects

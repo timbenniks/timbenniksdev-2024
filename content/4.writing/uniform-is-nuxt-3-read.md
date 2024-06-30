@@ -8,6 +8,7 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://uniform.dev/blogs/uniforms-latest-sdk-fully-supports-vue-3-and-nuxt-3"
 tags: ["webdev","javascript","nuxt","vue"]
 collection_id: 22300
+reading_time: 2 min read
 ---
 
 We are excited to announce that the latest iteration of the Uniform SDK is fully compatible with [Vue 3](https://blog.vuejs.org/posts/vue-3-as-the-new-default.html) and [Nuxt 3](https://v3.nuxtjs.org/). 
