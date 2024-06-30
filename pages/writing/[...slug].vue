@@ -40,9 +40,30 @@ useJsonld({
   ],
 });
 
+
 const { data: post } = await useAsyncData(`content-${route.path}`, () =>
   queryContent().where({ _path: route.path }).findOne()
 )
+
+useJsonld({
+  "@context": "https://schema.org",
+  "@graph": [{
+    "@type": "BlogPosting",
+    "headline": post.value.title,
+    "image": parseHeroImage(post.value.image),
+    "keywords": post.value.tags.join(" "),
+    "url": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
+    "datePublished": format(new Date(post.value.date), "yyyy-MM-dd"),
+    "dateCreated": format(new Date(post.value.date), "yyyy-MM-dd"),
+    "dateModified": format(new Date(post.value.date), "yyyy-MM-dd"),
+    "description": post.value.description,
+    "author": {
+      "@type": "Person",
+      "name": "Tim Benniks"
+    },
+    "timeRequired": `PT${post.value.reading_time.split(" min read")[0]}M`
+  }]
+});
 
 const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async () => {
   if (!post.value || !post.value.tags) return []
