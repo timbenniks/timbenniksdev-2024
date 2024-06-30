@@ -59,7 +59,7 @@ useJsonld({
     "timeRequired": `PT${post.value.reading_time.split(" min read")[0]}M`,
     "author": {
       "@type": "Person",
-      "@id": "https://timbenniks.dev/tim-benniks#Person",
+      "@id": "https://timbenniks.dev/about#Person",
       "name": "Tim Benniks",
       "url": "https://timbenniks.dev/",
       "image": {

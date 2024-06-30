@@ -12,3 +12,8 @@
   - When Nuxt scripts are turnt off, manually add back prerendering of other pages
 - Lazy, eager loading images + fetch priority
   - Responsive images
+
+## Todo
+- FAQ section to blogposts to enhance its google visibility
+  - Q&As that were not covered in the article but are relevant
+  - see: https://www.yurts.ai/blog/navigating-the-challenges-of-fine-tuning-and-catastrophic-forgetting
