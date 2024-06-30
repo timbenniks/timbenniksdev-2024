@@ -52,7 +52,8 @@ function parseImage(imageUrl: string) {
         :sizes="featured ? 'sm:1280px' : 'sm:350px'"
         :width="featured ? 1280 : 350"
         :height="featured ? 720 : 197"
-        loading="lazy"
+        :loading="featured ? 'eager' : 'lazy'"
+        :fetchpriority="featured ? 'high' : 'auto'"
         fit="thumbnail"
       />
 
