@@ -74,7 +74,7 @@ function parseImage(imageUrl: string) {
         >
           {{ article.description }}
         </p>
-        <p v-if="!featured" class="text-sm font-bold text-[#d1258c] mt-1">
+        <p v-if="!featured" class="text-sm font-bold text-[#db97bf] mt-1">
           {{ article.reading_time }}
         </p>
 
@@ -91,7 +91,7 @@ function parseImage(imageUrl: string) {
             />
             <p class="flex flex-col">
               <span>Tim Benniks</span>
-              <span class="text-sm text-[#d1258c]">
+              <span class="text-sm text-[#db97bf]">
                 {{ article.reading_time }}
               </span>
             </p>

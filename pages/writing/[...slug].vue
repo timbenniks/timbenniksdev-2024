@@ -176,7 +176,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
                 class="my-8 fancy-image-alt"
               />
 
-              <p class="font-bold text-[#d1258c] mb-2">
+              <p class="font-bold text-[#db97bf] mb-2">
                 {{ doc.reading_time }}
               </p>
 
