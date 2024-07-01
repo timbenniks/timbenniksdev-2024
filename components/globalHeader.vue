@@ -7,10 +7,18 @@
       <tim class="w-[43px] h-[61px]" />
     </NuxtLink>
 
-    <button
+    <input
+      type="checkbox"
+      id="menuToggle"
+      class="hidden"
+      aria-labelledby="open-menu"
+    />
+
+    <label
+      for="menuToggle"
       class="nav-toggle z-[60] absolute top-8 right-8 w-8 h-8 lg:hidden transform transition duration-500 ease-in-out"
     >
-      <span class="sr-only">Open main menu</span>
+      <span class="sr-only" id="open-menu">Open main menu</span>
       <div class="block w-8 h-8">
         <span
           class="line-1 bg-white translate-y-0 absolute block h-1 w-8 transform bg-primary transition duration-500 ease-in-out"
@@ -22,7 +30,7 @@
           class="line-3 bg-white translate-y-6 absolute block h-1 w-8 transform bg-primary transition duration-500 ease-in-out"
         ></span>
       </div>
-    </button>
+    </label>
 
     <nav
       id="nav"

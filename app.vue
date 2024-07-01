@@ -24,14 +24,6 @@ useHead({
   },
   script: [
     {
-      innerHTML: `
-        document.querySelector('.nav-toggle').addEventListener('click', () => {
-          document.getElementById('nav').classList.toggle('open');
-          document.querySelector('.nav-toggle').classList.toggle('open');
-        });`,
-      tagPosition: "bodyClose",
-    },
-    {
       type: "speculationrules",
       innerHTML: `
         {

@@ -118,19 +118,23 @@ a.home-button.router-link-exact-active {
     white-space: initial;
   }
 
-  .nav-toggle.open {
+  /* .nav-toggle.open, */
+  #menuToggle:checked + .nav-toggle {
     transform: translateY(13px);
   }
 
-  .nav-toggle.open .line-1 {
+  /* .nav-toggle.open .line-1, */
+  #menuToggle:checked + .nav-toggle .line-1 {
     transform: rotate(45deg) translateY(0px);
   }
 
-  .nav-toggle.open .line-2 {
+  /* .nav-toggle.open .line-2, */
+  #menuToggle:checked + .nav-toggle .line-2 {
     opacity: 0;
   }
 
-  .nav-toggle.open .line-3 {
+  /* .nav-toggle.open .line-3, */
+  #menuToggle:checked + .nav-toggle .line-3 {
     transform: rotate(-45deg) translateY(0px);
   }
 
@@ -138,7 +142,7 @@ a.home-button.router-link-exact-active {
     @apply hidden lg:block;
   }
 
-  #nav.open {
+  #menuToggle:checked + .nav-toggle + #nav {
     @apply block;
   }
 
