@@ -76,7 +76,7 @@ function parseImage(imageUrl: string) {
           />
           <article-card
             v-else
-            v-for="article in list.slice(1)"
+            v-for="article in list"
             :article="article"
             :key="article._path"
             :small="small"
