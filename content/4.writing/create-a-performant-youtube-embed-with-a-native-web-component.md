@@ -8,6 +8,24 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://cloudinary.com/blog/guest_post/create-a-performant-youtube-embed-with-a-native-web-component"
 tags: ["webdev","video","web component"]
 reading_time: 3 min read
+faqs: 
+- question: "How can static site rendering (SSF) improve website performance?"
+  answer: "SSG improves website performance by generating static HTML and minimizing JavaScript. It could use a component islands architecture, loading JavaScript only for interactive components, resulting in faster page loads and better Core Web Vitals scores."
+
+- question: "What are effective image optimization techniques for faster websites?"
+  answer: "Effective image optimization techniques include using modules like 'nuxt/image' to generate responsive images and WebP versions, implementing lazy loading, and serving images through a CDN. These methods reduce file sizes and improve loading times."
+
+- question: "How does Cloudflare CDN enhance website speed and performance?"
+  answer: "Cloudflare CDN enhances website speed by caching content closer to users, reducing latency. It also offers features like automatic minification of HTML, CSS, and JavaScript, as well as image optimization, further improving load times and overall performance."
+
+- question: "What are Cloudflare Workers and how do they boost website efficiency?"
+  answer: "Cloudflare Workers are serverless functions that run at the edge of the network. They boost website efficiency by handling tasks like redirects, custom headers, and API proxying without burdening the origin server, resulting in faster response times and improved scalability."
+
+- question: "How can you achieve perfect Lighthouse scores for your website?"
+  answer: "To achieve perfect Lighthouse scores, focus on optimizing Core Web Vitals, minimize JavaScript, optimize images, implement efficient caching strategies, use a CDN, and leverage technologies like static site generators and serverless functions. Regular testing and iterative improvements are key."
+
+- question: "What role do Core Web Vitals play in website optimization and SEO?"
+  answer: "Core Web Vitals play a crucial role in website optimization and SEO. They measure key aspects of user experience, including loading performance (LCP), interactivity (FID), and visual stability (CLS). Optimizing these metrics improves user experience and can positively impact search engine rankings."
 ---
 
 In this Media Jam, you will learn how to create a native web component that replaces the default YouTube iframe embed. We do this in order to avoid wasting resources while embedding an unused video embed. Many visitors might not watch the video, so why load all the stuff from the YouTube iframe? Let’s be conscious of performance, and the carbon emissions your website produces. Less data over the wire is always better.
