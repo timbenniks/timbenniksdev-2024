@@ -46,10 +46,10 @@ function parseImage(imageUrl: string) {
         class="w-full mb-2"
         :class="{
           'md:w-64': small,
-          'lg:w-3/5 fancy-image-alt': featured,
+          'w-full md:w-3/5 lg:w-[800px] lg:h-[450px] fancy-image-alt': featured,
           'fancy-image': !featured,
         }"
-        :sizes="featured ? 'sm:100vw' : 'sm:350px'"
+        :sizes="featured ? 'sm:800px' : 'sm:350px'"
         :width="featured ? 1280 : 350"
         :height="featured ? 720 : 197"
         :loading="featured ? 'eager' : 'lazy'"
