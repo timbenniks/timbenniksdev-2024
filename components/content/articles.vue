@@ -18,34 +18,6 @@ const smallOrBigClass = computed(() => {
     ? "grid grid-cols-1 md:grid-cols-1 gap-6"
     : "grid grid-cols-1 md:grid-cols-3 gap-6";
 });
-
-function parseImage(imageUrl: string) {
-  const decodedUrl = decodeURIComponent(imageUrl);
-
-  const parsedImage = decodedUrl.split(
-    "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/"
-  )[1];
-
-  let url = "";
-  let provider = "";
-
-  if (parsedImage.includes("cloudinary")) {
-    const id = parsedImage.split(
-      "https://res.cloudinary.com/dwfcofnrd/image/upload/"
-    )[1];
-
-    provider = "cloudinaryNative";
-    url = id;
-  } else {
-    provider = "cloudinaryFetch";
-    url = parsedImage;
-  }
-
-  return {
-    url,
-    provider,
-  };
-}
 </script>
 
 <template>
@@ -78,7 +50,7 @@ function parseImage(imageUrl: string) {
             v-else
             v-for="article in list"
             :article="article"
-            :key="article._path"
+            :key="article.id"
             :small="small"
             :featured="false"
           />
