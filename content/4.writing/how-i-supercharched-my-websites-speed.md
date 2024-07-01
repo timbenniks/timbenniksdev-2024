@@ -22,19 +22,19 @@ I'm a Nuxt3 ambassador, so I used it for this project. However, all the tips and
 
 Many developers stick to the frameworks' default settings, which contain many great features around best practices. However, I discovered I could significantly boost my site's performance by tweaking the settings and stripping away the unnecessary parts. Not doing this will land you in the solid 90% of awesomeness, but if you want to get close to 100%, you'll have to open Pandora's box.
 
-## Going Full Static
+## Going full static
 
 Instead of following the current trend of using server components and ISR caching, I took a step back and went full static. This means all the pages on my site are pre-generated and served from a CDN edge near you, resulting in lightning-fast load times.
 
 When hosting on platforms like Vercel or Netlify, using server components with ISR caching often involves running Nuxt 3 inside a serverless function, potentially introducing cold start times and some overhead. To be fair, I'm not entirely sure what forces are at play here, but my site's static render performed way better than the ISR cached version.
 
-## Optimizing for Non-Render Blocking
+## Optimizing for non-render blocking
 
 The key to a fast website is ensuring the browser can display content as quickly as possible. Despite the advantages of [HTTP 2.0 and multiplexing](https://www.youtube.com/watch?v=f5F7N2kc7hQ), preloading too many files could still cause issues. For my site, Nuxt preloaded a combination of 25 \`js\` and \`JSON\` files and a few render-block CSS files. These all competed, making the [LCP](https://web.dev/articles/optimize-lcp) higher than needed.
 
 By using the `features.noScripts` I saw a big speed improvement in the Nuxt config, which removes all JavaScript and payload files. However, you introduce some problems when turning off Nuxt's native goodness. No more JS on your website and no more preloading of links used in `<nuxt-link />` tags.
 
-## Preloading with Speculation Rules
+## Preloading with speculation rules
 
 Turning off scripts has a downside—you lose some of Nuxt's handy functionalities, like pre-rendering linked pages for faster subsequent page loads. To address this, I utilized a native browser feature called speculation rules, which allowed me to pre-render top-level URLs without relying on Nuxt's scripts.
 
@@ -50,7 +50,7 @@ Turning off scripts has a downside—you lose some of Nuxt's handy functionaliti
 
 ![Before and after](/website/preload-before-after.jpg){provider="cloudinaryNative" loading="lazy" sizes="sm:100vw" width="1280" class="fancy-image-alt"}
 
-## Simple vanilla SavaScript
+## Simple vanilla JavaScript
 
 This website doesn't need much JavaScript, as it's just a portfolio site. I wrote a few lines of inline vanilla JavaScript to set up analytics, RUM score tracking, and toggle a mobile navigation CSS class. This approach is much more efficient than loading a full JavaScript framework for a few features. Note that Nuxt supports island architecture now, and use that if you need more JS than I do.
 
@@ -87,13 +87,13 @@ useHead({
 
 I consolidated all vue component CSS into a single file and instructed Nuxt to inline the CSS with `features.inlineStyles: true`. This eliminated any render blocking caused by external CSS files, as the styles are now directly included in the HTML head.
 
-## Handling SVGs and Fonts
+## Handling SVGs and fonts
 
 Initially, inlining SVG throughout the site seemed like a good idea, but it added to the rendering workload on the main browser thread. By converting SVGs into separate files and lazy loading them, I reduced the rendering demands, and the website felt faster on lower-end devices.
 
 For fonts, I opted for a combination of web-safe fonts for body text and a custom font for titles. This approach and Daniel Roe's Nuxt/fonts module helped me maintain a rich design without sacrificing performance. When all fonts were custom fonts, the cumulative layout shift went up. For example, I had buttons that would go from two lines to one line when the font loaded, and this caused the layout to move during the page load. Removing custom fonts from these critical parts helped the performance.
 
-## Image Optimization with Cloudinary
+## Image optimization with Cloudinary
 
 Images can significantly affect load times, so I used Cloudinary to ensure they're delivered optimally based on the user's context. They offer automatic quality and file type selections that are the best in the business. Of course, I used the `nuxt/image` module to make my images responsive. Lazy loading images below the fold and setting a high `fetchpriority` and `loading="eager"` for key images further improved load times.
 
