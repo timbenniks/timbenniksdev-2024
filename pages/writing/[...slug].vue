@@ -131,7 +131,9 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
         </header>
 
         <section class="flex gap-12 flex-col lg:flex-row">
-          <article class="prose prose-invert prose-xl prose-headings:font-bold">
+          <article
+            class="prose prose-invert lg:prose-xl prose-headings:font-bold"
+          >
             <ContentRenderer :value="doc" />
 
             <p
@@ -200,6 +202,8 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
         <ArticlesNoQuery :articles="relatedPosts" :small="false">
           <template #title> related articles </template>
         </ArticlesNoQuery>
+
+        <faq v-if="doc.faqs" :faqs="doc.faqs" />
       </div>
     </ContentDoc>
   </div>
