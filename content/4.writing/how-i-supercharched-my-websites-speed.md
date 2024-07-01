@@ -14,11 +14,11 @@ In this blog post, I want to share how I transformed my website, [timbenniks.dev
 
 ![Before and after](/website/performance-before-after-1.jpg){provider="cloudinaryNative" loading="lazy" sizes="sm:100vw" width="1280" class="fancy-image-alt"}
 
-## Choosing the Right Framework
+## Choosing the right framework
 
 I'm a Nuxt3 ambassador, so I used it for this project. However, all the tips and tricks below can also be used with other frameworks.
 
-### How to use the meta-framework
+### How to use a meta-framework
 
 Many developers stick to the frameworks' default settings, which contain many great features around best practices. However, I discovered I could significantly boost my site's performance by tweaking the settings and stripping away the unnecessary parts. Not doing this will land you in the solid 90% of awesomeness, but if you want to get close to 100%, you'll have to open Pandora's box.
 
