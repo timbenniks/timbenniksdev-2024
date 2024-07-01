@@ -5,7 +5,7 @@ title: "Choosing the right visual editor for your website: Platform-First vs. Co
 description: "This post explores two main types of visual editors: platform-first and code-first. I compare their functionalities, pros, and cons to help you choose the right solution for your development needs."
 date: "2024-06-28T13:05:48Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/poster.png"
-canonical_url: ""
+canonical_url: "https://timbenniks.dev/writing/choosing-the-right-visual-editor"
 tags: ["architecture","dxp","dxc","composable"]
 reading_time: 3 min read
 faqs:
