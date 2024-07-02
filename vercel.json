@@ -22,12 +22,6 @@
       "permanent": true
     },
 
-    {
-      "source": "/:path+/",
-      "destination": "/:path+",
-      "permanent": true
-    },
-
     { "source": "/articles", "destination": "/writing", "permanent": true },
     { "source": "/playlists", "destination": "/", "permanent": true },
     { "source": "/contact", "destination": "/", "permanent": true },
