@@ -198,6 +198,11 @@
       "permanent": true
     },
     {
+      "source": "/videos/make-your-website-even-faster-with-astro/",
+      "destination": "https://youtube.com/watch?v=O8m4cS3o4II",
+      "permanent": true
+    },
+    {
       "source": "/videos/webpack-tutorial-create-a-config-from-scratch",
       "destination": "https://youtube.com/watch?v=fyuvqRUzeVY",
       "permanent": true
@@ -209,6 +214,11 @@
     },
     {
       "source": "/videos/tim-tries-figma-zeplin-and-storybook-mind-is-blown",
+      "destination": "https://youtube.com/watch?v=ZUHT0g3ZPYw",
+      "permanent": true
+    },
+    {
+      "source": "/videos/tim-tries-figma-zeplin-and-storybook-mind-is-blown/",
       "destination": "https://youtube.com/watch?v=ZUHT0g3ZPYw",
       "permanent": true
     },
@@ -348,6 +358,11 @@
       "permanent": true
     },
     {
+      "source": "/videos/vue-3-composition-api-and-vite-to-recreate-tiktok/",
+      "destination": "https://youtube.com/watch?v=gGaoxqTc7kE",
+      "permanent": true
+    },
+    {
       "source": "/videos/magical-combination-to-build-a-modern-website",
       "destination": "https://youtube.com/watch?v=V5AobIiruD4",
       "permanent": true
@@ -408,6 +423,11 @@
       "permanent": true
     },
     {
+      "source": "/videos/jamstack-with-prismic-and-gridsome/",
+      "destination": "https://youtube.com/watch?v=tqR2EO7Tivc",
+      "permanent": true
+    },
+    {
       "source": "/videos/i-have-a-new-job-at-a-silicon-valley-startup",
       "destination": "https://youtube.com/watch?v=HCThe5pWhvM",
       "permanent": true
@@ -419,6 +439,11 @@
     },
     {
       "source": "/videos/lazy-loading-images-with-prismic-and-vue",
+      "destination": "https://youtube.com/watch?v=5jAYPM6gX1o",
+      "permanent": true
+    },
+    {
+      "source": "/videos/lazy-loading-images-with-prismic-and-vue/",
       "destination": "https://youtube.com/watch?v=5jAYPM6gX1o",
       "permanent": true
     },

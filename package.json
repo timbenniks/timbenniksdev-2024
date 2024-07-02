@@ -20,11 +20,13 @@
     "bottleneck": "^2.19.5",
     "nuxt": "^3.12.2",
     "nuxt-jsonld": "^2.0.8",
+    "rss": "^1.2.2",
     "sitemap": "^8.0.0"
   },
   "devDependencies": {
     "@nuxtjs/mdc": "^0.8.2",
     "@tailwindcss/typography": "^0.5.13",
+    "@types/rss": "^0.0.32",
     "date-fns": "^3.6.0",
     "dotenv": "^16.4.5"
   }
