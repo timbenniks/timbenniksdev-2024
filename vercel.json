@@ -682,7 +682,7 @@
     },
     {
       "source": "/writings/my-fitness-story",
-      "destination": "h/writing/my-fitness-story",
+      "destination": "/writing/my-fitness-story",
       "permanent": true
     },
     {
