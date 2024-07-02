@@ -191,11 +191,7 @@
       "destination": "https://youtube.com/watch?v=O8m4cS3o4II",
       "permanent": true
     },
-    {
-      "source": "/videos/make-your-website-even-faster-with-astro/",
-      "destination": "https://youtube.com/watch?v=O8m4cS3o4II",
-      "permanent": true
-    },
+
     {
       "source": "/videos/webpack-tutorial-create-a-config-from-scratch",
       "destination": "https://youtube.com/watch?v=fyuvqRUzeVY",
@@ -211,11 +207,7 @@
       "destination": "https://youtube.com/watch?v=ZUHT0g3ZPYw",
       "permanent": true
     },
-    {
-      "source": "/videos/tim-tries-figma-zeplin-and-storybook-mind-is-blown/",
-      "destination": "https://youtube.com/watch?v=ZUHT0g3ZPYw",
-      "permanent": true
-    },
+
     {
       "source": "/videos/tims-vlog-career-advice-for-developers",
       "destination": "https://youtube.com/watch?v=AUzzgMyN0z4",
@@ -311,11 +303,7 @@
       "destination": "https://youtube.com/watch?v=xiT7qtMCmIk",
       "permanent": true
     },
-    {
-      "source": "/videos/an-interview-with-anastasiya-flynn-from-sitecore-jss/",
-      "destination": "https://youtube.com/watch?v=pwqVQnnoPIY",
-      "permanent": true
-    },
+
     {
       "source": "/videos/an-interview-with-anastasiya-flynn-from-sitecore-jss",
       "destination": "https://youtube.com/watch?v=pwqVQnnoPIY",
@@ -351,11 +339,7 @@
       "destination": "https://youtube.com/watch?v=gGaoxqTc7kE",
       "permanent": true
     },
-    {
-      "source": "/videos/vue-3-composition-api-and-vite-to-recreate-tiktok/",
-      "destination": "https://youtube.com/watch?v=gGaoxqTc7kE",
-      "permanent": true
-    },
+
     {
       "source": "/videos/magical-combination-to-build-a-modern-website",
       "destination": "https://youtube.com/watch?v=V5AobIiruD4",
@@ -436,11 +420,7 @@
       "destination": "https://youtube.com/watch?v=5jAYPM6gX1o",
       "permanent": true
     },
-    {
-      "source": "/videos/lazy-loading-images-with-prismic-and-vue/",
-      "destination": "https://youtube.com/watch?v=5jAYPM6gX1o",
-      "permanent": true
-    },
+
     {
       "source": "/videos/an-interview-with-natalia-tepluhina-from-gitlab-and",
       "destination": "https://youtube.com/watch?v=U5S4DqQlt1o",
@@ -569,16 +549,7 @@
       "destination": "/writing/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
       "permanent": true
     },
-    {
-      "source": "/writings/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps/",
-      "destination": "/writing/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
-      "permanent": true
-    },
-    {
-      "source": "/writings/fatty-is-alive/",
-      "destination": "/writing",
-      "permanent": true
-    },
+
     {
       "source": "/writings/fatty-is-alive",
       "destination": "/writing",
