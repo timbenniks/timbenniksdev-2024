@@ -22,6 +22,12 @@
       "permanent": true
     },
 
+    {
+      "source": "/turbo-tutorial/nuxt-3-how-to-use-vue-components-in-nuxt-content-v2",
+      "destination": "https://turbo-tutorials.dev/tutorials/nuxt-3-how-to-use-vue-components-in-nuxt-content-v2/",
+      "permanent": true
+    },
+
     { "source": "/articles", "destination": "/writing", "permanent": true },
     { "source": "/playlists", "destination": "/", "permanent": true },
     { "source": "/contact", "destination": "/", "permanent": true },
@@ -186,6 +192,17 @@
       "permanent": true
     },
     {
+      "source": "/turbo-tutorial/nuxt-3-learn-about-Pinia-setup-basics",
+      "destination": "https://turbo-tutorials.dev/tutorials/nuxt-3-learn-about-Pinia-setup-basics/",
+      "permanent": true
+    },
+
+    {
+      "source": "/videos/make-your-website-even-faster-with-astro/",
+      "destination": "https://youtube.com/watch?v=O8m4cS3o4II",
+      "permanent": true
+    },
+    {
       "source": "/videos/webpack-tutorial-create-a-config-from-scratch",
       "destination": "https://youtube.com/watch?v=fyuvqRUzeVY",
       "permanent": true
@@ -197,6 +214,24 @@
     },
     {
       "source": "/videos/tim-tries-figma-zeplin-and-storybook-mind-is-blown",
+      "destination": "https://youtube.com/watch?v=ZUHT0g3ZPYw",
+      "permanent": true
+    },
+
+    {
+      "source": "/turbo-tutorial/nuxt-3-query-from-an-external-api-read-more",
+      "destination": "https://turbo-tutorials.dev/tutorials/nuxt-3-query-from-an-external-api-read-more/",
+      "permanent": true
+    },
+
+    {
+      "source": "/turbo-tutorial/learn-about-responsive-image-basics",
+      "destination": "https://turbo-tutorials.dev/tutorials/learn-about-responsive-image-basics/",
+      "permanent": true
+    },
+
+    {
+      "source": "/videos/tim-tries-figma-zeplin-and-storybook-mind-is-blown/",
       "destination": "https://youtube.com/watch?v=ZUHT0g3ZPYw",
       "permanent": true
     },
@@ -331,8 +366,30 @@
       "permanent": true
     },
     {
+      "source": "/videos/vue-3-composition-api-and-vite-to-recreate-tiktok/",
+      "destination": "https://youtube.com/watch?v=gGaoxqTc7kE",
+      "permanent": true
+    },
+    {
       "source": "/videos/magical-combination-to-build-a-modern-website",
       "destination": "https://youtube.com/watch?v=V5AobIiruD4",
+      "permanent": true
+    },
+
+    {
+      "source": "/uniform-videos",
+      "destination": "/videos/uniform",
+      "permanent": true
+    },
+
+    {
+      "source": "/videos/magical-combination-to-build-a-modern-website/",
+      "destination": "https://youtube.com/watch?v=V5AobIiruD4",
+      "permanent": true
+    },
+    {
+      "source": "/turbo-tutorial/nuxt-3-head-management",
+      "destination": "https://turbo-tutorials.dev/tutorials/nuxt-3-head-management/",
       "permanent": true
     },
     {
@@ -407,6 +464,11 @@
     },
     {
       "source": "/videos/lazy-loading-images-with-prismic-and-vue",
+      "destination": "https://youtube.com/watch?v=5jAYPM6gX1o",
+      "permanent": true
+    },
+    {
+      "source": "/videos/lazy-loading-images-with-prismic-and-vue/",
       "destination": "https://youtube.com/watch?v=5jAYPM6gX1o",
       "permanent": true
     },
