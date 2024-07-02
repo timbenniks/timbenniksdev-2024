@@ -22,6 +22,7 @@
       "permanent": true
     },
 
+    { "source": "/articles", "destination": "/writing", "permanent": true },
     { "source": "/playlists", "destination": "/", "permanent": true },
     { "source": "/contact", "destination": "/", "permanent": true },
     { "source": "/contact/", "destination": "/", "permanent": true },
@@ -160,6 +161,11 @@
       "permanent": true
     },
     {
+      "source": "/videos/cable-management-for-nuxt-3/",
+      "destination": "https://youtube.com/watch?v=RY60wVg0FZQ",
+      "permanent": true
+    },
+    {
       "source": "/videos/cable-management-for-nuxt-3",
       "destination": "https://youtube.com/watch?v=RY60wVg0FZQ",
       "permanent": true
@@ -287,6 +293,11 @@
     {
       "source": "/videos/work-from-home-how-to-make-your-webcam-look",
       "destination": "https://youtube.com/watch?v=xiT7qtMCmIk",
+      "permanent": true
+    },
+    {
+      "source": "/videos/an-interview-with-anastasiya-flynn-from-sitecore-jss/",
+      "destination": "https://youtube.com/watch?v=pwqVQnnoPIY",
       "permanent": true
     },
     {
@@ -528,6 +539,11 @@
       "permanent": true
     },
     {
+      "source": "/writings/fatty-is-alive/",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
       "source": "/writings/fatty-is-alive",
       "destination": "/writing",
       "permanent": true
@@ -711,7 +727,7 @@
     },
     {
       "source": "/turbo-tutorial/vue-3-learn-how-to-make-a-composable",
-      "destination": "/",
+      "destination": "https://turbo-tutorials.dev/tutorials/vue-3-learn-how-to-make-a-composable/",
       "permanent": true
     },
     {
