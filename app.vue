@@ -63,7 +63,7 @@ useHead(() => ({
   link: [
     {
       rel: "canonical",
-      href: "https://timbenniks.dev" + route.path,
+      href: `https://timbenniks.dev${route.path}`,
     },
   ],
 }));

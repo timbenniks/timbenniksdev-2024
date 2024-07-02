@@ -22,6 +22,12 @@
       "permanent": true
     },
 
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "permanent": true
+    },
+
     { "source": "/articles", "destination": "/writing", "permanent": true },
     { "source": "/playlists", "destination": "/", "permanent": true },
     { "source": "/contact", "destination": "/", "permanent": true },
@@ -97,6 +103,12 @@
     {
       "source": "/playlists/tim-tries",
       "destination": "https://www.youtube.com/watch?v=D8AhNcXgrYg&list=PLcoeeDyxakhXyFLClseMeaM00AY2pQpry",
+      "permanent": true
+    },
+
+    {
+      "source": "/videos/?facets=Tim-tries",
+      "destination": "/videos",
       "permanent": true
     },
 
@@ -535,6 +547,11 @@
     },
     {
       "source": "/writings/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
+      "destination": "/writing/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
+      "permanent": true
+    },
+    {
+      "source": "/writings/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps/",
       "destination": "/writing/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
       "permanent": true
     },
