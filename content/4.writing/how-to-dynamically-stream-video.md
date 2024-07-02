@@ -5,7 +5,7 @@ title: "How to dynamically stream video"
 description: "Build it yourself or use Cloudinary   Dynamic video streaming is a video delivery technique..."
 date: "2023-03-18T21:56:45Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9wx2ix9t60eajoccgjh7.png"
-canonical_url: "https://dev.to/timbenniks/how-to-dynamically-stream-video-135f"
+canonical_url: ""
 tags: ["video","cloudinary","streaming"]
 collection_id: 22300
 reading_time: 11 min read
@@ -68,7 +68,7 @@ $ ffmpeg -i video.mp4 -c:a copy -vn video-audio.mp4
 ```
 **Step 2: extract and re-encode the video track**
 
-```
+```bash
 $ ffmpeg -i video.mp4 -an -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -b:v 5300k -maxrate 5300k -bufsize 2650k -vf 'scale=-1:1080' video-1080.mp4
 
 $ ffmpeg -i video.mp4 -an -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -b:v 2400k -maxrate 2400k -bufsize 1200k -vf 'scale=-1:720' video-720.mp4
@@ -116,7 +116,7 @@ Once you have selected a profile, you upload your video file with an eager trans
 
 This upload code is for the Node.js SDK.
 
-```
+```js
 // This file is to be used in node.js and is for uploading your video file to Cloudinary.
 // This will not work in codesandbox and is here only for example purposes.
 // Run locally like: `node upload.js`
@@ -157,7 +157,7 @@ Now that the file has been uploaded, it generates a bunch of different video and
 
 For the HLS version of the video this is what comes out as the m3u8 playlist file:
 
-```
+```bash
 #EXTM3U
 
 #EXT-X-STREAM-INF:BANDWIDTH=10712000,CODECS="avc1.640028,mp4a.40.2",RESOLUTION=3840x2160
@@ -187,7 +187,7 @@ For the HLS version of the video this is what comes out as the m3u8 playlist fil
 
 For the MPEG-DASH version of the video this is what comes out as the MPD playlist file (I have shortened the file for readability):
 
-```
+```xml
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" minBufferTime="PT1.500S" type="static" mediaPresentationDuration="PT0H0M28.800S" maxSegmentDuration="PT0H0M2.800S" profiles="urn:mpeg:dash:profile:full:2011">
   <Period duration="PT0H0M28.800S">
     <AdaptationSet segmentAlignment="true" maxWidth="1280" maxHeight="720" maxFrameRate="25" par="16:9" lang="und">

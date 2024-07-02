@@ -1,11 +1,11 @@
 ---
 id: 1569148
 slug: "new-job-alert"
-title: "New job alert!"
-description: "After an exciting journey at Uniform, it's time for a new adventure.  At Uniform, we thrived during..."
+title: "New job alert - Hygraph 2023"
+description: "After an exciting journey at Uniform, it's time for a new adventure. At Uniform, we thrived during..."
 date: "2023-08-16T13:42:10Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadfg5ciysfamka395zir.png"
-canonical_url: "https://dev.to/timbenniks/new-job-alert-443n"
+canonical_url: ""
 tags: ["career","webdev","devrel"]
 collection_id: 22300
 reading_time: 2 min read

@@ -22,7 +22,8 @@ Nuxt Studio is awesome...
   - Responsive images
 
 ## Todo
-- FAQ section to blogposts to enhance its google visibility
-  - Q&As that were not covered in the article but are relevant
-  - See: https://www.yurts.ai/blog/navigating-the-challenges-of-fine-tuning-and-catastrophic-forgetting
-  - Make sure to add Schema.org FAQ's as well
+- Move back to blog
+  - https://web.archive.org/web/20211024162559mp_/https://timbenniks.dev/writings/a-developers-guide-to-low-carbon-websites/
+  - https://web.archive.org/web/20221224170245/https://timbenniks.dev/writings/delivery-guidelines-for-creative-assets/
+  - https://web.archive.org/web/20211202050647/https://timbenniks.dev/writings/easy-dynamic-routes-in-your-nuxt-sitemap
+  - https://web.archive.org/web/20221225090455/https://timbenniks.dev/writings/lazy-loading-images-with-cloudinary/

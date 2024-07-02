@@ -5,7 +5,7 @@ title: "The future of jamstack is composable"
 description: "This post is either for developers who want an “at-scale” overview of modern architecture or for..."
 date: "2022-02-23T13:04:08Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fso0lvl9w5rea6i7sfp6u.jpeg"
-canonical_url: "https://dev.to/timbenniks/the-future-of-jamstack-is-composable-3m7g"
+canonical_url: ""
 tags: ["jamstack","architecture","composable","orchestration"]
 collection_id: 22300
 reading_time: 8 min read

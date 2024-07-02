@@ -5,7 +5,7 @@ title: "My Fitness Story"
 description: "From fat and sick to slim and happy   Aside from a short period in high school I have always..."
 date: "2023-03-18T22:39:46Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F86xayxbotaqwk8get75h.jpg"
-canonical_url: "https://dev.to/timbenniks/my-fitness-story-1p97"
+canonical_url: ""
 tags: ["fitness","personal"]
 collection_id: 22299
 reading_time: 3 min read

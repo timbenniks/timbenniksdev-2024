@@ -5,7 +5,7 @@ title: "This is headless 2.0"
 description: "That’s a bold title, but it’s high time to change how we work with headless technology. I wrote about..."
 date: "2023-07-11T07:48:19Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr4ykeb6acv0q288ygpaj.png"
-canonical_url: "https://www.linkedin.com/pulse/headless-20-tim-benniks/"
+canonical_url: ""
 tags: ["webdev","mach","headless","architecture"]
 collection_id: 22300
 reading_time: 5 min read

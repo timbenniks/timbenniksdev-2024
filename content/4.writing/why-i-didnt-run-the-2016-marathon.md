@@ -5,7 +5,7 @@ title: "Why I didn't run the 2016 marathon"
 description: "After four and a half months of full on training I’ve decided not to run the Amsterdam marathon on..."
 date: "2023-03-18T22:52:37Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fafpsw3jbsie5bf7w8wp9.jpg"
-canonical_url: "https://dev.to/timbenniks/why-i-didnt-run-the-2016-marathon-57e3"
+canonical_url: ""
 tags: ["personal","fitness","running"]
 collection_id: 22299
 reading_time: 6 min read

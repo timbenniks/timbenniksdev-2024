@@ -1,5 +1,27 @@
 {
   "redirects": [
+    {
+      "source": "/writings/easy-dynamic-routes-in-your-nuxt-sitemap",
+      "destination": "/writing",
+      "permanent": true
+    },
+
+    {
+      "source": "/writings/delivery-guidelines-for-creative-assets",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/covid-19-work-from-home-how-to-make-your-webcam-look",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/lazy-loading-images-with-cloudinary",
+      "destination": "/writing",
+      "permanent": true
+    },
+
     { "source": "/playlists", "destination": "/", "permanent": true },
     { "source": "/contact", "destination": "/", "permanent": true },
     { "source": "/contact/", "destination": "/", "permanent": true },
@@ -486,29 +508,7 @@
 
     {
       "source": "/writings/the-future-of-jamstack-is-composable",
-      "destination": "https://dev.to/timbenniks/the-future-of-jamstack-is-composable-3m7g",
-      "permanent": true
-    },
-
-    {
-      "source": "/writings/easy-dynamic-routes-in-your-nuxt-sitemap",
-      "destination": "/writing",
-      "permanent": true
-    },
-
-    {
-      "source": "/writings/delivery-guidelines-for-creative-assets",
-      "destination": "/writing",
-      "permanent": true
-    },
-    {
-      "source": "/writings/covid-19-work-from-home-how-to-make-your-webcam-look",
-      "destination": "/writing",
-      "permanent": true
-    },
-    {
-      "source": "/writings/lazy-loading-images-with-cloudinary",
-      "destination": "/writing",
+      "destination": "/writing/the-future-of-jamstack-is-composable",
       "permanent": true
     },
     {
@@ -516,6 +516,7 @@
       "destination": "/writing",
       "permanent": true
     },
+
     {
       "source": "/writings/a-new-website",
       "destination": "/writing",
@@ -523,7 +524,7 @@
     },
     {
       "source": "/writings/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
-      "destination": "https://dev.to/timbenniks/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps-5eo4",
+      "destination": "/writing/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
       "permanent": true
     },
     {
@@ -553,7 +554,7 @@
     },
     {
       "source": "/writings/the-ultimate-guide-to-modern-lazy-loading-techniques",
-      "destination": "https://dev.to/timbenniks/the-2015-paris-marathon-i0l",
+      "destination": "/writing",
       "permanent": true
     },
     {
@@ -573,7 +574,7 @@
     },
     {
       "source": "/writings/how-to-dynamically-stream-video",
-      "destination": "https://dev.to/timbenniks/how-to-dynamically-stream-video-135f",
+      "destination": "/writing/how-to-dynamically-stream-video",
       "permanent": true
     },
     {
@@ -603,12 +604,12 @@
     },
     {
       "source": "/writings/my-fitness-story",
-      "destination": "https://dev.to/timbenniks/my-fitness-story-1p97",
+      "destination": "h/writing/my-fitness-story",
       "permanent": true
     },
     {
       "source": "/writings/why-i-didnt-run-the-2016-marathon",
-      "destination": "https://dev.to/timbenniks/why-i-didnt-run-the-2016-marathon-57e3",
+      "destination": "/writing/why-i-didnt-run-the-2016-marathon",
       "permanent": true
     },
 
@@ -824,7 +825,7 @@
       "permanent": true
     },
     {
-      "source": "writings/how-to-deliver-video-the-right-way",
+      "source": "/writings/how-to-deliver-video-the-right-way",
       "destination": "/writing",
       "permanent": true
     }
