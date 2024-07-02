@@ -330,8 +330,20 @@
       "destination": "https://youtube.com/watch?v=xiT7qtMCmIk",
       "permanent": true
     },
+
+    {
+      "source": "/timbenniks.dev@gmail.com",
+      "destination": "/",
+      "permanent": true
+    },
+
     {
       "source": "/videos/an-interview-with-anastasiya-flynn-from-sitecore-jss",
+      "destination": "https://youtube.com/watch?v=pwqVQnnoPIY",
+      "permanent": true
+    },
+    {
+      "source": "/videos/an-interview-with-anastasiya-flynn-from-sitecore-jss/",
       "destination": "https://youtube.com/watch?v=pwqVQnnoPIY",
       "permanent": true
     },
@@ -607,6 +619,11 @@
     },
     {
       "source": "/writings/fatty-is-alive",
+      "destination": "/writing",
+      "permanent": true
+    },
+    {
+      "source": "/writings/fatty-is-alive/",
       "destination": "/writing",
       "permanent": true
     },
