@@ -2,7 +2,6 @@ import RSS from 'rss';
 import { serverQueryContent } from '#content/server'
 
 export default defineEventHandler(async (event) => {
-
   const feed = new RSS({
     title: 'Tim Benniks',
     site_url: 'https://timbenniks.dev',
@@ -22,5 +21,6 @@ export default defineEventHandler(async (event) => {
     });
   })
 
+  event.node.res.setHeader('content-type', 'text/xml');
   return feed.xml({ indent: true });
 })
