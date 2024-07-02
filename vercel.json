@@ -601,6 +601,11 @@
       "permanent": true
     },
     {
+      "source": "/writings/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps/",
+      "destination": "/writing/how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps",
+      "permanent": true
+    },
+    {
       "source": "/writings/fatty-is-alive",
       "destination": "/writing",
       "permanent": true
