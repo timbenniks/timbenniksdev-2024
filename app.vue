@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const cfg = useRuntimeConfig();
-
 const env = process.env.NODE_ENV;
 
 useHead({
@@ -64,6 +62,12 @@ useHead(() => ({
     {
       rel: "canonical",
       href: `https://timbenniks.dev${route.path}`,
+    },
+    {
+      rel: "alternate",
+      type: "application/rss+xml",
+      title: "RSS Feed for Tim Benniks",
+      href: "/feed.xml",
     },
   ],
 }));
