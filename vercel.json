@@ -25,9 +25,7 @@
     { "source": "/articles", "destination": "/writing", "permanent": true },
     { "source": "/playlists", "destination": "/", "permanent": true },
     { "source": "/contact", "destination": "/", "permanent": true },
-    { "source": "/contact/", "destination": "/", "permanent": true },
     { "source": "/writings", "destination": "/writing", "permanent": true },
-    { "source": "/writings/", "destination": "/writing", "permanent": true },
     {
       "source": "/_nuxt/static/1668591621",
       "destination": "/",
@@ -35,7 +33,6 @@
     },
 
     { "source": "/tags", "destination": "/", "permanent": true },
-    { "source": "/tags/", "destination": "/", "permanent": true },
     { "source": "/tags/sustainability", "destination": "/", "permanent": true },
     { "source": "/tags/ConferenceTalk", "destination": "/", "permanent": true },
     { "source": "/tags/Vlog", "destination": "/", "permanent": true },
@@ -97,12 +94,6 @@
     {
       "source": "/playlists/tim-tries",
       "destination": "https://www.youtube.com/watch?v=D8AhNcXgrYg&list=PLcoeeDyxakhXyFLClseMeaM00AY2pQpry",
-      "permanent": true
-    },
-
-    {
-      "source": "/videos/?facets=Tim-tries",
-      "destination": "/videos",
       "permanent": true
     },
 
