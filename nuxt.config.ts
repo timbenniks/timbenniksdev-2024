@@ -1,3 +1,5 @@
+// import hygraphTalks from './drivers/hygraphTalks'
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
@@ -52,6 +54,11 @@ export default defineNuxtConfig({
   },
 
   content: {
+    // sources: {
+    //   hygraphTalks: {
+    //     driver: "hygraphTalks",
+    //   },
+    // },
     markdown: {
       anchorLinks: false
     },
