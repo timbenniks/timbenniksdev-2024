@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  future: {
+    compatibilityVersion: 4,
+  },
+  compatibilityDate: '2024-07-04',
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
@@ -62,7 +66,8 @@ export default defineNuxtConfig({
       anchorLinks: false
     },
     highlight: {
-      theme: 'github-dark'
+      theme: 'github-dark',
+      langs: ['js', 'ts', 'bash', 'html', 'xml', 'vue', 'vue-html']
     }
   }
 })
