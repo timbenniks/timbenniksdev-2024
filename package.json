@@ -13,18 +13,18 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.13.0",
-    "@nuxt/fonts": "^0.7.0",
+    "@nuxt/fonts": "^0.7.1",
     "@nuxt/image": "^1.7.0",
-    "@nuxthq/studio": "^2.0.2",
+    "@nuxthq/studio": "^2.0.3",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "bottleneck": "^2.19.5",
-    "nuxt": "^3.12.2",
+    "nuxt": "^3.12.3",
     "nuxt-jsonld": "^2.0.8",
     "rss": "^1.2.2",
     "sitemap": "^8.0.0"
   },
   "devDependencies": {
-    "@nuxtjs/mdc": "^0.8.2",
+    "@nuxtjs/mdc": "^0.8.3",
     "@tailwindcss/typography": "^0.5.13",
     "@types/rss": "^0.0.32",
     "date-fns": "^3.6.0",
