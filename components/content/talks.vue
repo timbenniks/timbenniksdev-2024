@@ -5,7 +5,7 @@ import { format, getYear, isFuture } from "date-fns";
 const props = defineProps(["limit", "small"]);
 
 const query: QueryBuilderParams = {
-  path: "/speaking",
+  path: "/talks",
   sort: [{ date: -1 }],
   where: [{ _dir: { $ne: "" } }, { _empty: { $ne: true } }],
 };

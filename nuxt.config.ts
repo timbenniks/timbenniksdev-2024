@@ -56,12 +56,13 @@ export default defineNuxtConfig({
   },
 
   content: {
-    // sources: {
-    //   talks: {
-    //     driver: "http",
-    //     base: "http://localhost:3001/api/talks"
-    //   },
-    // },
+    sources: {
+      talks: {
+        driver: "http",
+        prefix: '/talks',
+        base: "https://operation-unstorage.vercel.app/api/talks/"
+      },
+    },
     markdown: {
       anchorLinks: false
     },
