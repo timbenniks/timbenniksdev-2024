@@ -40,6 +40,7 @@ useHead({
       defer: true,
       async: true,
       "data-domain": "timbenniks.dev",
+      tagPosition: "bodyClose",
     },
 
     {
