@@ -55,13 +55,13 @@ export default defineNuxtConfig({
     }
   },
 
+  vue: {
+    compilerOptions: {
+      isCustomElement: tag => ['lite-youtube'].includes(tag)
+    }
+  },
+
   content: {
-    // sources: {
-    //   talks: {
-    //     driver: "http",
-    //     base: "http://localhost:3001/api/talks"
-    //   },
-    // },
     markdown: {
       anchorLinks: false
     },

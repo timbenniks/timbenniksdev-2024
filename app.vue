@@ -48,6 +48,12 @@ useHead({
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
       `,
     },
+    {
+      type: "module",
+      defer: true,
+      src: "/youtube.js",
+      tagPosition: "bodyClose",
+    },
   ],
 });
 
