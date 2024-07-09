@@ -49,7 +49,7 @@ useJsonld({
     "@type": "BlogPosting",
     "headline": post.value.title,
     "image": parseHeroImage(post.value.image),
-    "keywords": post.value.tags.join(" "),
+    "keywords": post.value.tags.join(", "),
     "mainEntityOfPage": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
     "url": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
     "datePublished": post.value.date,
@@ -91,6 +91,10 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
 <template>
   <div class="p-8 md:p-0 md:pb-12">
     <ContentDoc v-slot="{ doc }">
+      <Head>
+        <Meta name="keywords" :content="doc.tags.join(', ')" />
+      </Head>
+
       <Head v-if="doc.canonical_url">
         <Link rel="canonical" :href="doc.canonical_url" />
       </Head>

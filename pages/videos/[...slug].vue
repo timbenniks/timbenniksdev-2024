@@ -79,8 +79,10 @@ useJsonld({
 });
 
 useSeoMeta({
-  title: title.value,
-  description: `video overview for ${title.value}`,
+  title: `Videos about ${title.value}`,
+  description: `Video overview for my ${title.value} videos`,
+  ogImage:
+    "https://res.cloudinary.com/dwfcofnrd/image/upload/w_1280,f_auto,q_auto/Tim/Tim-oct-2020.jpg",
 });
 </script>
 

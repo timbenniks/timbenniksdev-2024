@@ -5,14 +5,14 @@ draft: false
 navTitle: Speaking
 navigation: true
 image:
-  src: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_1280/Tim/tim_aug_2023.png
+  src: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_1280/Tim/Tim%20On%20Stage.jpg
   alt: Tim Benniks
   width: 1280
   height: 800
 head:
   meta:
     - name: keywords
-      content: Tim Benniks
+      content: speaker, keynote, conference, interactive, vue.js amsterdam, Nuxt
 ---
 
 ::hero

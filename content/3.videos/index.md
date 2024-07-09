@@ -1,18 +1,18 @@
 ---
 title: Videos
 navTitle: Videos
-description: An overview of my videos
+description: An overview of my videos from my personal YouTube, to work related stuff from Uniform and Hygraph.
 draft: false
 navigation: true
 image:
-  src: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_1280/Tim/tim_aug_2023.png
+  src: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_1280/Presskit/1_april_2023_no_logo.png
   alt: Tim Benniks
   width: 1280
   height: 800
 head:
   meta:
     - name: keywords
-      content: Tim Benniks
+      content: Youtuber, Video creator, content creator, Turbo Tutorials, Middleware Productions
 ---
 
 :title-block{tag="h1" title="Videos"}
