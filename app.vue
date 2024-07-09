@@ -36,16 +36,15 @@ useHead({
       src: "/_vercel/speed-insights/script.js",
     },
     {
+      src: "https://plausible.io/js/plausible.js",
       defer: true,
-      src:
-        env == "development"
-          ? "https://cdn.vercel-insights.com/v1/script.debug.js"
-          : "/_vercel/insights/script.js",
+      async: true,
+      "data-domain": "timbenniks.dev",
     },
+
     {
       innerHTML: `
         window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
       `,
     },
     {
