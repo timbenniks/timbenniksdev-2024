@@ -16,10 +16,15 @@ useHead({
       name: "theme-color",
       content: "#ec4899",
     },
+    {
+      name: "algolia-site-verification",
+      content: "315ACC06D73AB3EA",
+    },
   ],
   htmlAttrs: {
     lang: "en",
   },
+
   script: [
     {
       type: "speculationrules",
