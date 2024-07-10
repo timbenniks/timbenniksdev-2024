@@ -25,6 +25,11 @@ export default defineNuxtConfig({
     inlineStyles: true
   },
 
+  routeRules: {
+    '/**': { experimentalNoScripts: true },
+    '/q': { experimentalNoScripts: false },
+  },
+
   fonts: {
     defaults: {
       weights: [400, 700, 900],

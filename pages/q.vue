@@ -14,11 +14,22 @@ useHead({
     },
   ],
 });
+
+useSeoMeta({
+  title: `Search`,
+  description: `Search for anything you want and you shall find it!`,
+  ogImage:
+    "https://res.cloudinary.com/dwfcofnrd/image/upload/w_1280,f_auto,q_auto/Tim/Tim-oct-2020.jpg",
+});
 </script>
 
 <template>
   <div class="p-12">
     <div id="searchbox" class="text-black"></div>
+    <h1>Articles</h1>
     <div id="hits"></div>
+
+    <h2>Pages</h2>
+    <div id="hits-secondary"></div>
   </div>
 </template>

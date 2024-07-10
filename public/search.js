@@ -8,12 +8,14 @@ const search = instantsearch({
   searchClient,
 });
 
+const { searchBox, hits } = instantsearch.widgets;
+
 search.addWidgets([
-  instantsearch.widgets.searchBox({
+  searchBox({
     container: "#searchbox",
   }),
 
-  instantsearch.widgets.hits({
+  hits({
     container: "#hits",
     templates: {
       item: (hit, { html, components }) => html`
@@ -24,6 +26,27 @@ search.addWidgets([
       `,
     },
   }),
+
+  instantsearch.widgets.index({ indexName: "tims_site_pages" }).addWidgets([
+    instantsearch.widgets.hits({
+      container: "#hits-secondary",
+      templates: {
+        item: (hit, { html, components }) => html`
+          <div>
+            <p>${components.Highlight({ hit, attribute: "name" })}</p>
+            <p>${components.Highlight({ hit, attribute: "description" })}</p>
+          </div>
+        `,
+      },
+    }),
+  ]),
 ]);
 
 search.start();
+
+// QUESTION / DISCUSSION POINTS
+// - are we talking about technical products? - Are we going for production / more generic trends in tech?
+// - personalisation > everyone wants it but how do we implement it on the technology side >
+// - everyone "wants" visual editing but what they need is proper data for
+// - more monolithical applications trends vs. split between partners who do something very well
+// - Ask Helene about CMS?
