@@ -3,9 +3,17 @@ const searchClient = algoliasearch(
   "5c0aa34c3ea19295ad0fd2474c97e54d"
 );
 
+const urlParams = new URLSearchParams(window.location.search);
+const searchQuery = urlParams.get("q");
+
 const search = instantsearch({
   indexName: "tims_site_pages",
   searchClient,
+  initialUiState: {
+    tims_site_pages: {
+      query: searchQuery,
+    },
+  },
 });
 
 const { searchBox, hits, index } = instantsearch.widgets;
@@ -23,7 +31,14 @@ function parseImage(imageUrl) {
 search.addWidgets([
   searchBox({
     container: "#searchbox",
-    placholder: "Search",
+    placeholder: "Search here",
+    autofocus: true,
+    showReset: false,
+    showSubmit: false,
+    showLoadingIndicator: false,
+    queryHook(query, search) {
+      search(query);
+    },
   }),
 
   hits({

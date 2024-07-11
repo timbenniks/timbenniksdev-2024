@@ -33,18 +33,17 @@ useSeoMeta({
     />
 
     <div class="mb-8">
-      <p class="mb-2 uppercase text-sm">Keyword</p>
       <div id="searchbox" />
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="search-col">
         <p class="title text-2xl inline-block mb-6">Pages</p>
-        <div id="hits-pages" class="mb-12"></div>
+        <div id="hits-pages" class="hits mb-12"></div>
       </div>
       <div class="search-col">
         <p class="title text-2xl inline-block mb-6">Articles</p>
-        <div id="hits-articles" class="mb-12"></div>
+        <div id="hits-articles" class="hits mb-12"></div>
       </div>
     </div>
   </div>
@@ -52,7 +51,9 @@ useSeoMeta({
 
 <style lang="postcss">
 .ais-SearchBox-input {
-  @apply p-2 text-lg focus:outline-0 border-2 border-[#256ad1] text-[#256ad1];
+  @apply p-4 text-xl placeholder:text-white focus:outline-0 border-2 text-white bg-[#000] w-96;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
 }
 
 .ais-Hits-list {
