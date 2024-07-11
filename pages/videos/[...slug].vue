@@ -2,48 +2,70 @@
 const route = useRoute();
 const folder = route.params.slug;
 
-const title = computed(() => {
-  let result = "";
+const meta = computed(() => {
+  let title = "";
+  let image = "";
 
   switch (folder[0]) {
     case "tim":
-      result = "Personal videos";
+      title = "Personal videos";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/personal_videos.jpg";
       break;
 
     case "alive-and-kicking":
-      result = "Alive and Kicking videos";
+      title = "Alive and Kicking videos";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/alive_and_kicking.jpg";
       break;
 
     case "live-hygraph":
-      result = "Hygraph live streams";
+      title = "Hygraph live streams";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/hygraph.jpg";
       break;
 
     case "hygraph":
-      result = "Hygraph videos";
+      title = "Hygraph videos";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/hygraph.jpg";
       break;
 
     case "live-uniform":
-      result = "Uniform live streams";
+      title = "Uniform live streams";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/uniform.jpg";
       break;
 
     case "misc-streams":
-      result = "Personal live streams";
+      title = "Personal live streams";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/personal_videos.jpg";
       break;
 
     case "mp":
-      result = "Middleware Productions";
+      title = "Middleware Productions";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/mp.jpg";
       break;
 
     case "uniform":
-      result = "Uniform Videos";
+      title = "Uniform Videos";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/uniform.jpg";
       break;
 
     case "headless-creator":
-      result = "Headless Creator";
+      title = "Headless Creator";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/hc.jpg";
       break;
   }
 
-  return result;
+  return {
+    title,
+    image,
+  };
 });
 
 const listItemElements = [
@@ -62,7 +84,7 @@ const listItemElements = [
   {
     "@type": "ListItem",
     position: 3,
-    name: title.value,
+    name: meta.value.title,
     item: `https://timbenniks.dev/videos/${route.params.slug[0]}`,
   },
 ];
@@ -78,18 +100,14 @@ useJsonld({
   ],
 });
 
-const { data: video } = await useAsyncData("home", () =>
-  queryContent(`/videos/${folder[0]}`).limit(1).find()
-);
-
 useSeoMeta({
-  title: `Video category: ${title.value}`,
-  description: `Video overview for: ${title.value}`,
-  ogImage: video.value[0].image,
+  title: `Video category: ${meta.value.title}`,
+  description: `Video overview for: ${meta.value.title}`,
+  ogImage: meta.value.image,
 });
 </script>
 
 <template>
-  <title-block tag="h1" :title="title" />
+  <title-block tag="h1" :title="meta.title" />
   <videos :small="false" :folder="folder" :extras="false" />
 </template>
