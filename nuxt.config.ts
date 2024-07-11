@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   compatibilityDate: '2024-07-04',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   modules: [
     '@nuxt/content',
     "@nuxtjs/tailwindcss",
@@ -19,16 +19,15 @@ export default defineNuxtConfig({
     }
   },
 
+  routeRules: {
+    "/**": { prerender: true }
+  },
+
   features: {
     // turn on for editing in nuxt.studio
     noScripts: process.env.NO_SCRIPTS === "true" ? true : false,
     inlineStyles: true
   },
-
-  // routeRules: {
-  //   '/**': { experimentalNoScripts: true },
-  //   '/q': { experimentalNoScripts: false },
-  // },
 
   fonts: {
     defaults: {

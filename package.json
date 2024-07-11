@@ -16,7 +16,7 @@
     "@nuxt/fonts": "^0.7.1",
     "@nuxt/image": "^1.7.0",
     "@nuxthq/studio": "^2.0.3",
-    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "bottleneck": "^2.19.5",
     "nuxt": "^3.12.3",
     "nuxt-jsonld": "^2.0.8",
