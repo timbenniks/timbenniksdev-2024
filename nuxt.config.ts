@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   compatibilityDate: '2024-07-04',
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   modules: [
     '@nuxt/content',
     "@nuxtjs/tailwindcss",
@@ -18,10 +18,6 @@ export default defineNuxtConfig({
       routes: ['/', '/sitemap.xml', '/feed.xml']
     }
   },
-
-  // routeRules: {
-  //   "/**": { prerender: true }
-  // },
 
   features: {
     // turn on for editing in nuxt.studio

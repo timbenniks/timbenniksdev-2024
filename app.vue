@@ -118,6 +118,10 @@ useJsonld({
         },
       ],
       inLanguage: "en-US",
+      author: {
+        "@type": "Person",
+        name: "Tim Benniks",
+      },
     },
   ],
 });
