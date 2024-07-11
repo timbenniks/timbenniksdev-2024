@@ -79,6 +79,20 @@ useHead(() => ({
       href: "/feed.xml",
     },
   ],
+  meta: [
+    {
+      property: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      property: "og:site_name",
+      content: "Tim Benniks",
+    },
+    {
+      property: "og:url",
+      content: `https://timbenniks.dev${route.path}`,
+    },
+  ],
 }));
 
 useJsonld({

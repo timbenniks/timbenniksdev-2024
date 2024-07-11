@@ -11,6 +11,15 @@ image:
   height: 800
 head:
   meta:
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_1280/Presskit/1_april_2023_no_logo.png
+  meta:
+    - property: twitter:title
+      content: Tim Benniks - Videos
+  meta:
+    - property: twitter:description
+      content: An overview of my videos from my personal YouTube, to work related stuff from Uniform and Hygraph.
+  meta:
     - name: keywords
       content: Youtuber, Video creator, content creator, Turbo Tutorials, Middleware Productions
 ---

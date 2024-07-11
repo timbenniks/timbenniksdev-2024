@@ -11,6 +11,15 @@ image:
   height: 800
 head:
   meta:
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_1280/Tim/Tim%20On%20Stage.jpg
+  meta:
+    - property: twitter:title
+      content: Tim Benniks - Speaking
+  meta:
+    - property: twitter:description
+      content: Explore Tim Benniks’ latest speaking engagements at leading tech conferences, covering Vue.js, and the future of web development with composable architectures.
+  meta:
     - name: keywords
       content: speaker, keynote, conference, interactive, vue.js amsterdam, Nuxt
 ---
