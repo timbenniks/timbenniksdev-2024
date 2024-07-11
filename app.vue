@@ -1,5 +1,18 @@
 <script setup lang="ts">
+const route = useRoute();
 useHead({
+  link: [
+    {
+      rel: "canonical",
+      href: `https://timbenniks.dev${route.path}`,
+    },
+    {
+      rel: "alternate",
+      type: "application/rss+xml",
+      title: "RSS Feed for Tim Benniks",
+      href: "/feed.xml",
+    },
+  ],
   meta: [
     {
       "http-equiv": "accept-ch",
@@ -17,6 +30,18 @@ useHead({
     {
       name: "algolia-site-verification",
       content: "315ACC06D73AB3EA",
+    },
+    {
+      property: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      property: "og:site_name",
+      content: "Tim Benniks",
+    },
+    {
+      property: "og:url",
+      content: `https://timbenniks.dev${route.path}`,
     },
   ],
   htmlAttrs: {
@@ -64,36 +89,6 @@ useSeoMeta({
   googleSiteVerification: "hif_cn9hF2RVSnTq5HwjSkKrXqJT9Q6BR_FaBBmr-20",
   titleTemplate: "%s - Tim Benniks",
 });
-
-const route = useRoute();
-useHead(() => ({
-  link: [
-    {
-      rel: "canonical",
-      href: `https://timbenniks.dev${route.path}`,
-    },
-    {
-      rel: "alternate",
-      type: "application/rss+xml",
-      title: "RSS Feed for Tim Benniks",
-      href: "/feed.xml",
-    },
-  ],
-  meta: [
-    {
-      property: "twitter:card",
-      content: "summary_large_image",
-    },
-    {
-      property: "og:site_name",
-      content: "Tim Benniks",
-    },
-    {
-      property: "og:url",
-      content: `https://timbenniks.dev${route.path}`,
-    },
-  ],
-}));
 
 useJsonld({
   "@context": "https://schema.org",

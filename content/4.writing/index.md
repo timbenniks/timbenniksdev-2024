@@ -13,13 +13,10 @@ head:
   meta:
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_1280/Office/2.jpg
-  meta:
     - property: twitter:title
       content: Tim Benniks - Writing
-  meta:
     - property: twitter:description
       content: My articles about composable architectures, headless CMS, Nuxt.js and more.
-  meta:
     - name: keywords
       content: blog, writing, thought leadersip, articles, headless CMS, DXC, DXP, MACH, Jamstack
 ---

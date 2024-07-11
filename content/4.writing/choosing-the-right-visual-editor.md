@@ -8,6 +8,16 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://timbenniks.dev/writing/choosing-the-right-visual-editor"
 tags: ["architecture","dxp","dxc","composable"]
 reading_time: 3 min read
+head:
+  meta:
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/poster.png
+    - property: twitter:title
+      content: Choosing the right visual editor for your website Platform-First vs. Code-First
+    - property: twitter:description
+      content: This post explores two main types of visual editors platform-first and code-first. I compare their functionalities, pros, and cons to help you choose the right solution for your development needs.
+    - property: keywords
+      content: architecture, dxp, dxc, composable
 faqs:
   - question: "What are the key differences between block-based and WYSIWYG editors?"
     answer: "Block-based editors offer more structured content creation with predefined components, while WYSIWYG editors provide a more freeform editing experience similar to traditional word processors. Block-based editors are generally better for maintaining consistent design and layout across a website."

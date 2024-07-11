@@ -8,7 +8,16 @@ image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravi
 canonical_url: "https://cloudinary.com/blog/guest_post/create-a-performant-youtube-embed-with-a-native-web-component"
 tags: ["webdev","video","web component"]
 reading_time: 3 min read
-
+head:
+  meta:
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/native-yt-player.png
+    - property: twitter:title
+      content: Create a performant YouTube embed with a native web component
+    - property: twitter:description
+      content: In this Media Jam you will learn how to create a native web component that replaces the default YouTube iframe embed.
+    - property: keywords
+      content: webdev, video, web component
 ---
 
 In this Media Jam, you will learn how to create a native web component that replaces the default YouTube iframe embed. We do this in order to avoid wasting resources while embedding an unused video embed. Many visitors might not watch the video, so why load all the stuff from the YouTube iframe? Let’s be conscious of performance, and the carbon emissions your website produces. Less data over the wire is always better.
