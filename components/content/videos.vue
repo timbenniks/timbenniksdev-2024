@@ -51,7 +51,7 @@ const smallOrBigClass = computed(() => {
               <NuxtImg
                 provider="cloudinaryFetch"
                 :src="video.image"
-                :alt="video._path || ''"
+                :alt="video.title || ''"
                 class="mb-2 fancy-image"
                 :class="small ? 'w-full md:w-64' : 'w-full'"
                 sizes="sm:350px"

@@ -40,7 +40,7 @@ function parseImage(imageUrl: string) {
       <NuxtImg
         :provider="parseImage(article.image).provider"
         :src="parseImage(article.image).url"
-        :alt="article._path || ''"
+        :alt="article.title || ''"
         class="w-full mb-2"
         :class="{
           'md:w-64': small,
