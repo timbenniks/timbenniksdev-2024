@@ -15,13 +15,13 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml', '/feed.xml']
+      routes: ['/', '/sitemap.xml', '/feed.xml']
     }
   },
 
-  routeRules: {
-    "/**": { prerender: true }
-  },
+  // routeRules: {
+  //   "/**": { prerender: true }
+  // },
 
   features: {
     // turn on for editing in nuxt.studio

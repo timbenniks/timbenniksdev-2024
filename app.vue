@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const env = process.env.NODE_ENV;
-
 useHead({
   meta: [
     {
