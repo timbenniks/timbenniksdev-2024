@@ -78,11 +78,14 @@ useJsonld({
   ],
 });
 
+const { data: video } = await useAsyncData("home", () =>
+  queryContent(`/videos/${folder[0]}`).limit(1).find()
+);
+
 useSeoMeta({
-  title: `Videos about ${title.value}`,
-  description: `Video overview for my ${title.value} videos`,
-  ogImage:
-    "https://res.cloudinary.com/dwfcofnrd/image/upload/w_1280,f_auto,q_auto/Tim/Tim-oct-2020.jpg",
+  title: `Video category: ${title.value}`,
+  description: `Video overview for: ${title.value}`,
+  ogImage: video.value[0].image,
 });
 </script>
 

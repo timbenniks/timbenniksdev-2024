@@ -25,10 +25,10 @@ export default defineNuxtConfig({
     inlineStyles: true
   },
 
-  routeRules: {
-    '/**': { experimentalNoScripts: true },
-    '/q': { experimentalNoScripts: false },
-  },
+  // routeRules: {
+  //   '/**': { experimentalNoScripts: true },
+  //   '/q': { experimentalNoScripts: false },
+  // },
 
   fonts: {
     defaults: {

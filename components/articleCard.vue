@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { format } from "date-fns";
-
 defineProps(["article", "small", "featured"]);
 
 function parseImage(imageUrl: string) {
