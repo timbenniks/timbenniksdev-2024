@@ -45,18 +45,14 @@ search.addWidgets([
     container: "#hits-pages",
     templates: {
       item: (hit, { html, components }) => html`
-        <a
-          href="${hit.url}"
-          class="md:flex md:flex-row md:space-x-4"
-          id="${hit.objectID}"
-        >
+        <a href="${hit.url}" id="${hit.objectID}">
           <img
             src="${hit.image}"
             alt="${hit.title}"
             width="350"
             height="197"
             loading="lazy"
-            class="mb-2 fancy-image w-full md:w-64"
+            class="mb-2 fancy-image w-full"
           />
 
           <div>
@@ -77,22 +73,45 @@ search.addWidgets([
       container: "#hits-articles",
       templates: {
         item: (hit, { html, components }) => html`
-          <a
-            href="${hit.url}"
-            class="md:flex md:flex-row md:space-x-4"
-            id="${hit.objectID}"
-          >
+          <a href="${hit.url}" id="${hit.objectID}">
             <img
               src="${parseImage(hit.image)}"
               alt="${hit.headline}"
               width="350"
               height="197"
               loading="lazy"
-              class="mb-2 fancy-image w-full md:w-64"
+              class="mb-2 fancy-image w-full"
             />
 
             <div>
               <p class="font-bold text-xl line-clamp-2">${hit.headline}</p>
+              <p class="line-clamp-2 text-slate-400 text-sm">
+                ${hit.description}
+              </p>
+            </div>
+          </a>
+        `,
+      },
+    }),
+  ]),
+
+  index({ indexName: "tims_site_videos" }).addWidgets([
+    hits({
+      container: "#hits-videos",
+      templates: {
+        item: (hit, { html, components }) => html`
+          <a href="${hit.url}" id="${hit.objectID}">
+            <img
+              src="${hit.image}"
+              alt="${hit.title}"
+              width="350"
+              height="197"
+              loading="lazy"
+              class="mb-2 fancy-image w-full"
+            />
+
+            <div>
+              <p class="font-bold text-xl line-clamp-2">${hit.title}</p>
               <p class="line-clamp-2 text-slate-400 text-sm">
                 ${hit.description}
               </p>

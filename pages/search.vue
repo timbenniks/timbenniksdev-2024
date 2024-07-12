@@ -36,7 +36,7 @@ useSeoMeta({
       <div id="searchbox" />
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
       <div class="search-col">
         <p class="title text-2xl inline-block mb-6">Pages</p>
         <div id="hits-pages" class="hits mb-12"></div>
@@ -44,6 +44,10 @@ useSeoMeta({
       <div class="search-col">
         <p class="title text-2xl inline-block mb-6">Articles</p>
         <div id="hits-articles" class="hits mb-12"></div>
+      </div>
+      <div class="search-col">
+        <p class="title text-2xl inline-block mb-6">Videos</p>
+        <div id="hits-videos" class="hits mb-12"></div>
       </div>
     </div>
   </div>
