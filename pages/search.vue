@@ -37,8 +37,8 @@ useSeoMeta({
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-1 gap-12">
-      <div class="search-col flex">
-        <div class="w-80 pr-12">
+      <div class="search-col flex flex-col md:flex-row">
+        <div class="md:w-80 md:pr-12 mb-4">
           <div class="sticky top-[100px]">
             <p class="title text-3xl inline-block mb-4">Articles</p>
             <p class="text-slate-400">
@@ -48,8 +48,8 @@ useSeoMeta({
         </div>
         <div id="hits-articles" class="hits"></div>
       </div>
-      <div class="search-col flex">
-        <div class="w-80 pr-12">
+      <div class="search-col flex flex-col md:flex-row">
+        <div class="md:w-80 md:pr-12 mb-4">
           <div class="sticky top-[100px]">
             <p class="title text-3xl inline-block mb-4">Videos</p>
             <p class="text-slate-400">
@@ -60,8 +60,8 @@ useSeoMeta({
         <div id="hits-videos" class="hits"></div>
       </div>
     </div>
-    <div class="search-col flex">
-      <div class="w-80 pr-12">
+    <div class="search-col flex flex-col md:flex-row">
+      <div class="md:w-80 md:pr-12 mb-4">
         <div class="sticky top-[100px]">
           <p class="title text-3xl inline-block mb-4">Pages</p>
           <p class="text-slate-400">
@@ -81,16 +81,12 @@ useSeoMeta({
   border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
 }
 
-.ais-Hits-list {
-  @apply grid grid-cols-1 gap-8;
-}
-
 .search-item {
-  @apply flex gap-4;
+  @apply flex gap-4 flex-col md:flex-row mb-8;
 }
 
 .search-item-image {
-  @apply w-60;
+  @apply w-full md:w-60;
 }
 
 .search-item-text {
