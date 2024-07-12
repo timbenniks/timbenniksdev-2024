@@ -36,19 +36,40 @@ useSeoMeta({
       <div id="searchbox" />
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-      <div class="search-col">
-        <p class="title text-2xl inline-block mb-6">Pages</p>
-        <div id="hits-pages" class="hits mb-12"></div>
+    <div class="grid grid-cols-1 md:grid-cols-1 gap-12">
+      <div class="search-col flex">
+        <div class="w-80 pr-12">
+          <div class="sticky top-[100px]">
+            <p class="title text-3xl inline-block mb-4">Articles</p>
+            <p class="text-slate-400">
+              These are results for blog posts on the site.
+            </p>
+          </div>
+        </div>
+        <div id="hits-articles" class="hits"></div>
       </div>
-      <div class="search-col">
-        <p class="title text-2xl inline-block mb-6">Articles</p>
-        <div id="hits-articles" class="hits mb-12"></div>
+      <div class="search-col flex">
+        <div class="w-80 pr-12">
+          <div class="sticky top-[100px]">
+            <p class="title text-3xl inline-block mb-4">Videos</p>
+            <p class="text-slate-400">
+              These are results for videos on the site.
+            </p>
+          </div>
+        </div>
+        <div id="hits-videos" class="hits"></div>
       </div>
-      <div class="search-col">
-        <p class="title text-2xl inline-block mb-6">Videos</p>
-        <div id="hits-videos" class="hits mb-12"></div>
+    </div>
+    <div class="search-col flex">
+      <div class="w-80 pr-12">
+        <div class="sticky top-[100px]">
+          <p class="title text-3xl inline-block mb-4">Pages</p>
+          <p class="text-slate-400">
+            These are results for general pages on the site.
+          </p>
+        </div>
       </div>
+      <div id="hits-pages" class="hits"></div>
     </div>
   </div>
 </template>
@@ -62,5 +83,17 @@ useSeoMeta({
 
 .ais-Hits-list {
   @apply grid grid-cols-1 gap-8;
+}
+
+.search-item {
+  @apply flex gap-4;
+}
+
+.search-item-image {
+  @apply w-60;
+}
+
+.search-item-text {
+  @apply max-w-[450px];
 }
 </style>

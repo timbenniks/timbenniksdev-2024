@@ -45,24 +45,24 @@ search.addWidgets([
     container: "#hits-pages",
     templates: {
       item: (hit, { html, components }) => html`
-        <a href="${hit.url}" id="${hit.objectID}">
-          <img
-            src="${hit.image}"
-            alt="${hit.title}"
-            width="350"
-            height="197"
-            loading="lazy"
-            class="mb-2 fancy-image w-full"
-          />
+        <a href="${hit.url}" id="${hit.objectID}" class="search-item">
+          <div class="search-item-image">
+            <img
+              src="${hit.image}"
+              alt="${hit.title}"
+              width="350"
+              height="197"
+              loading="lazy"
+              class="fancy-image w-full"
+            />
+          </div>
 
-          <div>
-            <p class="font-bold text-xl line-clamp-2">
+          <article class="search-item-text">
+            <p class="font-bold text-2xl line-clamp-2">
               ${hit.title.replace(" - Tim Benniks", "")}
             </p>
-            <p class="line-clamp-2 text-slate-400 text-sm">
-              ${hit.description}
-            </p>
-          </div>
+            <p class="line-clamp-2 text-slate-400">${hit.description}</p>
+          </article>
         </a>
       `,
     },
@@ -73,22 +73,22 @@ search.addWidgets([
       container: "#hits-articles",
       templates: {
         item: (hit, { html, components }) => html`
-          <a href="${hit.url}" id="${hit.objectID}">
-            <img
-              src="${parseImage(hit.image)}"
-              alt="${hit.headline}"
-              width="350"
-              height="197"
-              loading="lazy"
-              class="mb-2 fancy-image w-full"
-            />
-
-            <div>
-              <p class="font-bold text-xl line-clamp-2">${hit.headline}</p>
-              <p class="line-clamp-2 text-slate-400 text-sm">
-                ${hit.description}
-              </p>
+          <a href="${hit.url}" id="${hit.objectID}" class="search-item">
+            <div class="search-item-image">
+              <img
+                src="${parseImage(hit.image)}"
+                alt="${hit.headline}"
+                width="350"
+                height="197"
+                loading="lazy"
+                class="fancy-image w-full"
+              />
             </div>
+
+            <article class="search-item-text">
+              <p class="font-bold text-2xl line-clamp-2">${hit.headline}</p>
+              <p class="line-clamp-2 text-slate-400">${hit.description}</p>
+            </article>
           </a>
         `,
       },
@@ -100,22 +100,22 @@ search.addWidgets([
       container: "#hits-videos",
       templates: {
         item: (hit, { html, components }) => html`
-          <a href="${hit.url}" id="${hit.objectID}">
-            <img
-              src="${hit.image}"
-              alt="${hit.title}"
-              width="350"
-              height="197"
-              loading="lazy"
-              class="mb-2 fancy-image w-full"
-            />
-
-            <div>
-              <p class="font-bold text-xl line-clamp-2">${hit.title}</p>
-              <p class="line-clamp-2 text-slate-400 text-sm">
-                ${hit.description}
-              </p>
+          <a href="${hit.url}" id="${hit.objectID}" class="search-item">
+            <div class="search-item-image">
+              <img
+                src="${hit.image}"
+                alt="${hit.title}"
+                width="350"
+                height="197"
+                loading="lazy"
+                class="fancy-image w-full"
+              />
             </div>
+
+            <article class="search-item-text">
+              <p class="font-bold text-2xl line-clamp-2">${hit.title}</p>
+              <p class="line-clamp-2 text-slate-400">${hit.description}</p>
+            </article>
           </a>
         `,
       },
