@@ -3,15 +3,24 @@ const searchClient = algoliasearch(
   "5c0aa34c3ea19295ad0fd2474c97e54d"
 );
 
-const urlParams = new URLSearchParams(window.location.search);
-const searchQuery = urlParams.get("q");
-
 const search = instantsearch({
   indexName: "tims_site_pages",
   searchClient,
-  initialUiState: {
-    tims_site_pages: {
-      query: searchQuery,
+  routing: {
+    stateMapping: {
+      stateToRoute(uiState) {
+        const indexUiState = uiState["tims_site_pages"];
+        return {
+          q: indexUiState.query,
+        };
+      },
+      routeToState(routeState) {
+        return {
+          ["tims_site_pages"]: {
+            query: routeState.q,
+          },
+        };
+      },
     },
   },
 });
