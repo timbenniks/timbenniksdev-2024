@@ -26,7 +26,7 @@ head:
 ::videos
 ---
 extras: true
-limit: 5
+limit: 4
 small: false
 folder: tim
 first-featured: true
@@ -41,7 +41,7 @@ Tim's personal videos are all for his [YouTube channel](https://youtube.com/timb
 ::videos
 ---
 extras: true
-limit: 4
+limit: 3
 small: false
 folder: mp
 ---
@@ -55,7 +55,7 @@ Middleware Productions Videos are all shot at conferences where [Marc](https://x
 ::videos
 ---
 extras: true
-limit: 4
+limit: 3
 small: false
 folder: hygraph
 ---
@@ -69,7 +69,7 @@ Tim's Hygraph videos present a mix of thought leadership about Headless CMS, pro
 ::videos
 ---
 extras: true
-limit: 4
+limit: 3
 small: false
 folder: uniform
 ---
@@ -83,7 +83,7 @@ Tim's Uniform videos present a mix of thought leadership about the DXC space, pr
 ::videos
 ---
 extras: true
-limit: 4
+limit: 3
 small: false
 folder: headless-creator
 ---

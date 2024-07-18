@@ -21,7 +21,7 @@ if (props.limit) {
 const smallOrBigClass = computed(() => {
   return props.small
     ? "grid grid-cols-1 md:grid-cols-1 gap-6"
-    : "grid grid-cols-1 md:grid-cols-4 gap-6";
+    : "grid grid-cols-1 md:grid-cols-3 gap-6";
 });
 </script>
 

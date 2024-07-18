@@ -14,7 +14,7 @@ defineProps(["video", "small", "featured"]);
         <NuxtImg
           provider="cloudinaryFetch"
           :src="video.image"
-          :alt="video.title || ''"
+          :alt="`Poster image for: ${video.title}` || ''"
           class="w-full mb-2"
           :class="{
             'md:w-64': small,
@@ -29,10 +29,10 @@ defineProps(["video", "small", "featured"]);
           fit="thumbnail"
         />
 
-        <button id="playButton"></button>
+        <div id="playButton" v-if="featured" />
         <div
           v-if="featured"
-          class="md:absolute bottom-0 left-0 w-full h-[400px] md:bg-gradient-to-t md:from-[#1b1d39] md:to-[rgba(#1b1d39, 0)]"
+          class="hidden md:block absolute bottom-0 left-0 w-full h-[400px] md:bg-gradient-to-t md:from-[#1b1d39] md:to-[rgba(#1b1d39, 0)]"
         ></div>
       </div>
 
