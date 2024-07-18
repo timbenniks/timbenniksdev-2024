@@ -23,17 +23,13 @@ head:
 
 :title-block{tag="h1" title="Videos"}
 
-::richtext
-#body
-I make videos in different categories, from personal videos to vlogs to tutorials and work-related videos. There is a lot to explore here!
-::
-
 ::videos
 ---
 extras: true
-limit: 3
+limit: 5
 small: false
 folder: tim
+first-featured: true
 ---
 #title
 Personal Videos
@@ -45,7 +41,7 @@ Tim's personal videos are all for his [YouTube channel](https://youtube.com/timb
 ::videos
 ---
 extras: true
-limit: 3
+limit: 4
 small: false
 folder: mp
 ---
@@ -59,7 +55,7 @@ Middleware Productions Videos are all shot at conferences where [Marc](https://x
 ::videos
 ---
 extras: true
-limit: 3
+limit: 4
 small: false
 folder: hygraph
 ---
@@ -73,7 +69,7 @@ Tim's Hygraph videos present a mix of thought leadership about Headless CMS, pro
 ::videos
 ---
 extras: true
-limit: 3
+limit: 4
 small: false
 folder: uniform
 ---
@@ -87,7 +83,7 @@ Tim's Uniform videos present a mix of thought leadership about the DXC space, pr
 ::videos
 ---
 extras: true
-limit: 3
+limit: 4
 small: false
 folder: headless-creator
 ---

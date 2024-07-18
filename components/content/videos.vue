@@ -1,7 +1,13 @@
 <script setup lang="ts">
-import type { QueryBuilderParams } from "@nuxt/content/dist/runtime/types";
+import type { QueryBuilderParams } from "@nuxt/content";
 
-const props = defineProps(["limit", "folder", "small", "extras"]);
+const props = defineProps([
+  "limit",
+  "folder",
+  "small",
+  "extras",
+  "firstFeatured",
+]);
 
 const query: QueryBuilderParams = {
   path: `/videos/${props.folder}`,
@@ -15,7 +21,7 @@ if (props.limit) {
 const smallOrBigClass = computed(() => {
   return props.small
     ? "grid grid-cols-1 md:grid-cols-1 gap-6"
-    : "grid grid-cols-1 md:grid-cols-3 gap-6";
+    : "grid grid-cols-1 md:grid-cols-4 gap-6";
 });
 </script>
 
@@ -23,6 +29,15 @@ const smallOrBigClass = computed(() => {
   <div class="px-4 md:px-8 mb-8">
     <ContentList :query="query">
       <template #default="{ list }">
+        <ul v-if="firstFeatured">
+          <VideoCard
+            :video="list[0]"
+            :featured="true"
+            :key="list[0] && list[0]._path"
+            class="mb-4"
+          />
+        </ul>
+
         <header
           class="mb-2 flex md:space-x-4 space-x-0 md:items-end flex-col md:flex-row items-start"
         >
@@ -41,34 +56,25 @@ const smallOrBigClass = computed(() => {
         </div>
 
         <ul :class="smallOrBigClass" class="mt-4">
-          <li v-for="video in list" :key="video._path" class="mb-4">
-            <NuxtLink
-              :to="`https://youtube.com/watch?v=${video.videoId}`"
-              target="_blank"
-              class="md:flex"
-              :class="small ? 'md:flex-row md:space-x-4' : 'flex-col'"
-            >
-              <NuxtImg
-                provider="cloudinaryFetch"
-                :src="video.image"
-                :alt="video.title || ''"
-                class="mb-2 fancy-image"
-                :class="small ? 'w-full md:w-64' : 'w-full'"
-                sizes="sm:350px"
-                width="350"
-                height="197"
-                loading="lazy"
-              />
-              <div>
-                <p class="font-bold text-xl line-clamp-2">
-                  {{ video.title }}
-                </p>
-                <p v-if="small" class="line-clamp-2 text-slate-400 text-sm">
-                  {{ video.description }}
-                </p>
-              </div>
-            </NuxtLink>
-          </li>
+          <VideoCard
+            v-if="firstFeatured"
+            v-for="video in list.slice(1)"
+            :key="video._path"
+            class="mb-4"
+            :featured="false"
+            :video="video"
+            :small="small"
+          />
+
+          <VideoCard
+            v-else
+            v-for="video in list"
+            :key="video.id"
+            class="mb-4"
+            :featured="false"
+            :video="video"
+            :small="small"
+          />
         </ul>
       </template>
       <template #not-found>
