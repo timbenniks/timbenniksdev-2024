@@ -26,10 +26,10 @@ head:
 ::videos
 ---
 extras: true
-limit: 4
+limit: 3
 small: false
 folder: tim
-first-featured: true
+first-featured: false
 ---
 #title
 Personal Videos
