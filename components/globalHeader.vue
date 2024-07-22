@@ -47,6 +47,9 @@
           >
             <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
           </li>
+          <li class="relative top-1">
+            <NuxtLink to="/search"><search /></NuxtLink>
+          </li>
         </ul>
       </ContentNavigation>
     </nav>
