@@ -15,7 +15,7 @@ Building outstanding user experiences takes, first and foremost, effective colla
 
 Below are the steps to take.
 
-##Set clear objectives
+## Set clear objectives
 
 Since both development and marketing play vital roles in implementing user experiences that drive business goals, the contributors in question must share clear, common objectives, e.g., projected sales, number of service signups, and brand messaging. 
 

@@ -56,7 +56,7 @@ CMS providers need to integrate specific features to cater to domain content eff
 
 By incorporating these features, CMS providers can empower organizations to manage and leverage domain content effectively, ultimately enhancing the overall performance and functionality of their digital experiences.
 
-### **Volatile Content**
+### Volatile Content
 
 volatile content like cake decorating and this is Grégoire’s, primary focus. Let’s define volatile content.
 

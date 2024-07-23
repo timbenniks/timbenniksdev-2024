@@ -19,7 +19,7 @@ With the Nuxt 3 Nitro engine, developers can now run an entire site on the edge 
 
 Nuxt 3 is truly game changing, and Uniform takes full advantage of that with an easy-to-install SDK that follows Nuxt’s no-config ethos.
 
-##Features of Uniform’s Nuxt 3 module
+## Features of Uniform’s Nuxt 3 module
 
 This is what the module can do:
 
@@ -30,7 +30,7 @@ This is what the module can do:
 *   Displays live previews seamlessly.
 *   Monitors query-string changes, which Nuxt doesn't do by default.
     
-##Benefits of using Uniform with Nuxt 3
+## Benefits of using Uniform with Nuxt 3
 
 As a rule, no single system offers all the functionalities you need for an app. Instead, multiple systems must work together for the app to run smoothly. A [composable architecture](https://uniform.dev/blogs/composable-architecture/composable-platforms-what-why-how) is one in which you can pick and choose the components for your technology stack, but getting them to work together well can be challenging. 
 

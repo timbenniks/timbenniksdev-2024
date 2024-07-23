@@ -21,7 +21,7 @@ head:
       content: blog, writing, thought leadersip, articles, headless CMS, DXC, DXP, MACH, Jamstack
 ---
 
-::title-block
+::content-title-block
 ---
 tag: h1
 title: Writing

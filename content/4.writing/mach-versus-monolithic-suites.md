@@ -39,7 +39,7 @@ However, businesses might find it difficult to evaluate the array of MACH vendor
 
 To decide which system, MACH or monolithic, to opt for, businesses must find out if the advantages are real and whether the advantages surpass the disadvantages.
 
-##Suites versus MACH
+## Suites versus MACH
 
 The difference between a suite and MACH comes down to choice. In the case of a suite, the vendor selects the products for you. With MACH, you pick the products you want from the vendors you prefer.
 
@@ -49,7 +49,7 @@ For businesses that aim at building a technology stack of products that meet the
 
 Still, the suite approach continues to predominate, and businesses often adopt it even while designing a modern, composed architecture. That practice has led to the birth of the MACH monolith, an in-between version of the old suite approach and the new composable way of designing architectures.
 
-##Uniform as the infrastructure of composable systems
+## Uniform as the infrastructure of composable systems
 
 Uniform offers a fast track to composability by handling all the difficult and time-consuming integration tasks, personalization settings, etc., so that you can focus on critical undertakings like web design and content creation.
 

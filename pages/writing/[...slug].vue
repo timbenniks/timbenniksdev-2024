@@ -207,6 +207,12 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
           <template #title> related articles </template>
         </ArticlesNoQuery>
 
+        <!-- <articles
+          :articles="relatedPosts"
+          :small="false"
+          title="related articles"
+        /> -->
+
         <faq v-if="doc.faqs" :faqs="doc.faqs" />
       </div>
     </ContentDoc>

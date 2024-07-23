@@ -12,6 +12,4 @@ defineProps({
   },
 });
 </script>
-<template>
-  <NuxtLink class="cta" :to="url" :target="target">{{ text }}</NuxtLink>
-</template>
+<template><cta :url="url" :text="text" :target="target" /></template>

@@ -1,8 +1,10 @@
 <template>
-  <div class="w-full mb-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-      <div><slot name="sidea" /></div>
-      <div><slot name="sideb" /></div>
-    </div>
-  </div>
+  <twoColumns>
+    <template #sidea>
+      <slot name="sidea"></slot>
+    </template>
+    <template #sideb>
+      <slot name="sideb"></slot>
+    </template>
+  </twoColumns>
 </template>
