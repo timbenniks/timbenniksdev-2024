@@ -4,13 +4,16 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-07-04',
   devtools: { enabled: true },
+
+  extends: [
+    'github:timbenniks/timbenniks-components'
+  ],
+
   modules: [
     '@nuxt/content',
     "@nuxtjs/tailwindcss",
-    "@nuxt/image",
     "@nuxthq/studio",
     "nuxt-jsonld",
-    "@nuxt/fonts",
   ],
 
   nitro: {
@@ -25,35 +28,7 @@ export default defineNuxtConfig({
     inlineStyles: true
   },
 
-  fonts: {
-    defaults: {
-      weights: [400, 700, 900],
-      styles: ['normal'],
-      subsets: ['latin', 'latin-ext'],
-      fallbacks: {
-        'sans-serif': ['Trebuchet MS']
-      }
-    },
-  },
 
-  image: {
-    providers: {
-      cloudinaryFetch: {
-        name: 'cloudinaryFetch',
-        provider: 'cloudinary',
-        options: {
-          baseURL: "https://res.cloudinary.com/dwfcofnrd/image/fetch/"
-        }
-      },
-      cloudinaryNative: {
-        name: 'cloudinaryNative',
-        provider: 'cloudinary',
-        options: {
-          baseURL: "https://res.cloudinary.com/dwfcofnrd/image/upload/"
-        }
-      }
-    }
-  },
 
   vue: {
     compilerOptions: {

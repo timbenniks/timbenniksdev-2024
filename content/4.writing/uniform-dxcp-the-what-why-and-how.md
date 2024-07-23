@@ -16,11 +16,11 @@ Nowadays, you’re hard pressed to find an application with all the functionalit
 
 The answer is Uniform [Digital Experience Composition Platform (DXCP)](https://uniform.dev/what-is-digital-experience-composition), whose vendor-agnostic capabilities scale to your needs, enabling you to assemble, change, and reassemble your tools as requirements evolve. But what is Uniform DXCP and why does it exist? Read on.
 
-##What is Uniform DXCP?
+## What is Uniform DXCP?
 
 Uniform DXCP is a new, unique product category with which you can effortlessly integrate legacy and composable services with your design system and front end of choice. In particular, you can switch to and maintain composable systems without having to build and support the connections among those systems. In a composable architecture, that means adding and removing the tools without breaking your personalized, omnichannel digital experience. 
 
-##Why is now the time to move beyond the modern tech stack?
+## Why is now the time to move beyond the modern tech stack?
 
 Similar to a composer who arranges the notes of a musical score, you’re the composer of your project’s tech stack. Say, your stack comprises various tools—a [headless content management system (CMS)](https://uniform.dev/blogs/headless-cms/uniform-for-headless-cms), a [commerce platform](https://uniform.dev/blogs/composable-architecture/uniform-for-headless-commerce), a digital asset management (DAM) system, and so on—from different vendors. By combining those technologies and hosting them on a [content delivery network (CDN)](https://uniform.dev/blogs/sitecore/deliver-better-digital-experiences-with-a-cdn), you render a webpage. 
 
@@ -30,7 +30,7 @@ What you end up with is a messy, unwieldy, and inflexible tech stack—a mainten
 
 How do you transform your tech stack from a cacophony of integrations connected by endless [glue code](https://uniform.dev/blogs/glue-code) into a composable architecture that bridges your tools into a harmonious experience? You do it with digital experience composition.  
 
-##How do you transition from chaos to composable with DXCP
+## How do you transition from chaos to composable with DXCP
 
 With Uniform DXCP, you need not create and maintain the custom code that connects your APIs and front-end layers. Instead, you can compose and organize headless solutions in your tech stack without the exorbitant costs, laborious upgrades, and complexities. 
 
@@ -44,7 +44,7 @@ Here are the major benefits of moving to composable with Uniform DXCP: 
     
 *   DXCP offers a new paradigm for page creation around where data lives and how you manage that data. No more worries about product information being displayed outside the context of its intended design and user experience. With Uniform sitting on the end of your design data and keeping domain data intact, you’re free to deliver digital experiences through multiple services at scale. 
     
-##How do you fuel your stack with digital experience composition?
+## How do you fuel your stack with digital experience composition?
 
 After you’ve built a composable architecture in DXCP:
 

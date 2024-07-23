@@ -18,7 +18,7 @@ I spent a lot of time working through messy production processes during my years
 
 I have no illusions that I can fix everything—but I hope that you read this with an open mind and see that a better way is possible. Agency processes are ever-changing, and things always seem to fall apart as deadlines near. Nonetheless, by following what I describe below, you can deliver faster from day one and show results to clients for better feedback, all while setting up brands with a future-proof architecture. And yes, you can stay agile at the same time!
 
-##Why agencies embracing composable architectures face challenges
+## Why agencies embracing composable architectures face challenges
 
 Agencies that start working with [composable architectures](https://uniform.dev/blogs/composable-architecture/composable-platforms-what-why-how) quickly see the benefits during the pitch stage, but when the work starts, so do the problems—mainly when you connect services and when content editors or marketers start working. Because projects are complex, agencies generally sell discovery phases, workshops, and agile methodologies. That’s a great practice, but one that also runs face-first into the challenge of building composable projects at scale.
 
@@ -76,7 +76,7 @@ Moreover, since the no-code editor integrates flawlessly with external sources a
 
 Given that DXCP is front-end, hosting, and CDN agnostic, developers can use the tools they love, which makes the most sense for the job at hand. No more compromising with the whims of legacy tech! Even though DXCP has an opinion on the direction of the architecture, once developers go down that road, they have complete freedom to do their job in the way they prefer.
 
-##How DXCP transforms the project-development process
+## How DXCP transforms the project-development process
 
 Adopting DXCP can revolutionize how you build projects—if you let it. With traditional blockers out of the way, teams can accomplish more in parallel and show value much faster. For all that composable architecture at scale is generally messy and chaotic, forcing agencies and brands to work around issues never seen before: digital experience composition adds structure while staying tech-agnostic and accelerates time-to-value.
 

@@ -21,7 +21,7 @@ head:
       content: Youtuber, Video creator, content creator, Turbo Tutorials, Middleware Productions
 ---
 
-:title-block{tag="h1" title="Videos"}
+:content-title-block{tag="h1" title="Videos"}
 
 ::videos
 ---

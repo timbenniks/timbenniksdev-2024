@@ -24,7 +24,7 @@ Reality is, you as developers must connect headless systems for a cohesive, feat
 
 Glue code is a nightmare of technical debt that leads to less innovation, more development effort, and, ultimately, higher expense on hidden requirements.
 
-##Types of glue
+## Types of glue
 
 ![Glue code Icon](https://images.ctfassets.net/9ku1oyd4k3wo/5n8VoHX3RPLBLFWg2IJsYP/f2e9ccc22bd7541b352b7bf19d24ffcb/GlueCode_Blog_Images_Glue_code_Icon.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
