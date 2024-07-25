@@ -7,7 +7,7 @@ description: "This article compares different approaches to visual editing in he
 date: "2024-07-25T10:32:48Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1721896213/website/cms_visual_editing_approaches.png"
 canonical_url: "https://timbenniks.dev/writing/choosing-the-right-visual-editor"
-tags: ["architecture","dxp","dxc","composable"]
+tags: ["composable", "headless", "visual editing", "CMS"]
 reading_time: 7 min read
 head:
   meta:
