@@ -59,14 +59,14 @@ Regarding CMS, the editing experience can vary greatly depending on the platform
 
 In this category, the CMS form fields and the website are displayed side by side. You can see your website update in real-time as you fill out the form.
 
-* **Notes**:  
+#### Notes  
   * **For instant updates**: Requires a front-end SDK.  
   * **For updates on save**: Common in CMSs with strict schema validation rules. Can be done without SDK.  
   * **Preview links**: Some CMSs provide links to a specific build of the front end that queries the draft API, opening in a new tab.  
-* **Pros**:  
+#### Pros
   * Ideal for editing domain data.  
   * Similar to traditional CMS editing but with a potentially better view of the content being edited.  
-* **Cons**:  
+#### Cons
   * Can be pretty abstract.  
   * Editing is not visually driven.
 
@@ -78,12 +78,12 @@ Hygraph, Directus, Amplience, Strapi, Contentstack
 
 This category allows you to click on an element on your site, triggering a sidebar with a CMS form for editing. Sometimes, this redirects you to your CMS interface in a new tab.
 
-* **Notes**:   
+#### Notes
   * **Requirements**: A front-end SDK, Vercel’s Stega data, or HTML annotations.  
-* **Pros**:  
+#### Pros 
   * Clicking on an element in the preview website opens the corresponding CMS form for editing.  
   * A significant improvement over side-by-side previews.  
-* **Cons**:  
+#### Cons 
   * Feels like a WYSIWYG, but isn't.  
   * Developers may need to put in extra effort to implement design-like features.
 
@@ -95,12 +95,12 @@ Sanity, Storyblok, kontent.ai
 
 This category offers block-based visual editing, providing a more structured, pattern-like approach. It is based on a design system.
 
-* **Notes**:   
+#### Notes
   * **Requirements**:  A front-end SDK.  
   * **Additional Features**: Some platforms offer external API data managing, mapping, and editing. Also seen are personalization and sitemap management.  
-* **Pros**:  
+#### Pros 
   * Native features for WYSIWYG-style editing with guardrails to stay within the design system specifications.  
-* **Cons**:  
+#### Cons 
   * Some vendors have complex setups.  
   * Others are easier to implement but require a bigger buy-in as they handle external data ingestion and mapping.
 
@@ -112,11 +112,11 @@ Uniform, Contentful Studio, Sitecore XM, builder.io, Plasmic, Netlify Create
 
 In this category, you design like a designer, and a website is created. All CSS properties, animations, and other design elements are available.
 
-* **Notes**:   
+#### Notes
   * The platform controls your codebase and hosting.  
-* **Pros**:  
+#### Pros 
   * Easy to get started; anyone can design something.  
-* **Cons**:  
+#### Cons 
   * Hard to scale.  
   * A mix of design data vs. domain data.  
   * Content not reusable.  
