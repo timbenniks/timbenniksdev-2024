@@ -6,6 +6,23 @@ function parseHeroImage(imageUrl) {
   return decodedUrl.split("https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/")[1]
 }
 
+useHead({
+  script: [
+  {
+      type: "module",
+      defer: true,
+      src: "/youtube.js",
+      tagPosition: "bodyClose",
+    },
+    {
+      type: "module",
+      defer: true,
+      src: "/questionnaire-cms.js",
+      tagPosition: "bodyClose",
+    },
+  ]
+})
+
 const route = useRoute();
 const listItemElements = [
   {

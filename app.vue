@@ -76,18 +76,6 @@ useHead({
         window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
       `,
     },
-    {
-      type: "module",
-      defer: true,
-      src: "/youtube.js",
-      tagPosition: "bodyClose",
-    },
-    {
-      type: "module",
-      defer: true,
-      src: "/questionnaire-cms.js",
-      tagPosition: "bodyClose",
-    },
   ],
 });
 
