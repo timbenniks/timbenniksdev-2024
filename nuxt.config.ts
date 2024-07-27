@@ -28,8 +28,6 @@ export default defineNuxtConfig({
     inlineStyles: true
   },
 
-
-
   vue: {
     compilerOptions: {
       isCustomElement: tag => ['lite-youtube', 'questionnaire-cms'].includes(tag)
