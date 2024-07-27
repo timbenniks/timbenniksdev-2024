@@ -51,6 +51,10 @@ Now that all marketing is identical, it’s really hard to choose. In this artic
 
 Beware, the market changes fast. The vendors mentioned in this video might have changed their offerings since writing this.
 
+## TL;DR? Take the questionnaire
+This questionnaire will help to figure out what you need in terms of visual editing in your CMS. If you want to know how to all works, read the rest of the article below.
+:questionnaire
+
 ## The four categories of visual editing in CMS
 
 Regarding CMS, the editing experience can vary greatly depending on the platform and the user's specific needs. Let's dive into the different categories of CMS editing experiences, their pros and cons, and some examples of platforms that fit into each category.
@@ -193,6 +197,4 @@ Different categories offer different benefits and drawbacks based on your compan
 
 There are factors other than how you want to manage your content, like how much complexity you want in your front-end channels (websites, apps, kiosks, etc). Some pure players like Uniform pride themselves on the saying: “more clicks, less code,” and they store a lot on the platform. Others, like Netlify Create, focus on code first and do not own any of your brands’ data. To learn more about that, I suggest you read: [https://timbenniks.dev/writing/choosing-the-right-visual-editor](https://timbenniks.dev/writing/choosing-the-right-visual-editor) 
 
-Rather than giving you twenty examples of use cases, take the questionnaire below and see how you score.
-
-:questionnaire
+Rather than giving you twenty examples of use cases, take the questionnaire at the top of this article and see how you score.

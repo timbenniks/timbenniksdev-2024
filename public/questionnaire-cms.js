@@ -19,7 +19,7 @@ class QuestionnaireCMS extends HTMLElement {
           font-family: 'Trebuchet MS', sans-serif;
           max-width: 800px;
           margin: auto;
-          background-color: #0e1029;
+          background-color: #2558BB;
           padding: .5rem 1rem;
         }
 
@@ -39,7 +39,7 @@ class QuestionnaireCMS extends HTMLElement {
 
         .question {
           margin-bottom: 1rem;
-          background-color: #1b1d39; 
+          background-color: #174191; 
           padding: 1rem;
           cursor: pointer;
           font-weight: bold;
@@ -49,12 +49,12 @@ class QuestionnaireCMS extends HTMLElement {
           font-size: 0.8rem;
           margin: 1rem 0;
           padding: 0 1rem;
-          color: #94a3b8
+          color: #eee
         }
 
         label, .desc {
           display: block;
-          color: #94a3b8;
+          color: #eee;
           line-height: 1.8;
           font-weight: normal;
           font-size: 14px;
@@ -81,8 +81,8 @@ class QuestionnaireCMS extends HTMLElement {
           padding: 1rem;
         }
       </style>
-      <form>
-        <h3>CMS Questionnaire</h3>
+      <form id="questionnaire">
+        <h3>Visual editing CMS questionnaire</h3>
         <p class="desc">Open each question and select your preference. You have to fill out all questions.</p>
         ${this.renderQuestions()}
         <button type="submit">Submit</button>
