@@ -14,5 +14,5 @@ const mappedNavigation = computed(() => {
 </script>
 
 <template>
-  <globalHeader :navigation="mappedNavigation" />
+  <globalHeader :navigation="mappedNavigation" searchurl="/search" />
 </template>
