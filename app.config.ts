@@ -1,28 +1,37 @@
 export default defineAppConfig({
   speaker: {
-    details: [
-      { label: "Name", val: "Tim Benniks" },
-      {
-        label: "Company",
-        val: "Hygraph",
-        link: "https://hygraph.com",
-      },
-      {
-        label: "Title",
-        val: "Developer Relations Lead for outreach and awareness",
-      },
-      { label: "Location", val: "Greater Toulouse Area, France" },
-      { label: "E-mail", val: "timbenniks.dev@gmail.com" },
-      {
-        label: "Website",
-        val: "https://timbenniks.dev",
-        link: "https://timbenniks.dev",
-      }
-    ]
+    details: [{
+      label: "Name",
+      val: "Tim Benniks"
+    }, {
+      label: "Company",
+      val: "Contentstack",
+      link: "https://Contentstack.com"
+    }, {
+      label: "Title",
+      val: "Developer Experience Lead"
+    }, {
+      label: "Location",
+      val: "Greater Toulouse Area, France"
+    }, {
+      label: "E-mail",
+      val: "hi@timbenniks.dev"
+    }, {
+      label: "Website",
+      val: "https://timbenniks.dev",
+      link: "https://timbenniks.dev"
+    }]
   },
   timeline: {
     items: [{
-      daterange: "August 2023 - Present",
+      daterange: "September 2024 - Present",
+      text: "At Contentstack, Tim Benniks is the Developer Exprience Lead, driving DX initiatives.",
+      company: "Contentstack",
+      title: "Developer Experience Lead",
+      location: "Remote",
+      url: "https://contentstack.com"
+    }, {
+      daterange: "August 2023 - September 2024",
       text: "At Hygraph, Tim Benniks is the Developer Relations Lead, driving outreach and awareness initiatives. In this role, he connects with the developer community through engaging content, live streams, and industry events. Tim's efforts are focused on showcasing Hygraph's capabilities, fostering strong relationships with developers and partners, and promoting the adoption of headless CMS solutions. His work enhances Hygraph's visibility and empowers developers to build innovative and scalable applications using Hygraph's platform.",
       company: "Hygraph",
       title: "Developer Relations Lead for Outreach and Awareness",
