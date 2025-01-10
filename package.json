@@ -12,22 +12,22 @@
     "seedcontent": "npm run talks && npm run writing && npm run videos"
   },
   "dependencies": {
-    "@nuxt/content": "^2.13.2",
-    "@nuxt/fonts": "^0.7.2",
-    "@nuxt/image": "^1.8.0",
-    "@nuxthq/studio": "^2.0.3",
-    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@nuxt/content": "^2.13.4",
+    "@nuxt/fonts": "^0.10.3",
+    "@nuxt/image": "^1.9.0",
+    "@nuxthq/studio": "^2.2.1",
+    "@nuxtjs/tailwindcss": "^6.12.2",
     "bottleneck": "^2.19.5",
-    "nuxt": "^3.13.0",
-    "nuxt-jsonld": "^2.0.8",
+    "nuxt": "^3.15.1",
+    "nuxt-jsonld": "^2.1.0",
     "rss": "^1.2.2",
     "sitemap": "^8.0.0"
   },
   "devDependencies": {
-    "@nuxtjs/mdc": "^0.8.3",
-    "@tailwindcss/typography": "^0.5.15",
+    "@nuxtjs/mdc": "^0.12.1",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/rss": "^0.0.32",
-    "date-fns": "^3.6.0",
-    "dotenv": "^16.4.5"
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7"
   }
 }
