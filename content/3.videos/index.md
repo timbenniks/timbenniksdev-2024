@@ -43,6 +43,20 @@ Tim's personal videos are all for his [YouTube channel](https://youtube.com/timb
 extras: true
 limit: 3
 small: false
+folder: contentstack
+---
+#title
+Contentstack Videos
+
+#description
+Tim's Contentstacl videos present a mix of thought leadership about composable DXP, product feature explanations, and academy content.
+::
+
+::videos
+---
+extras: true
+limit: 3
+small: false
 folder: mp
 ---
 #title
@@ -63,7 +77,7 @@ folder: hygraph
 Hygraph Videos
 
 #description
-Tim's Hygraph videos present a mix of thought leadership about Headless CMS, prouct feature explanations and the CMS Maverick series.
+Tim's Hygraph videos present a mix of thought leadership about Headless CMS, product feature explanations and the CMS Maverick series.
 ::
 
 ::videos

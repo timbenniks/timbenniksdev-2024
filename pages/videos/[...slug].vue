@@ -31,6 +31,12 @@ const meta = computed(() => {
         "https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto,w_1280/website/hygraph.jpg";
       break;
 
+    case "contentstack":
+      title = "Contentstack videos";
+      image =
+        "https://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto,w_1280/https://images.contentstack.io/v3/assets/blt7359e2a55efae483/blt89b04bbebb8ba96c/665b5c9a41d701da4a98f853/Contentstack_OG.webp";
+      break;
+
     case "live-uniform":
       title = "Uniform live streams";
       image =

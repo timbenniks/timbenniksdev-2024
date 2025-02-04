@@ -151,7 +151,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
           </ul>
         </header>
 
-        <section class="flex gap-12 flex-col lg:flex-row">
+        <section class="flex gap-12 flex-col lg:flex-row mb-4">
           <article
             class="prose prose-invert lg:prose-lg prose-headings:font-bold"
           >
@@ -159,7 +159,10 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
 
             <p
               class="text-xs mt-4 mb-12 text-slate-300"
-              v-if="doc.canonical_url"
+              v-if="
+                doc.canonical_url &&
+                !doc.canonical_url.includes('timbenniks.dev')
+              "
             >
               Originally published at:
               <a
@@ -220,7 +223,11 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
           </aside>
         </section>
 
-        <ArticlesNoQuery :articles="relatedPosts" :small="false">
+        <ArticlesNoQuery
+          :articles="relatedPosts"
+          :small="false"
+          v-if="relatedPosts.length > 0"
+        >
           <template #title> related articles </template>
         </ArticlesNoQuery>
 
