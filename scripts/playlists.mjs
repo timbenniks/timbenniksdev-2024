@@ -1,6 +1,7 @@
 import { ofetch } from "ofetch";
 import fs from "fs";
 import dotenv from "dotenv";
+import path from "path";
 
 dotenv.config();
 
@@ -43,7 +44,26 @@ async function fetchAllVideos(playlist_id, pageToken = null) {
   return videos;
 }
 
+function emptyFolder(folderPath) {
+  if (fs.existsSync(folderPath)) {
+    fs.readdirSync(folderPath).forEach((file) => {
+      const filePath = path.join(folderPath, file);
+      fs.unlinkSync(filePath); // Delete each file
+    });
+    console.log(`Folder "${folderPath}" emptied successfully.`);
+  } else {
+    console.log(`Folder "${folderPath}" does not exist.`);
+  }
+}
+
 async function getPlaylist(playlist_id, folder) {
+  const folderPath = `./content/3.videos/${folder}`;
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath, { recursive: true });
+  }
+
+  emptyFolder(folderPath);
+
   const videos = await fetchAllVideos(playlist_id);
   const mappedVideos = videos.map((video) => {
     return {
@@ -75,15 +95,19 @@ async function getPlaylist(playlist_id, folder) {
 
 async function executePlaylistFetches() {
   try {
-    // await getPlaylist("PLordIU6tK3nVRzSDaRITfSwBwy7N4JzBf", "headless-creator");
-    // await getPlaylist("UULFbQu3ix36SHZjcD57BK7KUQ", "tim");
+    await getPlaylist("PLordIU6tK3nVRzSDaRITfSwBwy7N4JzBf", "headless-creator");
+    //await getPlaylist("UULFbQu3ix36SHZjcD57BK7KUQ", "tim");
     // await getPlaylist("UULFtNZi1LgSHY1dzSUazplEPg", "mp");
     //await getPlaylist("PLcoeeDyxakhXjJQe4r2b9JRXKUmbW4XOU", "uniform");
     //await getPlaylist("PLcoeeDyxakhWEB0yoQXy6OYbl9LbAo4J2", "hygraph");
     // await getPlaylist("PLcoeeDyxakhWMU9JIKXAQIfwoPwM-TZ93", "live-uniform");
     // await getPlaylist("PLcoeeDyxakhVM-xWfqWZ6TFpqC1Aw5__N", "misc-streams");
     //await getPlaylist("PLcoeeDyxakhWoTjzmqTJXvBcov71Am8QG", "live-hygraph");
-    await getPlaylist("PLO9M7FOXF_QvVXYMJGY9eDnxPya9yzQhi", "contentstack");
+    //await getPlaylist("PLO9M7FOXF_QvVXYMJGY9eDnxPya9yzQhi", "contentstack");
+    // await getPlaylist(
+    //   "PLcoeeDyxakhUr0tKVyixJ_fy8J2GtcMJs",
+    //   "live-contentstack"
+    // );
     // await getPlaylist(
     //   "PLcoeeDyxakhUdkUvZm8qld1YuInOKOLqT",
     //   "alive-and-kicking"
