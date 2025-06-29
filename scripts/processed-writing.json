@@ -7,9 +7,7 @@
     "date": "2025-02-04T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1737883492/hero_l9z88j.png",
     "canonical_url": "https://timbenniks.dev/writing/the-nuanced-impact-of-AI-we-should-not-overlook",
-    "tags": [
-      "ai"
-    ],
+    "tags": ["ai"],
     "reading_time": "2 min read",
     "head": {
       "meta": [
@@ -273,13 +271,7 @@
     "description": "Exploring the misconception of modern CMS platforms as monoliths and clarifying the distinctions between true monolithic systems and today's flexible, API-driven content management solutions.",
     "date": "2025-01-10T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1736502870/website/monoliths.png",
-    "tags": [
-      "dxp",
-      "cms",
-      "headless",
-      "composable",
-      "monolith"
-    ],
+    "tags": ["dxp", "cms", "headless", "composable", "monolith"],
     "reading_time": "3 min read",
     "head": {
       "meta": [
@@ -658,12 +650,7 @@
     "description": "Universal CMS reshapes CMS by blending headless and traditional, empowering developers and content creators. But are we reinventing the wheel here?",
     "date": "2024-11-13T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1731438927/website/title.jpg",
-    "tags": [
-      "dxp",
-      "cms",
-      "headless",
-      "composable"
-    ],
+    "tags": ["dxp", "cms", "headless", "composable"],
     "reading_time": "4 min read",
     "head": {
       "meta": [
@@ -1171,12 +1158,7 @@
     "date": "2024-09-29T12:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1727615642/website/sdks.png",
     "canonical_url": "https://timbenniks.dev/writing/sdks-use-them-or-not",
-    "tags": [
-      "sdk",
-      "dxp",
-      "api",
-      "composable"
-    ],
+    "tags": ["sdk", "dxp", "api", "composable"],
     "reading_time": "5:30 min read",
     "head": {
       "meta": [
@@ -1522,12 +1504,7 @@
     "date": "2024-07-25T10:32:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1721896213/website/cms_visual_editing_approaches.png",
     "canonical_url": "https://timbenniks.dev/writing/choosing-the-right-visual-editor",
-    "tags": [
-      "composable",
-      "headless",
-      "visual editing",
-      "cms"
-    ],
+    "tags": ["composable", "headless", "visual_editing", "cms"],
     "reading_time": "7 min read",
     "head": {
       "meta": [
@@ -2848,12 +2825,7 @@
     "date": "2024-07-01T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719837465/website/fast-website-poster.jpg",
     "canonical_url": "https://timbenniks.dev/writing/how-i-supercharched-my-websites-speed",
-    "tags": [
-      "performance",
-      "webdev",
-      "nuxt",
-      "rum"
-    ],
+    "tags": ["performance", "webdev", "nuxt", "rum"],
     "reading_time": "5 min read",
     "faqs": [
       {
@@ -3386,12 +3358,7 @@
     "date": "2024-06-28T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/poster.png",
     "canonical_url": "https://timbenniks.dev/writing/choosing-the-right-visual-editor",
-    "tags": [
-      "architecture",
-      "dxp",
-      "dxc",
-      "composable"
-    ],
+    "tags": ["architecture", "dxp", "dxc", "composable"],
     "reading_time": "3 min read",
     "head": {
       "meta": [
@@ -3912,11 +3879,7 @@
     "date": "2024-04-29T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.graphassets.com%2FicyDJDb6Shmzx7rhX4bG",
     "canonical_url": "https://hygraph.com/blog/page-builder-cms-vs-data-modeler-cms",
-    "tags": [
-      "architecture",
-      "dxp",
-      "composable"
-    ],
+    "tags": ["architecture", "dxp", "composable"],
     "collection_id": 22300,
     "reading_time": "5 min read",
     "media": "https%3A%2F%2Fmedia.graphassets.com%2FicyDJDb6Shmzx7rhX4bG",
@@ -4243,11 +4206,7 @@
     "date": "2024-03-12T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.graphassets.com%2FNzxmjCxvTRqg3sTb9JFj",
     "canonical_url": "https://hygraph.com/blog/page-builder-cms-vs-data-modeler-cms",
-    "tags": [
-      "architecture",
-      "dxp",
-      "composable"
-    ],
+    "tags": ["architecture", "dxp", "composable"],
     "collection_id": 22300,
     "reading_time": "7 min read",
     "media": "https%3A%2F%2Fmedia.graphassets.com%2FNzxmjCxvTRqg3sTb9JFj",
@@ -6171,12 +6130,7 @@
     "date": "2023-09-28T14:43:37Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpr5frm3ra3q3liidcpev.jpg",
     "canonical_url": "https://hygraph.com/blog/the-real-deal-about-content-management-buzzwords",
-    "tags": [
-      "buzzwords",
-      "dxp",
-      "composable",
-      "cms"
-    ],
+    "tags": ["buzzwords", "dxp", "composable", "cms"],
     "collection_id": 22300,
     "reading_time": "6 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpr5frm3ra3q3liidcpev.jpg",
@@ -6981,12 +6935,7 @@
     "date": "2023-09-28T14:39:16Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9pk8b2ihfddxqlt3w4tu.jpg",
     "canonical_url": "https://hygraph.com/blog/content-federation-with-graphql",
-    "tags": [
-      "headless",
-      "cms",
-      "graphql",
-      "federation"
-    ],
+    "tags": ["headless", "cms", "graphql", "federation"],
     "collection_id": 22300,
     "reading_time": "3 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9pk8b2ihfddxqlt3w4tu.jpg",
@@ -7216,11 +7165,7 @@
     "date": "2023-08-16T13:42:10Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadfg5ciysfamka395zir.png",
     "canonical_url": "",
-    "tags": [
-      "career",
-      "webdev",
-      "devrel"
-    ],
+    "tags": ["career", "webdev", "devrel"],
     "collection_id": 22300,
     "reading_time": "2 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadfg5ciysfamka395zir.png",
@@ -7433,12 +7378,7 @@
     "date": "2023-07-11T07:48:19Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr4ykeb6acv0q288ygpaj.png",
     "canonical_url": "",
-    "tags": [
-      "webdev",
-      "mach",
-      "headless",
-      "architecture"
-    ],
+    "tags": ["webdev", "mach", "headless", "architecture"],
     "collection_id": 22300,
     "reading_time": "5 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr4ykeb6acv0q288ygpaj.png",
@@ -7969,11 +7909,7 @@
     "date": "2023-06-26T18:18:19Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flrvfb6a8wh5lt0mbyzat.png",
     "canonical_url": "https://uniform.dev/blogs/the-lost-promise-of-headless",
-    "tags": [
-      "headless",
-      "architecture",
-      "mach"
-    ],
+    "tags": ["headless", "architecture", "mach"],
     "collection_id": 22300,
     "reading_time": "3 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flrvfb6a8wh5lt0mbyzat.png",
@@ -8169,11 +8105,7 @@
     "date": "2023-05-03T15:49:29Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjhfuu567f1khlxvglcn0.png",
     "canonical_url": "https://uniform.dev/blogs/level-up-your-collaboration-game-developer-insights-for-winning-with",
-    "tags": [
-      "webdev",
-      "marketing",
-      "collaboration"
-    ],
+    "tags": ["webdev", "marketing", "collaboration"],
     "collection_id": 22300,
     "reading_time": "4 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjhfuu567f1khlxvglcn0.png",
@@ -8729,9 +8661,7 @@
     "date": "2023-03-20T13:01:35Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Finfev45k3ve6i4dgtu2r.png",
     "canonical_url": "",
-    "tags": [
-      "webcam"
-    ],
+    "tags": ["webcam"],
     "collection_id": 22299,
     "reading_time": "9 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Finfev45k3ve6i4dgtu2r.png",
@@ -9539,11 +9469,7 @@
     "date": "2023-03-18T22:52:37Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fafpsw3jbsie5bf7w8wp9.jpg",
     "canonical_url": "",
-    "tags": [
-      "personal",
-      "fitness",
-      "running"
-    ],
+    "tags": ["personal", "fitness", "running"],
     "collection_id": 22299,
     "reading_time": "6 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fafpsw3jbsie5bf7w8wp9.jpg",
@@ -10192,10 +10118,7 @@
     "date": "2023-03-18T22:45:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Furlbqaankzj82uhwrfq7.jpg",
     "canonical_url": "",
-    "tags": [
-      "personal",
-      "fitness"
-    ],
+    "tags": ["personal", "fitness"],
     "collection_id": 22299,
     "reading_time": "9 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Furlbqaankzj82uhwrfq7.jpg",
@@ -10897,10 +10820,7 @@
     "date": "2023-03-18T22:39:46Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F86xayxbotaqwk8get75h.jpg",
     "canonical_url": "",
-    "tags": [
-      "fitness",
-      "personal"
-    ],
+    "tags": ["fitness", "personal"],
     "collection_id": 22299,
     "reading_time": "3 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F86xayxbotaqwk8get75h.jpg",
@@ -11199,10 +11119,7 @@
     "date": "2023-03-18T22:30:27Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3e00qrk4jojitb5tu06.jpg",
     "canonical_url": "https://www.valtech.com/insights/make-the-web-greener-luxury-edition/",
-    "tags": [
-      "webdev",
-      "environment"
-    ],
+    "tags": ["webdev", "environment"],
     "collection_id": 22300,
     "reading_time": "6 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3e00qrk4jojitb5tu06.jpg",
@@ -11529,11 +11446,7 @@
     "date": "2023-03-18T21:56:45Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9wx2ix9t60eajoccgjh7.png",
     "canonical_url": "",
-    "tags": [
-      "video",
-      "cloudinary",
-      "streaming"
-    ],
+    "tags": ["video", "cloudinary", "streaming"],
     "collection_id": 22300,
     "reading_time": "11 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9wx2ix9t60eajoccgjh7.png",
@@ -12382,12 +12295,7 @@
     "date": "2023-03-18T13:10:06Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F96gzr0p69e9frwbj3i8w.png",
     "canonical_url": "https://uniform.dev/blogs/uniforms-latest-sdk-fully-supports-vue-3-and-nuxt-3",
-    "tags": [
-      "webdev",
-      "javascript",
-      "nuxt",
-      "vue"
-    ],
+    "tags": ["webdev", "javascript", "nuxt", "vue"],
     "collection_id": 22300,
     "reading_time": "2 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F96gzr0p69e9frwbj3i8w.png",
@@ -12735,12 +12643,7 @@
     "date": "2023-03-18T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png",
     "canonical_url": "https://uniform.dev/blogs/digital-experience-composition-dxc/difference-between-dxp-and-dxcp",
-    "tags": [
-      "architecture",
-      "dxp",
-      "composable",
-      "webdev"
-    ],
+    "tags": ["architecture", "dxp", "composable", "webdev"],
     "collection_id": 22300,
     "reading_time": "4 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png",
@@ -13025,12 +12928,7 @@
     "date": "2023-03-18T13:03:16Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0iccm5uux0ndu9ulnc2g.png",
     "canonical_url": "https://uniform.dev/blogs/uniform-dxcp-the-what-why-and-how",
-    "tags": [
-      "cdn",
-      "edge",
-      "sitecore",
-      "headless"
-    ],
+    "tags": ["cdn", "edge", "sitecore", "headless"],
     "collection_id": 22300,
     "reading_time": "3 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0iccm5uux0ndu9ulnc2g.png",
@@ -13524,12 +13422,7 @@
     "date": "2023-03-18T13:00:21Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz8mwj68dscwvzuvcdd4y.png",
     "canonical_url": "https://uniform.dev/blogs/how-to-sniff-out-the-glue-monster",
-    "tags": [
-      "javascript",
-      "architecture",
-      "composable",
-      "devops"
-    ],
+    "tags": ["javascript", "architecture", "composable", "devops"],
     "collection_id": 22300,
     "reading_time": "5 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz8mwj68dscwvzuvcdd4y.png",
@@ -14074,12 +13967,7 @@
     "date": "2023-03-18T12:56:10Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fipu6a76iegjp4d19mb0u.png",
     "canonical_url": "https://uniform.dev/blogs/composable-architecture/the-future-of-managing-projects-at-agencies",
-    "tags": [
-      "composable",
-      "architecture",
-      "agency",
-      "process"
-    ],
+    "tags": ["composable", "architecture", "agency", "process"],
     "collection_id": 22300,
     "reading_time": "8 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fipu6a76iegjp4d19mb0u.png",
@@ -14580,12 +14468,7 @@
     "date": "2023-03-18T12:49:56Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb1yp1gg5ldu4y8tozle7.png",
     "canonical_url": "https://uniform.dev/blogs/personalization/blazing-fast-personalized-pages-with-vercel-edge-middleware-and-uniform",
-    "tags": [
-      "performance",
-      "personalization",
-      "vercel",
-      "edge"
-    ],
+    "tags": ["performance", "personalization", "vercel", "edge"],
     "collection_id": 22300,
     "reading_time": "3 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb1yp1gg5ldu4y8tozle7.png",
@@ -14889,12 +14772,7 @@
     "date": "2023-03-13T20:42:55Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F56u97go8avwyexrr01nx.png",
     "canonical_url": "https://uniform.dev/blogs/composable-architecture/composable-architectures-are-the-future-of-the-digital-sphere",
-    "tags": [
-      "mach",
-      "webdev",
-      "composable",
-      "monolith"
-    ],
+    "tags": ["mach", "webdev", "composable", "monolith"],
     "collection_id": 22300,
     "reading_time": "5 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F56u97go8avwyexrr01nx.png",
@@ -15192,12 +15070,7 @@
     "date": "2023-03-13T20:37:36Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxfwuyqdwlw3du1k96z1l.png",
     "canonical_url": "https://uniform.dev/blogs/composable-architecture/mach-versus-monolithic-suites#mach-as-an-evolution-of-monoliths",
-    "tags": [
-      "mach",
-      "composable",
-      "architecture",
-      "webdev"
-    ],
+    "tags": ["mach", "composable", "architecture", "webdev"],
     "collection_id": 22300,
     "reading_time": "5 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxfwuyqdwlw3du1k96z1l.png",
@@ -15492,12 +15365,7 @@
     "date": "2023-03-13T20:20:45Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxdj396fv4iyh8zce4rsg.png",
     "canonical_url": "https://uniform.dev/blogs/composable-architecture/the-mach-monolith",
-    "tags": [
-      "architecture",
-      "composable",
-      "webdev",
-      "javascript"
-    ],
+    "tags": ["architecture", "composable", "webdev", "javascript"],
     "collection_id": 22300,
     "reading_time": "7 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxdj396fv4iyh8zce4rsg.png",
@@ -16037,12 +15905,7 @@
     "date": "2022-02-23T13:04:08Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fso0lvl9w5rea6i7sfp6u.jpeg",
     "canonical_url": "",
-    "tags": [
-      "jamstack",
-      "architecture",
-      "composable",
-      "orchestration"
-    ],
+    "tags": ["jamstack", "architecture", "composable", "orchestration"],
     "collection_id": 22300,
     "reading_time": "8 min read",
     "media": "https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fso0lvl9w5rea6i7sfp6u.jpeg",
@@ -16716,11 +16579,7 @@
     "date": "2021-05-20T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/native-yt-player.png",
     "canonical_url": "https://cloudinary.com/blog/guest_post/create-a-performant-youtube-embed-with-a-native-web-component",
-    "tags": [
-      "webdev",
-      "video",
-      "web component"
-    ],
+    "tags": ["webdev", "video", "web_component"],
     "reading_time": "3 min read",
     "head": {
       "meta": [
@@ -17115,11 +16974,7 @@
     "date": "2021-05-18T13:05:48Z",
     "image": "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/vue-video-player-poster.png",
     "canonical_url": "https://cloudinary.com/blog/guest_post/creating-a-custom-video-player-in-vue",
-    "tags": [
-      "webdev",
-      "video",
-      "vue"
-    ],
+    "tags": ["webdev", "video", "vue"],
     "reading_time": "7 min read",
     "head": {
       "meta": [
