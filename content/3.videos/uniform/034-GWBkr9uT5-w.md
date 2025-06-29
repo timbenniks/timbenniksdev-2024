@@ -5,5 +5,6 @@ title: "Uniform Tutorial Series #3: Defining Intents"
 description: ""
 image: "https://i.ytimg.com/vi/GWBkr9uT5-w/maxresdefault.jpg"
 videoId: "GWBkr9uT5-w"
+transcript: "Transcript not available."
 ---
 
