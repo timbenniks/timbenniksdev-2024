@@ -106,7 +106,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
 </script>
 
 <template>
-  <div class="p-8 md:p-0 md:pb-12">
+  <div class="p-8">
     <ContentDoc v-slot="{ doc }">
       <Head>
         <Meta name="keywords" :content="doc.tags.join(', ')" />
@@ -185,7 +185,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
                   alt="Tim Benniks"
                   width="48"
                   height="48"
-                  class="w-10 h-10 rounded-full"
+                  class="w-12 h-12 rounded-full"
                 />
                 Tim Benniks
               </div>
