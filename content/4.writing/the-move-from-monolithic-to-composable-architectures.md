@@ -4,7 +4,7 @@ slug: "the-move-from-monolithic-to-composable-architectures"
 title: "The move from monolithic to composable architectures"
 description: "Success in business can be attributed to many factors, notably team talent and efficacy of products..."
 date: "2023-03-13T20:42:55Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F56u97go8avwyexrr01nx.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F56u97go8avwyexrr01nx.png"
 canonical_url: "https://uniform.dev/blogs/composable-architecture/composable-architectures-are-the-future-of-the-digital-sphere"
 tags: ["mach","webdev","composable","monolith"]
 collection_id: 22300

@@ -4,7 +4,7 @@ slug: "level-up-your-collaboration-game-developer-insights-for-winning-with-mark
 title: "Level up your collaboration game: Developer insights for winning with marketing pros"
 description: "Building outstanding user experiences takes, first and foremost, effective collaboration between..."
 date: "2023-05-03T15:49:29Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjhfuu567f1khlxvglcn0.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjhfuu567f1khlxvglcn0.png"
 canonical_url: "https://uniform.dev/blogs/level-up-your-collaboration-game-developer-insights-for-winning-with"
 tags: ["webdev","marketing","collaboration"]
 collection_id: 22300

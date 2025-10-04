@@ -4,7 +4,7 @@ slug: "create-a-performant-youtube-embed-with-a-native-web-component"
 title: "Create a performant YouTube embed with a native web component"
 description: "In this Media Jam you will learn how to create a native web component that replaces the default YouTube iframe embed."
 date: "2021-05-20T13:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/native-yt-player.png"
+image: "https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/native-yt-player.png"
 canonical_url: "https://cloudinary.com/blog/guest_post/create-a-performant-youtube-embed-with-a-native-web-component"
 tags: ["webdev","video","web component"]
 reading_time: 3 min read

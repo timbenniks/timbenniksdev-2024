@@ -4,7 +4,7 @@ slug: "digital-experience-platforms-the-old-versus-the-new"
 title: "Digital experience platforms: the old versus the new"
 description: "Digital experience platforms (DXPs) and the more modern digital experience composition platforms..."
 date: "2023-03-18T13:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png"
 canonical_url: "https://uniform.dev/blogs/digital-experience-composition-dxc/difference-between-dxp-and-dxcp"
 tags: ["architecture","dxp","composable","webdev"]
 collection_id: 22300

@@ -4,7 +4,7 @@ slug: "the-lost-promise-of-headless"
 title: "The lost promise of headless"
 description: "In recent years, headless technology, which boosts performance, developer experience, and..."
 date: "2023-06-26T18:18:19Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flrvfb6a8wh5lt0mbyzat.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flrvfb6a8wh5lt0mbyzat.png"
 canonical_url: "https://uniform.dev/blogs/the-lost-promise-of-headless"
 tags: ["headless","architecture","mach"]
 collection_id: 22300

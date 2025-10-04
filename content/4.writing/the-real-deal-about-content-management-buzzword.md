@@ -4,7 +4,7 @@ slug: "the-real-deal-about-content-management-buzzword"
 title: "The real deal about content management buzzwords"
 description: "Buzzwords are labels that describe tech approaches that become so commonplace over time that the..."
 date: "2023-09-28T14:43:37Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpr5frm3ra3q3liidcpev.jpg"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpr5frm3ra3q3liidcpev.jpg"
 canonical_url: "https://hygraph.com/blog/the-real-deal-about-content-management-buzzwords"
 tags: ["buzzwords","dxp","composable","cms"]
 collection_id: 22300

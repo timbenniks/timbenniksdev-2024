@@ -4,7 +4,7 @@ slug: "how-i-supercharched-my-websites-speed"
 title: "How I supercharched my website's speed"
 description: "In this blog post, I want to share how I transformed my website into the fastest site I've ever built. I'll walk you through the steps, my unconventional decisions, and the tools I used to achieve this feat."
 date: "2024-07-01T13:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719837465/website/fast-website-poster.jpg"
+image: "https://res.cloudinary.com/dwfcofnrd/image/upload/v1719837465/website/fast-website-poster.jpg"
 canonical_url: "https://timbenniks.dev/writing/how-i-supercharched-my-websites-speed"
 tags: ["performance","webdev","nuxt", "RUM"]
 reading_time: 5 min read

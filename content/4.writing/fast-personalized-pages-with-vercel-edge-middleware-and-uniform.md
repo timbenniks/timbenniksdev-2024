@@ -4,7 +4,7 @@ slug: "fast-personalized-pages-with-vercel-edge-middleware-and-uniform"
 title: "Fast, personalized pages with Vercel Edge Middleware and Uniform"
 description: "To maintain an engaging relationship with your audience and increase conversions to your site, you..."
 date: "2023-03-18T12:49:56Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb1yp1gg5ldu4y8tozle7.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb1yp1gg5ldu4y8tozle7.png"
 canonical_url: "https://uniform.dev/blogs/personalization/blazing-fast-personalized-pages-with-vercel-edge-middleware-and-uniform"
 tags: ["performance","personalization","vercel","edge"]
 collection_id: 22300

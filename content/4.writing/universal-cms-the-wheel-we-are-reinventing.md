@@ -4,7 +4,7 @@ slug: "universal-cms-the-wheel-we-are-reinventing"
 title: "Universal CMS: the wheel we're reinventing"
 description: "Universal CMS reshapes CMS by blending headless and traditional, empowering developers and content creators. But are we reinventing the wheel here?"
 date: "2024-11-13T13:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1731438927/website/title.jpg"
+image: "https://res.cloudinary.com/dwfcofnrd/image/upload/v1731438927/website/title.jpg"
 tags: ["dxp","cms","headless","composable"]
 reading_time: 4 min read
 head:

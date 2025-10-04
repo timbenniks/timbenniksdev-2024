@@ -4,7 +4,7 @@ slug: the-content-graph-is-the-future
 title: The content Graph is the future
 description: Content management is as essential as it is complex, especially at scale. As brands grow, they often...
 date: '2023-12-05T10:40:00Z'
-image: https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn1ilcbgm74yygk14s4g7.png
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn1ilcbgm74yygk14s4g7.png
 canonical_url: https://hygraph.com/blog/the-content-graph-is-the-future
 tags: []
 collection_id: 22300

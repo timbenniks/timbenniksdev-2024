@@ -4,7 +4,7 @@ slug: "the-nuanced-impact-of-AI-we-should-not-overlook"
 title: "The nuanced impact of AI we should not overlook"
 description: "AI's impact on the tech industry is more nuanced than often claimed, offering modest productivity improvements while blurring role specializations and fostering a more versatile, holistic approach to development."
 date: "2025-02-04T13:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1737883492/hero_l9z88j.png"
+image: "https://res.cloudinary.com/dwfcofnrd/image/upload/v1737883492/hero_l9z88j.png"
 canonical_url: "https://timbenniks.dev/writing/the-nuanced-impact-of-AI-we-should-not-overlook"
 tags: ["AI"]
 reading_time: 2 min read

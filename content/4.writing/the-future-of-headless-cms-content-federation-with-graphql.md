@@ -4,7 +4,7 @@ slug: "the-future-of-headless-cms-content-federation-with-graphql"
 title: "The future of headless CMS: Content Federation with GraphQL"
 description: "Federation is a popular topic of conversation these days, and for good reason. With the ever-growing..."
 date: "2023-09-28T14:39:16Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9pk8b2ihfddxqlt3w4tu.jpg"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9pk8b2ihfddxqlt3w4tu.jpg"
 canonical_url: "https://hygraph.com/blog/content-federation-with-graphql"
 tags: ["headless","cms","graphql","federation"]
 collection_id: 22300

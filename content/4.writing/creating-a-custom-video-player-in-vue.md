@@ -4,7 +4,7 @@ slug: "creating-a-custom-video-player-in-vue"
 title: "Creating a custom video player in Vue.js"
 description: "In this Media Jam you will learn how to create a video player with custom controls and event handling in Vue.js."
 date: "2021-05-18T13:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/vue-video-player-poster.png"
+image: "https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/vue-video-player-poster.png"
 canonical_url: "https://cloudinary.com/blog/guest_post/creating-a-custom-video-player-in-vue"
 tags: ["webdev","video","vue"]
 reading_time: 7 min read

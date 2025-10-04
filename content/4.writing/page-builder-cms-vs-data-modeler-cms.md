@@ -4,7 +4,7 @@ slug: page-builder-cms-vs-data-modeler-cms
 title: 'CMS Showdown: do you need a page builder or a data modeler?'
 description: Explore the differences between page builder and data modeler CMSs, their unique features, and how they cater to varying organizational needs.
 date: '2024-03-12T13:05:48Z'
-image: https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.graphassets.com%2FNzxmjCxvTRqg3sTb9JFj
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fmedia.graphassets.com%2FNzxmjCxvTRqg3sTb9JFj
 canonical_url: https://hygraph.com/blog/page-builder-cms-vs-data-modeler-cms
 tags:
   - architecture

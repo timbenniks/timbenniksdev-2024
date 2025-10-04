@@ -4,7 +4,7 @@ slug: "how-to-get-your-webcam-to-look-decent-in-a-few-simple-steps"
 title: "How to get your webcam to look decent in a few simple steps"
 description: "If you have used a webcam before you know what it means to look like shit on camera. Even the most..."
 date: "2023-03-20T13:01:35Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Finfev45k3ve6i4dgtu2r.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Finfev45k3ve6i4dgtu2r.png"
 canonical_url: ""
 tags: ["webcam"]
 collection_id: 22299

@@ -4,7 +4,7 @@ slug: "we-have-collectively forgotten-what-monoliths-are"
 title: "We have collectively forgotten what monoliths are"
 description: "Exploring the misconception of modern CMS platforms as monoliths and clarifying the distinctions between true monolithic systems and today's flexible, API-driven content management solutions."
 date: "2025-01-10T13:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1736502870/website/monoliths.png"
+image: "https://res.cloudinary.com/dwfcofnrd/image/upload/v1736502870/website/monoliths.png"
 tags: ["dxp","cms","headless","composable", "monolith"]
 reading_time: 3 min read
 head:

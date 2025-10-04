@@ -4,7 +4,7 @@ slug: "uniform-is-nuxt-3-read"
 title: "Uniform is Nuxt 3 ready"
 description: "We are excited to announce that the latest iteration of the Uniform SDK is fully compatible with Vue..."
 date: "2023-03-18T13:10:06Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F96gzr0p69e9frwbj3i8w.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F96gzr0p69e9frwbj3i8w.png"
 canonical_url: "https://uniform.dev/blogs/uniforms-latest-sdk-fully-supports-vue-3-and-nuxt-3"
 tags: ["webdev","javascript","nuxt","vue"]
 collection_id: 22300

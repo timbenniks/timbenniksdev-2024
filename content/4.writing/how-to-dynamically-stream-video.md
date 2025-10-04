@@ -4,7 +4,7 @@ slug: "how-to-dynamically-stream-video"
 title: "How to dynamically stream video"
 description: "Build it yourself or use Cloudinary   Dynamic video streaming is a video delivery technique..."
 date: "2023-03-18T21:56:45Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9wx2ix9t60eajoccgjh7.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9wx2ix9t60eajoccgjh7.png"
 canonical_url: ""
 tags: ["video","cloudinary","streaming"]
 collection_id: 22300

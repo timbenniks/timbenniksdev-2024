@@ -4,7 +4,7 @@ slug: "uniform-dxcp-the-what-why-and-how"
 title: "Uniform DXCP: the what, why, and how"
 description: "Nowadays, you’re hard pressed to find an application with all the functionalities you need for..."
 date: "2023-03-18T13:03:16Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0iccm5uux0ndu9ulnc2g.png"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0iccm5uux0ndu9ulnc2g.png"
 canonical_url: "https://uniform.dev/blogs/uniform-dxcp-the-what-why-and-how"
 tags: ["cdn","edge","sitecore","headless"]
 collection_id: 22300

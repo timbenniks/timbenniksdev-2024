@@ -4,7 +4,7 @@ slug: "sdks-use-them-or-not"
 title: "SDKs are everywhere. But should you use them?"
 description: "Explore the significance of Software Development Toolkits (SDKs) in modern development, their advantages, and when you might want to skip them. From enhancing productivity to integrating complex functionalities seamlessly, the right SDK can accelerate your projects. But what about GraphQL-based systems or the flexibility of headless architectures? Dive into the pros and cons to make an informed decision."
 date: "2024-09-29T12:05:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/v1727615642/website/sdks.png"
+image: "https://res.cloudinary.com/dwfcofnrd/image/upload/v1727615642/website/sdks.png"
 canonical_url: "https://timbenniks.dev/writing/sdks-use-them-or-not"
 tags: ["SDK","DXP","API","composable"]
 reading_time: 5:30 min read

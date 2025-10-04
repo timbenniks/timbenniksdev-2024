@@ -4,7 +4,7 @@ slug: "the-2015-paris-maratho"
 title: "The 2015 Paris marathon"
 description: "Exactly one year ago, when we had just moved to Paris, the marathon passed by our apartment in Rue..."
 date: "2023-03-18T22:45:48Z"
-image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Furlbqaankzj82uhwrfq7.jpg"
+image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Furlbqaankzj82uhwrfq7.jpg"
 canonical_url: ""
 tags: ["personal","fitness"]
 collection_id: 22299

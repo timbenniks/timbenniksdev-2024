@@ -1,11 +1,6 @@
 <script setup type="ts">
 import { format } from "date-fns";
 
-function parseHeroImage(imageUrl) {
-  const decodedUrl = decodeURIComponent(imageUrl)
-  return decodedUrl.split("https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/")[1]
-}
-
 useHead({
   script: [
   {
@@ -65,7 +60,7 @@ useJsonld({
   "@graph": [{
     "@type": "BlogPosting",
     "headline": post.value.title,
-    "image": parseHeroImage(post.value.image),
+    "image": post.value.image,
     "keywords": post.value.tags.join(", "),
     "mainEntityOfPage": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
     "url": `https://timbenniks.dev/writing/${route.params.slug[0]}`,
@@ -193,7 +188,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
               </div>
               <NuxtImg
                 provider="cloudinaryFetch"
-                :src="parseHeroImage(doc.image)"
+                :src="doc.image"
                 :alt="doc.title"
                 width="1920"
                 height="1080"
