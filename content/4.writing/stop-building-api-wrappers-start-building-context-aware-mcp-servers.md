@@ -2,7 +2,7 @@
 id: 1399322
 slug: "stop-building-api-wrappers-start-building-context-aware-mcp-servers"
 title: "Stop building API wrappers, start building context-aware MCPs"
-description: "MCP servers shouldn't just expose endpoints—they should adapt to their environment, using project context to guide AI reasoning and execution."
+description: "MCP servers shouldn't just expose endpoints, they should adapt to their environment, using project context to guide AI reasoning and execution."
 date: "2025-10-04T20:37:36Z"
 image: "https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/mcp-3.png"
 canonical_url: "https://timbenniks.dev/writing/mcp-servers-need-context"
@@ -17,7 +17,7 @@ head:
     - property: twitter:title
       content: Stop building API wrappers, start building context-aware MCPs
     - property: twitter:description
-      content: MCP servers shouldn't just expose endpoints—they should adapt to their environment, using project context to guide AI reasoning and execution.
+      content: MCP servers shouldn't just expose endpoints, they should adapt to their environment, using project context to guide AI reasoning and execution.
     - property: keywords
       content: mcp, ai, composable, architecture, saas
 faqs:
