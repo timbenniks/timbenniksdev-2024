@@ -49,16 +49,16 @@ useHead({
   },
 
   script: [
-    {
-      type: "speculationrules",
-      innerHTML: `
-        {
-          "prerender": [{
-            "urls": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
-          }]
-        }
-      `,
-    },
+    // {
+    //   type: "speculationrules",
+    //   innerHTML: `
+    //     {
+    //       "prerender": [{
+    //         "urls": ["/", "/about", "/videos", "/writing", "/speaking", "/livestreams", "/presskit", "/alive-and-kicking", "/uses"]
+    //       }]
+    //     }
+    //   `,
+    // },
     {
       defer: true,
       src: "/_vercel/speed-insights/script.js",
