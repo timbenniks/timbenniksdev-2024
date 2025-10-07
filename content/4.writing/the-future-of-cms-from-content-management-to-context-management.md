@@ -9,7 +9,6 @@ canonical_url: "https://timbenniks.dev/writing/the-future-of-cms-from-content-ma
 tags: ["cms", "composable", "ai", "orchestration", "marketing", "dxc", "architecture"]
 collection_id: 22300
 reading_time: 6 min read
-draft: true
 
 head:
   meta:

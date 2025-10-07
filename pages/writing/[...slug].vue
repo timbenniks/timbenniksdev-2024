@@ -167,7 +167,6 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
                 >{{ doc.canonical_url }}</a
               >
             </p>
-
             <faq v-if="doc.faqs" :faqs="doc.faqs" />
           </article>
           <aside>
