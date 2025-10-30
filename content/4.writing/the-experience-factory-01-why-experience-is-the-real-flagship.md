@@ -5,8 +5,8 @@ slug: why-experience-is-the-real-flagship
 title: Why Experience Is the Real Flagship
 description: Many brands think they're digitally mature, yet their experience operations are fragmented. Here's how to spot it and start orchestrating.
 date: 2025-10-30T12:00:00Z
-image: [https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/why-experience-is-the-real-flagship.png](https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/why-experience-is-the-real-flagship.png)
-canonical_url: [https://timbenniks.dev/writing/why-experience-is-the-real-flagship](https://timbenniks.dev/writing/why-experience-is-the-real-flagship)
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/why-experience-is-the-real-flagship.png
+canonical_url: https://timbenniks.dev/writing/why-experience-is-the-real-flagship
 tags: [composable, dxc, orchestration, cms, webdev, marketing]
 collection_id: 22300
 reading_time: 6 min read
@@ -15,7 +15,7 @@ draft: true
 head:
   meta:
     - property: twitter:image
-      content: [https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/why-experience-is-the-real-flagship.png](https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/why-experience-is-the-real-flagship.png)
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/why-experience-is-the-real-flagship.png
     - property: twitter:title
       content: Why Experience Is the Real Flagship
     - property: twitter:description

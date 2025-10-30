@@ -4,7 +4,7 @@ slug: the-age-of-the-super-t-product-person
 title: The Age of the "Super-T" Product Person
 description: AI is dissolving silos and creating a new kind of product person who thinks like a system, connects disciplines, and prototypes ideas before lunch.
 date: 2025-10-07T10:24:00Z
-image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/super-t.png
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/t-shaped.png
 canonical_url: https://timbenniks.dev/writing/the-age-of-the-super-t-product-person
 tags: [ai, product, collaboration, webdev, process, leadership]
 collection_id: 22300
@@ -13,7 +13,7 @@ reading_time: 7 min read
 head:
   meta:
     - property: twitter:image
-      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/super-t.png
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/t-shaped.png
     - property: twitter:title
       content: The Age of the "Super-T" Product Person
     - property: twitter:description

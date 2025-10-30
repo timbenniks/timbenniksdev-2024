@@ -4,7 +4,7 @@ slug: devrel-is-product-strategy-disguised-as-empathy
 title: DevRel Is Product Strategy Disguised as Empathy
 description: A practical field guide to modern Developer Relations, blending product experience, developer marketing, and trust at scale.
 date: 2025-10-24T10:00:00Z
-image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-is-product-strategy-disguised-as-empathy.png
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-empathy.png
 canonical_url: https://timbenniks.dev/writing/devrel-is-product-strategy-disguised-as-empathy
 tags: [devrel, developer-experience, developer-marketing, product-strategy, composable, webdev, marketing, collaboration]
 collection_id: 22300
@@ -14,7 +14,7 @@ draft: true
 head:
   meta:
     - property: twitter:image
-      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-is-product-strategy-disguised-as-empathy.png
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-empathy.png
     - property: twitter:title
       content: DevRel Is Product Strategy Disguised as Empathy
     - property: twitter:description
@@ -31,13 +31,12 @@ faqs:
     answer: Empathy reveals friction points that shape product priorities. Done right, DevRel turns that feedback into design and growth decisions.
 ---
 
-# DevRel Is Product Strategy Disguised as Empathy  
-### A Field Guide to Building Trust, Teaching at Scale, and Measuring What Matters
+**A Field Guide to building trust, teaching at scale, and measuring what matters**
 
 That title sounds dramatic, and it should.  
 After a long time in this space, I've realized that Developer Relations isn't about hype, funnels, or swag. It's **product strategy disguised as empathy**. DevRel sits between engineering truth and developer reality, translating friction into insight and insight into scalable understanding.
 
-This playbook distills lessons from the field, shaped by my own work leading DevRel programs and the thinking of folks like **Marcos Placona** and **Lee Robinson**. Together, they form a practical blueprint for how to build trust, create clarity, and grow developer ecosystems that last.
+This playbook distills lessons from the field, shaped by my own work leading DevRel programs and the thinking of folks like [Marcos Placona](https://www.linkedin.com/in/marcosplacona/) and [Lee Robinson](https://www.linkedin.com/in/leeerob/). Together, they form a practical blueprint for how to build trust, create clarity, and grow developer ecosystems that last.
 
 ---
 
