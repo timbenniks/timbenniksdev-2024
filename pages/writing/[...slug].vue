@@ -69,6 +69,11 @@ useJsonld({
     "dateModified": post.value.date,
     "description": post.value.description,
     "timeRequired": `PT${post.value.reading_time.split(" min read")[0]}M`,
+    "hasPart": {
+      "@type": "WebPageElement",
+      "name": "TL;DR Summary",
+      "text": post.value.description
+    },
     "author": {
       "@type": "Person",
       "@id": "https://timbenniks.dev/about#Person",
@@ -81,7 +86,7 @@ useJsonld({
         "width": "96",
         "height": "96"
       }
-    },
+    }
   }]
 });
 

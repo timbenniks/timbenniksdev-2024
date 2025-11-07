@@ -2,7 +2,7 @@
 id: 93217
 slug: its-time-to-think-of-llms-as-having-abilities-not-protocols
 title: It's time to think of LLMs as having abilities, not protocols
-description: The Model Context Protocol overcomplicates AI integration. Let's make it composable (and human) by thinking in Abilities, not protocols.
+description: TL;DR Don't over-engineer standards around protocols. Instead, treat your large-language-model as a toolbox of abilities (like search, translate, query, generate) that you plug into your system. By thinking of LLMs as modular and composable abilities rather than monolithic protocols, AI becomes accessible, practical and aligned with how engineering and product teams already build.
 date: 2025-11-07T10:45:00Z
 image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/mcp-abilities-2.png
 canonical_url: https://timbenniks.dev/writing/its-time-to-think-of-llms-as-having-abilities-not-protocols
