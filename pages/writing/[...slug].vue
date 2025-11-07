@@ -68,6 +68,7 @@ useJsonld({
     "dateCreated": post.value.date,
     "dateModified": post.value.date,
     "description": post.value.description,
+    "abstract": post.value.description,
     "timeRequired": `PT${post.value.reading_time.split(" min read")[0]}M`,
     "hasPart": {
       "@type": "WebPageElement",
