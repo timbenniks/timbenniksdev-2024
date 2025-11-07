@@ -76,8 +76,8 @@ useJsonld({
       "url": "https://timbenniks.dev/",
       "image": {
         "@type": "ImageObject",
-        "@id": "https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/tim_aug_2023.png",
-        "url": "https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/tim_aug_2023.png",
+        "@id": "https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/timreal.png",
+        "url": "https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/timreal.png",
         "width": "96",
         "height": "96"
       }
@@ -177,7 +177,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
               <div class="flex items-center gap-2">
                 <img
                   loading="lazy"
-                  src="https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/tim_aug_2023.png"
+                  src="https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto,w_96,h_96,c_thumb/Tim/timreal.png"
                   alt="Tim Benniks"
                   width="48"
                   height="48"
