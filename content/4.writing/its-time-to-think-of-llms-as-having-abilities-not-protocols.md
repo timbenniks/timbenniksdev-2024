@@ -38,8 +38,7 @@ We don't need another acronym to learn. We need a shared, human way to talk abou
 
 ## TL;DR
 
-Forget MCP for a moment.  
-Think of your LLM as something you *enrich with abilities* (search, translate, query, generate) each modular, composable, and reusable. That's how AI becomes practical and composable at the same time.
+Don't over-engineer standards around protocols. Instead, treat your large-language-model as a toolbox of abilities (like search, translate, query, generate) that you plug into your system. By thinking of LLMs as modular and composable abilities rather than monolithic protocols, AI becomes accessible, practical and aligned with how engineering and product teams already build.
 
 ## The why
 
