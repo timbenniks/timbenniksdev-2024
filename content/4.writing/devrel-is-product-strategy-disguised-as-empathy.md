@@ -1,8 +1,8 @@
 ---
 id: 20251024
 slug: devrel-is-product-strategy-disguised-as-empathy
-title: DevRel Is Product Strategy Disguised as Empathy
-description: A practical field guide to modern Developer Relations, blending product experience, developer marketing, and trust at scale.
+title: DevRel playbook. Product Strategy Disguised as Empathy
+description: TL;DR Developer Relations is product strategy rooted in empathy. It works when you fix developer experience before promoting it, teach workflows instead of pitching features, and measure success by activation and retention—not vanity metrics. The goal is to reduce friction, build trust, and help developers succeed so the community grows naturally.
 date: 2025-10-24T10:00:00Z
 image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-empathy.png
 canonical_url: https://timbenniks.dev/writing/devrel-is-product-strategy-disguised-as-empathy
@@ -31,12 +31,11 @@ faqs:
     answer: Empathy reveals friction points that shape product priorities. Done right, DevRel turns that feedback into design and growth decisions.
 ---
 
-**A Field Guide to building trust, teaching at scale, and measuring what matters**
+**A Field Guide to building trust, teaching at scale, and measuring what matters.**
 
-That title sounds dramatic, and it should.  
 After a long time in this space, I've realized that Developer Relations isn't about hype, funnels, or swag. It's **product strategy disguised as empathy**. DevRel sits between engineering truth and developer reality, translating friction into insight and insight into scalable understanding.
 
-This playbook distills lessons from the field, shaped by my own work leading DevRel programs and the thinking of folks like [Marcos Placona](https://www.linkedin.com/in/marcosplacona/) and [Lee Robinson](https://www.linkedin.com/in/leeerob/). Together, they form a practical blueprint for how to build trust, create clarity, and grow developer ecosystems that last.
+This playbook distills lessons from the field, shaped by my own work leading DevRel programs, and the thinking of folks like [Marcos Placona](https://www.linkedin.com/in/marcosplacona/) and [Lee Robinson](https://www.linkedin.com/in/leeerob/). Please give these guys a follow, they are doing great work.
 
 ---
 
