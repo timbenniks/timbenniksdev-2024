@@ -1,6 +1,6 @@
 ---
-date: "2025-08-05T13:12:21Z"
-position: "029"
+date: "2024-12-10T20:19:58Z"
+position: "010"
 title: "Live stream🔴 Multi stack content type sync using Automate"
 description: "Live stream🔴 Multi stack content type sync using Automate"
 image: "https://i.ytimg.com/vi/bHzRtS_x9yU/maxresdefault.jpg"
