@@ -6,7 +6,7 @@ description: Developer Relations is most effective when treated not as marketing
 date: 2025-11-08T10:00:00Z
 image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-os.png
 canonical_url: https://timbenniks.dev/writing/devrel-os
-tags: [devrel, developer-experience, developer-marketing, product-strategy, composable, webdev, marketing, collaboration]
+tags: [devrel, developer-marketing, product-strategy]
 collection_id: 22300
 reading_time: 6 min read
 
