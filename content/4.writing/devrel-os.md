@@ -1,24 +1,23 @@
 ---
 id: 20251108
 slug: devrel-os
-title: DevRel Operating System
-description: From Principles to Practice. How to Design, Measure, and Scale Developer Experience
+title: The DevRel Operating System
+description: Developer Relations is most effective when treated not as marketing, not as community management, and not as evangelism, but as a disciplined operating system for improving the developer journey. DevRel succeeds when it brings clarity to complexity, reduces cognitive load, and creates repeatable success for developers. To do that, teams need frameworks, not just intentions.
 date: 2025-11-08T10:00:00Z
-image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-empathy.png
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-os.png
 canonical_url: https://timbenniks.dev/writing/devrel-os
 tags: [devrel, developer-experience, developer-marketing, product-strategy, composable, webdev, marketing, collaboration]
 collection_id: 22300
 reading_time: 6 min read
-draft: true
 
 head:
   meta:
     - property: twitter:image
-      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-empathy.png
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-os.png
     - property: twitter:title
       content: DevRel Operating System
     - property: twitter:description
-      content: From Principles to Practice. How to Design, Measure, and Scale Developer Experience
+      content: Developer Relations is most effective when treated not as marketing, not as community management, and not as evangelism, but as a disciplined operating system for improving the developer journey. DevRel succeeds when it brings clarity to complexity, reduces cognitive load, and creates repeatable success for developers. To do that, teams need frameworks, not just intentions.
     - property: keywords
       content: devrel,developer experience, developer marketing, product strategy, marketing, collaboration, webdev, composable
 
@@ -34,9 +33,7 @@ faqs:
 
 **From Principles to Practice: How to Design, Measure, and Scale Developer Experience**
 
-Developer Relations is most effective when treated not as marketing, not as community management, and not as evangelism, but as a disciplined operating system for improving the developer journey. The first article outlined the ethos: [*product strategy disguised as empathy*](/writing/devrel-is-product-strategy-disguised-as-empathy). This article focuses on how to put that strategy into motion.
-
-DevRel succeeds when it brings clarity to complexity, reduces cognitive load, and creates repeatable success for developers. To do that, teams need frameworks, not just intentions.
+Developer Relations is most effective when treated not as marketing, not as community management, and not as evangelism, but as a disciplined operating system for improving the developer journey. DevRel succeeds when it brings clarity to complexity, reduces cognitive load, and creates repeatable success for developers. To do that, teams need frameworks, not just intentions.
 
 ## The Core Definition
 

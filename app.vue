@@ -57,7 +57,6 @@ useHead({
       });
     `,
     },
-
     {
       defer: true,
       src: "/_vercel/speed-insights/script.js",
