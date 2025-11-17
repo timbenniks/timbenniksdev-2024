@@ -146,7 +146,7 @@ const { data: relatedPosts } = await useAsyncData(`related-${route.path}`, async
           }}</time>
         </p>
 
-        <ul class="flex space-x-2">
+        <ul class="flex flex-wrap gap-2">
           <li v-for="tag in doc.tags" :key="tag" class="tag">{{ tag }}</li>
         </ul>
       </header>
