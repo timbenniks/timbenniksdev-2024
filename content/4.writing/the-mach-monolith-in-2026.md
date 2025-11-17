@@ -30,8 +30,6 @@ faqs:
     answer: AI supported orchestration, platform level abstractions, and better guardrails that allow teams to compose without drowning in complexity.
 ---
 
-## Introduction
-
 Back in 2022 the MACH story felt shiny and full of possibility. However, it wasn't all sunshine and rainbows and I wrote this: ["The MACH Monolith"](https://www.linkedin.com/pulse/mach-monolith-tim-benniks/). Fast forward to 2026 and it feels like we have lived through several cycles of hype, confusion, and hard-fought lessons. Composability is still powerful, but anyone who has tried to run it at scale knows how complicated it gets once you move past the demo stage.
 
 The interesting twist is that vendors have quietly stepped away from the small-tool mindset and toward something more mature. We now have platforms that stay API driven but ship with opinionated workflows, integration patterns, and products that naturally complement each other. It feels a bit like the market rediscovered why monoliths existed in the first place.
