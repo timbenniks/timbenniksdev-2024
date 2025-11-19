@@ -2,7 +2,7 @@
 id: 94712001
 slug: the-mach-monolith-in-2026
 title: The MACH monolith in 2026
-description: The 2022 diagnosis was right: composable architectures need orchestration or they collapse. But the form factor was wrong. Teams rejected standalone orchestration layers as too heavy—another vendor, contract, and critical path. The 2026 reality is platforms that integrate orchestration directly, staying API-first and modular while providing built-in coordination. The shift isn't about more tools, but smarter platforms that reduce complexity fatigue without losing flexibility.
+description: The 2022 diagnosis was right. Composable architectures need orchestration or they collapse. But the form factor was wrong. Teams rejected standalone orchestration layers as too heavy—another vendor, contract, and critical path. The 2026 reality is platforms that integrate orchestration directly, staying API-first and modular while providing built-in coordination. The shift isn't about more tools, but smarter platforms that reduce complexity fatigue without losing flexibility.
 date: 2025-11-17T00:00:00Z
 image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/mach-monolith-2026.png
 canonical_url: https://timbenniks.dev/writing/the-mach-monolith-in-2026
@@ -17,7 +17,7 @@ head:
     - property: twitter:title
       content: The MACH monolith in 2026
     - property: twitter:description
-      content: The 2022 diagnosis was right: composable architectures need orchestration or they collapse. But the form factor was wrong. Teams rejected standalone orchestration layers as too heavy. The 2026 reality is platforms that integrate orchestration directly, staying API-first and modular while providing built-in coordination.
+      content: The 2022 diagnosis was right. Composable architectures need orchestration or they collapse. But the form factor was wrong. Teams rejected standalone orchestration layers as too heavy. The 2026 reality is platforms that integrate orchestration directly, staying API-first and modular while providing built-in coordination.
     - property: keywords
       content: composable, mach, cms, architecture, dxp
 
