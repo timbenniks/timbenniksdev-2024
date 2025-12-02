@@ -8,7 +8,7 @@ image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/a
 canonical_url: https://timbenniks.dev/writing/ai-native-composability-needs-real-api-first-dna
 tags: [composable, ai, cms, mach, architecture, api]
 collection_id: 22300
-reading_time: 6 min read
+reading_time: 5 min read
 
 head:
   meta:

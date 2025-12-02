@@ -2,20 +2,19 @@
 
 id: 10101
 slug: why-experience-is-the-real-flagship
-title: Why Experience Is the Real Flagship
+title: Why experience is the real flagship
 description: Many brands think they're digitally mature, yet their experience operations are fragmented. Here's how to spot it and start orchestrating.
-date: 2025-10-30T12:00:00Z
-image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/why-experience-is-the-real-flagship.png
+date: 2025-12-01T12:00:00Z
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/valtech-cs-experience.jpeg
 canonical_url: https://timbenniks.dev/writing/why-experience-is-the-real-flagship
 tags: [composable, dxc, orchestration, cms, webdev, marketing]
 collection_id: 22300
 reading_time: 6 min read
-draft: true
 
 head:
   meta:
     - property: twitter:image
-      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/why-experience-is-the-real-flagship.png
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/valtech-cs-experience.jpeg
     - property: twitter:title
       content: Why Experience Is the Real Flagship
     - property: twitter:description
@@ -88,3 +87,10 @@ Success in this model isn't faster publishing, it's **consistency at scale**. Th
 To get there, start small. Pick one journey or campaign and rebuild it end-to-end with a composable mindset. Focus on structured content, preview, governance, and feedback loops.
 
 Because in the end, the brands that win aren't the ones that ship the most features, they're the ones that **orchestrate the best experiences**.
+
+Watch the first episode here:
+<iframe name="https://videos.valtech.com/v.ihtml/player.html?token=d1541081046a8e4e311663fc524b9804&source=embed&photo_id=119208047&endOn=" src="https://videos.valtech.com/v.ihtml/player.html?token=d1541081046a8e4e311663fc524b9804&source=embed&photo_id=119208047&endOn=&autoPlay=0&autoMute=0&loop=0&showTray=1" allow="autoplay" style="aspect-ratio:16/9; width: 100%;" frameborder="0" border="0" title=""></iframe>
+
+Additional links:
+* [Read the full article on Valtech's website](https://www.valtech.com/blog/the-experience-factory-episode-1/)
+* [Read the full article on Contentstack's website](https://www.contentstack.com/blog/strategy/the-experience-factory-ep1-from-fragmentation-to-orchestration)
