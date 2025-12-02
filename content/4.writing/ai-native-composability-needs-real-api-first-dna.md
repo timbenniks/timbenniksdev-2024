@@ -24,8 +24,8 @@ head:
 faqs:
   - question: Why is true API first DNA essential for AI native workflows?
     answer: AI depends on orchestration across many systems. Without real API first foundations, vendors can only ship preset functionality inside a monolith. That limits customization and blocks brands from composing their own agents and logic.
-  - question: What makes agentOS different from typical AI features in legacy platforms?
-    answer: agentOS is an operating system for agents, not a feature. It lets brands build, combine, and refine their own agents through APIs, events, helpers, and deterministic automations. It is designed for flexibility, not one size fits all.
+  - question: What makes Contentstack AgentOS different from typical AI features in legacy platforms?
+    answer: Contentstack AgentOS is an operating system for agents, not a feature. It lets brands build, combine, and refine their own agents through APIs, events, helpers, and deterministic automations. It is designed for flexibility, not one size fits all.
   - question: How should brands evaluate vendors claiming to support AI?
     answer: Look at the architecture of their agents, events, and automation layers. If they are not modular, API addressable, and composable, they cannot support AI native experiences no matter how strong the marketing story is.
 ---
@@ -39,7 +39,7 @@ This is where things get interesting. Because when you build AI on top of true A
 
 ## TL;DR
 
-AI exposes the architectural truth of every digital platform. Vendors with real API first DNA can deliver AI native composability where agents, events, and automation behave like modular building blocks connected through open interfaces. Vendors that grew up as monoliths bolt AI features onto their core and cannot escape the constraints of their architecture. Contentstack's agentOS represents the next logical layer of MACH because it treats AI as an extensible system instead of a preset feature. Brands gain the freedom to create their own agents, refine event flows, combine deterministic automations, and use helpers like BrandKit to orchestrate intelligence that fits their specific needs. The simple takeaway: judge AI claims by the architecture behind them, not the marketing around them.
+AI exposes the architectural truth of every digital platform. Vendors with real API first DNA can deliver AI native composability where agents, events, and automation behave like modular building blocks connected through open interfaces. Vendors that grew up as monoliths bolt AI features onto their core and cannot escape the constraints of their architecture. Contentstack's AgentOS represents the next logical layer of MACH because it treats AI as an extensible system instead of a preset feature. Brands gain the freedom to create their own agents, refine event flows, combine deterministic automations, and use helpers like BrandKit to orchestrate intelligence that fits their specific needs. The simple takeaway: judge AI claims by the architecture behind them, not the marketing around them.
 
 ## The why
 
@@ -55,14 +55,13 @@ AI native composability solves this by starting from a simple truth: every brand
 
 ## The how
 
-When a platform is born API first, AI can be treated as an operating system rather than an add on. That is the real breakthrough behind agentOS.
+When a platform is born API first, AI can be treated as an operating system rather than an add on. That is the real breakthrough behind Contentstack AgentOS.
 
-agentOS gives brands a set of primitives to build the agents they need. Agents that are API addressable. Agents that combine with each other. Agents that plug into a flexible event model that brands can shape to their own ways of working.
+AgentOS gives brands a set of primitives to build the agents they need. Agents that are API addressable. Agents that combine with each other. Agents that plug into a flexible event model that brands can shape to their own ways of working.
 
 Add helpers like BrandKit for guardrails and deterministic automations for predictable outcomes and you suddenly have a full stack for AI native composability.
 
-Instead of forcing teams into someone else's workflow, agentOS lets them compose their own. Developers get clarity. Marketers get flexibility. Editors get control. And the business finally gets a system that fits their world instead of forcing them into a vendor shaped box.
-
+Instead of forcing teams into someone else's workflow, AgentOS lets them compose their own. Developers get clarity. Marketers get flexibility. Editors get control. And the business finally gets a system that fits their world instead of forcing them into a vendor shaped box.
 This is what the next era of MACH looks like. We made content composable. We made services composable. Now we are making intelligence composable.
 
 ## Challenges
@@ -81,4 +80,4 @@ If there is one thing you remember, let it be this:
 
 *Judge the vendor not by the AI they demo but by the architecture that powers it.*
 
-agentOS shows what happens when you start with true API first DNA. It is an operating system for brand specific intelligence. It is flexible by design. It is built the MACH way. And it points to where the industry is going next.
+ Contentstack AgentOS shows what happens when you start with true API first DNA. It is an operating system for brand specific intelligence. It is flexible by design. It is built the MACH way. And it points to where the industry is going next.
