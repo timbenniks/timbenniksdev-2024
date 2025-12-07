@@ -3,25 +3,23 @@ id: 94210831
 slug: the-new-era-of-product-roles-why-design-and-frontend-are-converging
 title: "The new era of product roles: why design and frontend are converging"
 description: AI driven workflows are collapsing the gap between design and frontend. Classic role splits are fading as teams shift toward flow shapers, design engineers, and end to end product builders. This prediction outlines why design and frontend roles are merging, how composable architecture accelerates the change, and why this opens new opportunities for people who can think in systems and ship real product with speed and confidence.
-date: 2025-12-07T12:00:00Z
-image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/the-new-era-of-product-roles-why-design-and-frontend-are-converging.png
+date: 2025-12-07T10:00:00Z
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1765120184/website/vrjwh5fhq32av9ajgtvr.jpg
 canonical_url: https://timbenniks.dev/writing/the-new-era-of-product-roles-why-design-and-frontend-are-converging
 tags: [webdev, web development, ai, composable, architecture, cms, javascript, agency, dxc]
 collection_id: 22300
 reading_time: 6 min read
 draft: true
-
 head:
   meta:
     - property: twitter:image
-      content: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/the-new-era-of-product-roles-why-design-and-frontend-are-converging.png
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1765120184/website/vrjwh5fhq32av9ajgtvr.jpg
     - property: twitter:title
-      content: "The new era of product roles: why design and frontend are converging"
+      content: The new era of product roles: why design and frontend are converging
     - property: twitter:description
       content: AI driven workflows are collapsing the gap between design and frontend. Classic role splits are fading as teams shift toward flow shapers, design engineers, and end to end product builders. This prediction outlines why design and frontend roles are merging, how composable architecture accelerates the change, and why this opens new opportunities for people who can think in systems and ship real product with speed and confidence.
     - property: keywords
       content: webdev, web development, ai, composable, architecture, cms, javascript, agency, dxc
-
 faqs:
   - question: Why are design and frontend roles converging now?
     answer: AI assisted tooling and modern frontend workflows remove the old friction between design and implementation. Teams need people who create flows and ship product without handovers.
@@ -77,4 +75,4 @@ We are entering a world where output is the real currency. Not titles. Not tool 
 
 This is the future of design and frontend. It is already happening. And it opens more opportunity than ever for people who enjoy both thinking and building.
 
-*That is the new era of product roles. And it is only getting started.*
+_That is the new era of product roles. And it is only getting started._
