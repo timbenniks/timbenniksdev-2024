@@ -124,13 +124,25 @@ function processMarkdownFile(filePath) {
       }
     );
 
+    // Handle custom questionnaire component: :questionnaire
+    const questionnaireComponentRegex = /:questionnaire\s*\n/g;
+    processedMarkdown = processedMarkdown.replace(
+      questionnaireComponentRegex,
+      () => {
+        // Create questionnaire component HTML with data attributes for better JSON conversion
+        return `<div class="questionnaire-component" data-component="questionnaire">
+  <questionnaire-cms></questionnaire-cms>
+</div>`;
+      }
+    );
+
     // Convert markdown to HTML
     const htmlContent = marked(processedMarkdown);
 
     const dom = new JSDOM(htmlContent);
     let htmlDoc = dom.window.document.querySelector("body");
 
-    // Configure JSON RTE Serializer with custom element parsing for YouTube embeds
+    // Configure JSON RTE Serializer with custom element parsing for YouTube embeds and questionnaire
     const jsonFromHTML = htmlToJson(htmlDoc, {
       customElementTags: {
         DIV: (el) => {
@@ -156,6 +168,15 @@ function processMarkdownFile(filePath) {
               };
             }
           }
+          // Check if this div is a questionnaire component container
+          if (el.classList.contains("questionnaire-component")) {
+            return {
+              type: "questionnaire-component",
+              attrs: {
+                component: "questionnaire",
+              },
+            };
+          }
           // Return null for regular divs to use default parsing
           return null;
         },
@@ -180,7 +201,20 @@ function processMarkdownFile(filePath) {
       }
     }
 
-    return {
+    // Process FAQs to transform from [{question: "...", answer: "..."}] to [{qa: {question: "...", answer: "..."}}]
+    let processedFaqs = null;
+    if (processedAttributes.faqs && Array.isArray(processedAttributes.faqs)) {
+      processedFaqs = processedAttributes.faqs
+        .filter((faq) => faq && (faq.question || faq.answer))
+        .map((faq) => ({
+          qa: {
+            question: faq.question || "",
+            answer: faq.answer || "",
+          },
+        }));
+    }
+
+    const result = {
       ...processedAttributes,
       media:
         processedAttributes.image &&
@@ -191,6 +225,13 @@ function processMarkdownFile(filePath) {
           : processedAttributes.image,
       jsonContent: jsonFromHTML,
     };
+
+    // Add FAQs if they exist
+    if (processedFaqs && processedFaqs.length > 0) {
+      result.faqs = processedFaqs;
+    }
+
+    return result;
   } catch (error) {
     console.error(`Error processing file ${filePath}:`, error.message);
     return null;
