@@ -41,6 +41,12 @@
       "name": "Live Uniform",
       "folder": "live-uniform",
       "enabled": true
+    },
+    {
+      "id": "",
+      "name": "Misc Streams",
+      "folder": "misc-streams",
+      "enabled": true
     }
   ]
 }
