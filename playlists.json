@@ -5,6 +5,12 @@
       "name": "Headless Creator",
       "folder": "headless-creator",
       "enabled": true
+    },
+    {
+      "id": "",
+      "name": "Alive And Kicking",
+      "folder": "alive-and-kicking",
+      "enabled": true
     }
   ]
 }
