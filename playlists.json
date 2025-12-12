@@ -11,6 +11,12 @@
       "name": "Alive And Kicking",
       "folder": "alive-and-kicking",
       "enabled": true
+    },
+    {
+      "id": "",
+      "name": "Contentstack",
+      "folder": "contentstack",
+      "enabled": true
     }
   ]
 }
