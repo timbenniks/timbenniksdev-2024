@@ -23,6 +23,12 @@
       "name": "Hygraph",
       "folder": "hygraph",
       "enabled": true
+    },
+    {
+      "id": "",
+      "name": "Live Contentstack",
+      "folder": "live-contentstack",
+      "enabled": true
     }
   ]
 }
