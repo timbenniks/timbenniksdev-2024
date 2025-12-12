@@ -35,6 +35,12 @@
       "name": "Live Hygraph",
       "folder": "live-hygraph",
       "enabled": true
+    },
+    {
+      "id": "",
+      "name": "Live Uniform",
+      "folder": "live-uniform",
+      "enabled": true
     }
   ]
 }
