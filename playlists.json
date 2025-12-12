@@ -17,6 +17,12 @@
       "name": "Contentstack",
       "folder": "contentstack",
       "enabled": true
+    },
+    {
+      "id": "",
+      "name": "Hygraph",
+      "folder": "hygraph",
+      "enabled": true
     }
   ]
 }
