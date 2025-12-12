@@ -12,11 +12,11 @@ transcript: "[Music] oh [Music] [Music] so in about uh 10 minutes I'm going to b
 tags:
   - vuejs
   - vuejs-amsterdam
-  - frontend
+  - frontend-development
   - conference
   - interview
-  - middleware-productions
-  - event-coverage
+  - event-recap
+  - javascript
 playlist: mp
 ---
 
