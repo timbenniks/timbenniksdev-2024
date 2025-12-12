@@ -47,6 +47,12 @@
       "name": "Misc Streams",
       "folder": "misc-streams",
       "enabled": true
+    },
+    {
+      "id": "",
+      "name": "Mp",
+      "folder": "mp",
+      "enabled": true
     }
   ]
 }
