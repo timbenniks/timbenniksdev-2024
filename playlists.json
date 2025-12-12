@@ -59,6 +59,12 @@
       "name": "Tim",
       "folder": "tim",
       "enabled": true
+    },
+    {
+      "id": "",
+      "name": "Uniform",
+      "folder": "uniform",
+      "enabled": true
     }
   ]
 }
