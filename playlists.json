@@ -1,0 +1,10 @@
+{
+  "playlists": [
+    {
+      "id": "PLordIU6tK3nVRzSDaRITfSwBwy7N4JzBf",
+      "name": "Headless Creator",
+      "folder": "headless-creator",
+      "enabled": true
+    }
+  ]
+}
