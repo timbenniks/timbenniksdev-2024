@@ -1,7 +1,7 @@
 ---
 id: 1614623
 slug: the-future-of-headless-cms-content-federation-with-graphql
-title: "The future of headless CMS: Content Federation with GraphQL"
+title: "The future of headless CMS Content Federation with GraphQL"
 description: Federation is a popular topic of conversation these days, and for good reason. With the ever-growing...
 date: "2023-09-28T14:39:16Z"
 image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9pk8b2ihfddxqlt3w4tu.jpg
@@ -15,7 +15,7 @@ head:
     - property: twitter:image
       content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9pk8b2ihfddxqlt3w4tu.jpg
     - property: twitter:title
-      content: The future of headless CMS: Content Federation with GraphQL
+      content: The future of headless CMS Content Federation with GraphQL
     - property: twitter:description
       content: Federation is a popular topic of conversation these days, and for good reason. With the ever-growing...
     - property: keywords

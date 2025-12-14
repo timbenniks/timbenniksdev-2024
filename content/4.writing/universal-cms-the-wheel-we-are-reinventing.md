@@ -1,7 +1,7 @@
 ---
 id: 23134243556
 slug: universal-cms-the-wheel-we-are-reinventing
-title: "Universal CMS: the wheel we're reinventing"
+title: "Universal CMS the wheel we're reinventing"
 description: Universal CMS reshapes CMS by blending headless and traditional, empowering developers and content creators. But are we reinventing the wheel here?
 date: "2024-11-13T13:05:48Z"
 image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1731438927/website/title.jpg
@@ -12,7 +12,7 @@ head:
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1731438927/website/title.jpg
     - property: twitter:title
-      content: Universal CMS: the wheel we're reinventing
+      content: Universal CMS the wheel we're reinventing
     - property: twitter:description
       content: Universal CMS reshapes CMS by blending headless and traditional, empowering developers and content creators. But are we reinventing the wheel here?
     - property: keywords

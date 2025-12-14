@@ -1,7 +1,7 @@
 ---
 id: 1234556
 slug: page-builder-cms-vs-data-modeler-cms
-title: "CMS Showdown: do you need a page builder or a data modeler?"
+title: "CMS Showdown do you need a page builder or a data modeler?"
 description: Explore the differences between page builder and data modeler CMSs, their unique features, and how they cater to varying organizational needs.
 date: "2024-03-12T13:05:48Z"
 image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fmedia.graphassets.com%2FNzxmjCxvTRqg3sTb9JFj
@@ -21,7 +21,7 @@ head:
     - property: twitter:image
       content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fmedia.graphassets.com%2FNzxmjCxvTRqg3sTb9JFj
     - property: twitter:title
-      content: CMS Showdown: do you need a page builder or a data modeler?
+      content: CMS Showdown do you need a page builder or a data modeler?
     - property: twitter:description
       content: Explore the differences between page builder and data modeler CMSs, their unique features, and how they cater to varying organizational needs.
     - property: keywords

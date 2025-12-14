@@ -1,8 +1,8 @@
 ---
 id: 2131234
 slug: choosing-the-right-visual-editor
-title: "Choosing the right visual editor for your website: Platform-First vs. Code-First"
-description: "This post explores two main types of visual editors: platform-first and code-first. I compare their functionalities, pros, and cons to help you choose the right solution for your development needs."
+title: "Choosing the right visual editor for your website Platform-First vs. Code-First"
+description: "This post explores two main types of visual editors platform-first and code-first. I compare their functionalities, pros, and cons to help you choose the right solution for your development needs."
 date: "2024-06-28T13:05:48Z"
 image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/poster.png
 canonical_url: https://timbenniks.dev/writing/choosing-the-right-visual-editor
@@ -13,9 +13,9 @@ head:
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1719585541/website/poster.png
     - property: twitter:title
-      content: Choosing the right visual editor for your website: Platform-First vs. Code-First
+      content: "Choosing the right visual editor for your website Platform-First vs. Code-First"
     - property: twitter:description
-      content: This post explores two main types of visual editors: platform-first and code-first. I compare their functionalities, pros, and cons to help you choose the right solution for your development needs.
+      content: "This post explores two main types of visual editors platform-first and code-first. I compare their functionalities, pros, and cons to help you choose the right solution for your development needs."
     - property: keywords
       content: cms, web development, architecture, api, Development, Tools
 faqs:

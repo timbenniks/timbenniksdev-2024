@@ -1,7 +1,7 @@
 ---
 id: 1405729
 slug: digital-experience-platforms-the-old-versus-the-new
-title: "Digital experience platforms: the old versus the new"
+title: "Digital experience platforms the old versus the new"
 description: Digital experience platforms (DXPs) and the more modern digital experience composition platforms...
 date: "2023-03-18T13:05:48Z"
 image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png
@@ -15,7 +15,7 @@ head:
     - property: twitter:image
       content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png
     - property: twitter:title
-      content: Digital experience platforms: the old versus the new
+      content: "Digital experience platforms the old versus the new"
     - property: twitter:description
       content: Digital experience platforms (DXPs) and the more modern digital experience composition platforms...
     - property: keywords

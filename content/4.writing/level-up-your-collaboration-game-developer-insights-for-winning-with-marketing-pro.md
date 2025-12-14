@@ -1,7 +1,7 @@
 ---
 id: 1456239
 slug: level-up-your-collaboration-game-developer-insights-for-winning-with-marketing-pro
-title: "Level up your collaboration game: Developer insights for winning with marketing pros"
+title: "Level up your collaboration game Developer insights for winning with marketing pros"
 description: Building outstanding user experiences takes, first and foremost, effective collaboration between...
 date: "2023-05-03T15:49:29Z"
 image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjhfuu567f1khlxvglcn0.png
@@ -15,7 +15,7 @@ head:
     - property: twitter:image
       content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjhfuu567f1khlxvglcn0.png
     - property: twitter:title
-      content: Level up your collaboration game: Developer insights for winning with marketing pros
+      content: Level up your collaboration game Developer insights for winning with marketing pros
     - property: twitter:description
       content: Building outstanding user experiences takes, first and foremost, effective collaboration between...
     - property: keywords
