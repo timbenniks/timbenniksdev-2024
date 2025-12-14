@@ -15,7 +15,7 @@ head:
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1765120184/website/vrjwh5fhq32av9ajgtvr.jpg
     - property: twitter:title
-      content: "The new era of product roles: why design and frontend are converging"
+      content: The new era of product roles: why design and frontend are converging
     - property: twitter:description
       content: AI driven workflows are collapsing the gap between design and frontend. Classic role splits are fading as teams shift toward flow shapers, design engineers, and end to end product builders. This prediction outlines why design and frontend roles are merging, how composable architecture accelerates the change, and why this opens new opportunities for people who can think in systems and ship real product with speed and confidence.
     - property: keywords
@@ -29,7 +29,7 @@ faqs:
     answer: Composable stacks simplify implementation and remove heavy backend tasks. This allows design minded builders to ship real features faster, making the old split less relevant.
 ---
 
-Here is the thing. The gap between designing and building the frontend is shrinking at high speed. Every month the process feels smoother. Tasks that once needed two teams now fall to one person with a good eye and the right tools. When AI generates production ready code from rough layouts, the old idea of separate design and frontend roles starts to feel like history.
+Here is the thing. The gap between designing and building the frontend is shrinking at high speed. Every month the process feels smoother. Tasks that once needed two teams now fall to one person with a good eye and the right tools. When AI generates production ready code from rough layouts, the old idea of separate design and frontend roles starts to feel like history. d
 
 This is not a crisis. It is a new era.
 
