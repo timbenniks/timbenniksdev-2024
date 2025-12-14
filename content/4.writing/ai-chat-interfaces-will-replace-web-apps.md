@@ -1,15 +1,14 @@
 ---
 id: 13993289
-slug: "ai-chat-interfaces-will-replace-web-apps"
-title: "AI chat interfaces will replace web apps"
-description: "A firsthand look at how AI-driven chat interfaces could reshape SaaS and user interaction."
+slug: ai-chat-interfaces-will-replace-web-apps
+title: AI chat interfaces will replace web apps
+description: A firsthand look at how AI-driven chat interfaces could reshape SaaS and user interaction.
 date: "2025-10-04T20:37:36Z"
-image: "https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/ai-saas.png"
-canonical_url: "https://timbenniks.dev/writing/ai-chat-interfaces-will-replace-web-apps"
-tags: ["mcp","ai","composable","architecture","saas"]
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/ai-saas.png
+canonical_url: https://timbenniks.dev/writing/ai-chat-interfaces-will-replace-web-apps
+tags: [ai, saas, web development, cms, api, orchestration, architecture, product]
 collection_id: 22300
 reading_time: 5 min read
-
 head:
   meta:
     - property: twitter:image
@@ -19,15 +18,15 @@ head:
     - property: twitter:description
       content: A firsthand look at how AI-driven chat interfaces could reshape SaaS and user interaction.
     - property: keywords
-      content: mcp, ai, composable, architecture, saas
-
+      content: ai, saas, web development, cms, api, orchestration, architecture, product
 faqs:
-  - question: "Is this the end of frontend development?"
-    answer: "Not at all. It's an evolution. Frontend logic moves into agents that can generate contextual interfaces instead of static ones."
-  - question: "What happens to design?"
-    answer: "It becomes more about interaction modeling and user journeys than layout grids. The designer's role stays critical, but the tools change."
-  - question: "Does this depend on Agent OS?"
-    answer: "No. Agent OS is just one example. The trend is bigger, AI orchestration across APIs, automation, and dynamic UI rendering."
+  - question: Is this the end of frontend development?
+    answer: Not at all. It's an evolution. Frontend logic moves into agents that can generate contextual interfaces instead of static ones.
+  - question: What happens to design?
+    answer: It becomes more about interaction modeling and user journeys than layout grids. The designer's role stays critical, but the tools change.
+  - question: Does this depend on Agent OS?
+    answer: No. Agent OS is just one example. The trend is bigger, AI orchestration across APIs, automation, and dynamic UI rendering.
+draft: false
 ---
 
 That's not an exaggeration: I just saw the future happen in real time.

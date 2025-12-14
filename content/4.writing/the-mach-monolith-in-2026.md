@@ -6,7 +6,7 @@ description: The 2022 diagnosis was right. Composable architectures need orchest
 date: 2025-11-17T10:00:00Z
 image: https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/mach-monolith-2026.png
 canonical_url: https://timbenniks.dev/writing/the-mach-monolith-in-2026
-tags: [composable, mach, cms, architecture, dxp, api]
+tags: [architecture, orchestration, cms, api, ai, web development, product, Governance]
 collection_id: 22300
 reading_time: 6 min read
 head:
@@ -18,7 +18,7 @@ head:
     - property: twitter:description
       content: The 2022 diagnosis was right. Composable architectures need orchestration or they collapse. But the form factor was wrong. Teams rejected standalone orchestration layers as too heavy—another vendor, contract, and critical path. The 2026 reality is platforms that integrate orchestration directly, staying API-first and modular while providing built-in coordination. The shift isn't about more tools, but smarter platforms that reduce complexity fatigue without losing flexibility.
     - property: keywords
-      content: composable, mach, cms, architecture, dxp, api
+      content: architecture, orchestration, cms, api, ai, web development, product, Governance
 faqs:
   - question: What was wrong with standalone orchestration layers?
     answer: Teams didn't reject the idea of orchestration—they rejected the overhead. A standalone orchestration layer adds another vendor, contract, team, and critical path. Leadership wasn't happy hearing they needed a CMS, commerce, search, personalization, and an orchestration layer on top.
