@@ -14,14 +14,14 @@ image: https://i.ytimg.com/vi/hKCXN_R0m54/maxresdefault.jpg
 videoId: hKCXN_R0m54
 transcript: hello everyone let's start and create a next three project with uniform platform in no time let's go through creating our free account now and going through the onboarding here we go so tim pick my password let's go so now we created a new account and i am a developer and this is kind of just i don't really know what kind of project it's for me personally just to check stuff out okay so now we are in our welcome screen and if you don't know uniform you can watch this video here otherwise we'll just go to the first project that's automatically created for you when you have a new team because uniform has team you can add other projects so now that this is my new project here it says hey this is your new project do you want like to set up some basics yeah sure so let's just go with the starter kit so in our integrations we actually have starter kits so while this is running let's actually look because we're going to go next let me just clone this so now we're going to get the code for our starter form there we go and so what we need to do is actually create some environment variables and uniform creates these for you they're read only so we have an api key and we have a project id so let's add this in our environment variables here all right what's next npm install rundown okay we can do that let's install and then once installed we can actually run this thing and see it work npm run dev here we go so we are on next three rc six at the moment at the time of the recording and here is our project and this is just running now on uniform canvas with nuxtree and there's a few pages here and we've also added personalization into this so i now go to the developers conference tool track talk track and when i go back home it actually says hey you're a developer you can also forget yourself so there's some extra fun stuff here so when we look in the code it's actually just a very simple next project but it has a bit of styling and it actually has uniform nuxed module and some tailwith stuff and it's really simple stuff all in all just to make sure that you understand it when you work with this and then when we look in uniform we just created this starter right well let's have a look at what kind of pages were created for us okay this is the home page and so for now there's a whole bunch of stuff already set up for us let's say this is the welcome header but then when you're a developer it shows you the developer header and right now you can see that the text is added in here uniform is not a cms so you can also add another integration to replace these text fields here so if we wanted to we could go to integrations and go to content and actually select contentful for example and then contentful would fill this content and so um we did that really fast and it's up and running and now you can play so feel free to join us at discord at uniform.2 discord and then just show us what you've built come along chat with this anyway see you there cheers
 tags:
-  - uniform
-  - nuxt-3
-  - vue-3
-  - headless-cms
-  - composable-architecture
+  - web development
+  - Development
+  - frameworks
+  - cms
+  - api
+  - architecture
   - personalization
-  - starter-kit
-  - tutorial
+  - saas
 playlist: uniform
 ---
 

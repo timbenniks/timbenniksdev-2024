@@ -14,13 +14,12 @@ image: https://i.ytimg.com/vi/woNTID8zkf0/maxresdefault.jpg
 videoId: woNTID8zkf0
 transcript: Transcript not available.
 tags:
-  - uniform
   - personalization
-  - machathon
-  - api-first
-  - headless-cms
-  - composable-architecture
-  - tutorial
+  - api
+  - cms
+  - architecture
+  - web development
+  - Development
 playlist: uniform
 ---
 

@@ -31,14 +31,14 @@ image: https://i.ytimg.com/vi/Pt1p8ixie-k/maxresdefault.jpg
 videoId: Pt1p8ixie-k
 transcript: in recent years we've seen a lot of changes in how businesses use digital experiences to drive customer engagement into fuel things like e-commerce alongside an explosion of infrastructure and tax tag options decoupling from old and dusty monolithic suites has offered a lot of flexibility but traversing the headless landscape and orchestrating it into some sort of a cohesive architecture has provided some challenges especially because we need more and more developer expertise to connect all the tools together and these tools keep on changing so marketers and content editors are starting to get a little bit frustrated they are not really able to keep up and they don't have the control that these traditional suites used to give them so we are excited to announce uniform the world's first truly composable dxp as a frictionless composable dxp uniform offers you the power of choice to continuously upgrade to new tech without ever re-platforming so front and center is this power of choice you can use your own tech stack your own hosting and you choose your own headless sources from cms to crm to e-commerce system you can add them with ease uniform acts as a platform without opinion and therefore it is truly composable it puts sources together from traditional to headless and makes them work in a cohesive way so yes you can even connect select monolytic systems like sitecore and make them work like a headless source inside uniform with uniform canvas you get powerful no code tools that allow marketers to gain control over page composition personalization and a b testing and all of this without the need for developers uniform canvas allows you to compose pages with a multitude of different sources from traditional ones to headless ones but you don't have to worry where the data actually comes from and it also offers an instant preview that works on your production sites so every change you do shows you directly how it will look in real life uniform allows your team to continuously create incredible experiences while your architecture changes over time because after all change is the only constant right great core web vital scores amazing scalability and enterprise great security are only the beginning you can now start telling your story right away while using uniform thanks for watching and i'll see you soon
 tags:
-  - uniform
-  - composable-dxp
-  - headless-cms
-  - digital-experience
-  - no-code
-  - personalization
-  - a-b-testing
-  - sitecore
+  - Commerce
+  - Content
+  - cms
+  - architecture
+  - orchestration
+  - api
+  - performance
+  - web development
 playlist: uniform
 ---
 

@@ -13,13 +13,12 @@ image: https://i.ytimg.com/vi/RWRZovC5oc4/maxresdefault.jpg
 videoId: RWRZovC5oc4
 transcript: foreign [Music] recently I found out about Super Bass I know I'm like really late to the game but you know sometimes you just go in different circles and things are not as clear and so I had to have something like super bass databases logging in super performance life voting connection things I say voting because I actually build a conference talk where I would play Life on stage and the audience of the conference could vote directly which song they would like and it would show directly on the screen as like there's their their picture of their GitHub or Twitter account which Just Bounce Around on the screen and for that I use super bass and when I started using it I realized how good it was how well it performs how easy it is to integrate in my next app and holy moly I was happy with that and I will be using this going forward and so recently they asked me to be part of their super squad and they sent me some swag or merch or however you want to call it and I have the box here and look at like the Box alone like it's really thick and nice and I don't even need like a knife to open it and this is the first time I've not seen this everything is still in plastic and so here you go this is the the lid let's get rid of that we don't need that anymore okay so what do we have here so I'm thinking this is a hoodie there you go let's open this bad boy up oh that's nice material there we go awesome what else do we have I think I have a t-shirt here we go oh and some stickers of course some stickers show those here I guess oh oh there we go nice and so you can see how much care they take of their their product and their merchandise by how awesome this fabric is and I got my size right nice what else oh this looks different but I think it's also a shirt let's see oh no it's the same maybe it's just a different manufacturer somehow yeah it is different in its you know material but it's again super base shirt I shall be wearing this a lot really cool thanks guys and I think there's one last player let's see what is this magic aha a water bottle with Super Bass on it you know what I wear hats every day all the time I think I might be asking them for a hat because I would always love that but this is also very cool oh it's actually one that keeps it hot or cold which is very very nice so um let's get rid of this oh that's heavy [Music] um thank you so much Super Bass for including me in your super squad and making me feel part of your community and I'll be making a ton of content going forward about superbit because I'm just very excited about it anyways this was my short unboxing of lovely merch and I'll be wearing it soon cheers
 tags:
-  - supabase
-  - nextjs
-  - web-development
-  - developer-advocacy
-  - community-ambassador
-  - unboxing
-  - livestream
+  - Database
+  - Development
+  - web development
+  - community
+  - performance
+  - Tools
 playlist: tim
 ---
 

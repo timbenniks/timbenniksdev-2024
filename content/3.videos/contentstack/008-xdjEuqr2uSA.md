@@ -12,13 +12,13 @@ image: https://img.youtube.com/vi/xdjEuqr2uSA/maxresdefault.jpg
 videoId: xdjEuqr2uSA
 transcript: In this video, I'll walk you through our Next.js kickstart, a clean, barebones starter that connects to content stack with just the essentials. Kickstarts use agnostic tooling in the context of your favorite framework, in this case, Nex.js, but um we also have kickstarts for most other meta frameworks. A kickstart comes ready with live preview and visual builder so you can edit content right on the page and instantly see the results. It supports images, rich text, and modular blocks. Every feature is linked to deeper documentation, academy courses, and our developer community if you want to explore more advanced topics. The project is built with Nex.js15 using the app directory. Inside a single content stack library file, we do the heavy lifting. First, we import dependencies and set the region. Next, we configure a stack, which is the container for all your content with API keys, delivery tokens, and environment settings for development, preview, or production. All right. Finally, we initialize live preview. So, changes made in the CMS show up on your site in real time. Fetching content is handled by a helper called get page. It queries content stack for a given URL and returns the right page entry. A small utility then adds editable tags to the returned HTML. So when you click a title or an image, the system knows exactly which field in content stack to edit. On the front end, we use the use effect hook to initialize live preview, listen for updates, and automatically refresh the page whenever content changes. If you'd rather keep things simple for production, you can skip the live preview code and render everything directly on the server. The HTML is styled with Tailwind CSS chosen for its popularity and flexibility. All of the key functions creating the stack, getting the page, and initializing live preview are fully annotated in the code, so you can dive in and understand every step. That's the entire setup. A modern Nex.js JS project that stays minimal while still giving you a complete editable site from day one. Clone it, start building your own features, and check out our documentation or join our developer community if you'd like to go deeper.
 tags:
-  - contentstack
-  - contentstack-edge
-  - nextjs
-  - headless-cms
-  - frontend-implementation
-  - tutorial
-  - kickstart
+  - web development
+  - cms
+  - api
+  - Development
+  - frameworks
+  - Content
+  - community
 playlist: contentstack
 duration: "2:25"
 ---

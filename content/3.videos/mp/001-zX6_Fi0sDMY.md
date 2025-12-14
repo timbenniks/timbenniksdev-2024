@@ -10,14 +10,11 @@ image: https://i.ytimg.com/vi/zX6_Fi0sDMY/maxresdefault.jpg
 videoId: zX6_Fi0sDMY
 transcript: foreign [Music] foreign [Music] [Music] people can use to do coding challenges and it's been so fun watching people over the day get faster and faster and faster oh my God Tim you literally rocked the stage right you just Amsterdam there's one big family and it's just warm so it doesn't even feel like work anymore give him the mic so it's easier otherwise in order for me to get an idea of what I'm going to talk about I usually just like to have a bunch of different like intro approaches then I actually write down everything like embolded lists I didn't expand everything into a paragraph foreign [Music] so 2022 was a great year for Veet adoption exploded all the you know the satisfaction retention interest everything was like the top of the top amongst the surveys and another thing uh interesting is we are um we are extracting the core of our few official language tools which previously known as volar into a framework agnostic core so that is able to support any file format that needs to embed languages one language in another so we know view single file components in bands HTML CSS JavaScript in the file but there are other Frameworks that need that too like astral or even angular they embed CSS inside a typescript file right so Veet born out of view but now is cross framework all are born out of view now cross framework and and it shows that you know that view is a community that is focused on the experience of all web devs not just a single framework we don't want to build silos or tribes or anything like that we're not here for to make a profit or anything we're here to just make dev's lives easier so [Music]
 tags:
-  - vuejs
-  - vite
-  - vue-amsterdam
-  - web-development
-  - javascript-framework
-  - conference
-  - developer-experience
-  - interview
+  - Development
+  - frameworks
+  - web development
+  - community
+  - Media
 playlist: mp
 ---
 

@@ -22,13 +22,10 @@ videoId: gSey28saQac
 transcript: Transcript not available.
 tags:
   - personalization
-  - jamstack
-  - uniform
-  - digital-experience
-  - signals
-  - web-optimization
-  - customer-intent
-  - website-personalization
+  - web development
+  - product
+  - architecture
+  - api
 playlist: uniform
 ---
 

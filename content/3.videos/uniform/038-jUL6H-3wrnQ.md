@@ -31,14 +31,14 @@ image: https://i.ytimg.com/vi/jUL6H-3wrnQ/maxresdefault.jpg
 videoId: jUL6H-3wrnQ
 transcript: in an ever expanding landscape of headless sources and best of breed tools developers are generally the people of putting them together so the question of creating a content piece with products cms data and personalization generally results in a no or maybe next week because developers just don't have time they're always like mid-sprint and so wouldn't it be great if there was a simple sdk that you could integrate in the framework of your choice that would just take care of this once and for all well that sounds a little bit too good to be true right but still let's talk about an sdk like this so it would allow content editors to drag and drop sources from different places on the web to their heart's content they would be able to add new cms integrations or remove them at ap testing or personalization and all of that without the involvement of developers when an integration would change nothing changes structurally on the other end developers would just use an sdk function to query the composition get the data map it enhance it the way they like and then just apply it as props to already existing components and this would work regardless of your tag stack or hosting well i am here to tell you we've actually done this i hereby proudly introduce uniform the world's first truly composable dxp and so a composable dxp offers the developers the power of choice and that means you can choose your own tech stack your own integrations your own hosting you can run it the way you want with ssr maybe with edge handlers of edge compute or maybe in gemstack anything goes uniform offers a platform without opinion there will be no fender login no restrictive roadmap not one integration is actually in the center of anything there is no tight coupling so you want three cms systems and two ecommerce providers sure add the connection query the data map it and add it to the components that you already have and so next to all this we are introducing uniform canvas which is a no code tool for non-technical users to be able to compose things and experiences the way they like and they will use the components that you have created uniform canvas also comes with an api for live preview that is powered by websockets so end users can see their changes directly in the code and on your production site so that is really easy and user friendly on top of that uniform also comes with an enhancer api which is an api that helps you to map the data from the headless sources to your app and you can run this in your own code base on ssr or you can run it as a serverless function we don't really care what you do because we are opinionless and everything is built with flexibility in mind you have the power of choice as a developer to choose how to run it we at uniform know that happy developers do great work good dx and great sdks are only the beginning uniform allows you to connect the dots the way that you like from a tech perspective so we give you out of the box enhancer modules for quick time to market and we give you very detailed and precise apis to figure out the things that you want exactly the way you do them so we have hereby created the world's first truly composable dxp that makes both developers content editors and marketers happy how about that see you soon
 tags:
-  - uniform
-  - composable-dxp
-  - headless-cms
-  - no-code
-  - jamstack
-  - ssr
-  - developer-experience
-  - visual-composition
+  - Development
+  - cms
+  - api
+  - architecture
+  - web development
+  - Tools
+  - Commerce
+  - deployment
 playlist: uniform
 ---
 

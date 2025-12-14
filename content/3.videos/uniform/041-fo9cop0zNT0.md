@@ -19,14 +19,13 @@ image: https://i.ytimg.com/vi/fo9cop0zNT0/maxresdefault.jpg
 videoId: fo9cop0zNT0
 transcript: Transcript not available.
 tags:
-  - composable-architecture
-  - dxp
-  - headless-cms
-  - vendor-lock-in
-  - digital-experience
-  - integration
-  - microservices
-  - tech-stack
+  - architecture
+  - cms
+  - api
+  - orchestration
+  - web development
+  - Tools
+  - saas
 playlist: uniform
 ---
 

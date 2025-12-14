@@ -19,13 +19,11 @@ image: https://i.ytimg.com/vi/Ec7pVGy8XsQ/maxresdefault.jpg
 videoId: Ec7pVGy8XsQ
 transcript: Transcript not available.
 tags:
-  - core-web-vitals
-  - web-performance
-  - lighthouse
-  - performance-testing
-  - seo
-  - web-development
-  - frontend
+  - performance
+  - web development
+  - Testing
+  - Optimization
+  - Development
 playlist: tim
 ---
 

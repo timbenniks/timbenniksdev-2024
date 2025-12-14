@@ -20,14 +20,14 @@ image: https://i.ytimg.com/vi/PDEKgEzhFfI/maxresdefault.jpg
 videoId: PDEKgEzhFfI
 transcript: Transcript not available.
 tags:
-  - jamstack
-  - dxp
-  - nextjs
-  - nuxt
-  - static-sites
-  - serverless-functions
-  - edge-computing
-  - performance-optimization
+  - web development
+  - architecture
+  - performance
+  - api
+  - Development
+  - deployment
+  - Optimization
+  - Commerce
 playlist: uniform
 ---
 

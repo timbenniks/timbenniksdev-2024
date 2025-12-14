@@ -7,13 +7,12 @@ image: https://i.ytimg.com/vi/0GP_Yf4Fvo8/maxresdefault.jpg
 videoId: 0GP_Yf4Fvo8
 transcript: Transcript not available.
 tags:
-  - uniform
+  - web development
+  - cms
+  - architecture
+  - api
   - personalization
-  - intents
-  - signals
-  - headless-cms
-  - composable-architecture
-  - tutorial
+  - Development
 playlist: uniform
 ---
 

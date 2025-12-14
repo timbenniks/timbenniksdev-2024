@@ -7,11 +7,12 @@ image: https://i.ytimg.com/vi/GWBkr9uT5-w/maxresdefault.jpg
 videoId: GWBkr9uT5-w
 transcript: Transcript not available.
 tags:
-  - uniform
-  - tutorial
+  - cms
+  - web development
+  - architecture
   - personalization
-  - headless-cms
-  - composable-architecture
+  - Optimization
+  - Development
 playlist: uniform
 ---
 

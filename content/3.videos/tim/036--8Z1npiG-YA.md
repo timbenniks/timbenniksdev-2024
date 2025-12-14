@@ -23,14 +23,11 @@ image: https://i.ytimg.com/vi/-8Z1npiG-YA/maxresdefault.jpg
 videoId: "-8Z1npiG-YA"
 transcript: what is up welcome back to another video and I haven't actually done many videos for a while especially because I've been working on a set a new part of the studio where I do a lot of videos for work where I do developer relations content and things like that and it's been iterating over time and you're actually looking now at my new set and so you can look there in the camera so you can see my fun new set and here in my little vlogging camera for a different angle and so I'll take you through what I've been working on and then you can actually see um what it's like to work here and what I've done to make it convenient because I have to do a lot of content and not actually so much for the channel you're watching now because mainly it's all about what I do for work and it's kind of all consuming because we're a startup and everything goes at the speed of light so let me just grab this little camera here and I'm just going to show you a bunch of stuff that I've been trying to set up to to make it as convenient as possible for me to actually shoot videos that look good and you might get some tips from that that you can use yourself so first of all what you should know is that there's a lot of stuff here and it took a while to get that so don't expect you can all just buy this immediately so anyway so what we see here is I have my camera set up with a little screen hello and it's pointing in that direction and so I've actually hung up like it's not actually paper it's more like a plasticky rubbery kind of roll of Gray right so it's very simple and here I have a little table that is actually on Wheels so I can roll that around and it has a drawer with a lot of stuff that I use all the time and so basically my idea was I just want to sit at a table and then easily kind of just film things without too much of a distracted distraction in my background so this is my laptop here and I tend to sit on when I do coding stuff and I actually added a pretty big screen here so you can so I can really see if I'm in Focus if it all looks good there is a light which is um a really nice amaranth and I think it's a hundred watts and this thing is so good and it's I don't think it's very strong it's it's only at 40 percent and it works really really well and so next to that I have my shotgun mic and it needs a bit of phantom power so you would think hey I need a whole audio interface for that but no I recently acquired this little amazing tool and I plug in and it gives me phantom power and it has a preamp and it directly goes into the camera and yeah it's really quite simple right so I have a bit of light I have a little bit of things on the side that make it look like it's a little interesting but in the end it's not that much and there is a hair light that basically lights me from the top so I have a bit of separation from the background um and yeah it's really such a fun way to actually um you know film myself because I get to have this look and I use this little remote to hit record focus on me whatever and I look there I look there I have my light and I can literally sit down hit record run and it's really convenient and it's really easy and I have a prime lens that just fits this focal length and there's enough light it can turn them up so kind of things kind of just work and so this is what I wanted to show you um cheers and I'll see you next time
 tags:
-  - studio-setup
-  - video-production
-  - content-creation
-  - camera-gear
-  - lighting-setup
-  - audio-recording
-  - sony-camera
-  - youtube-setup
+  - Media
+  - Content
+  - Tools
+  - Audio
+  - Education
 playlist: tim
 ---
 

@@ -14,13 +14,14 @@ image: https://i.ytimg.com/vi/wUP0W-BqRr0/maxresdefault.jpg
 videoId: wUP0W-BqRr0
 transcript: developer relations died as a job title in 2024 what did he say all right hold your horses I know what I'm saying it's a little crazy but I had to say it to get you know get your attention right so let's talk about why I say this because I have learned now and a lot of defs around me have the same thing it's really hard to be a defal and to set goals in the current economy this is fine I'm okay with the events that are unfolding currently I'm saying this because setting goals for a job that has literally five or six jobs inside of it is just really hard and especially if that job roll doesn't really generate Revenue here and there so to a lot of Founders or leaders death ra is you know very exciting and very needed but they all think something differently about it right for some people death ra is you know a PR thing or it's a marketing techn you know writing thing but teals do a lot more they do community they do high quality high production value video they are conference speakers they are Engineers they are Educators they are they are so many things death RS do um it just makes it hard to be one and actually set a goal in the context of a company so what I propose is that death is dead and then actually call People by the think that there's most specialized in so for me it would be something like you know a content creator that does something that kind of is fun but also educates and so then you can see okay is it thought leadership for on LinkedIn let's write a blog post that could fit in a marketing thing but if you're a def that's much more focused on education and enablement and onboarding and teaching about whatever graphql that's a very different thing you should probably be in a documentation team maybe in a product team right and so call People by what their specialty is and then let them jump here and there to other things but it's going to be a lot easier to set goals if you are someone who is a developer experienced engineer in a product team working on onboarding that's a lot easier to set a goal for than Tim is a death R Who sometimes does this and sometimes does that so let's see how we can actually make death rolls you know be safe safe in their jobs again feel like they you know know what to do and say this is my goal my boss understands it big one and then I'll do it and then you'll see how everybody you know blossoms how much more happy people get anyways that's the Rand for the day cheers
 tags:
-  - developer-relations
-  - devrel
-  - developer-experience
-  - engineering-career
-  - tech-education
-  - content-creation
-  - community-building
+  - Education
+  - community
+  - leadership
+  - marketing
+  - process
+  - career
+  - product
+  - Content
 playlist: tim
 ---
 
