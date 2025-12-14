@@ -1,14 +1,33 @@
 ---
 id: 1664371
-slug: "what-type-of-content-organization-do-you-need"
-title: "What type of content organization do you need?"
-description: "Different ways of working require different approaches to content design. In this post, I will..."
+slug: what-type-of-content-organization-do-you-need
+title: What type of content organization do you need?
+description: Different ways of working require different approaches to content design. In this post, I will...
 date: "2023-11-12T09:03:33Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd58lvz3nrm8lre4gdtuw.png"
-canonical_url: "https://hygraph.com/blog/what-type-of-content-organization-do-you-need"
-tags: []
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd58lvz3nrm8lre4gdtuw.png
+canonical_url: https://hygraph.com/blog/what-type-of-content-organization-do-you-need
+tags:
+  - Content
+  - cms
+  - architecture
+  - web development
+  - api
+  - Commerce
+  - marketing
+  - Tools
 collection_id: 22300
 reading_time: 7 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd58lvz3nrm8lre4gdtuw.png
+    - property: twitter:title
+      content: What type of content organization do you need?
+    - property: twitter:description
+      content: Different ways of working require different approaches to content design. In this post, I will...
+    - property: keywords
+      content: Content, cms, architecture, web development, api, Commerce, marketing, Tools
 
 ---
 
@@ -18,12 +37,12 @@ Every brand manages its digital organization differently. Some are incredibly de
 
 One thing is clear: most brands are transitioning to a more flexible approach, composing their digital organization using specialty tools that handle their specific domain content. This is instead of relying on an off-the-shelf monolithic tool that attempts to do everything to some extent.
 
-
 ![Centralized / Decentralized](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xioylw3zkxljytzhwtft.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
 Brands that adopt a decentralized approach require more flexible tooling to accommodate the increased number of people involved who need autonomy. This necessitates the use of marketing-first systems for content management. On the other hand, the centralized approach requires less tooling and is more technologically focused, as it follows a fixed set of specifications for each experience. In this case, the main requirement is to obtain data and build the experience accordingly.
 
 ## How to organize your content without going crazy
+
 If your content flows between different systems, federation is one of the most effective ways to manage it.
 
 Federation is a software process that enables multiple sets of content to operate as a unified whole. It creates a virtual view of the content by gathering data from various sources and transforming them into a standardized model. This ensures a single source of data for front-end applications.
@@ -33,9 +52,11 @@ Federation is a broad spectrum, and only some things written in this post may fi
 In today's landscape, as brands acquire domain content from multiple sources, it is essential to federate that content to a central location. The federation method can vary greatly, and the approach chosen will depend on the structure of your digital organization, technical capabilities, and specific requirements.
 
 ## Forms of federation
+
 There are many different types of federations for building brand websites. In this article, we will focus on a few major ones that fit the context of building commerce platforms and marketing campaigns.
 
 ### Data stitching and custom middleware
+
 Data stitching or a custom middleware are not exactly forms of federation, but you encounter them often in the wild. Tech teams query, clean up, and map data from the specific front end they are working on, which creates complexity and technical debt in the implementation. Initially, this approach may feel flexible and give developers autonomy, but as the scale increases, it becomes unsustainable. The entire process must be repeated when another channel is created (such as a website, mobile app, kiosk, etc.). To address this issue, people started creating custom middleware solutions at API level. While they still suffer from similar problems, at least they centralize the data query, clean up, and mapping in one place. However, creating proprietary code to attack problems that affordable products solve, is usually a waste of time.
 
 ![Data stitching](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iacwgoeaolz9znalbc56.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
@@ -92,7 +113,7 @@ _Federation type to choose: Content Hub_
 
 ### How much cleanup does your data need?
 
-Many brands have a dark corner where various data exists, usually resulting from pragmatic technical decisions made over time. This data is structured, cleaned, and mapped through complex build processes by unhappy developers. Integrating this data into a front-end implementation is often challenging, requiring creating proprietary logic. If any part of this process fails, the entire system fails. 
+Many brands have a dark corner where various data exists, usually resulting from pragmatic technical decisions made over time. This data is structured, cleaned, and mapped through complex build processes by unhappy developers. Integrating this data into a front-end implementation is often challenging, requiring creating proprietary logic. If any part of this process fails, the entire system fails.
 
 If your brand faces this issue and lacks the time or budget to address it, a DXO (Digital Experience Orchestration) may be a suitable solution. DXOs can serve as a new source for static or async data on legacy servers and provide cleaned content at runtime. These streamlined API endpoints can seamlessly fit into a Content Federation workflow and be utilized in a headless CMS like Hygraph.
 
@@ -100,7 +121,7 @@ _Federation type to choose: DXO, Content Federation_
 
 ### How autonomous do your data sources need to be?
 
-At scale, brands have dedicated individuals who specialize in enriching content in specific areas such as PIM, CRM, search, or DAM. These individuals should have the *autonomy* to work without being restricted by proprietary middleware or opinionated front-end implementations. The greater the need for autonomy, the less suitable a content hub, Content Lake, or DXO would be. Code stitching or proprietary middleware, in particular, should be avoided. Instead, consider using content federation. If you are dealing with big data or reporting, please continue reading below.
+At scale, brands have dedicated individuals who specialize in enriching content in specific areas such as PIM, CRM, search, or DAM. These individuals should have the _autonomy_ to work without being restricted by proprietary middleware or opinionated front-end implementations. The greater the need for autonomy, the less suitable a content hub, Content Lake, or DXO would be. Code stitching or proprietary middleware, in particular, should be avoided. Instead, consider using content federation. If you are dealing with big data or reporting, please continue reading below.
 
 _Federation type to choose: Content Federation_
 

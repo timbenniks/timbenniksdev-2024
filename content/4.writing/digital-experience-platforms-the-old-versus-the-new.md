@@ -1,14 +1,26 @@
 ---
 id: 1405729
-slug: "digital-experience-platforms-the-old-versus-the-new"
+slug: digital-experience-platforms-the-old-versus-the-new
 title: "Digital experience platforms: the old versus the new"
-description: "Digital experience platforms (DXPs) and the more modern digital experience composition platforms..."
+description: Digital experience platforms (DXPs) and the more modern digital experience composition platforms...
 date: "2023-03-18T13:05:48Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png"
-canonical_url: "https://uniform.dev/blogs/digital-experience-composition-dxc/difference-between-dxp-and-dxcp"
-tags: ["architecture","dxp","composable","webdev"]
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png
+canonical_url: https://uniform.dev/blogs/digital-experience-composition-dxc/difference-between-dxp-and-dxcp
+tags: [Cloud, Content, Tools, api, cms, architecture, web development, orchestration]
 collection_id: 22300
 reading_time: 4 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk1tc0ds73edh613y9yg6.png
+    - property: twitter:title
+      content: Digital experience platforms: the old versus the new
+    - property: twitter:description
+      content: Digital experience platforms (DXPs) and the more modern digital experience composition platforms...
+    - property: keywords
+      content: Cloud, Content, Tools, api, cms, architecture, web development, orchestration
+
 ---
 
 Digital experience platforms (DXPs) and the more modern [digital experience composition platforms (DXCPs)](https://uniform.dev/what-is-digital-experience-composition) share the same goal of making it easier for business users to create visually dynamic, personalized digital experiences. A major contrast is that DXCPs orchestrate solutions and technologies from different vendors. On the other hand, even though DXPs call themselves composable, they lock brands into a single vendor and one way of doing things at the expense of other capabilities.
@@ -27,19 +39,21 @@ Uniform views DXCPs as a way for brands and their developers to select advanced,
 
 Additionally:
 
-*   DXCPs are more than a data aggregator. Even though effective tools are available for stitching APIs into a cohesive model for access and use by developers, those tools do not deftly manage experiences as DXCPs do. After all, API aggregators are meant for access by developers through code only, not for business users, whose expertise rests with a low- or no-code editing environment, in which DXCPs also specialize. 
+-   DXCPs are more than a data aggregator. Even though effective tools are available for stitching APIs into a cohesive model for access and use by developers, those tools do not deftly manage experiences as DXCPs do. After all, API aggregators are meant for access by developers through code only, not for business users, whose expertise rests with a low- or no-code editing environment, in which DXCPs also specialize.
     
-*   DXCPs are different from a CMS because, unlike a CMS that requires that all content be routed through it for a tight coupling of technology, they keep content and data sources on a level playing field and maintain the loose coupling so that you can replace and add capabilities as necessary with no technology lock-in. 
+-   DXCPs are different from a CMS because, unlike a CMS that requires that all content be routed through it for a tight coupling of technology, they keep content and data sources on a level playing field and maintain the loose coupling so that you can replace and add capabilities as necessary with no technology lock-in.
     
+
 In short, the entire focus of DXCPs is to accord teams freedom to collaborate smoothly, and for brands to switch tools without impacting the way other tools work and the overall web experience.
 
 ### DXCP protects domain data
 
 When building webpages or experiences, developers need two types of data:
 
-*   **Domain data,** which is core material, such as product models, that defines your brand across channels. For an events website, this data contains the names of the event spaces provided by your company, the dates, and the procedure for registration.
+-   **Domain data,** which is core material, such as product models, that defines your brand across channels. For an events website, this data contains the names of the event spaces provided by your company, the dates, and the procedure for registration.
     
-*   **Design data,** which is volatile, channel-specific material, such as your site’s colors and the way in which you can edit the display of week-by-week information. For an events website, for example, you can change page design or spotlight a feature with volatile data.
+-   **Design data,** which is volatile, channel-specific material, such as your site’s colors and the way in which you can edit the display of week-by-week information. For an events website, for example, you can change page design or spotlight a feature with volatile data.
+    
 
 In DXPs, both domain data and design data reside in the same CMS, potentially leading to a messy situation and a polluted content model. In DXCPs, the design data and domain data are separate, providing clean data workflows for innovation efforts and more system longevity.
 

@@ -1,14 +1,24 @@
 ---
 id: 1406138
-slug: "how-to-dynamically-stream-video"
-title: "How to dynamically stream video"
-description: "Build it yourself or use Cloudinary   Dynamic video streaming is a video delivery technique..."
+slug: how-to-dynamically-stream-video
+title: How to dynamically stream video
+description: Build it yourself or use Cloudinary   Dynamic video streaming is a video delivery technique...
 date: "2023-03-18T21:56:45Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9wx2ix9t60eajoccgjh7.png"
-canonical_url: ""
-tags: ["video","cloudinary","streaming"]
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9wx2ix9t60eajoccgjh7.png
+tags: [Media, streaming, Cloud, Optimization, performance, web development, Tools]
 collection_id: 22300
 reading_time: 11 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9wx2ix9t60eajoccgjh7.png
+    - property: twitter:title
+      content: How to dynamically stream video
+    - property: twitter:description
+      content: Build it yourself or use Cloudinary   Dynamic video streaming is a video delivery technique...
+    - property: keywords
+      content: Media, streaming, Cloud, Optimization, performance, web development, Tools
 
 ---
 
@@ -28,7 +38,7 @@ The video stream adapts itself based on a set of rules. The user’s bandwidth, 
 
 Each adaptive video is also joined by an index file that specifies predefined segments of the video. In the HLS standard these segments are usually 10 seconds long where in MPEG-DASH we use 1 second. There is also a master playlist that points to the available video variations with additional information about each one.
 
-#### An audio playlist adaptation
+An audio playlist adaptation
 
 It’s pretty cool that dynamic video streaming is based on the spec from the M3U8 audio playlist. M3U8 was originally designed for audio files, such as MP3, but nowadays it is commonly used to point media players to audio and video sources.
 
@@ -38,11 +48,11 @@ This approach works well to minimise bandwidth use and optimise it for a smooth 
 
 ### About HLS and MPEG-DASH
 
-#### HLS
+HLS
 
 HLS was originally created by Apple to provide video for the iPhone, but now it’s a common format used across HTML5 web applications. You’ll need to encode your video with H.264 or HEVC/H.265 codecs, which can be decoded by all major browsers. With HLS, the video is chopped up into 10 second intervals and sent to the user.
 
-#### MPEG-DASH
+MPEG-DASH
 
 MPEG-DASH is the latest HLS competitor. It was originally created to be an alternative to HLS. It has a few advantages over HLS, mainly because it is open-source. This means the media content publisher community as a whole can contribute to its changes and updates. MPEG-DASH is globally supported and codec agnostic, which means that you can encode video without worrying about codec support. It has lower latency than HLS. It's playlist file is an `.MPD`, which is an `XML` format.
 
@@ -52,11 +62,11 @@ To deliver videos using adaptive streaming you must generate multiple video vers
 
 If you are a developer who likes to get into the nitty gritty of `ffmpeg` you can deep dive and create all sources for HLS and MPEG-DASH yourself.
 
-#### DIY steps for MPEG-DASH
+DIY steps for MPEG-DASH
 
 MPEG-DASH is simplest to do yourself. Let's give it a go!
 
-Imagine we have a video file called `video.mp4`. To make sure we can adaptively stream the video we need to create video files with different bitrates and an audio file. _Beware that this is a simplified version for illustration purposes. In real life `ffmpeg` has many quirks based what video you give it._
+Imagine we have a video file called `video.mp4`. To make sure we can adaptively stream the video we need to create video files with different bitrates and an audio file. _Beware that this is a simplified version for illustration purposes. In real life_ `ffmpeg` _has many quirks based what video you give it._
 
 **Step 1: extract the audio**
 
@@ -65,7 +75,9 @@ Extract the audio track:
 ```
 $ ffmpeg -i video.mp4 -c:a copy -vn video-audio.mp4
 
+
 ```
+
 **Step 2: extract and re-encode the video track**
 
 ```bash
@@ -78,6 +90,7 @@ $ ffmpeg -i video.mp4 -an -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-sce
 $ ffmpeg -i video.mp4 -an -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -b:v 600k -maxrate 600k -bufsize 300k -vf 'scale=-1:360' video-360.mp4
 
 $ ffmpeg -i video.mp4 -an -c:v libx264 -x264opts 'keyint=24:min-keyint=24:no-scenecut' -b:v 260k -maxrate 260k -bufsize 130k -vf 'scale=-1:242' video-240.mp4
+
 ```
 
 The video is encoded using H.264 codec. This forces to have a key frame every 24 frames, in this case, every second. This allows the video to be segmented in chunks of 1 second. The bitrate is evaluated according to the buffer size, so in order to be sure the encoding is close to the requested rate, the buffer size should be lower than the bitrate.
@@ -88,6 +101,7 @@ We now have one audio file and five video files. A Media Presentation Descriptio
 
 ```
 $ MP4Box -dash 1000 -rap -frag-rap -profile onDemand -out video.mpd video-1080.mp4 video-720.mp4 video-480.mp4 video-360.mp4 video-240.mp4 video-audio.mp4
+
 ```
 
 The -dash option sets the duration of each segment to one second.
@@ -106,7 +120,7 @@ Implement [dash.js](https://github.com/Dash-Industry-Forum/dash.js) into your vi
 
 Obviously, doing this at scale or as a slightly less technical user this process is not realistic. You'll want to automate this completely.
 
-#### Enter: Cloudinary
+Enter: Cloudinary
 
 Next to being market leader in image delivery Cloudinary also provides features for video: from dynamic streaming profiles to cropping the subject perfectly on different video ratios. They even use AI to generate captions for muted videos or meaningful previews.
 
@@ -151,6 +165,7 @@ cloudinary.uploader
     console.log('File Upload Error');
     console.log(error);
   });
+
 ```
 
 Now that the file has been uploaded, it generates a bunch of different video and audio streams. These streams are represented in the playlist files below.
@@ -183,6 +198,7 @@ For the HLS version of the video this is what comes out as the m3u8 playlist fil
 
 #EXT-X-STREAM-INF:BANDWIDTH=279000,CODECS="avc1.42C01E,mp4a.40.2",RESOLUTION=320x180
 /dwfcofnrd/video/upload/c_limit,w_320,h_240,vc_h264:baseline:3.0,br_192k/v1602940452/cloudinary-dynamic-video-streaming.m3u8
+
 ```
 
 For the MPEG-DASH version of the video this is what comes out as the MPD playlist file (I have shortened the file for readability):
@@ -236,6 +252,7 @@ For the MPEG-DASH version of the video this is what comes out as the MPD playlis
     </AdaptationSet>
   </Period>
 </MPD>
+
 ```
 
 Now that we have the playlist files and all the video streams we can either build our own fancy video player that understands dynamic streaming or we go for the [Cloudinary player](https://cloudinary.com/documentation/cloudinary_video_player). In this case I suggest we use the Cloudinary player as it works out of the box. Check out the code sandbox for a very simple vanilla JavaScript example of loading the player for both HLS and MPEG-DASH.

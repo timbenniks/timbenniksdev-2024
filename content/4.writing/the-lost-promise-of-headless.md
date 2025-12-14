@@ -1,14 +1,25 @@
 ---
 id: 1517485
-slug: "the-lost-promise-of-headless"
-title: "The lost promise of headless"
-description: "In recent years, headless technology, which boosts performance, developer experience, and..."
+slug: the-lost-promise-of-headless
+title: The lost promise of headless
+description: In recent years, headless technology, which boosts performance, developer experience, and...
 date: "2023-06-26T18:18:19Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flrvfb6a8wh5lt0mbyzat.png"
-canonical_url: "https://uniform.dev/blogs/the-lost-promise-of-headless"
-tags: ["headless","architecture","mach"]
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flrvfb6a8wh5lt0mbyzat.png
+canonical_url: https://uniform.dev/blogs/the-lost-promise-of-headless
+tags: [cms, web development, api, architecture, performance, Tools, collaboration, Optimization]
 collection_id: 22300
 reading_time: 3 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flrvfb6a8wh5lt0mbyzat.png
+    - property: twitter:title
+      content: The lost promise of headless
+    - property: twitter:description
+      content: In recent years, headless technology, which boosts performance, developer experience, and...
+    - property: keywords
+      content: cms, web development, api, architecture, performance, Tools, collaboration, Optimization
 
 ---
 
@@ -20,9 +31,11 @@ However, despite the excitement and promise, headless technology has fallen shor
 
 The primary appeal of headless technology lies in decoupling content creation and presentation, as a result of which developers can work on the presentation layer with their preferred tools and frameworks while content editors can focus on building and managing content. However, that separation comes at a cost. Specifically:
 
-- To connect the multiple layers, a significant amount of code must be written, which leads to technical debt, a heavier workload, and inflexibility. 
-- Adding data to content models to address design-driven choices for an output channel, e.g., checkboxes to enlarge an image, pollutes the data model. The more design-related and channel-specific data you add to content models, the more technical debt you create.
-- If you must connect a different data source to the same front-end component, but the content models do not align, issues arise. 
+-   To connect the multiple layers, a significant amount of code must be written, which leads to technical debt, a heavier workload, and inflexibility.
+    
+-   Adding data to content models to address design-driven choices for an output channel, e.g., checkboxes to enlarge an image, pollutes the data model. The more design-related and channel-specific data you add to content models, the more technical debt you create.
+    
+-   If you must connect a different data source to the same front-end component, but the content models do not align, issues arise.
     
 
 ## Content-editing challenges

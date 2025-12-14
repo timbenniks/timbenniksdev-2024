@@ -1,14 +1,25 @@
 ---
 id: 1406180
-slug: "make-the-web-greener-luxury-edition"
-title: "Make the Web Greener, Luxury Edition"
-description: "If the internet were a country, it would be the world’s sixth biggest polluter.   The..."
+slug: make-the-web-greener-luxury-edition
+title: Make the Web Greener, Luxury Edition
+description: If the internet were a country, it would be the world’s sixth biggest polluter.   The...
 date: "2023-03-18T22:30:27Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3e00qrk4jojitb5tu06.jpg"
-canonical_url: "https://www.valtech.com/insights/make-the-web-greener-luxury-edition/"
-tags: ["webdev","environment"]
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3e00qrk4jojitb5tu06.jpg
+canonical_url: https://www.valtech.com/insights/make-the-web-greener-luxury-edition/
+tags: [environment, Optimization, performance, Media, web development, cms, architecture]
 collection_id: 22300
 reading_time: 6 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3e00qrk4jojitb5tu06.jpg
+    - property: twitter:title
+      content: Make the Web Greener, Luxury Edition
+    - property: twitter:description
+      content: If the internet were a country, it would be the world’s sixth biggest polluter.   The...
+    - property: keywords
+      content: environment, Optimization, performance, Media, web development, cms, architecture
 
 ---
 
@@ -28,9 +39,12 @@ There are some conflicting goals within luxury on the web. We want a rich experi
 
 The above describes a complicated mix of problems to solve. We know that carbon emissions are lowest if:
 
-*   A page is fast to find
-*   The page loads fast and with little resources
-*   Users stay on a page for a very short time
+-   A page is fast to find
+    
+-   The page loads fast and with little resources
+    
+-   Users stay on a page for a very short time
+    
 
 These three points are hard to carry out in the current way of working in luxury. That is not because we do not know how to build websites but because the goals are different. We want visitors to explore the brand, linger and become influenced by the product story. They should become lifelong customers. Sadly, this goes against what is best practice for websites with a low carbon footprint.
 

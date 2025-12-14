@@ -1,14 +1,24 @@
 ---
 id: 1406186
-slug: "my-fitness-story"
-title: "My Fitness Story"
-description: "From fat and sick to slim and happy   Aside from a short period in high school I have always..."
+slug: my-fitness-story
+title: My Fitness Story
+description: From fat and sick to slim and happy   Aside from a short period in high school I have always...
 date: "2023-03-18T22:39:46Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F86xayxbotaqwk8get75h.jpg"
-canonical_url: ""
-tags: ["fitness","personal"]
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F86xayxbotaqwk8get75h.jpg
+tags: [fitness, Social Media, Health]
 collection_id: 22299
 reading_time: 3 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F86xayxbotaqwk8get75h.jpg
+    - property: twitter:title
+      content: My Fitness Story
+    - property: twitter:description
+      content: From fat and sick to slim and happy   Aside from a short period in high school I have always...
+    - property: keywords
+      content: fitness, Social Media, Health
 
 ---
 

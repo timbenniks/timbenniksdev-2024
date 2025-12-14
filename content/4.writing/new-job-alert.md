@@ -1,14 +1,24 @@
 ---
 id: 1569148
-slug: "new-job-alert"
-title: "New job alert - Hygraph 2023"
-description: "After an exciting journey at Uniform, it's time for a new adventure. At Uniform, we thrived during..."
+slug: new-job-alert
+title: New job alert - Hygraph 2023
+description: After an exciting journey at Uniform, it's time for a new adventure. At Uniform, we thrived during...
 date: "2023-08-16T13:42:10Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadfg5ciysfamka395zir.png"
-canonical_url: ""
-tags: ["career","webdev","devrel"]
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadfg5ciysfamka395zir.png
+tags: [cms, marketing, community, saas, Development]
 collection_id: 22300
 reading_time: 2 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadfg5ciysfamka395zir.png
+    - property: twitter:title
+      content: New job alert - Hygraph 2023
+    - property: twitter:description
+      content: After an exciting journey at Uniform, it's time for a new adventure. At Uniform, we thrived during...
+    - property: keywords
+      content: cms, marketing, community, saas, Development
 
 ---
 
@@ -28,5 +38,4 @@ If you're seeking content federation at scale, Hygraph has a remarkable head sta
 
 I'm eager to get started and can't wait for what lies ahead. See you soon!
 
-Cheers,
-Tim
+Cheers, Tim

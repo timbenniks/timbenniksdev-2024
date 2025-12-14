@@ -1,14 +1,25 @@
 ---
 id: 1405727
-slug: "how-to-sniff-out-the-glue-monster"
-title: "How to sniff out the Glue Monster"
-description: "Even though you don’t see it, glue code is everywhere. Since the pendulum swung from monolithic..."
+slug: how-to-sniff-out-the-glue-monster
+title: How to sniff out the Glue Monster
+description: Even though you don’t see it, glue code is everywhere. Since the pendulum swung from monolithic...
 date: "2023-03-18T13:00:21Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz8mwj68dscwvzuvcdd4y.png"
-canonical_url: "https://uniform.dev/blogs/how-to-sniff-out-the-glue-monster"
-tags: ["javascript","architecture","composable","devops"]
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz8mwj68dscwvzuvcdd4y.png
+canonical_url: https://uniform.dev/blogs/how-to-sniff-out-the-glue-monster
+tags: [Development, architecture, api, cms, web development, Optimization, performance]
 collection_id: 22300
 reading_time: 5 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz8mwj68dscwvzuvcdd4y.png
+    - property: twitter:title
+      content: How to sniff out the Glue Monster
+    - property: twitter:description
+      content: Even though you don’t see it, glue code is everywhere. Since the pendulum swung from monolithic...
+    - property: keywords
+      content: Development, architecture, api, cms, web development, Optimization, performance
 
 ---
 
@@ -16,9 +27,12 @@ Even though you don’t see it, glue code is everywhere. Since the pendulum swun
 
 Reality is, you as developers must connect headless systems for a cohesive, feature-complete architecture, but that’s a messy task. The amount of glue you must create hinges on deadlines, the potential need to switch systems later, and the answers to these questions:
 
-* Do you clean up that messy API response so its data fits the front end?
-* Do you adapt your front-end components to specific API output and add logic locally?  
-* Do you separate domain data with design-related data, or mix up everything in data models in different headless systems?
+-   Do you clean up that messy API response so its data fits the front end?
+    
+-   Do you adapt your front-end components to specific API output and add logic locally?
+    
+-   Do you separate domain data with design-related data, or mix up everything in data models in different headless systems?
+    
 
 ![Glue Code SPREAD](https://images.ctfassets.net/9ku1oyd4k3wo/5iPWgs3hiyQZb1O7cZECJt/671395cc3852d456f1dc02d34d6d5b2c/GlueCode_Blog_SPREAD.png){provider="cloudinaryFetch" loading="lazy" sizes="sm:100vw" width="1280"}
 
@@ -32,15 +46,21 @@ Glue code is a nightmare of technical debt that leads to less innovation, more d
 
 An example is code that queries an API endpoint and retrieves a huge yet incomplete dataset for the following steps:
 
-1.  Map the initial result into a more specific object. 
-2.  Enrich that object by querying another endpoint and add the result to the original. 
+1.  Map the initial result into a more specific object.
+    
+2.  Enrich that object by querying another endpoint and add the result to the original.
+    
 3.  Tidy up the code and create a final data set.
+    
 
 Here’s a real-world use case: queries on a YouTube playlist and retrieval of the metadata on the videos there. The process runs as follows:
 
-1.  The code traverses the response to identify and arrange the video IDs in an array.     
-2.  You query the YouTube video API for each video ID for all the needed data.     
+1.  The code traverses the response to identify and arrange the video IDs in an array.
+    
+2.  You query the YouTube video API for each video ID for all the needed data.
+    
 3.  Given the massive amount of data that results, you go through the response for the exact data.
+    
 
 In the case of a less reputable source than YouTube or a legacy API, any changes could break the data structure you assume is returned. Not only that, since you have no inkling of the type of the returned data, your data-mapping code must be defensive. Some fields might be empty or even nonexistent sometimes. 
 

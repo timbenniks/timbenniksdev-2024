@@ -1,14 +1,25 @@
 ---
 id: 1405723
-slug: "fast-personalized-pages-with-vercel-edge-middleware-and-uniform"
-title: "Fast, personalized pages with Vercel Edge Middleware and Uniform"
-description: "To maintain an engaging relationship with your audience and increase conversions to your site, you..."
+slug: fast-personalized-pages-with-vercel-edge-middleware-and-uniform
+title: Fast, personalized pages with Vercel Edge Middleware and Uniform
+description: To maintain an engaging relationship with your audience and increase conversions to your site, you...
 date: "2023-03-18T12:49:56Z"
-image: "http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb1yp1gg5ldu4y8tozle7.png"
-canonical_url: "https://uniform.dev/blogs/personalization/blazing-fast-personalized-pages-with-vercel-edge-middleware-and-uniform"
-tags: ["performance","personalization","vercel","edge"]
+image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb1yp1gg5ldu4y8tozle7.png
+canonical_url: https://uniform.dev/blogs/personalization/blazing-fast-personalized-pages-with-vercel-edge-middleware-and-uniform
+tags: [performance, personalization, web development, Development, architecture, cms, api, Optimization]
 collection_id: 22300
 reading_time: 3 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb1yp1gg5ldu4y8tozle7.png
+    - property: twitter:title
+      content: Fast, personalized pages with Vercel Edge Middleware and Uniform
+    - property: twitter:description
+      content: To maintain an engaging relationship with your audience and increase conversions to your site, you...
+    - property: keywords
+      content: performance, personalization, web development, Development, architecture, cms, api, Optimization
 
 ---
 
@@ -28,11 +39,12 @@ By eliminating the origin server that is typically far away from end-users and b
     
 2.  Store variations of the personalized content in the codebase at build time. Since a headless CMS is generally in use, those variations are tiny JSON models in the form of components.
     
-3.  The Edge Middleware has a tracker that monitors user behaviors, which are signals that users give off by doing something on the site. The Edge Middleware awards a score to the personalization criteria configured in step 1. 
+3.  The Edge Middleware has a tracker that monitors user behaviors, which are signals that users give off by doing something on the site. The Edge Middleware awards a score to the personalization criteria configured in step 1.
     
 4.  The tracker automatically creates a profile of user actions and, based on the scores awarded against the various criteria, displays the right content.
     
 5.  You can render the content via the Edge Middleware or in the front end at hydration time.
+    
 
 The above approach to personalization is how Uniform Context works. Combining Edge Middleware rendering of personalized content with JavaScript hydration for subsequent page loads renders highly dynamic pages within ~50 milliseconds only. The approach is to initially render all the pages statically (SSG/Jamstack) and ensure that the Edge Middleware knows which parts it can personalize. While serving a page, the Edge Middleware checks if personalization is needed and, if so, fills the identified components with the correct personalized content.
 
@@ -44,4 +56,4 @@ Want to try that out for yourself? You’ll find all the details in Uniform’s 
 
 ## Conclusion
 
-To recap, by combining Uniform Context on Edge Middleware with statically rendered pages (SSG/Jamstack), you can create highly dynamic, personalized pages that load in less than a minute. In the past, Uniform offered dynamic personalization features through Vercel ESI. Edge Middleware now gives you a much more flexible and intuitive model for implementing personalization at scale. 
+To recap, by combining Uniform Context on Edge Middleware with statically rendered pages (SSG/Jamstack), you can create highly dynamic, personalized pages that load in less than a minute. In the past, Uniform offered dynamic personalization features through Vercel ESI. Edge Middleware now gives you a much more flexible and intuitive model for implementing personalization at scale.

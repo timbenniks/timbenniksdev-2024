@@ -1,17 +1,32 @@
 ---
 id: 1234557
 slug: team-is-key-when-going-headless
-title: 'Your team is the key to success when going headless'
-description: "People's choices, ability to roll with the punches, and how well they play in the sandbox together bring the magic of headless technology to life."
-date: '2024-04-29T13:05:48Z'
+title: Your team is the key to success when going headless
+description: People's choices, ability to roll with the punches, and how well they play in the sandbox together bring the magic of headless technology to life.
+date: "2024-04-29T13:05:48Z"
 image: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fmedia.graphassets.com%2FicyDJDb6Shmzx7rhX4bG
 canonical_url: https://hygraph.com/blog/page-builder-cms-vs-data-modeler-cms
 tags:
+  - web development
   - architecture
-  - dxp
-  - composable
+  - cms
+  - api
+  - Development
+  - collaboration
+  - process
 collection_id: 22300
 reading_time: 5 min read
+draft: false
+head:
+  meta:
+    - property: twitter:image
+      content: http://res.cloudinary.com/dwfcofnrd/image/fetch/f_auto,q_auto/https%3A%2F%2Fmedia.graphassets.com%2FicyDJDb6Shmzx7rhX4bG
+    - property: twitter:title
+      content: Your team is the key to success when going headless
+    - property: twitter:description
+      content: People's choices, ability to roll with the punches, and how well they play in the sandbox together bring the magic of headless technology to life.
+    - property: keywords
+      content: web development, architecture, cms, api, Development, collaboration, process
 
 ---
 
