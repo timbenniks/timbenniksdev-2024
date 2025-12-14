@@ -20,14 +20,12 @@ image: https://i.ytimg.com/vi/SHtBMWkZWPI/maxresdefault.jpg
 videoId: SHtBMWkZWPI
 transcript: hi there my name is Tim Mannix and this is my youtube channel this channel has videos about web development technology gaming and making music we find how to's and opinion pieces but also collaborations and live stream I'm a web developer from Amsterdam living in Paris and traveled a role to speak at conferences and to pitch work to clients next to work I love playing video games and streaming them and making music please consider subscribing to my channel so we can make a community together
 tags:
-  - web-development
-  - frontend-development
-  - developer-interview
-  - tech-community
-  - conference-speaking
-  - open-source
-  - livestream
-  - tutorial
+  - web development
+  - Development
+  - Tools
+  - community
+  - streaming
+  - Education
 playlist: tim
 ---
 

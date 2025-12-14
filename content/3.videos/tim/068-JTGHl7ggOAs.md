@@ -30,13 +30,13 @@ image: https://i.ytimg.com/vi/JTGHl7ggOAs/maxresdefault.jpg
 videoId: JTGHl7ggOAs
 transcript: hi hi en tim en anp content creator wou hij dinned xpect mitu expliciet pickkers eigen never eens zozeer de het myself my profile de biedingen content creator bod-e jamie's video kennen proeft het waait zo ac dit weekend hij viel een webdeveloper and technical director voor milieu en agency's zo uit het de privileged to work een klein slide the game nike heineken chanelle louis vuitton en een hoofdband markt en een real life time in this corporate enterprise world voor een long time and learn de holbein zich staf about technology at scale met ons op cover neus whatever en hij felt like ook een bonnetje stijf dient u de community straks speaking het conventies meeging zijn video's en je no wordt de community tot mikan branche more about de web du bois pijn doet voor mij luxe babbel of wat er ook aan het project aydin hij want to thank you for watching this video in the view this for may be considered the languages to hit subscribe op mijn youtube channel wat pols zo may be even more important potentieel i consider sponsoring mee and i'm asking for this week en smeking videos at least once a week and riding articles speaking het conventies en travelling voor dat dit je steaks en whole lot of effort and you heard before time ons horen technologie director at all other work try to everything in my own time en je de time is mine that's all right you student wat toen ik sliep keek super high quality stuff hij moet love to actually monetize testing to be able to get to the next level why why better keer wat cool zo sponsor bij chem-dry video's bright eyes services and killed my legit first time feedback wat evacués leap for service zal jun heft uwe economie traject en er zullen er zijn hol bunch more heer wright hij would love to be able to pay emma op gravel toe conventies zodat de kom van scratch i spend money on their own production value and own enorm zo even je moet kunst citters pond shirley lieve lieve zoon of voor de time-out hij we love you for ever en de mooi get respons joling de badger de content op je en je was thank you for watching and i will see you out there cheers
 tags:
-  - web-development
-  - content-creator
-  - frontend
-  - developer-community
-  - conference-speaking
-  - tutorial
-  - soft-skills
+  - web development
+  - Development
+  - community
+  - Media
+  - Audio
+  - Tools
+  - career
 playlist: tim
 ---
 

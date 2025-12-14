@@ -19,12 +19,11 @@ image: https://i.ytimg.com/vi/bOBY5h-r1hc/maxresdefault.jpg
 videoId: bOBY5h-r1hc
 transcript: Transcript not available.
 tags:
-  - vuejs
-  - vuejs-amsterdam
-  - conference
-  - web-development
-  - frontend
+  - Development
+  - frameworks
+  - web development
   - community
+  - Education
 playlist: tim
 ---
 

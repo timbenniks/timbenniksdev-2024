@@ -339,14 +339,13 @@ transcript: |-
   you very much thank you Chris thank you Tim thank you cool thank you for
   listeners to tune in bye bye bye
 tags:
-  - vuejs
-  - vuejs-amsterdam
-  - headless-cms
-  - enterprise-software
-  - developer-experience
+  - community
   - leadership
-  - conference-interview
-  - frontend
+  - Development
+  - cms
+  - architecture
+  - ai
+  - web development
 playlist: tim
 ---
 

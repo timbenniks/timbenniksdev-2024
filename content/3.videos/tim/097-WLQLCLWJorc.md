@@ -17,11 +17,10 @@ image: https://i.ytimg.com/vi/WLQLCLWJorc/maxresdefault.jpg
 videoId: WLQLCLWJorc
 transcript: "[Music] [Music] [Music]"
 tags:
-  - guitar
-  - acoustic
-  - blues
-  - music
-  - tutorial
+  - Media
+  - Audio
+  - Content
+  - community
 playlist: tim
 ---
 

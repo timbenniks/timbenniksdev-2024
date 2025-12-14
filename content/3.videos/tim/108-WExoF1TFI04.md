@@ -26,13 +26,11 @@ image: https://i.ytimg.com/vi/WExoF1TFI04/maxresdefault.jpg
 videoId: WExoF1TFI04
 transcript: Transcript not available.
 tags:
-  - web-development
-  - career-advice
-  - soft-skills
-  - developer-mindset
-  - frontend-development
-  - productivity
-  - conference-talk
+  - web development
+  - career
+  - Development
+  - leadership
+  - process
 playlist: tim
 ---
 

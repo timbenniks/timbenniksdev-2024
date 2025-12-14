@@ -18,12 +18,11 @@ image: https://i.ytimg.com/vi/gXwRzna4udQ/maxresdefault.jpg
 videoId: gXwRzna4udQ
 transcript: Transcript not available.
 tags:
-  - guitar
-  - acoustic guitar
-  - electric guitar
-  - guitar licks
-  - music tutorial
-  - rock music
+  - Media
+  - Audio
+  - Content
+  - Education
+  - community
 playlist: tim
 ---
 
