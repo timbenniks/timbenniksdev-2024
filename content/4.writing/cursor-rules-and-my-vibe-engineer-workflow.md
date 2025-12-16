@@ -1,7 +1,7 @@
 ---
 title: Cursor, rules, and my vibe engineer workflow
 slug: cursor-rules-and-my-vibe-engineer-workflow
-description: TL;DR I released my Cursor rules and commands as a public repo because Cursor is not magic, it is leverage. By turning it into a constrained system with explicit rules, reusable commands, and real project context, you can make it behave like a senior engineer on SaaS projects. The real win is not speed, but trust at speed.
+description: I released my Cursor rules and commands as a public repo because Cursor is not magic, it is leverage. By turning it into a constrained system with explicit rules, reusable commands, and real project context, you can make it behave like a senior engineer on SaaS projects. The real win is not speed, but trust at speed.
 date: "2025-12-16T10:00:00Z"
 canonical_url: https://timbenniks.dev/writing/cursor-rules-and-the-vibe-engineer-workflow
 reading_time: 7 min read
