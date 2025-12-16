@@ -18,7 +18,7 @@ faqs:
     answer: Engineers building SaaS applications who care about speed, consistency, accessibility, and safe iteration.
   - question: Why not just use prompts?
     answer: Prompts are disposable. Rules and commands encode decisions and workflows so quality stays consistent over time.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
@@ -26,7 +26,7 @@ head:
     - property: twitter:title
       content: Cursor, rules, and my vibe engineer workflow
     - property: twitter:description
-      content: TL;DR I released my Cursor rules and commands as a public repo because Cursor is not magic, it is leverage. By turning it into a constrained system with explicit rules, reusable commands, and real project context, you can make it behave like a senior engineer on SaaS projects. The real win is not speed, but trust at speed.
+      content: I released my Cursor rules and commands as a public repo because Cursor is not magic, it is leverage. By turning it into a constrained system with explicit rules, reusable commands, and real project context, you can make it behave like a senior engineer on SaaS projects. The real win is not speed, but trust at speed.
     - property: keywords
       content: ai, webdev, process, dx
 
