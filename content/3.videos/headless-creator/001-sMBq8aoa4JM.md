@@ -16,7 +16,6 @@ tags:
   - cms
   - web development
   - Cloud
-  - Content
   - Development
 playlist: headless-creator
 ---
