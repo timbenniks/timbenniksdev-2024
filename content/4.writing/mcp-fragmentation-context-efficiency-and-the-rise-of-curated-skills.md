@@ -22,7 +22,7 @@ faqs:
     answer: Claude Skills introduce a curated abstraction layer over raw tools. Instead of sending the entire tool catalog in every request, Skills keep structured documentation and behavior in a separate space and load only what is needed when it is needed. This reduces context usage, improves performance, and lets cheaper models succeed with fewer reasoning tokens. In effect, Skills act as a context-efficient interface that guides the model, making tool selection easier and less expensive than dealing with a large, flat MCP tool inventory on every call.
   - question: Why combine MCP with deterministic automation platforms like Contentstack Automate?
     answer: Wrapping deterministic automation platforms in MCP tools lets models trigger robust, pre-tested workflows instead of reasoning through every low-level step. The LLM focuses on high-level decisions—such as when to publish content—while the automation platform executes the complex, multi-step process reliably. This hybrid pattern reduces token consumption, increases reliability, and makes debugging far easier than fully model-driven workflows. It is a pragmatic way to make production systems more stable while current MCP designs and vendor-specific tool patterns remain immature and fragmented.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
