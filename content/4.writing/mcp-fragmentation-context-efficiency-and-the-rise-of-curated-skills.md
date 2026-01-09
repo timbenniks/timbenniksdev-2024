@@ -4,7 +4,7 @@ title: MCP fragmentation, context efficiency, and the rise of curated skills
 slug: mcp-fragmentation-context-efficiency-and-the-rise-of-curated-skills
 description: The Model Context Protocol (MCP) was supposed to be a universal way to connect AI models to tools, but in practice it is fragmenting fast across vendors and implementations. Tool catalogs are extremely context-hungry, making naive MCP setups expensive, slow, and unreliable, especially with cheaper models. Developers are compensating with application-layer tricks like curated tool subsets, OAuth-based selection, Claude Skills style abstractions, and wrapping deterministic automation platforms such as Contentstack Automate. These patterns improve cost, reliability, and debuggability but highlight protocol-level gaps in context efficiency, determinism, and interoperability. The ecosystem is replaying past standards wars, and no clear winner is visible yet. The pragmatic move is to design flexible systems that can adapt when consolidation and better standards eventually emerge.
 date: "2026-01-09T10:00:00Z"
-image: "https://res.cloudinary.com/dwfcofnrd/image/upload/q_auto,f_auto/website/devrel-empathy.png"
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1767966423/website/cttibncdlwrwxeozwqbj.jpg
 canonical_url: https://timbenniks.dev/writing/mcp-fragmentation-context-efficiency-and-the-rise-of-curated-skills
 reading_time: 6 min read
 tags:
@@ -26,11 +26,14 @@ draft: true
 head:
   meta:
     - property: twitter:title
-      content: MCP fragmentation, context efficiency and the rise of curated skills
+      content: MCP fragmentation, context efficiency, and the rise of curated skills
     - property: twitter:description
-      content: TL;DR The Model Context Protocol (MCP) was supposed to be a universal way to connect AI models to tools, but in practice it is fragmenting fast across vendors and implementations. Tool catalogs are extremely context-hungry, making naive MCP setups expensive, slow, and unreliable, especially with cheaper models. Developers are compensating with application-layer tricks like curated tool subsets, OAuth-based selection, Claude Skills style abstractions, and wrapping deterministic automation platforms such as Contentstack Automate. These patterns improve cost, reliability, and debuggability but highlight protocol-level gaps in context efficiency, determinism, and interoperability. The ecosystem is replaying past standards wars, and no clear winner is visible yet. The pragmatic move is to design flexible systems that can adapt when consolidation and better standards eventually emerge.
+      content: The Model Context Protocol (MCP) was supposed to be a universal way to connect AI models to tools, but in practice it is fragmenting fast across vendors and implementations. Tool catalogs are extremely context-hungry, making naive MCP setups expensive, slow, and unreliable, especially with cheaper models. Developers are compensating with application-layer tricks like curated tool subsets, OAuth-based selection, Claude Skills style abstractions, and wrapping deterministic automation platforms such as Contentstack Automate. These patterns improve cost, reliability, and debuggability but highlight protocol-level gaps in context efficiency, determinism, and interoperability. The ecosystem is replaying past standards wars, and no clear winner is visible yet. The pragmatic move is to design flexible systems that can adapt when consolidation and better standards eventually emerge.
     - property: keywords
       content: ai, api, architecture, composable, devops, performance, buzzwords
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1767966423/website/cttibncdlwrwxeozwqbj.jpg
+
 ---
 
 We're in the middle of something that feels uncomfortably familiar. The Model Context Protocol (MCP) promised to be the universal interface for connecting AI models to external tools and data sources. A year into its existence, we're watching the pattern repeat: different vendors building different approaches to solve the same problems, each claiming theirs is the "right" way forward.
