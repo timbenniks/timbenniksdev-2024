@@ -1,5 +1,5 @@
 ---
-title: Want to be better at vibe coding? Become a better coder
+title: "Want to be better at vibe coding? Become a better coder"
 slug: want-to-be-better-at-vibe-coding-become-a-better-coder
 description: The promise of AI-powered development is seductive, but here's the reality check nobody's talking about - the better you understand code, the better your AI-generated results will be. LLMs code like humans with high IQs and unstoppable work ethic. Treat them as junior developers and learn the fundamentals to multiply your vibe coding power.
 date: 2026-01-12T15:00:00Z
@@ -7,19 +7,16 @@ image: "https://res.cloudinary.com/dwfcofnrd/image/upload/v1731438927/website/th
 canonical_url: https://timbenniks.dev/writing/want-to-be-better-at-vibe-coding-become-a-better-coder
 tags: [ai, coding, development, prompt engineering, deployment, github, authentication, api, developer experience]
 reading_time: 5 min read
-draft: true
-
 head:
   meta:
     - property: twitter:image
       content: ""
     - property: twitter:title
-      content: Want to be better at vibe coding? Become a better coder
+      content: "Want to be better at vibe coding? Become a better coder"
     - property: twitter:description
       content: The promise of AI-powered development is seductive, but here's the reality check nobody's talking about - the better you understand code, the better your AI-generated results will be. LLMs code like humans with high IQs and unstoppable work ethic. Treat them as junior developers and learn the fundamentals to multiply your vibe coding power.
     - property: keywords
       content: ai, coding, development, prompt engineering, deployment, github, authentication, api, developer experience
-
 faqs:
   - question: Do I need to become a full developer to use AI coding tools effectively?
     answer: No, you don't need to become a senior developer overnight. The goal is to understand enough fundamentals to communicate effectively with AI tools. Think of it as learning to speak the language well enough to give clear instructions, not becoming fluent enough to write poetry.
@@ -31,6 +28,7 @@ faqs:
     answer: No, absolutely not. Use established auth solutions like Supabase Auth, Firebase Auth, or Clerk. Building your own means dealing with password hashing, session management, and security vulnerabilities. Even with AI assistance, you'll likely get it wrong and create security risks that aren't worth the effort.
   - question: How does understanding code basics help me work with AI tools?
     answer: When you understand fundamentals, you can spot problems before they become production nightmares, articulate specific fixes instead of vague requests, and iterate faster because you know what's technically possible. As AI models improve, your baseline knowledge becomes a force multiplier - you can leverage better tools more effectively.
+draft: false
 ---
 
 The promise of AI-powered development is seductive. "Build anything without code!" the marketing screams. And yes, you can spin up functional prototypes with tools like Cursor, v0, or Bolt without writing a single line yourself. But here's the reality check: the better you understand code, the better your AI-generated results will be.
