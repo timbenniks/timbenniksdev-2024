@@ -25,7 +25,9 @@ head:
       content: AI agents are extremely capable coding assistants, but they are not magical autonomous engineers. Treat them like very fast junior developers who need clear scope, clean environments, and strong guardrails. Avoid context gluttony by limiting inputs to only the files and details needed for the task, and rely on search instead of dumping entire repositories. Skip over engineered MCP setups and excessive plugins in favor of simple, well understood tools. Fix your project environment so builds and checks run cleanly from the root. Use planning steps, a project specific “gotchas” file, tests as guardrails, and tightly scoped tasks to keep agents effective, predictable, and safe in real-world production work.
     - property: keywords
       content: ai, web development, agents
-
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769354968/website/yuzcu4vaiiybfbkl5rep.jpg
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769354968/website/yuzcu4vaiiybfbkl5rep.jpg
 ---
 
 It is high time we stop treating AI agents like magic wands and start treating them like what they actually are: very fast, slightly naive junior developers.
