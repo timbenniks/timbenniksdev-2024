@@ -1,5 +1,5 @@
 ---
-title: The Pragmatic Guide to Coding with AI Agents
+title: The pragmatic guide to coding with AI agents
 slug: the-pragmatic-guide-to-coding-with-ai-agents
 description: AI agents are extremely capable coding assistants, but they are not magical autonomous engineers. Treat them like very fast junior developers who need clear scope, clean environments, and strong guardrails. Avoid context gluttony by limiting inputs to only the files and details needed for the task, and rely on search instead of dumping entire repositories. Skip over engineered MCP setups and excessive plugins in favor of simple, well understood tools. Fix your project environment so builds and checks run cleanly from the root. Use planning steps, a project specific “gotchas” file, tests as guardrails, and tightly scoped tasks to keep agents effective, predictable, and safe in real-world production work.
 date: "2026-01-25T10:00:00Z"
@@ -16,7 +16,7 @@ faqs:
     answer: The most common mistake is context gluttony, dumping huge portions of the codebase or entire repositories into the agent’s context. This overwhelms the model with mostly irrelevant information and reduces accuracy. Instead, let the agent use search to find relevant files, and only provide the minimum necessary context for the current task. Treat the context window as scarce, valuable real estate, not a dumping ground.
   - question: How can I make AI agents reliable for production level work?
     answer: Start by fixing your environment so builds, type checks, and tests run cleanly from the project root with minimal setup. Use a planning step before edits, maintain a project specific “gotchas” file capturing recurring mistakes and rules, and lean on tests as guardrails by asking the agent to write tests first and then code to make them pass. Keep tasks small, manage the blast radius of changes, and avoid over engineered MCP or plugin setups that add complexity without real value.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
@@ -38,7 +38,7 @@ The technology has moved from "this is crap" to "this is impressive" in a matter
 
 Let's dive into the pitfalls of agentic coding and, more importantly, how to do it right.
 
-## The Pitfall of Context Gluttony
+## The pitfall of context gluttony
 
 We have collectively forgotten that Large Language Models are just autocomplete engines. They predict the next token based on what came before. Feed them garbage and they will happily predict more garbage.
 
@@ -54,7 +54,7 @@ You do not need to manually tag every file. Modern agents, whether you are using
 
 Treat the context window like precious real estate. Only include what is strictly necessary to solve the problem in front of you. If you know the file, tag it. If you do not, trust the tool to look for it.
 
-## The Configuration Trap
+## The configuration trap
 
 There is a strong tendency to over-engineer the tooling before writing a single line of code: "MCP Hell".
 
@@ -68,7 +68,7 @@ Stop loading your agents with useless extensions. You do not need a complex orch
 
 If you genuinely need a specific capability, prefer simple CLI tools over heavy MCP integrations. The model already knows how to run terminal commands. If you have the GitHub CLI installed, the agent can use it without costing you tens of thousands of tokens in context overhead.
 
-## The Broken Environment Problem
+## The broken environment problem
 
 If your codebase requires a very specific Node version, three environment variables, and a small ritual to compile, your agent is going to struggle. Agents are stateless. They do not remember that they need to run a setup script every time they restart.
 
@@ -78,11 +78,11 @@ If your type check requires changing directories into a sub-package, your enviro
 
 Before you unleash an agent, fix your environment. Make sure builds and type checks run cleanly from the project root. If there are ghosts in your machine, errors that exist but are unrelated to the task at hand, fix them first. Otherwise the agent will chase those ghosts forever.
 
-## How to Do It Right
+## How to do it right
 
 Now that we have covered what not to do, let's look at a workflow that actually ships code.
 
-### 1\. Start with a Plan
+### 1\. Start with a plan
 
 Experienced developers plan before they code. You should force your agent to do the same.
 
@@ -90,7 +90,7 @@ Most modern tools have a "Plan Mode" or at least support a workflow where you as
 
 This creates a checkpoint. You review the plan, delete the hallucinations, adjust the approach, and then give the green light. If the agent goes off the rails later, do not try to prompt it back on track. Revert the changes, refine the plan, and try again.
 
-### 2\. The "Gotchas" File
+### 2\. The "gotchas" file
 
 You need a way to build institutional memory. Since the agent resets every session, it will happily make the same mistakes over and over.
 
@@ -109,7 +109,7 @@ Think of it as a list of hard-earned "don'ts".
 
 This file ensures that when you onboard a fresh agent, it immediately understands the quirks of your project.
 
-### 3\. Test-Driven Development
+### 3\. Test-driven development
 
 AI agents are fast, but they are also confident liars. The best way to keep them honest is with tests.
 
@@ -126,7 +126,7 @@ A solid workflow looks like this:
 
 This gives the agent a concrete goal. It is no longer "write some code", which is subjective. It is "make this test pass", which is not.
 
-### 4\. Manage the "Blast Radius"
+### 4\. Manage the "blast radius"
 
 Be deliberate about how much you ask the agent to do at once. I like to think in terms of blast radius. Are you throwing a small grenade, or are you dropping a nuclear bomb?
 
