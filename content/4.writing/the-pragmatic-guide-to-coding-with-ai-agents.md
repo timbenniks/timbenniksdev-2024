@@ -5,6 +5,7 @@ description: AI agents are extremely capable coding assistants, but they are not
 date: "2026-01-25T10:00:00Z"
 canonical_url: https://timbenniks.dev/writing/the-pragmatic-guide-to-coding-with-ai-agents
 reading_time: 8 min read
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769354968/website/yuzcu4vaiiybfbkl5rep.jpg
 tags:
   - ai
   - web development
@@ -16,7 +17,6 @@ faqs:
     answer: The most common mistake is context gluttony, dumping huge portions of the codebase or entire repositories into the agent’s context. This overwhelms the model with mostly irrelevant information and reduces accuracy. Instead, let the agent use search to find relevant files, and only provide the minimum necessary context for the current task. Treat the context window as scarce, valuable real estate, not a dumping ground.
   - question: How can I make AI agents reliable for production level work?
     answer: Start by fixing your environment so builds, type checks, and tests run cleanly from the project root with minimal setup. Use a planning step before edits, maintain a project specific “gotchas” file capturing recurring mistakes and rules, and lean on tests as guardrails by asking the agent to write tests first and then code to make them pass. Keep tasks small, manage the blast radius of changes, and avoid over engineered MCP or plugin setups that add complexity without real value.
-draft: false
 head:
   meta:
     - property: twitter:title
@@ -27,7 +27,6 @@ head:
       content: ai, web development, agents
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769354968/website/yuzcu4vaiiybfbkl5rep.jpg
-image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769354968/website/yuzcu4vaiiybfbkl5rep.jpg
 ---
 
 It is high time we stop treating AI agents like magic wands and start treating them like what they actually are: very fast, slightly naive junior developers.
