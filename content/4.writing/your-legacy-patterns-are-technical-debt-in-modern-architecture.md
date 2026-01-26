@@ -7,7 +7,7 @@ image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769444306/website/c0l
 canonical_url: https://timbenniks.dev/writing/your-legacy-patterns-are-technical-debt-in-modern-architecture
 tags: [cms, migration, architecture, technical-debt, legacy, headless]
 reading_time: 7 min read
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
