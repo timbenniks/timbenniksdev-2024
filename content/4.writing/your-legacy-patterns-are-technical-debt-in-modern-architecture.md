@@ -2,8 +2,8 @@
 slug: your-legacy-patterns-are-technical-debt-in-modern-architecture
 title: Your legacy patterns are technical debt in modern architecture
 description: Developer teams migrating from legacy to modern architecture often bring old habits that become technical debt. Executive pressure and budget constraints drive rushed migrations without adapting to new paradigms. Success requires stopping to discover how modern systems actually work, designing ideal workflows without legacy constraints, and recognizing that migration is about transforming how you model and manage content, not just moving it between systems.
-date: 2026-01-26T07:10:45Z
-image: ""
+date: 2026-01-26T10:00:00Z
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769444306/website/c0ljfmg5finkpbwb2cww.jpg
 canonical_url: https://timbenniks.dev/writing/your-legacy-patterns-are-technical-debt-in-modern-architecture
 tags: [cms, migration, architecture, technical-debt, legacy, headless]
 reading_time: 7 min read
@@ -11,13 +11,13 @@ draft: true
 head:
   meta:
     - property: twitter:image
-      content: ""
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769444306/website/c0ljfmg5finkpbwb2cww.jpg
     - property: twitter:title
       content: Your legacy patterns are technical debt in modern architecture
     - property: twitter:description
       content: Developer teams migrating from legacy to modern architecture often bring old habits that become technical debt. Executive pressure and budget constraints drive rushed migrations without adapting to new paradigms. Success requires stopping to discover how modern systems actually work, designing ideal workflows without legacy constraints, and recognizing that migration is about transforming how you model and manage content, not just moving it between systems.
     - property: keywords
-      content: cms, migration, architecture, technical-debt, legacy-systems, modern-architecture, headless-cms, content-management
+      content: cms, migration, architecture, technical-debt, legacy, headless
 faqs:
   - question: What are the most common legacy patterns that become technical debt in modern systems?
     answer: The most problematic patterns include treating folder trees as the source of truth for content identity, creating excessive entity references, using folder-based translation instead of localization variants, hardwiring slot-based page assembly, and stuffing structured data into text fields. These patterns work in legacy systems but create performance issues, brittle integrations, and maintenance nightmares in modern architecture.
