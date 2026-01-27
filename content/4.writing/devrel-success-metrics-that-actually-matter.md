@@ -20,7 +20,7 @@ faqs:
     answer: DevRel absolutely impacts ARR, but indirectly. When developers onboard faster, hit fewer blockers, recover from errors without support, and gain confidence quickly, they're more likely to move from trial to paid, expand usage, and recommend your product. The challenge is proving the connection with data rather than anecdotes, which requires tracking leading indicators like time to first win and correlating them with conversion and expansion metrics.
   - question: How should DevRel teams present these metrics to leadership?
     answer: Frame metrics around business outcomes executives care about. Instead of "we published 20 tutorials," say "we reduced time to first API call by 40%, correlating with a 15% increase in trial-to-paid conversion." Use the shorthand "less friction, faster first win, fewer questions, better questions" to anchor conversations. Show how DevRel acts as a product multiplier by identifying friction early and influencing the roadmap.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
@@ -29,7 +29,9 @@ head:
       content: When the market stops buying, vanity metrics stop mattering. Here's how to measure DevRel impact in ways that executives understand and that correlate with real business outcomes like ARR growth.
     - property: keywords
       content: devrel, metrics, developer experience
-
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769504129/website/v1pt56ljj6oh61xnpixy.jpg
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1769504129/website/v1pt56ljj6oh61xnpixy.jpg
 ---
 
 Even though there are a million DevRel metrics dashboards out there, we've somehow grown numb to what they're actually measuring. In the race to justify our existence, we've collectively forgotten what success looks like when it's not tied to a bull market. When money flows and everyone's buying, vanity metrics feel fine. When budgets tighten and deals slow down, those same metrics become indefensible.
