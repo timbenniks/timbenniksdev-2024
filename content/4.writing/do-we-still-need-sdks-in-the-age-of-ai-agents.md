@@ -12,7 +12,6 @@ tags:
   - developer-experience
   - openapi
   - sdks
-  - automation
 faqs:
   - question: Can AI-generated API clients really replace traditional SDKs?
     answer: For well-documented APIs with OpenAPI specs, yes. AI agents can generate production-ready clients with proper TypeScript typing, error handling, and request methods. However, traditional SDKs that add value beyond simple API wrapping still have their place.
@@ -22,7 +21,7 @@ faqs:
     answer: The hard truth is that every developer needs to learn to work with AI effectively. This approach scales to any team size, but it requires a shift in mindset about how we build and maintain API clients.
   - question: When should you still use a vendor-provided SDK?
     answer: If an SDK offers genuine value-add beyond what the API provides directly, it's worth using. However, if the SDK is just wrapping API calls that are already well-documented, you might be better off generating your own client tailored to your needs.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
@@ -32,7 +31,7 @@ head:
     - property: twitter:description
       content: With good APIs and OpenAPI specs, AI agents can generate production-ready clients in seconds. This challenges everything we know about SDK development and distribution. But are we ready to let go?
     - property: keywords
-      content: ai, apis, developer-experience, openapi, sdks, automation
+      content: ai, apis, developer-experience, openapi, sdks
 
 ---
 
@@ -95,6 +94,7 @@ export class LaunchApiClient {
   async getDeployments(projectUid: string, environmentUid: string) { ... }
   // ... dozens more methods
 }
+
 
 ```
 
