@@ -39,6 +39,8 @@ AI is fundamentally changing what's considered "normal" in the developer world. 
 
 Let me show you what I mean.
 
+Before we dive in, I actually created an Agent Skill that creates an SDK from an OpenAPI spec. See my collection here: [https://github.com/timbenniks/timbenniks-agent-skills](https://github.com/timbenniks/timbenniks-agent-skills)
+
 ### The traditional SDK burden
 
 Creating an SDK is a lot of work. You need to design the interface, implement methods for every API endpoint, handle authentication, manage errors, write tests, create documentation, and then maintain all of this across multiple versions as your API evolves. That's before we even talk about supporting multiple programming languages.
@@ -94,6 +96,7 @@ export class LaunchApiClient {
   async getDeployments(projectUid: string, environmentUid: string) { ... }
   // ... dozens more methods
 }
+
 
 
 ```
