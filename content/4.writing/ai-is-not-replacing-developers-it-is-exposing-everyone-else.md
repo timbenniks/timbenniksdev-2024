@@ -1,6 +1,6 @@
 ---
-title: AI is not replacing developers. It is exposing everyone else.
-slug: ai-is-not-replacing-developers-it-is-exposing-everyone-else
+title: Plot twist! AI made developers more valuable.
+slug: plot-twist-ai-is-making-devs-more-valuable
 description: For the last year, the dominant narrative has been that AI will replace developers. I think that narrative has it backwards. AI doesn't replace developers - it raises the bar for everyone else to justify their seat next to someone who can now ship at absurd velocity.
 date: "2026-02-04T10:00:00Z"
 canonical_url: https://timbenniks.dev/writing/ai-is-not-replacing-developers-it-is-exposing-everyone-else
@@ -23,7 +23,7 @@ head:
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1770236427/website/dick-theory.jpg
     - property: twitter:title
-      content: AI is not replacing developers. It is exposing everyone else.
+      content: Plot twist! AI made developers more valuable.
     - property: twitter:description
       content: For the last year, the dominant narrative has been that AI will replace developers. I think that narrative has it backwards. AI doesn't replace developers - it raises the bar for everyone else to justify their seat next to someone who can now ship at absurd velocity.
     - property: keywords
