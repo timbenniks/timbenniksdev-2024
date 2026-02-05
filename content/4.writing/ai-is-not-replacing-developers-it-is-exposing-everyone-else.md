@@ -5,7 +5,7 @@ description: For the last year, the dominant narrative has been that AI will rep
 date: "2026-02-04T10:00:00Z"
 canonical_url: https://timbenniks.dev/writing/ai-is-not-replacing-developers-it-is-exposing-everyone-else
 reading_time: 4 min read
-image: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1770236427/website/dick-theory.jpg
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1770325122/website/x1ir70fsdhekzwvjv2fc.jpg
 tags:
   - ai
   - developers
@@ -21,7 +21,7 @@ draft: false
 head:
   meta:
     - property: twitter:image
-      content: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1770236427/website/dick-theory.jpg
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1770325122/website/x1ir70fsdhekzwvjv2fc.jpg
     - property: twitter:title
       content: Plot twist! AI made developers more valuable.
     - property: twitter:description
