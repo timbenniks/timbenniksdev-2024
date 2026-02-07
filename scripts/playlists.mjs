@@ -25,7 +25,7 @@ async function fetchTranscript(videoId) {
       headers: {
         "User-Agent": USER_AGENT,
       },
-    }
+    },
   );
 
   const videoPageBody = await videoPageResponse.text();
@@ -34,7 +34,7 @@ async function fetchTranscript(videoId) {
   if (splittedHTML.length <= 1) {
     if (videoPageBody.includes('class="g-recaptcha"')) {
       throw createError(
-        "YouTube is receiving too many requests from this IP and now requires solving a captcha to continue"
+        "YouTube is receiving too many requests from this IP and now requires solving a captcha to continue",
       );
     }
     if (!videoPageBody.includes('"playabilityStatus":')) {
@@ -46,7 +46,7 @@ async function fetchTranscript(videoId) {
   const captions = (() => {
     try {
       return JSON.parse(
-        splittedHTML[1].split(',"videoDetails')[0].replace("\n", "")
+        splittedHTML[1].split(',"videoDetails')[0].replace("\n", ""),
       );
     } catch (e) {
       return undefined;
@@ -59,7 +59,7 @@ async function fetchTranscript(videoId) {
 
   if (!("captionTracks" in captions)) {
     throw createError(
-      `No transcripts are available for this video (${videoId})`
+      `No transcripts are available for this video (${videoId})`,
     );
   }
 
@@ -72,7 +72,7 @@ async function fetchTranscript(videoId) {
 
   if (!transcriptResponse.ok) {
     throw createError(
-      `No transcripts are available for this video (${videoId})`
+      `No transcripts are available for this video (${videoId})`,
     );
   }
 
@@ -107,7 +107,7 @@ async function fetchAllVideos(playlist_id, pageToken = null) {
     "https://www.googleapis.com/youtube/v3/playlistItems",
     {
       query: options,
-    }
+    },
   );
 
   const videos = data.items;
@@ -190,7 +190,7 @@ async function getPlaylist(playlist_id, folder) {
       } catch (error) {
         console.error(
           `Error fetching transcript for video ${video.snippet.title}:`,
-          error.message
+          error.message,
         );
         transcript = "Transcript not available.";
       }
@@ -204,7 +204,7 @@ async function getPlaylist(playlist_id, folder) {
         videoId: video.snippet.resourceId.videoId,
         transcript,
       };
-    })
+    }),
   );
 
   mappedVideos.forEach((video) => {
@@ -217,7 +217,7 @@ async function getPlaylist(playlist_id, folder) {
         if (err) {
           console.error(err);
         }
-      }
+      },
     );
   });
 
@@ -231,13 +231,13 @@ async function executePlaylistFetches() {
     // await getPlaylist("PLcoeeDyxakhXjJQe4r2b9JRXKUmbW4XOU", "uniform");
     // await getPlaylist("PLcoeeDyxakhWEB0yoQXy6OYbl9LbAo4J2", "hygraph");
     // await getPlaylist("PLcoeeDyxakhWMU9JIKXAQIfwoPwM-TZ93", "live-uniform");
-    // await getPlaylist("PLcoeeDyxakhVM-xWfqWZ6TFpqC1Aw5__N", "misc-streams");
+    await getPlaylist("PLcoeeDyxakhVM-xWfqWZ6TFpqC1Aw5__N", "misc-streams");
     // await getPlaylist("PLcoeeDyxakhWoTjzmqTJXvBcov71Am8QG", "live-hygraph");
     // await getPlaylist("PLO9M7FOXF_QvVXYMJGY9eDnxPya9yzQhi", "contentstack");
-    await getPlaylist(
-      "PLcoeeDyxakhUr0tKVyixJ_fy8J2GtcMJs",
-      "live-contentstack"
-    );
+    // await getPlaylist(
+    //   "PLcoeeDyxakhUr0tKVyixJ_fy8J2GtcMJs",
+    //   "live-contentstack"
+    // );
     // await getPlaylist(
     //   "PLcoeeDyxakhUdkUvZm8qld1YuInOKOLqT",
     //   "alive-and-kicking"
