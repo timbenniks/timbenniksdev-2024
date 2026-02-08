@@ -18,7 +18,7 @@ faqs:
     answer: AI shifts productivity from a question of "can we build this" to "should we build this." Since AI drastically lowers the cost and time of implementation, simply producing more is no longer impressive or strategically sound. Instead, the focus must move to deciding which ideas are truly valuable, sustainable, and aligned with user needs and long-term goals.
   - question: Why does the author emphasize rest in the context of AI and output?
     answer: The author emphasizes rest because high-quality judgment—and therefore good taste—requires a rested mind. Overworking, even with powerful AI tools, leads to deteriorating decision-making, where people ship features just because they can. Rest creates the mental space where insights emerge, helping you distinguish between noise and the few ideas that genuinely matter.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
@@ -27,7 +27,9 @@ head:
       content: This article explores how AI has radically reduced the cost of producing things, creating an intoxicating sense of limitless output for ambitious people. But when building becomes almost frictionless, the real bottleneck shifts from implementation to judgment. The author argues that taste—the ability to choose what is worth building—and genuine rest become the true sources of leverage. AI is an exceptional how engine, but deciding what and why remains a deeply human responsibility. Without rest, our judgment degrades, and we risk building more but meaning less. The piece encourages pairing curiosity and experimentation with discipline, restraint, and strategic downtime.
     - property: keywords
       content: ai, architecture, career, personal, process
-
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1770561607/website/gczomqaywcc0aieqknau.jpg
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1770561607/website/gczomqaywcc0aieqknau.jpg
 ---
 
 There's a tweet making the rounds from Nat Eliason that nails something I've been feeling for months: _"Nearly every ambitious person I know who has dived into AI is working harder than ever, and longer hours than ever."_ He adds that he's never worked this hard, or had this much fun.
