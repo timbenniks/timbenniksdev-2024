@@ -19,7 +19,7 @@ faqs:
     answer: Vibe coded slop is software generated quickly with AI that appears to work, demos well, and passes casual review, but lacks clearly defined behavior and robust test coverage. It typically handles only the happy path and fails on predictable edge cases like null inputs, unexpected API sequences, or invalid user data. Because nobody specified what the software must do before building it, problems surface later as hotfixes and production incidents. The gap between such prototypes and reliable production software is disciplined, meaningful test coverage.
   - question: How should I structure a practical AI assisted TDD workflow?
     answer: Start by using your AI tool purely in planning mode. Describe the feature, ask it to enumerate edge cases, failure modes, and expected behaviors, and iterate on that until it feels solid. Next, turn this specification into a test file that covers happy paths, edge cases, and error states; these tests should initially fail. Then prompt the AI to implement code with the explicit goal of making those tests pass. Finally, run the tests, fix failures, refine tests or implementation as needed, and follow the red green refactor cycle rather than generating everything in one shot.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
