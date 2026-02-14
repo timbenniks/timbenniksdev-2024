@@ -5,7 +5,8 @@ description: After twenty years of engineering, I accidentally ended up running 
 date: "2026-02-14T10:00:00Z"
 canonical_url: https://timbenniks.dev/writing/cosplaying-as-a-product-manager-and-i-think-im-onto-something
 reading_time: 8 min read
-image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1771056546/website/tenor.gif
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1771056546/website/tim-drawn.png
+
 tags:
   - product-management
   - engineering
@@ -24,7 +25,7 @@ draft: false
 head:
   meta:
     - property: twitter:image
-      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1771056546/website/tenor.gif
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1771056546/website/tim-drawn.png
     - property: twitter:title
       content: I'm cosplaying as a Product Manager, and I think I'm onto something
     - property: twitter:description
