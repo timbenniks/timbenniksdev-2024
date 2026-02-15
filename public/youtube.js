@@ -95,7 +95,7 @@ export class LiteYTEmbed extends HTMLElement {
         display: block;
         position: absolute;
         top: 0;
-        background-image: linear-gradient(180deg, #111 -20%, transparent 90%);
+        background-color: #080a12;
         height: 60px;
         width: 100%;
         z-index: 1;

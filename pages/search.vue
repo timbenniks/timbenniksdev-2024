@@ -77,8 +77,7 @@ useSeoMeta({
 <style lang="postcss">
 .ais-SearchBox-input {
   @apply p-4 text-xl placeholder:text-white focus:outline-0 border-2 text-white bg-[#000] w-96;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(89.87deg, #256ad1 7.57%, #d1258c 95.58%);
+  border-color: #256ad1;
 }
 
 .search-item {

@@ -2,6 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Darker, gradient-free blue theme overrides */
+@layer base {
+  body {
+    @apply !bg-[#000] text-white;
+  }
+}
+
+.title,
+.tag,
+.text-fancy-bg {
+  background: #256ad1 !important;
+}
+
+.cta {
+  border: none !important;
+}
+
+.fancy-image-alt,
+.fancy-image {
+  border: none !important;
+  mask: none !important;
+}
+
+.fancy-image:hover,
+a:hover .fancy-image {
+  color: inherit !important;
+}
+
+.flowing-title {
+  background: none !important;
+  -webkit-text-fill-color: #256ad1 !important;
+  color: #256ad1 !important;
+}
+
+/* Header - dark blue to match theme (replaces purple) */
+.sticky.top-0.z-50 > header,
+.sticky.top-0.z-50 #nav {
+  background-color: #0d1524 !important;
+}
+
+/* Remove gradient overlays */
+[class*="bg-gradient-to-t"] {
+  background-color: #030408 !important;
+  background-image: none !important;
+}
+
 a.router-link-exact-active {
   @apply border-b-2 border-b-white;
 }

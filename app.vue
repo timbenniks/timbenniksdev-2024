@@ -25,7 +25,7 @@ useHead({
     },
     {
       name: "theme-color",
-      content: "#ec4899",
+      content: "#256ad1",
     },
     {
       name: "algolia-site-verification",
@@ -136,7 +136,7 @@ watch(
 );
 </script>
 <template>
-  <main class="mx-auto max-w-[1400px] bg-[#1b1d39]">
+  <main class="mx-auto max-w-[1400px] bg-[#07152e]">
     <navigation />
     <NuxtPage />
     <globalFooter />
