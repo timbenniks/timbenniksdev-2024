@@ -38,7 +38,7 @@ export default defineAppConfig({
       location: "Remote",
       url: "https://hygraph.com"
     }, {
-      daterange: "March 2021 - Present",
+      daterange: "March 2021 - October 2025",
       text: "At the beginning of my tenure as a member of the Technical Council, I played a pivotal role in shaping the decision-making processes for new member admissions for SI's. Diligently evaluated potential members to ensure they adhered to Microservices, API-first, Cloud-native, and Headless (MACH) architecture principles. As a group of dedicated Council members, we were instrumental in maintaining the high standards of the alliance, fostering innovation, and ensuring that new entrants contributed meaningfully to the MACH ecosystem.",
       company: "MACH Alliance",
       title: "Member of Tech Council",
