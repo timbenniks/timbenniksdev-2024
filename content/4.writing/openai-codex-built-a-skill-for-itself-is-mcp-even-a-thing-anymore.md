@@ -1,26 +1,24 @@
 ---
 id: 20260220143022
 slug: openai-codex-built-a-skill-for-itself-is-mcp-even-a-thing-anymore
-title: "OpenAI Codex built a skill for itself. Is MCP even a thing anymore?"
+title: Codex built a skill with custom CLI for itself. Is MCP even a thing anymore?
 description: I gave OpenAI Codex a management token, an API key, some YouTube IDs, and my Contentstack TypeScript schema. It imported all my content flawlessly, then wrote a custom CLI and a skill to do it again. I did not ask it to do that. Now I'm wondering if we've been overcomplicating everything.
 date: "2026-02-20T14:30:22Z"
-image: ""
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1771582909/website/a1em5ldkumaku4wjl2p6.jpg
 canonical_url: https://timbenniks.dev/writing/openai-codex-built-a-skill-for-itself-is-mcp-even-a-thing-anymore
 tags: [ai, codex, mcp, developer-experience, content-operations, cli, contentstack, agentic-workflows]
-reading_time: "6 min read"
-draft: true
-
+reading_time: 6 min read
+draft: false
 head:
   meta:
     - property: twitter:image
-      content: ""
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1771582909/website/a1em5ldkumaku4wjl2p6.jpg
     - property: twitter:title
-      content: "OpenAI Codex built a skill for itself. Is MCP even a thing anymore?"
+      content: Codex built a skill with custom CLI for itself. Is MCP even a thing anymore?
     - property: twitter:description
       content: I gave OpenAI Codex a management token, an API key, some YouTube IDs, and my Contentstack TypeScript schema. It imported all my content flawlessly, then wrote a custom CLI and a skill to do it again. I did not ask it to do that. Now I'm wondering if we've been overcomplicating everything.
     - property: keywords
       content: ai, codex, mcp, developer-experience, content-operations, cli, contentstack, agentic-workflows
-
 faqs:
   - question: What exactly did OpenAI Codex do that was so impressive?
     answer: Codex imported a batch of YouTube video entries into Contentstack, scraping metadata for each video ID, mapping it to the correct schema fields, and writing rich text content, without any steering. That alone would have taken an hour manually. But the real surprise was what happened next. Without being asked, Codex wrote a custom CLI and a skill.md file explaining how to use it, including a reminder to rotate the management token after each run. It built a repeatable workflow for itself. That is the thing that broke my brain.
@@ -38,7 +36,7 @@ My mind broke a little this week. I gave OpenAI Codex a temporary management tok
 
 It scraped YouTube for each video, mapped the metadata to my content schema, and imported every entry into Contentstack. Flawlessly. No steering, no corrections, no retry loops on my end.
 
-That part is impressive. Then it did something I did not ask for.
+That's is impressive on it's own. But then it did something I did not ask for.
 
 ## The thing that actually broke my brain
 
@@ -58,7 +56,7 @@ But beyond the time saved, I now have a reproducible pattern. When new videos ne
 
 ## The uncomfortable question this raises about MCP
 
-Here is the thing. At Contentstack we are actively building products around MCP. Most of the industry is. And a lot of those implementations are not great. Too much context, too many tools registered, fragile connections that time out or hallucinate their own tool signatures.
+Here is the thing. At Contentstack we are actively building products around MCP. Most of the industry is. And a lot of those implementations are not great (side note: ours is a bit different, so it will be awesome). Too much context, too many tools registered, fragile connections that time out or hallucinate their own tool signatures.
 
 The common wisdom right now is: MCP is the integration layer for AI agents. Full stop.
 
@@ -96,28 +94,4 @@ I didn't ask Codex to build a skill for itself. It decided that was the right th
 
 That moment, an agent proactively designing its own future workflow, is where this stops feeling like a better autocomplete and starts feeling like something else entirely.
 
-*The question isn't whether AI can do the work. It's whether you understand the work well enough to let it.*
-
----
-
-## Frequently asked questions
-
-**What exactly did OpenAI Codex do that was so impressive?**
-
-Codex imported a batch of YouTube video entries into Contentstack, scraping metadata for each video ID, mapping it to the correct schema fields, and writing rich text content, without any steering. That alone would have taken an hour manually. But the real surprise was what happened next. Without being asked, Codex wrote a custom CLI and a skill.md file explaining how to use it, including a reminder to rotate the management token after each run. It built a repeatable workflow for itself. That is the thing that broke my brain.
-
-**Is MCP becoming irrelevant because of this?**
-
-Not irrelevant, but worth interrogating. A lot of MCP implementations right now consume enormous amounts of context and produce fragile integrations. What Codex demonstrated is that a well-documented CLI can serve as a perfectly capable tool layer for an LLM, with native search, composable parameters, and almost zero context overhead. MCP is still the right answer for stateful, real-time integrations. But for batch operations and repeatable tasks, a CLI with good docs might just be simpler and more reliable.
-
-**Do you need deep product knowledge to replicate this?**
-
-Yes, and this is the honest caveat. The reason this worked so well is that I understand Contentstack's CMA API deeply, I know my own TypeScript schema, and I could frame the task with precision. If you hand Codex vague instructions and a schema you don't fully understand, it will still try, and it will probably produce plausible-looking results that are subtly wrong. The quality of the output is a direct function of the quality of the context you provide. Domain knowledge is not optional here.
-
-**What does this mean for developer tooling investment over the next 12 months?**
-
-Teams will start questioning where MCP actually earns its complexity. CLIs with structured documentation will get a second look as a lighter-weight integration layer for agents. Content operations workflows that currently require manual human steps, imports, migrations, batch updates, will increasingly be delegated to agents with the right tools handed over. The developers who understand how to construct that context will have a significant edge over those who just prompt blindly and hope.
-
-**Should I try this pattern today?**
-
-If you have deep knowledge of the system you are working with, yes. Give the agent your schema, your API docs, a scoped token, and a clear output format. Start with a small batch and verify the results before scaling. The pattern works, but it works because of the context you bring, not because the agent is magic. The moment you hand over a task you don't fully understand yourself, you are flying blind with a very confident co-pilot.
+_The question isn't whether AI can do the work. It's whether you understand the work well enough to let it._
