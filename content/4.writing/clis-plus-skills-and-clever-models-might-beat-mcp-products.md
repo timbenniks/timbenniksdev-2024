@@ -2,7 +2,7 @@
 id: 1771580255
 slug: clis-plus-skills-and-clever-models-might-beat-mcp-products
 title: CLIs plus skills and clever models might beat MCP products
-description: MCP is becoming infrastructure, not the main product edge. In real workflows, a sharp CLI, a focused skill, and a clever model can outperform context-heavy MCP wrappers by reducing bloat and executing reliably.
+description: MCP is becoming infrastructure while product edge moves to execution quality. In real workflows, a sharp CLI, a focused skill, and a clever model often outperform context-heavy wrappers.
 date: "2026-02-20T09:37:35Z"
 image: ""
 canonical_url: https://timbenniks.dev/writing/clis-plus-skills-and-clever-models-might-beat-mcp-products
@@ -22,22 +22,22 @@ head:
     - property: twitter:title
       content: CLIs plus skills and clever models might beat MCP products
     - property: twitter:description
-      content: MCP is becoming infrastructure, not the main product edge. In real workflows, a sharp CLI, a focused skill, and a clever model can outperform context-heavy MCP wrappers by reducing bloat and executing reliably.
+      content: MCP is becoming infrastructure while product edge moves to execution quality. In real workflows, a sharp CLI, a focused skill, and a clever model often outperform context-heavy wrappers.
     - property: keywords
       content: ai, mcp, developer-experience, cli, automation
 
 faqs:
   - question: Is MCP irrelevant if a CLI plus skill can handle the workflow?
-    answer: MCP is not irrelevant. MCP gives teams a shared contract for tools, capability discovery, and cross-system integration, and that contract still matters in multi-tool environments. The point is not protocol versus CLI as a winner-takes-all fight. The point is value placement. A CLI plus skill often drives execution quality faster, while MCP supports interoperability and ecosystem scale behind the scenes.
+    answer: MCP still matters. It gives teams a shared contract for tools, capability discovery, and cross-system integration, and that contract still helps in multi-tool environments. The core question is where product value lives in day-to-day work. A CLI plus skill often drives execution quality faster, while MCP supports interoperability and ecosystem scale behind the scenes. Teams that combine both layers well usually move faster with fewer surprises.
   - question: Why did this Contentstack import work with almost no steering?
-    answer: The workflow worked because the task definition was concrete, the tools were precise, and the operator had deep domain knowledge. The prompt included a temporary management token, API key, YouTube IDs, stack TypeScript, and rich text rules, which removed ambiguity. Codex could map the request to deterministic actions instead of guessing intent. That setup reduced back and forth and let the agent run end to end. The quality came from execution constraints, not from a massive context dump.
+    answer: The workflow worked because the task definition was concrete, the tools were precise, and the operator had deep domain knowledge. The prompt included a temporary management token, API key, YouTube IDs, stack TypeScript, and rich text rules, which removed ambiguity. Codex mapped the request to deterministic actions and executed end to end. That setup reduced back and forth and kept the run reliable. The quality came from clear constraints and a clean operating surface.
   - question: Should teams stop building MCP products?
-    answer: Teams should stop shipping MCP wrappers with weak outcomes, but they should not abandon MCP itself. Product energy should move toward interfaces that reduce ambiguity, speed up action, and enforce guardrails. In many cases, a tight CLI with excellent docs and a focused skill will beat a broad context-heavy layer in day-to-day operations. MCP still plays a strategic role for federated tools and shared capability contracts. The winning stack often combines both, with execution surfaces leading and protocol infrastructure supporting.
+    answer: Teams should stop shipping MCP wrappers with weak outcomes and focus on interfaces that reduce ambiguity, speed up action, and enforce guardrails. In many cases, a tight CLI with excellent docs and a focused skill wins in day-to-day operations. MCP still plays a strategic role for federated tools and shared capability contracts. The strongest stack combines both, with execution surfaces leading and protocol infrastructure supporting. That balance keeps teams practical without giving up interoperability.
   - question: What should teams prioritize in the next 12 months?
     answer: Teams should prioritize operational interfaces that agents can execute without interpretation drift. Start with a reliable CLI, typed parameters, and output formats that work with native shell tooling. Then pair that interface with a skill that explains when to use commands, how to validate results, and what security actions to take after execution. Add guardrails for credentials, destructive actions, and approval gates so automation stays safe under pressure. That sequence gives faster value than chasing context scale for its own sake.
 ---
 
-**CLIs plus skills and clever models might beat many MCP products in day-to-day execution.** I handed Codex a temporary Contentstack management token, an API key, a list of YouTube IDs, stack TypeScript, and rich text instructions. The agent imported everything flawlessly, then created a reusable skill with a custom CLI and a token rotation warning I did not request.
+**CLIs plus skills and clever models might beat many MCP products in day-to-day execution.** I handed Codex a temporary Contentstack management token, an API key, a list of YouTube IDs, stack TypeScript, and rich text instructions. The agent imported everything flawlessly, then created a reusable skill with a custom CLI and a token rotation warning I never asked for.
 
 That result changed my mental model in one run.
 
@@ -49,7 +49,7 @@ The custom CLI was the surprise inside the surprise. I asked for imports. The ag
 
 That move matters. A repeatable workflow turns a lucky run into operational leverage.
 
-Without automation, manual entry would have cost me at least an hour for the same batch. With automation, I spent my time on direction, not keystrokes. The difference was not speed alone. The difference was trust at speed.
+Manual entry would have cost me at least an hour for the same batch. Codex handled the repetitive work while I focused on direction and review. The real gain was confidence at speed.
 
 ## The context bloat trap
 
@@ -102,11 +102,11 @@ None of these choices are glamorous. All of these choices compound.
 
 MCP still has a job. A protocol layer helps tools interoperate, capabilities stay discoverable, and ecosystems avoid one-off integrations. That protocol foundation is useful infrastructure.
 
-Infrastructure is not the same as product value.
+Infrastructure and product value live in different places.
 
 In practical workflows, product value often appears where intent meets execution: command surfaces, validation steps, rollback mechanics, and clear operational docs. In other words, MCP may remain the connective tissue while CLI plus skill becomes the working muscle.
 
-That role shift is not a downgrade. That role shift is maturity.
+That role shift signals maturity.
 
 ## It's not all sunshine and rainbows
 
@@ -119,14 +119,14 @@ Teams should treat this pattern with discipline:
 - **Own domain models before automation.** Agents execute patterns, and weak models produce weak outcomes.
 - **Use narrow-scope credentials.** Temporary tokens with constrained permissions reduce blast radius.
 - **Add checkpoints for irreversible writes.** A preview or dry run catches mapping errors before persistence.
-- **Require post-run security actions.** Token rotation and audit logging should be part of the workflow, not optional cleanup.
+- **Require post-run security actions.** Token rotation and audit logging should be mandatory cleanup steps.
 
 Automation without domain ownership becomes roulette. That risk is real.
 
 ## Concluding
 
-MCP is not dead. MCP is becoming plumbing, and that change creates room for better products.
+MCP is becoming plumbing, and that change creates room for better products.
 
-The next wave of agent tooling will reward teams that design crisp execution contracts, not teams that maximize context volume. A CLI with strong docs, paired with a focused skill, gives language models a cleaner path to do real work. Over the next twelve months, I expect this pattern to spread across content ops, DevEx pipelines, and internal tooling where repeatability matters more than protocol theater.
+The next wave of agent tooling will reward teams that design crisp execution contracts. Teams that chase context volume alone will keep fighting execution drift. A CLI with strong docs, paired with a focused skill, gives language models a cleaner path to do real work. Over the next twelve months, I expect this pattern to spread across content ops, DevEx pipelines, and internal tooling where repeatability matters more than protocol theater.
 
-*The winners will not ship the loudest protocol story, they will ship the sharpest path from prompt to production.*
+*Winners ship the sharpest path from prompt to production.*
