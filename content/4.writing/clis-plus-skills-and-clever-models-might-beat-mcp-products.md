@@ -4,6 +4,7 @@ slug: clis-plus-skills-and-clever-models-might-beat-mcp-products
 title: CLIs plus skills and clever models might beat MCP products
 description: MCP is becoming infrastructure while product edge moves to execution quality. In real workflows, a sharp CLI, a focused skill, and a clever model often outperform context-heavy wrappers.
 date: "2026-02-20T09:37:35Z"
+image: ""
 canonical_url: https://timbenniks.dev/writing/clis-plus-skills-and-clever-models-might-beat-mcp-products
 tags:
   - ai
@@ -16,7 +17,7 @@ draft: true
 head:
   meta:
     - property: twitter:image
-      content: 
+      content: ""
     - property: twitter:title
       content: CLIs plus skills and clever models might beat MCP products
     - property: twitter:description
