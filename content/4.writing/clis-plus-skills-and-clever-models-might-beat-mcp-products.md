@@ -4,7 +4,6 @@ slug: clis-plus-skills-and-clever-models-might-beat-mcp-products
 title: CLIs plus skills and clever models might beat MCP products
 description: MCP is becoming infrastructure while product edge moves to execution quality. In real workflows, a sharp CLI, a focused skill, and a clever model often outperform context-heavy wrappers.
 date: "2026-02-20T09:37:35Z"
-image: ""
 canonical_url: https://timbenniks.dev/writing/clis-plus-skills-and-clever-models-might-beat-mcp-products
 tags:
   - ai
@@ -14,18 +13,16 @@ tags:
   - automation
 reading_time: 5 min read
 draft: true
-
 head:
   meta:
     - property: twitter:image
-      content: ""
+      content: 
     - property: twitter:title
       content: CLIs plus skills and clever models might beat MCP products
     - property: twitter:description
       content: MCP is becoming infrastructure while product edge moves to execution quality. In real workflows, a sharp CLI, a focused skill, and a clever model often outperform context-heavy wrappers.
     - property: keywords
       content: ai, mcp, developer-experience, cli, automation
-
 faqs:
   - question: Is MCP irrelevant if a CLI plus skill can handle the workflow?
     answer: MCP still matters. It gives teams a shared contract for tools, capability discovery, and cross-system integration, and that contract still helps in multi-tool environments. The core question is where product value lives in day-to-day work. A CLI plus skill often drives execution quality faster, while MCP supports interoperability and ecosystem scale behind the scenes. Teams that combine both layers well usually move faster with fewer surprises.
@@ -59,10 +56,14 @@ The uncomfortable truth is simple: protocol narrative does not guarantee executi
 
 I see a repeating pattern in context-heavy agent products:
 
-- lots of descriptive setup
-- weak operational interfaces
-- unpredictable execution paths
-- expensive correction cycles
+-   lots of descriptive setup
+    
+-   weak operational interfaces
+    
+-   unpredictable execution paths
+    
+-   expensive correction cycles
+    
 
 Sound familiar?
 
@@ -74,10 +75,14 @@ Conventional wisdom says richer protocol context makes agents smarter. My recent
 
 The winning hierarchy looked like this:
 
-- clear domain instructions
-- deterministic CLI actions
-- focused skill documentation
-- explicit security cleanup steps
+-   clear domain instructions
+    
+-   deterministic CLI actions
+    
+-   focused skill documentation
+    
+-   explicit security cleanup steps
+    
 
 That sequence beat broad context stuffing.
 
@@ -91,10 +96,14 @@ A well-explained CLI paired with a focused skill may be the highest leverage pat
 
 Four design choices make this pattern work:
 
-- **Constrain commands.** A CLI defines verbs, flags, and output contracts so the agent executes instead of improvising.
-- **Codify intent in the skill.** A skill captures workflow logic, edge-case handling, and sequencing rules in one reusable playbook.
-- **Expose inspectable output.** Shell-native output lets both humans and agents grep, filter, and validate behavior quickly.
-- **Encode security rituals.** Post-run instructions, like token rotation, move security from memory into process.
+-   **Constrain commands.** A CLI defines verbs, flags, and output contracts so the agent executes instead of improvising.
+    
+-   **Codify intent in the skill.** A skill captures workflow logic, edge-case handling, and sequencing rules in one reusable playbook.
+    
+-   **Expose inspectable output.** Shell-native output lets both humans and agents grep, filter, and validate behavior quickly.
+    
+-   **Encode security rituals.** Post-run instructions, like token rotation, move security from memory into process.
+    
 
 None of these choices are glamorous. All of these choices compound.
 
