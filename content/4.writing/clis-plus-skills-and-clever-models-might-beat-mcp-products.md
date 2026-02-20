@@ -4,7 +4,6 @@ slug: clis-plus-skills-and-clever-models-might-beat-mcp-products
 title: CLIs plus skills and clever models might beat MCP products
 description: MCP is becoming infrastructure, not the main product edge. In real workflows, a sharp CLI, a focused skill, and a clever model can outperform context-heavy MCP wrappers by reducing bloat and executing reliably.
 date: "2026-02-20T09:37:35Z"
-image: ""
 canonical_url: https://timbenniks.dev/writing/clis-plus-skills-and-clever-models-might-beat-mcp-products
 tags:
   - ai
@@ -14,18 +13,16 @@ tags:
   - automation
 reading_time: 5 min read
 draft: true
-
 head:
   meta:
     - property: twitter:image
-      content: ""
+      content: 
     - property: twitter:title
       content: CLIs plus skills and clever models might beat MCP products
     - property: twitter:description
       content: MCP is becoming infrastructure, not the main product edge. In real workflows, a sharp CLI, a focused skill, and a clever model can outperform context-heavy MCP wrappers by reducing bloat and executing reliably.
     - property: keywords
       content: ai, mcp, developer-experience, cli, automation
-
 faqs:
   - question: Is MCP irrelevant if a CLI plus skill can handle the workflow?
     answer: MCP is not irrelevant. MCP gives teams a shared contract for tools, capability discovery, and cross-system integration, and that contract still matters in multi-tool environments. The point is not protocol versus CLI as a winner-takes-all fight. The point is value placement. A CLI plus skill often drives execution quality faster, while MCP supports interoperability and ecosystem scale behind the scenes.
@@ -37,7 +34,7 @@ faqs:
     answer: Teams should prioritize operational interfaces that agents can execute without interpretation drift. Start with a reliable CLI, typed parameters, and output formats that work with native shell tooling. Then pair that interface with a skill that explains when to use commands, how to validate results, and what security actions to take after execution. Add guardrails for credentials, destructive actions, and approval gates so automation stays safe under pressure. That sequence gives faster value than chasing context scale for its own sake.
 ---
 
-**CLIs plus skills and clever models might beat many MCP products in day-to-day execution.** I handed Codex a temporary Contentstack management token, an API key, a list of YouTube IDs, stack TypeScript, and rich text instructions. The agent imported everything flawlessly, then created a reusable skill with a custom CLI and a token rotation warning I did not request.
+**I just realized that MCPs have a place but might not be day to day usage.** I handed Codex a temporary Contentstack management token, an API key, a list of YouTube IDs, Types for my content model, and some instructions. The agent imported everything flawlessly, then created a reusable skill with a custom CLI and a token rotation warning I did not request.
 
 That result changed my mental model in one run.
 
@@ -59,10 +56,14 @@ The uncomfortable truth is simple: protocol narrative does not guarantee executi
 
 I see a repeating pattern in context-heavy agent products:
 
-- lots of descriptive setup
-- weak operational interfaces
-- unpredictable execution paths
-- expensive correction cycles
+-   lots of descriptive setup
+    
+-   weak operational interfaces
+    
+-   unpredictable execution paths
+    
+-   expensive correction cycles
+    
 
 Sound familiar?
 
@@ -74,10 +75,14 @@ Conventional wisdom says richer protocol context makes agents smarter. My recent
 
 The winning hierarchy looked like this:
 
-- clear domain instructions
-- deterministic CLI actions
-- focused skill documentation
-- explicit security cleanup steps
+-   clear domain instructions
+    
+-   deterministic CLI actions
+    
+-   focused skill documentation
+    
+-   explicit security cleanup steps
+    
 
 That sequence beat broad context stuffing.
 
@@ -91,10 +96,14 @@ A well-explained CLI paired with a focused skill may be the highest leverage pat
 
 Four design choices make this pattern work:
 
-- **Constrain commands.** A CLI defines verbs, flags, and output contracts so the agent executes instead of improvising.
-- **Codify intent in the skill.** A skill captures workflow logic, edge-case handling, and sequencing rules in one reusable playbook.
-- **Expose inspectable output.** Shell-native output lets both humans and agents grep, filter, and validate behavior quickly.
-- **Encode security rituals.** Post-run instructions, like token rotation, move security from memory into process.
+-   **Constrain commands.** A CLI defines verbs, flags, and output contracts so the agent executes instead of improvising.
+    
+-   **Codify intent in the skill.** A skill captures workflow logic, edge-case handling, and sequencing rules in one reusable playbook.
+    
+-   **Expose inspectable output.** Shell-native output lets both humans and agents grep, filter, and validate behavior quickly.
+    
+-   **Encode security rituals.** Post-run instructions, like token rotation, move security from memory into process.
+    
 
 None of these choices are glamorous. All of these choices compound.
 
@@ -116,10 +125,14 @@ I am in a privileged position because I understand both layers in depth. Another
 
 Teams should treat this pattern with discipline:
 
-- **Own domain models before automation.** Agents execute patterns, and weak models produce weak outcomes.
-- **Use narrow-scope credentials.** Temporary tokens with constrained permissions reduce blast radius.
-- **Add checkpoints for irreversible writes.** A preview or dry run catches mapping errors before persistence.
-- **Require post-run security actions.** Token rotation and audit logging should be part of the workflow, not optional cleanup.
+-   **Own domain models before automation.** Agents execute patterns, and weak models produce weak outcomes.
+    
+-   **Use narrow-scope credentials.** Temporary tokens with constrained permissions reduce blast radius.
+    
+-   **Add checkpoints for irreversible writes.** A preview or dry run catches mapping errors before persistence.
+    
+-   **Require post-run security actions.** Token rotation and audit logging should be part of the workflow, not optional cleanup.
+    
 
 Automation without domain ownership becomes roulette. That risk is real.
 
@@ -129,4 +142,4 @@ MCP is not dead. MCP is becoming plumbing, and that change creates room for bett
 
 The next wave of agent tooling will reward teams that design crisp execution contracts, not teams that maximize context volume. A CLI with strong docs, paired with a focused skill, gives language models a cleaner path to do real work. Over the next twelve months, I expect this pattern to spread across content ops, DevEx pipelines, and internal tooling where repeatability matters more than protocol theater.
 
-*The winners will not ship the loudest protocol story, they will ship the sharpest path from prompt to production.*
+_The winners will not ship the loudest protocol story, they will ship the sharpest path from prompt to production._
