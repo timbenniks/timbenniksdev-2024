@@ -8,6 +8,7 @@ image: ""
 canonical_url: https://timbenniks.dev/writing/openai-codex-built-a-skill-for-itself-is-mcp-even-a-thing-anymore
 tags: [ai, codex, mcp, developer-experience, content-operations, cli, contentstack, agentic-workflows]
 reading_time: "6 min read"
+draft: true
 
 head:
   meta:
