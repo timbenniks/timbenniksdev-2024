@@ -24,7 +24,7 @@ faqs:
     answer: For some developers it's already happening. Those with strong product vision and deep domain knowledge are already producing software without writing much code by hand. For the broader industry, expect two years before this becomes the norm. The agents are getting good enough, and the workflows are maturing fast enough, that manual line-by-line coding will feel increasingly optional for production work.
   - question: Should junior developers still learn to code from scratch?
     answer: Yes, emphatically. You can't direct what you don't understand. Learning to code builds the mental models, debugging intuition, and architectural taste that make you effective with AI tools. Skipping that foundation is like trying to direct a film without understanding cinematography. The craft informs the vision, even when you're not the one holding the camera.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
