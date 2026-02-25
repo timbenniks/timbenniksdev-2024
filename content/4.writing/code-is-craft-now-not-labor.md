@@ -22,7 +22,7 @@ faqs:
     answer: Absolutely. AI agents amplify what you already know. You still need to architect systems, reason about trade-offs, understand performance implications, debug subtle failures, and communicate technical decisions to stakeholders. The difference is that instead of expressing all of that through manual keystrokes, you express it through precise intent and AI translates that into implementation. The thinking is the same. The interface is changing.
   - question: Should junior developers still learn to code from scratch?
     answer: Yes, emphatically. You can't direct what you don't understand. Learning to code builds the mental models, debugging intuition, and architectural taste that make you effective with AI tools. Skipping that foundation is like trying to direct a film without understanding cinematography. The craft informs the vision, even when you're not the one holding the camera.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
