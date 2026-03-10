@@ -1,99 +1,103 @@
 ---
-title: The best product decisions were never analytical to begin with
+title: Intuition and the real cost of research
 slug: the-best-product-decisions-were-never-analytical
-description: AI dramatically lowers the cost of being wrong, which exposes a truth the industry has been avoiding for years - the builders who ship fast and iterate from feedback have always outperformed the ones who research their way to a conclusion. Intuition is not a shortcut. It is compressed experience. And in a world where AI handles implementation, the ability to sense what to build and decide quickly is the actual competitive edge.
-date: "2026-03-09T10:00:00Z"
-canonical_url: https://timbenniks.dev/writing/the-best-product-decisions-were-never-analytical
-reading_time: 5 min read
+description: This article explores how AI changes the balance between research-heavy processes and intuition-driven building, especially in product and technical work. The author reflects on a career of moving faster than surrounding teams, where strong intuition—really compressed experience from shipping many similar things—often clashed with expectations for lengthy research and documentation. As AI makes implementation and iteration dramatically cheaper and faster, the true bottleneck shifts from building to deciding what is worth building. Research still matters for those without established mental models, and for environments where stakeholders need evidence and paper trails. But when iteration costs hours instead of weeks, over-indexing on analysis can become the real drag. The piece argues that, in an AI-enabled world, experienced intuition is not anti-process; for the right people and problems, it is the process.
+date: "2026-03-10T10:00:00Z"
+canonical_url: https://timbenniks.dev/writing/ai-intuition-and-the-real-cost-of-research
+reading_time: 6 min read
 image: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1773051547/website/1A8CEC95-AF06-4E7C-935A-1B31BC021583.png
 tags:
   - ai
-  - product
+  - webdev
+  - architecture
   - process
   - career
-  - developer-experience
-  - architecture
+  - agency
 faqs:
-  - question: Isn't skipping research just reckless guessing?
-    answer: No, and conflating the two is the most common mistake people make on this topic. Intuition is compressed experience - pattern recognition built from years of shipping real things and watching what fails. Reckless guessing has no information behind it. The difference is whether the person making the call has actually done the work before, not whether they produced a research document first.
-  - question: Does this approach work for everyone, or just experienced developers?
-    answer: It scales with depth of experience, so no, it does not work the same way for everyone. Someone early in their career genuinely needs the scaffolding of research to build the mental models that intuition later automates. The argument is not that research is always wrong - it is that for people who have accumulated real domain knowledge, excessive analysis often delays what they already sense is correct.
-  - question: How does AI change this calculation specifically?
-    answer: AI collapses the cost of iteration. When building something used to take weeks, being wrong was genuinely expensive. Now, a wrong turn costs you a day, sometimes hours. That changes how much validation you need before committing. You still need judgment about what to build, but you need far less certainty before you start, because correcting course is cheap.
-  - question: What do you do when intuition conflicts with what a stakeholder or client wants?
-    answer: Two different problems. If a teammate pushes back, build the thing and bring the artifact to the conversation - people converge on concrete things much faster than abstractions. But in agency or client work, the dynamic is different. Clients need to trust the process, not just the outcome. If you can't explain how you got to the answer, the answer itself becomes harder to sell. In those contexts, the research process is doing relationship and trust work that a prototype alone can't fully replace.
-  - question: Can you train product intuition, or do you just have it?
-    answer: You train it by shipping, failing, and shipping again - not by reading more frameworks or attending more workshops. Every time you build something and watch real users interact with it, you update your internal model of what works. The people with strong intuition are not smarter. They just have more reps.
+  - question: How does AI change the balance between research and intuition in product work?
+    answer: AI dramatically reduces the cost and time of implementation, shrinking feedback loops from weeks to hours or days. When it becomes cheap to build and rebuild, the penalty for acting on intuition is much lower, while the time cost of long research phases remains the same. This shifts the bottleneck from execution speed to judgment about what is worth building. As a result, intuition built from experience becomes more valuable, and extended research can turn into the main source of delay rather than a necessary safeguard.
+  - question: When is heavy research still valuable despite faster AI-driven iteration?
+    answer: Heavy research remains valuable when people lack prior experience with a problem space and need to build mental models from scratch. It is also crucial in environments where decisions must be justified to stakeholders, such as agencies or client work, where evidence, artifacts, and paper trails create trust. In these contexts, research does social and political work that pure intuition cannot, helping teams answer detailed questions, show due diligence, and align multiple parties around a direction before committing significant time or budget.
+  - question: How can experienced builders make their intuition more acceptable to stakeholders?
+    answer: Experienced builders can make their intuition legible by pairing fast, intuition-driven building with artifacts that others can react to. Early prototypes turn gut feelings into concrete examples, shifting conversations from "trust me" to "look at this." They should also practice explaining their reasoning in terms of patterns from past work, tradeoffs considered, and alternatives ruled out. The goal is not to abandon intuition, but to translate it into explanations, demos, and documentation that satisfy stakeholders who rely on process, evidence, and clear justification.
 draft: false
 head:
   meta:
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1773051547/website/1A8CEC95-AF06-4E7C-935A-1B31BC021583.png
     - property: twitter:title
-      content: The best product decisions were never analytical to begin with
+      content: Intuition and the real cost of research
     - property: twitter:description
-      content: AI dramatically lowers the cost of being wrong, which exposes a truth the industry has been avoiding for years - the builders who ship fast and iterate from feedback have always outperformed the ones who research their way to a conclusion. Intuition is not a shortcut. It is compressed experience. And in a world where AI handles implementation, the ability to sense what to build and decide quickly is the actual competitive edge.
+      content: This article explores how AI changes the balance between research-heavy processes and intuition-driven building, especially in product and technical work. The author reflects on a career of moving faster than surrounding teams, where strong intuition—really compressed experience from shipping many similar things—often clashed with expectations for lengthy research and documentation. As AI makes implementation and iteration dramatically cheaper and faster, the true bottleneck shifts from building to deciding what is worth building. Research still matters for those without established mental models, and for environments where stakeholders need evidence and paper trails. But when iteration costs hours instead of weeks, over-indexing on analysis can become the real drag. The piece argues that, in an AI-enabled world, experienced intuition is not anti-process; for the right people and problems, it is the process.
     - property: keywords
-      content: ai, product, process, career, developer-experience, architecture
+      content: ai, webdev, architecture, process, career, agency
 
 ---
 
 For most of my career, moving fast was a liability.
 
-I would build things too quickly, according to most of the rooms I was in. A colleague needs three weeks of research before touching a feature: stakeholder interviews, competitor analysis, a Notion doc with seventeen sections. I'd already shipped something. By the time the research concluded, we were usually looking at the same solution - except now I'd created friction by skipping the process everyone else considered mandatory.
+In many of the rooms I was in, the expectation was that you researched before you built. A colleague might spend three weeks studying a feature: stakeholder interviews, competitor analysis, a long document.
 
-I learned to adapt. Slow down publicly. Produce the artifacts. Earn the alignment before moving.
+I would usually have already built something.
 
-Only now, many years into my career, does that instinct feel like an advantage rather than something to manage. And I think AI is why.
+By the time the research finished, we often ended up in the same place anyway. The difference was that I had skipped the process everyone else considered necessary.
 
-## What research is actually doing
+Over time I learned to adapt. Slow down publicly. Produce the artifacts. Earn alignment before moving.
 
-Research is not bad. Research is a tool for building mental models when you don't already have them.
+Only now, many years into my career, does that instinct feel like an advantage rather than something I have to manage. I suspect AI is part of the reason.
 
-If you've never shipped a booking interface before, studying how others have done it is genuinely useful. You're accumulating information your intuition can't yet access. The research earns its keep because the alternative - guessing blind - would be worse.
+### What research is actually doing
 
-For a long time I underestimated this. I assumed colleagues doing weeks of research were being slow or overly cautious. Some were. But many were doing exactly what they needed to do - building the internal model that I'd already built through years of shipping similar things. The research wasn't the problem. The assumption that everyone was at the same starting point was.
+Research isn’t the problem. It exists for a reason.
 
-AI accelerates implementation so dramatically that this distinction now matters more than ever. If you can ship in a day what used to take a week, burning two weeks on research before you start is not a minor inefficiency. It's the bottleneck.
+If you’ve never shipped something before, studying how others solved it helps. You’re building the mental model your intuition doesn’t yet have.
 
-## Intuition is not a shortcut
+For a long time I underestimated this. I assumed people doing weeks of research were just being slow. Some were, but many were doing exactly what they needed to do: constructing the experience I already had from building similar things many times before.
 
-People treat intuition as the lazy option. Skip the process, trust your gut, ship fast and hope for the best.
+The difference wasn’t diligence. It was starting point.
 
-That framing is wrong.
+What AI changes is the cost of acting on that intuition.
 
-Strong product intuition is compressed experience. Every past decision, every failed feature, every user session where something broke in an unexpected way - all of that encodes as pattern recognition over time. When you look at a problem and immediately sense the right approach, it's not magic. It's your brain retrieving a decision from an internal dataset built through years of actually shipping things.
+When building something took weeks, making the wrong decision carried real consequences. Spending more time researching before committing made sense.
 
-For most of my career I had to work around this rather than lean into it. Moving too fast made people uncomfortable. It read as arrogance, or as disrespecting a process that the rest of the team had invested in. So I learned to produce the artifacts, sit in the research sessions, keep my half-finished prototype on a branch until the process caught up. That adaptation was right. Teams need shared context, not just correct answers delivered at the wrong speed.
+But if implementation is cheap, the balance shifts. The penalty for trying the wrong approach becomes much smaller, while the cost of analysis stays the same.
 
-I wrote about something adjacent to this in [my piece on the cosplaying PM](https://timbenniks.dev/writing/cosplaying-as-a-product-manager-and-i-think-im-onto-something) - the idea that for technical products, the build _is_ the discovery. You can't spec your way to a great developer experience. You have to feel where it's wrong. The instinct is useful. The trick is making it legible to the people around you.
+### Intuition as compressed experience
 
-## Where AI shifts the stakes
+People sometimes frame intuition as the lazy option. Skip the process, trust your gut.
 
-When implementation was expensive, being wrong was expensive. A bad product decision meant weeks of engineering time lost. That created a rational case for more research upfront - the cost of getting it wrong justified the delay of getting it right.
+To me intuition isn’t guesswork but accumulated experience: grit.
 
-AI has inverted that math.
+Over time, patterns repeat. Certain interface choices fail in predictable ways. Certain tradeoffs surface again and again. Eventually your brain learns to recognize them quickly.
 
-A wrong turn now costs a day. Sometimes hours. You build the thing, watch it in action, realize the approach is off, and rebuild. The feedback loop that used to span a sprint now spans an afternoon. Which means the penalty for moving on intuition has dropped dramatically, and the cost of prolonged analysis has stayed the same.
+When you see a problem and immediately sense the direction it should go, you’re not skipping thinking. You’re retrieving a decision from a long history of similar problems.
 
-This is what [the taste argument](https://timbenniks.dev/writing/when-output-is-cheap-taste-is-everything) is really about. When output is cheap, the bottleneck shifts from how fast you can build to how quickly you can tell what's worth building. Intuition is the mechanism that makes that fast. Research is often the mechanism that slows it down.
+For most of my career, this wasn’t always easy to rely on socially. Moving too quickly could read as dismissing the process others needed to feel confident in the decision.
 
-## The counter argument
+### The trust problem
 
-Strong intuition is personal context compressed into a judgment call. The problem is that other people don't have that context - and in agency or client work, that gap is more than a communication problem. It's a trust problem.
+There is also a more practical issue.
 
-The person who spent three weeks on research can answer questions. Why this approach and not that one? What did you look at? What did you rule out and why? They have a paper trail. They can walk a client through the reasoning, handle the pushback in a room, and demonstrate that the decision came from a process - not a feeling.
+Intuition is personal context compressed into a decision. The problem is that nobody else has that context.
 
-I couldn't always do that. I'd arrive at the right answer and struggle to explain the route. "I've built enough of these to know" is not a satisfying answer when a client is about to sign off on six months of work. That's not a technical problem - it's a cultural one. Clients and agencies have a trust relationship that runs on evidence, not instinct. The research process, even when it arrives at the same conclusion, is doing social and political work that pure intuition skips entirely.
+The person who spent weeks researching can explain their reasoning in detail. They have documentation. They can walk a client through every step that led to the conclusion.
 
-This is where the build-first approach does double duty. A working prototype is not just a faster path to the right answer. It's an artifact that creates something to discuss, push back on, and align around - a partial substitute for the documentation trail that research naturally produces. It moves the conversation from "trust me" to "look at this." But it doesn't fully replace the ability to answer every question in the room, and some rooms need that.
+If your answer is simply “I’ve built enough of these to know,” that rarely satisfies a room that needs to justify the decision. Research, in those cases, is creating trust.
 
-The failure mode to avoid is treating your intuition as infallible. It's a starting point, not a conclusion. And in contexts where the relationship matters as much as the result, knowing the right answer isn't enough - you have to be able to defend it too.
+One thing that helps bridge this gap is building early. A working prototype gives people something concrete to react to. The conversation shifts from trusting a claim to examining something real.
 
-## Concluding
+But it doesn’t eliminate the need to explain the thinking behind it.
 
-The analysis-heavy approach has always been a hedge against inexperience - and a reasonable one. For people still building their internal models, research is doing real work. The problem is when it becomes the default for everyone, regardless of experience, regardless of what AI has done to the cost of iteration.
+### Conclusion
 
-I spent years adapting my instincts to fit processes that weren't built for them. Now those same instincts are finally in the right environment.
+Research-heavy processes have always been a reasonable hedge against inexperience. For people still building their internal models, they serve an important purpose.
 
-_Intuition built from experience is not the alternative to good process. For the right person on the right problem, it was always the process._
+The difficulty is when the same approach becomes the default for everyone, regardless of experience or how quickly things can now be built.
+
+For years I had to adapt my instincts to processes that weren’t designed for them.
+
+Now those instincts feel like they finally exist in an environment where they make sense.
+
+Intuition built through experience isn’t the opposite of process.
+
+For the right person working on the right problem, it may have always been the process
