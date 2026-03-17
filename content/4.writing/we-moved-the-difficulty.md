@@ -94,7 +94,7 @@ Modern frameworks absorbed the pain. The community turned repeated suffering int
 
 Good. Boring is what success looks like in software. Boring means thousands of developers no longer need to solve the same problem in parallel.
 
-## ![](https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/website/nfs2.png)Get of my lawn!
+## ![](https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/website/nfs2.png)Get off my lawn!
 
 There's a version of this story that curdles into a "back in my day" lecture. Real developers used to understand the browser. Everyone now just imports abstractions they don't deserve. I've felt the pull of that narrative. I rejected it deliberately.
 
