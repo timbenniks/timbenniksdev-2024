@@ -42,7 +42,7 @@ In 2013, I built the launch campaign website for EA's Need for Speed Rivals. Cus
 
 We didn't call it an SPA back then. We just called it "the website." Looking back, it was absolutely an SPA. A chaotic one, held together by caffeine and a suspicious amount of optimism.
 
-I rebuilt the whole thing recently for my Vue.js Amsterdam 2026 talk. The contrast between the two codebases broke my brain.
+I rebuilt the whole thing recently for my Vue.js Amsterdam 2026 talk. The contrast between the two codebases was the basis for the talk.
 
 ## The brief that started it
 
@@ -54,7 +54,7 @@ Eleven months of creative work landed on a tiny dev team. Five weeks to make it 
 
 No framework worth mentioning. No modern tooling. jQuery 2, the DOM, Grunt.js, and whatever I could invent under pressure. So I built the missing parts.
 
-## The custom-everything era
+## ![Tim Working](https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/website/nfs1.png)The custom-everything era
 
 The 2013 codebase is a museum of painful necessity. I wrote a custom router with history management and deep linking. Built state management around a global `window.jsonData` object. Bolted together a JavaScript templating layer with Mustache. Wrote a tweening engine for frame-by-frame animations. Built a DOM-scanning bootstrap system to initialise JavaScript from markup. Handled audio control, canvas animation, subtitle tracks, localisation, and build tooling. Same app, 35 languages.
 
@@ -68,7 +68,7 @@ For 2026, I used Vue 3, Pinia, vue-i18n, and Vite. The architecture was legible.
 
 Vue handled the SPA structure, templating, and reactivity. Vue Router replaced my homemade routing layer. Pinia replaced the mutable global store. A modern animation tool and Vue transitions replaced the tweening engine. vue-i18n handled localisation without making me question my life choices. Vite turned the build step from an obstacle into a footnote.
 
-Same app. Same requirements. Same cinematic flow. Different development experience entirely.
+Holy moly, Vue.js has DX down. It was a blast to build this same app in the modern era.
 
 ## The abstraction shift
 
@@ -80,7 +80,7 @@ Same outcome. Smaller surface area.
 
 State management followed the same arc. `window.jsonData` with hand-written `getData` and `cleanData` functions, including special cases for nested structures because real apps always punish simplistic abstractions - versus a typed Pinia store with explicit state, getters, and actions.
 
-The tweening engine tells the same story. I built one because I had no alternative. Today, I reach for GSAP or a Vue `<Transition>` and move on.
+The tweening engine worked but wasn't optimized. I built it because I had no alternative. Recently, I actually [rebuilt it in a modern way and it works surprising well](https://npmx.dev/package/@timbenniks/turbo-tween). Additionally, I used Vue `<Transition>` around the app.
 
 The code shrank. The capability didn't. That's what progress actually looks like in software.
 
@@ -94,7 +94,7 @@ Modern frameworks absorbed the pain. The community turned repeated suffering int
 
 Good. Boring is what success looks like in software. Boring means thousands of developers no longer need to solve the same problem in parallel.
 
-## It's not all sunshine and rainbows
+## ![](https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/website/nfs2.png)Get of my lawn!
 
 There's a version of this story that curdles into a "back in my day" lecture. Real developers used to understand the browser. Everyone now just imports abstractions they don't deserve. I've felt the pull of that narrative. I rejected it deliberately.
 
@@ -108,7 +108,7 @@ The modern skill isn't rebuilding every abstraction from scratch to prove you ca
 
 That distinction matters more now than ever.
 
-## AI is just the next layer
+## ![](https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/website/nfs3.png)AI is just the next layer
 
 At Vue.js Amsterdam I framed it this way.
 
