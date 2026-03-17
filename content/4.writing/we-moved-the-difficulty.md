@@ -24,7 +24,7 @@ faqs:
     answer: Because the same pattern is repeating. AI isn't replacing the history of frontend engineering - it's inheriting it. An agent can scaffold a Vue app with routing, state, and i18n quickly because thousands of developers spent years stabilising those patterns. AI compressed access to accumulated engineering labor. It didn't erase it.
   - question: What should senior developers do with all of this?
     answer: Stop confusing old pain with timeless value. The useful response isn't gatekeeping - it's adaptation. Learn the modern tools deeply, understand the layers beneath them, treat AI as leverage. The smartest engineers will use their experience to make better decisions faster, not to defend the act of writing homemade tweening engines.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
