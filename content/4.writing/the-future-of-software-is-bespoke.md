@@ -3,7 +3,7 @@ title: The future of software is bespoke
 slug: the-future-of-software-is-bespoke
 description: This article argues that generic SaaS dashboards are a legacy compromise from a time when custom software was expensive and slow to build. With modern APIs, solid SDKs, scaffolding, and AI-assisted development, teams can now create focused, bespoke interfaces in days that match their exact workflows, instead of fighting through one-size-fits-all UIs. The platform should be treated as the engine providing authentication, permissions, content modeling, and governance, while product teams own the experience layer tailored to their people. The piece also examines trade-offs like maintenance burden, skills gaps, and fragility, and explains how good scaffolding, community patterns, and developer education can mitigate these risks and make custom tooling a pragmatic default.
 date: "2026-03-26T10:00:00Z"
-canonical_url: https://timbenniks.dev/writing/building-bespoke-interfaces-on-top-of-platforms
+canonical_url: https://timbenniks.dev/writing/the-future-of-software-is-bespoke
 reading_time: 7 min read
 tags:
   - cms
@@ -20,7 +20,7 @@ faqs:
     answer: In this model, a platform like Contentstack becomes the engine rather than the primary cockpit. It should provide the hard, risky capabilities that teams should not reimplement themselves, such as authentication, role-based access control, content modeling, asset management, publishing pipelines, audit trails, and security. On top of that, developers build bespoke experience layers tailored to specific teams and workflows. The platform also needs to offer good scaffolding, SDKs, and AI-ready tooling so developers can start from a secure, well-architected base and quickly assemble custom interfaces that leverage the platform’s strengths.
   - question: What are the main risks of building bespoke interfaces and how can they be mitigated?
     answer: The main risks are ongoing maintenance, skills gaps, and potential fragility. Custom interfaces must be kept in sync with platform API changes, dependency security updates, and evolving workflows. Not every organization has developers who can build and maintain these tools. Bespoke apps may also miss edge cases, error handling, or accessibility that mature generic interfaces cover. These risks can be mitigated by using high-quality scaffolding that bakes in security, performance, and UX best practices; investing in developer education; leveraging community patterns and examples; and keeping custom applications focused on a small set of critical workflows rather than sprawling feature sets.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
@@ -29,7 +29,9 @@ head:
       content: This article argues that generic SaaS dashboards are a legacy compromise from a time when custom software was expensive and slow to build. With modern APIs, solid SDKs, scaffolding, and AI-assisted development, teams can now create focused, bespoke interfaces in days that match their exact workflows, instead of fighting through one-size-fits-all UIs. The platform should be treated as the engine providing authentication, permissions, content modeling, and governance, while product teams own the experience layer tailored to their people. The piece also examines trade-offs like maintenance burden, skills gaps, and fragility, and explains how good scaffolding, community patterns, and developer education can mitigate these risks and make custom tooling a pragmatic default.
     - property: keywords
       content: cms, api, sdk, cli, web development, architecture, devrel
-
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1774513824/website/homjoi56fsgohbf21lck.jpg
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1774513824/website/homjoi56fsgohbf21lck.jpg
 ---
 
 I built a CMS interface last month. Not because Contentstack's interface is bad. Because it wasn't built for what we needed.
