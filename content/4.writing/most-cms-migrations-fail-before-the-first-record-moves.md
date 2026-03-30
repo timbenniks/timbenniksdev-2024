@@ -22,7 +22,7 @@ faqs:
     answer: Not automatically. Composable architecture gives you flexibility, but without clear contracts and ownership between systems, you end up with distributed chaos. Each service needs defined boundaries, explicit APIs, and someone accountable for its behavior. Otherwise you have five smaller services that fail in more creative ways than the monolith ever did.
   - question: When is the right time to clean up a content model during migration?
     answer: Before you move anything. The migration window is your one realistic opportunity to fix structural problems because you are already touching every piece of content. Migrating a bad model means locking that bad model into a new system where changing it later requires another migration. Clean it now or explain it for the next two years.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
@@ -31,7 +31,9 @@ head:
       content: CMS migrations fail not because of the new platform but because nobody cleaned up the mess before packing it into boxes. Bad content models get locked in, integrations get reverse-engineered at midnight, legacy logic resurfaces as unexplainable bugs, and composable architecture without discipline becomes distributed chaos. The only thing worse than a painful migration is a successful one that preserved all your worst decisions.
     - property: keywords
       content: cms, architecture, web development, composable, process
-
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1774862958/website/n1gqtn4ibjzhyqrm6o8h.jpg
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1774862958/website/n1gqtn4ibjzhyqrm6o8h.jpg
 ---
 
 I once worked on a migration involving dozens of brand websites for a major global CPG company. Every site ran on a different version of the same legacy system. Content models had drifted apart over years of independent maintenance. Rich text fields were the worst - full of inline styles, hardcoded URLs, embedded layout assumptions that nobody remembered putting there. Six months later, we got everything into the new headless platform. Technically, we succeeded. In practice, we had relocated every structural problem into a system that now made them harder to fix.
