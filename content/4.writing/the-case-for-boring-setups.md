@@ -22,16 +22,18 @@ faqs:
     answer: Some work demands it. Embedded systems, certain data science stacks, niche language toolchains, accessibility tooling, or specialized hardware workflows all have legitimate reasons for complex setups. The point isn't that configuration is bad, it's that most developers configure as if they do that kind of work when they don't. If your setup is bespoke, make sure it's bespoke because the work requires it, not because you read a dotfiles repo on a Sunday afternoon.
   - question: How do you decide what's worth customizing?
     answer: My rough test is whether I'd be willing to document the customization and defend it to a new teammate. If I can explain why this particular change earns its place, it stays. If I added it because it felt cool or because someone on Twitter swore by it, it goes. The default is the default. I need a reason to leave it.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
       content: The case for boring setups
     - property: twitter:description
-      content: "Most developers overconfigure their machines and pay for it in ways they don't notice. Every custom alias, every remapped key, every hand-rolled config file is a small tax on your ability to work anywhere other than your own laptop. The same pattern is repeating right now with AI tooling, dozens of MCP servers and stacked skill files that look like leverage and behave like drag. After getting stranded by my own setups more times than I'd like to admit, I've come around to a quieter belief: portability is a skill, and defaults are how you practice it."
+      content: Most developers overconfigure their machines and pay for it in ways they don't notice. Every custom alias, every remapped key, every hand-rolled config file is a small tax on your ability to work anywhere other than your own laptop. The same pattern is repeating right now with AI tooling, dozens of MCP servers and stacked skill files that look like leverage and behave like drag. After getting stranded by my own setups more times than I'd like to admit, I've come around to a quieter belief: portability is a skill, and defaults are how you practice it.
     - property: keywords
       content: ai, cli, webdev, architecture, devops, process, personal
-
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1776671686/website/mm6g00e1gesdtruaaf7g.jpg
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1776671686/website/mm6g00e1gesdtruaaf7g.jpg
 ---
 
 I asked a colleague to jump on my laptop a few years ago to help me debug something, and within about thirty seconds we both realised they couldn't use my computer.
