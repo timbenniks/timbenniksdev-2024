@@ -28,7 +28,7 @@ head:
     - property: twitter:title
       content: The case for boring setups
     - property: twitter:description
-      content: Most developers overconfigure their machines and pay for it in ways they don't notice. Every custom alias, every remapped key, every hand-rolled config file is a small tax on your ability to work anywhere other than your own laptop. The same pattern is repeating right now with AI tooling, dozens of MCP servers and stacked skill files that look like leverage and behave like drag. After getting stranded by my own setups more times than I'd like to admit, I've come around to a quieter belief: portability is a skill, and defaults are how you practice it.
+      content: "Most developers overconfigure their machines and pay for it in ways they don't notice. Every custom alias, every remapped key, every hand-rolled config file is a small tax on your ability to work anywhere other than your own laptop. The same pattern is repeating right now with AI tooling, dozens of MCP servers and stacked skill files that look like leverage and behave like drag. After getting stranded by my own setups more times than I'd like to admit, I've come around to a quieter belief: portability is a skill, and defaults are how you practice it."
     - property: keywords
       content: ai, cli, webdev, architecture, devops, process, personal
 
