@@ -20,7 +20,7 @@ faqs:
     answer: AI makes it cheap to generate internal replacements for packages, SDK helpers, workflow tools, parsers, and glue code. That speed is useful when experienced engineers define the constraints and review the output. It becomes dangerous when teams treat generated code as safer simply because it is internal.
   - question: What is the safer reaction to supply-chain attacks?
     answer: Use fewer dependencies, but be selective rather than reactionary. Keep boring, security-sensitive primitives on trusted platforms or mature libraries, lock and scan dependencies, isolate CI permissions, rotate exposed credentials, and write tests around internal code that replaces external packages.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
@@ -29,7 +29,9 @@ head:
       content: Supply-chain attacks like Mini Shai-Hulud will make teams distrust third-party packages. AI makes it easy to react by generating internal replacements for dependencies, SDK helpers, workflow tools, and glue code. That feels safer, but a lot of that code will be vibe coded without threat models, tests, update paths, or security review.
     - property: keywords
       content: ai, security, webdev, architecture, process
-
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1778657516/website/qlkf586p5fmq1gt3apuq.jpg
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/v1778657516/website/qlkf586p5fmq1gt3apuq.jpg
 ---
 
 Supply-chain attacks are going to make teams write more of their own code. That sounds sensible until you realize a lot of that code will be vibe coded by people fleeing one security problem straight into another.
