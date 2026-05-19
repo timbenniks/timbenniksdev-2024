@@ -21,7 +21,7 @@ faqs:
     answer: "MCP and Agent OS solve different problems. MCP is a protocol that standardizes how external AI clients connect to Contentstack and call capabilities, making it ideal for developer-led experimentation, external copilots, and custom orchestration. However, MCP does not handle spend attribution, brand context, permissions, or review. Agent OS provides that operating layer inside Contentstack, with AI Credits, Brand Kit integration, workflow approvals, and reusable governed agents and automations. Most enterprises need both: MCP for flexible reach into external tools, and Agent OS for controlled, auditable execution of AI-powered work."
   - question: How does this architecture help enterprises manage AI spend and risk?
     answer: The architecture centralizes spend and risk management in the on-platform trust layer while allowing experimentation in the reach layer. MCP-based tools can call into Contentstack, but Agent OS tracks and governs usage through AI Credits, enabling per-user, per-agent, and per-workflow visibility into token consumption and cost. Admins can set thresholds, allocate budgets, and approve expensive workflows. At the same time, Agent OS enforces brand context, permission-aware actions, and review workflows, ensuring that AI-assisted changes—especially in regulated or customer-facing content—are logged, attributable, and reviewable before publishing.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
@@ -102,18 +102,6 @@ Polaris, Agent OS, and AI Credits are the right fit for usage visibility, spend 
 The pattern most enterprises land on is straightforward once it has a name. External AI gathers context through MCP and skills, requests action through governed capabilities, and hands work back into Contentstack workflows for review, approval, and publishing.
 
 The reach layer expands what is possible. The trust layer makes it usable in the business.
-
-## **The Trade-Offs are real**
-
-This model still takes discipline.
-
-Customers have to decide which AI actions are low risk, which need review, which require strict permissions, and which should stay manual. Someone has to own shared prompts, skills, agents, automations, and brand rules. AI governance does not configure itself.
-
-Vendors have to be honest too. The easy version of AI product strategy is to put assistants everywhere and call it transformation. The harder version is making AI fit the constraints of enterprise work: permissions, latency, cost, audit, review, localization, compliance, and change management.
-
-That harder version is where the market is going. It is also where Agent OS, Polaris, and AI Credits are heading next: credit allocation, model routing, reliability and fallback handling, previewable AI changes, agent lifecycle controls, and usage analytics that can prove value.
-
-This is not one feature. It is an operating model.
 
 ## **Conclusion**
 
