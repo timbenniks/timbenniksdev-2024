@@ -103,6 +103,8 @@ The pattern most enterprises land on is straightforward once it has a name. Exte
 
 The reach layer expands what is possible. The trust layer makes it usable in the business.
 
+There is also a practical efficiency angle that often gets missed in the governance conversation. On-platform AI does not start cold. Polaris benefits from a smart cache layer that sits between the agent and the Contentstack API, keeping a lightweight, automatically synced view of the space, content types, structure, and entries. Instead of running bulk discovery calls every time it needs to understand the environment, Polaris reads that pre-built context and makes a targeted API call only for the specific entry it actually has to act on. The result is fewer API calls, lower token consumption, and faster execution. Governance is the headline reason to run AI on-platform. Efficiency is the quiet one, and at enterprise volume it compounds quickly.
+
 ## **Conclusion**
 
 The tension between off-platform AI and on-platform AI is not a product category fight. It is an architecture question that every enterprise will answer, either deliberately or by accident.
