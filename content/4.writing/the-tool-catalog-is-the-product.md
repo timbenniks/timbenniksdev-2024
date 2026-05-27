@@ -29,10 +29,9 @@ head:
     - property: twitter:title
       content: The tool catalog is the product
     - property: twitter:description
-      content: We exposed Contentstack MCP tool definitions through a server endpoint as JSON. That sounds small, but it changes the product shape. The hosted MCP server becomes one official implementation of a reusable tool catalog, while developers can build their own MCPs with their own auth, hosting, filtering, and governance. This is what AI-first developer tooling should feel like: polished defaults on top of portable primitives.
+      content: "We exposed Contentstack MCP tool definitions through a server endpoint as JSON. That sounds small, but it changes the product shape. The hosted MCP server becomes one official implementation of a reusable tool catalog, while developers can build their own MCPs with their own auth, hosting, filtering, and governance. This is what AI-first developer tooling should feel like: polished defaults on top of portable primitives."
     - property: keywords
       content: ai, api, dx, mcp, developer-experience
-
 ---
 
 We exposed our Contentstack MCP tool definitions as JSON from a server endpoint. That sounds like a small technical detail, but I think it is a bigger product move than it looks.
