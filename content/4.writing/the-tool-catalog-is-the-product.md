@@ -1,3 +1,4 @@
+---
 title: The tool catalog is the product
 slug: the-tool-catalog-is-the-product
 description: "We exposed Contentstack MCP tool definitions through a server endpoint as JSON. That sounds small, but it changes the product shape. The hosted MCP server becomes one official implementation of a reusable tool catalog, while developers can build their own MCPs with their own auth, hosting, filtering, and governance. This is what AI-first developer tooling should feel like: polished defaults on top of portable primitives."
