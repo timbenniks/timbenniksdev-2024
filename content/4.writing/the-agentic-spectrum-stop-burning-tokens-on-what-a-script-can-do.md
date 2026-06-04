@@ -21,13 +21,13 @@ faqs:
     answer: Talk to Claude about the task before asking for code. Tell it which skills are available, point it at your tooling repo, and tell it you have an MCP connected to the stack. Once it understands the shape of the problem and has the connections, ask it to write a small CLI or script that performs all the updates. You run the script, the tooling does the actions, and Claude handles the planning rather than the grinding. You can throw the CLI away afterward. Building it is cheap now.
   - question: When is a fully autonomous agent actually the right choice?
     answer: When the work is genuinely novel each time and no script can capture it in advance. If every item needs a judgment you would struggle to write rules for, you want reasoning in the loop and the token cost is worth it. The question to ask is whether the task is a loop with a known shape or a series of unique decisions. Loops want scripts. Decisions want agents. Most content work at scale is a loop wearing a decision's costume, so be honest about which one you actually have.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/v1780573551/website/ldbm4jak4514xydu4sdg.jpg
     - property: twitter:title
-      content: The agentic spectrum: stop burning tokens on what a script can do
+      content: "The agentic spectrum: stop burning tokens on what a script can do"
     - property: twitter:description
       content: AI workflows sit on a spectrum, from a single LLM-assisted task to a fully autonomous agent. Most real content work belongs near the low end, yet people keep reaching for the autonomous end and paying for it in tokens.
     - property: keywords
