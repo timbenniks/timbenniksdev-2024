@@ -28,7 +28,9 @@ head:
       content: AI coding agents are not a threat to developer jobs, they are a fundamental shift in the economics of software creation. Just as the cloud removed the risk and capital cost of infrastructure, AI is removing the cost of writing and refactoring code. This kills the old moats that protected horizontal enterprise platforms and makes rebuilding wide, deeply integrated stacks viable. Instead of spending years stitching together narrow SaaS tools and APIs, teams can let agents generate bespoke services quickly and cheaply. The real risk is using AI only to speed up legacy glue work. Developers who win will treat the cost of reinventing the wheel as effectively zero and pursue much larger, previously impossible product ideas.
     - property: keywords
       content: ai, architecture, web development, composable, cloudinary, devops
-
+    - property: twitter:image
+      content: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1781945621/website/think-bigger.png
+image: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1781945621/website/think-bigger.png
 ---
 
 Developers are looking at coding agents and drawing the wrong conclusion. They see an agent resolve a ticket in an afternoon that used to take a team two weeks. They assume the work is drying up.
@@ -49,7 +51,7 @@ AI is doing to the writing of code what the cloud did to the hosting of it. The 
 
 ## The enterprise moat
 
-For the last ten years, conventional startup wisdom was simple. Do not build a giant horizontal platform. Competing directly with a behemoth like Salesforce was a terrible idea.
+For the last ten years, conventional startup wisdom was simple. Do not build a giant horizontal platform. Competing directly with a behemoth like SAP or Adobe was a terrible idea.
 
 The reason comes down to the shape of enterprise software. Most users rely on the same core set of features like authentication, pipelines, and notifications. A challenger looks at that core, builds a faster version, and assumes they can steal the market. But enterprise deals do not work that way. A massive client might love your UI, but they refuse to switch because they rely on one obscure feature, like a custom PDF invoice parser that talks to an ancient banking API.
 
