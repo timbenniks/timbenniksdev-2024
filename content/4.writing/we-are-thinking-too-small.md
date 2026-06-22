@@ -19,7 +19,7 @@ faqs:
     answer: Glue software emerged because it was too expensive and risky to rebuild everything from scratch, so teams stitched together many narrow SaaS tools and APIs. With AI agents able to generate entire services in minutes, the bottleneck becomes reading docs and debugging integrations, not writing code. In this new environment, building custom, cohesive services tailored to your needs is often faster and more maintainable than wiring together a dozen third-party systems, making much of the traditional integration layer obsolete.
   - question: What should developers do differently in this new AI-driven era?
     answer: Developers should stop using AI merely to speed up existing workflows and instead question the constraints that created those workflows. They should explore larger, previously abandoned ideas that once required big teams, and push until they find genuine architectural limits rather than human-typing limits. Practically, this means being willing to rebuild parts of the stack, embrace unified platforms that tie runtime, infra, and tooling together, and treat the cost of reinventing key components as near zero when it unlocks better, more integrated products.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:title
