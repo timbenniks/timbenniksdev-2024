@@ -1,7 +1,7 @@
 ---
 title: The biggest risk to AI is the enterprise org chart
 slug: the-biggest-risk-to-ai-is-the-enterprise-org-chart
-description: TL;DR This article argues that the real risk of corporate AI is not rogue superintelligence but how large organizations deploy it, usually in service of cost-cutting rather than creating new value. Big enterprises buy AI like office furniture, wrapped in committees, procurement, and risk matrices, so it ends up optimizing ticket deflection and headcount instead of enabling innovation. The real bottleneck is bureaucracy, not intelligence. In contrast, a roughly 500-person company has enough depth to build serious systems but short enough communication paths that the person with the problem can help build the solution. AI lets domain experts prototype directly, shortening the loop between friction and fix. The key is governance that enables safe experimentation instead of vetoing it, using AI to expand reach rather than just reduce costs.
+description: This article argues that the real risk of corporate AI is not rogue superintelligence but how large organizations deploy it, usually in service of cost-cutting rather than creating new value. Big enterprises buy AI like office furniture, wrapped in committees, procurement, and risk matrices, so it ends up optimizing ticket deflection and headcount instead of enabling innovation. The real bottleneck is bureaucracy, not intelligence. In contrast, a roughly 500-person company has enough depth to build serious systems but short enough communication paths that the person with the problem can help build the solution. AI lets domain experts prototype directly, shortening the loop between friction and fix. The key is governance that enables safe experimentation instead of vetoing it, using AI to expand reach rather than just reduce costs.
 date: "2026-07-24T10:00:00Z"
 canonical_url: https://timbenniks.dev/writing/the-ai-advantage-of-a-middle-sized-company
 reading_time: 8 min read
@@ -21,7 +21,7 @@ faqs:
     answer: Company size shapes how quickly ideas can collide with reality. In very large organizations, good ideas must pass through layers of approvals, handoffs, and roadmaps, stripping away context and slowing execution. A roughly 500-person company is big enough to have specialists, engineering depth, and real infrastructure, but still small enough that the person with a problem can usually reach the person who can fix it. AI amplifies this by letting those closest to the work build prototypes and tools directly, shortening feedback loops and increasing learning speed.
   - question: What kind of AI governance helps a middle sized company stay agile?
     answer: Effective governance in a middle sized company should make safe experimentation easier, not harder. That means providing approved models, clear data boundaries, and access to relevant context, while avoiding centralized veto systems that require permission for every prompt or experiment. Policies should encourage people to build in the open, share prototypes, and iterate with real users. The goal is to keep experimentation close to the work, capture emergent use cases, and prevent AI initiatives from becoming just another top down cost cutting program.
-draft: true
+draft: false
 head:
   meta:
     - property: twitter:image
@@ -29,7 +29,7 @@ head:
     - property: twitter:title
       content: The biggest risk to AI is the enterprise org chart
     - property: twitter:description
-      content: TL;DR This article argues that the real risk of corporate AI is not rogue superintelligence but how large organizations deploy it, usually in service of cost-cutting rather than creating new value. Big enterprises buy AI like office furniture, wrapped in committees, procurement, and risk matrices, so it ends up optimizing ticket deflection and headcount instead of enabling innovation. The real bottleneck is bureaucracy, not intelligence. In contrast, a roughly 500-person company has enough depth to build serious systems but short enough communication paths that the person with the problem can help build the solution. AI lets domain experts prototype directly, shortening the loop between friction and fix. The key is governance that enables safe experimentation instead of vetoing it, using AI to expand reach rather than just reduce costs.
+      content: This article argues that the real risk of corporate AI is not rogue superintelligence but how large organizations deploy it, usually in service of cost-cutting rather than creating new value. Big enterprises buy AI like office furniture, wrapped in committees, procurement, and risk matrices, so it ends up optimizing ticket deflection and headcount instead of enabling innovation. The real bottleneck is bureaucracy, not intelligence. In contrast, a roughly 500-person company has enough depth to build serious systems but short enough communication paths that the person with the problem can help build the solution. AI lets domain experts prototype directly, shortening the loop between friction and fix. The key is governance that enables safe experimentation instead of vetoing it, using AI to expand reach rather than just reduce costs.
     - property: keywords
       content: ai, architecture, composable, webdev, process, career, agency
 
