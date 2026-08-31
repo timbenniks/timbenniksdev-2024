@@ -27,7 +27,7 @@ head:
     - property: twitter:image
       content: https://res.cloudinary.com/dwfcofnrd/image/upload/f_auto,q_auto/v1788164780/website/building-mcp.png
     - property: twitter:title
-      content: Building MCP Profile Hub, part 1: Stop making the agent ask
+      content: "Building MCP Profile Hub, part 1: Stop making the agent ask"
     - property: twitter:description
       content: Introducing MCP Profile Hub. I explain why enriching tool definitions with tenant-specific context dramatically improves agent performance. Instead of exposing generic CMS tools that force models to discover content types, environments, locales, and branches through multiple lookup calls, Profile Hub injects real account data directly into JSON Schemas as enums, defaults, and descriptions. This reduces tool calls, latency, and reasoning tokens while avoiding misleading examples and invalid defaults. The piece also covers the production engineering behind enrichment, how Automations and Agent OS agents are exposed as high-level deterministic tools, and why reusable HTTP-based tool definitions let teams run their own MCP runtimes. The core takeaway is that fewer, richer, context-aware tools beat large generic catalogs for real-world agent workflows.
     - property: keywords
